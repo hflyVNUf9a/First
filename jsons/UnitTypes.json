@@ -1,0 +1,394 @@
+[
+    {
+        "name": "Civilian",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Silo",
+        "movementType": "Land"
+    },
+    {
+        "name": "Icebreaker",
+        "movementType": "Water",
+        "uniques": [
+            "Can enter ice tiles"
+        ]
+    },
+    {
+        "name": "Sword",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Paratrooper",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Mercenary",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Private Military Company",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Infantry",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Special Operations Forces",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Special Mission Units",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Infantry",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Marines",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>",
+            "Eliminates combat penalty for attacking over a river",
+            "Eliminates combat penalty for attacking across a coast"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Archery",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Recon",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>",
+            "Ignores terrain cost",
+            "Can see invisible [Land] units"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Melee",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege Ranged",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Civilian Water",
+        "uniques": [
+            "Automation is a primary action"
+        ],
+        "movementType": "Water"
+    },
+    {
+        "name": "Ranged Heavy",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Support",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Cavalry",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Infantry Transport",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "Cannot attack"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged Cavalry",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Counter Cavalry",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Naval Melee",
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Ranged",
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Escort",
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Raider",
+        "uniques": [
+            "Invisible to non-adjacent units",
+            "Can see invisible [Naval Raider] units"
+        ],
+        "movementType": "Water"
+    },
+    {
+        "name": "Naval Submarine",
+        "uniques": [
+            "Can enter ice tiles",
+            "Invisible to non-adjacent units",
+            "Can see invisible [Naval Submarine] units",
+            "Can see invisible [Naval Raider] units"
+        ],
+        "movementType": "Water"
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Drone Launcher",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "Cannot attack"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Launcher",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "Cannot attack"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Loitering Munitions",
+        "uniques": [
+            "Self-destructs when attacking"
+        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "LHD",
+        "movementType": "Water"
+    },
+    {
+        "name": "LHA",
+        "movementType": "Water"
+    },
+    {
+        "name": "Anti-Air",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "[+50]% Strength <vs [Aircraft] units>",
+            "[+100]% Strength <vs [Helicopter] units>",
+            "Cannot intercept [Nuclear Missile] units"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Counter Missile",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "Cannot intercept [Aircraft] units",
+            "Cannot intercept [non-[Missile]] units"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Fighter",
+        "uniques": [
+            "Aircraft",
+            "Can see over obstacles",
+            "Can perform Air Sweep"
+        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "Bomber",
+        "uniques": [
+            "Aircraft",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units"
+        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "Close Air Support",
+        "uniques": [
+            "Aircraft"        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "Radar Aircraft",
+        "movementType": "Air",
+        "uniques": [
+            "Aircraft",
+            "Can see over obstacles",
+            "Cannot attack"
+        ]
+    },
+    {
+        "name": "Drone",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "Land",
+            "Invisible to non-adjacent units",
+            "Can see over obstacles",
+            "Can pass through impassable tiles",
+            "May travel on Water tiles without embarking"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Atomic Bomber",
+        "uniques": [
+            "Aircraft",
+            "Self-destructs when attacking"
+        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Hypersonic Missile",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Nuclear Missile",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Thermonuclear Missile",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
+            "Can pass through impassable tiles",
+            "Ignores Zone of Control",
+            "Unable to capture cities",
+            "May attack when embarked",
+            "Eliminates combat penalty for attacking over a river",
+            "Eliminates combat penalty for attacking across a coast",
+            "May travel on Water tiles without embarking"
+        ]
+    },
+    {
+        "name": "Satellite",
+        "movementType": "Air",
+        "uniques": [
+            "Cannot be intercepted"
+        ]
+    },
+    {
+        "name": "Trade Plane",
+        "movementType": "Air",
+        "uniques": [
+            "Aircraft",
+            "Automation is a primary action"
+        ]
+    }
+]

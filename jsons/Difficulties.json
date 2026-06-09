@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Normal",
+        "baseHappiness": 0,
+        "extraHappinessPerLuxury": 0,
+        "researchCostModifier": 1,
+        "unitCostModifier": 1,
+        "unitSupplyBase": 5,
+        "unitSupplyPerCity": 2,
+        "buildingCostModifier": 1,
+        "policyCostModifier": 1,
+        "unhappinessModifier": 1,
+        "barbarianBonus": 0,
+        "barbarianSpawnDelay": 0,
+        "aiDifficultyLevel": "Normal",
+        "aiCityGrowthModifier": 1,
+        "aiUnitCostModifier": 0.5,
+        "aiBuildingCostModifier": 1,
+        "aiWonderCostModifier": 1,
+        "aiBuildingMaintenanceModifier": 1,
+        "aiUnitMaintenanceModifier": 0.5,
+        "aiUnitSupplyModifier": 1,
+        "aiUnhappinessModifier": 0.55,
+        "aisExchangeTechs": true,
+        "turnBarbariansCanEnterPlayerTiles": 0,
+        "clearBarbarianCampReward": 100
+    }
+]
