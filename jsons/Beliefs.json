@@ -645,9 +645,6 @@
         "name": "Religious Troubadours",
         "type": "Enhancer",
         "uniques": [
-            "Provides [1] [Trade Route]",
-            "[+3 Faith] from [Sea Trade Route (Gold)] tiles [in cities following this religion]",
-            "[+3 Faith] from [Land Trade Route (Gold)] tiles [in cities following this religion]"
         ]
     },
     {

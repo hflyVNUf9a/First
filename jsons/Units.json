@@ -57,7 +57,7 @@
     },
     {
         "name": "Missile Silo",
-        "unitType": "Silo",
+        "unitType": "Missile Silo",
         "movement": 1,
         "strength": 100,
         "cost": 100,
@@ -67,8 +67,7 @@
             "Uncapturable",
             "Unbuildable",
             "Cannot be purchased",
-            "Can carry [4] [Nuclear Missile] units",
-            "Can carry [4] [Thermonuclear Missile] units",
+            "Can carry [4] [Thermonuclear ICBM] units",
             "Invisible to others",
             "[-100]% maintenance costs"
         ]
@@ -106,7 +105,7 @@
     },
     {
         "name": "Modern Heavy Weapons",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 80,
         "rangedStrength": 90,
@@ -124,8 +123,7 @@
         "cost": 450,
         "requiredTech": "Mobile Tactics",
         "uniques": [
-            "May Paradrop to [Land] tiles up to [20] tiles away <in [{Friendly} {Land}] tiles>",
-            "Never appears as a Barbarian unit"
+            "May Paradrop to [Land] tiles up to [20] tiles away <in [{Friendly} {Land}] tiles>"
         ],
         "attackSound": "shot"
     },
@@ -139,8 +137,7 @@
         "cost": 450,
         "requiredTech": "Mobile Tactics",
         "uniques": [
-            "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>",
-            "Never appears as a Barbarian unit"
+            "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>"
         ],
         "attackSound": "shot"
     },
@@ -170,8 +167,7 @@
         "uniques": [
             "May Paradrop to [Land] tiles up to [35] tiles away <in [{Friendly} {Land}] tiles>",
             "[+20]% Strength <when fighting in [Snow] tiles>",
-            "[+20]% Strength <when fighting in [Tundra] tiles>",
-            "Never appears as a Barbarian unit"
+            "[+20]% Strength <when fighting in [Tundra] tiles>"
         ],
         "attackSound": "shot"
     },
@@ -194,7 +190,7 @@
     },
     {
         "name": "Heavy Horse Archer",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 5,
         "strength": 13,
         "rangedStrength": 17,
@@ -206,14 +202,14 @@
         "uniques": [
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
-            "Never appears as a Barbarian unit",
+            
             "[-15]% Strength <vs [Infantry] units>"
         ],
         "attackSound": "horse"
     },
     {
         "name": "Modern Self Propelled Gun",
-        "unitType": "Ranged Support",
+        "unitType": "Infantry",
         "movement": 5,
         "strength": 60,
         "rangedStrength": 85,
@@ -222,10 +218,10 @@
         "uniques": [
             "Consumes [1] [Oil]",
             "No defensive terrain bonus",
-            "Never appears as a Barbarian unit",
+            
             "[-10]% Strength <vs [Infantry] units>"
         ],
-        "promotions": ["Indirect Fire"],
+        
         "attackSound": "artillery"
     },
     {
@@ -241,7 +237,7 @@
         "uniques": [
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
-            "Never appears as a Barbarian unit",
+            
             "[+35]% Strength <vs [Light Cavalry] units>"
         ],
         "attackSound": "horse"
@@ -262,7 +258,6 @@
         "uniques": [
             "Can perform Air Sweep",
             "[65]% chance to intercept air attacks",
-            "[+50]% Strength <vs [Close Air Support] units>",
             "[+100]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Atomic Bomber] units>"
         ],
@@ -270,15 +265,14 @@
     },
     {
         "name": "Great Galley",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "movement": 4,
         "strength": 11,
         "rangedStrength": 13,
         "cost": 75,
         "requiredTech": "Optics",
         "uniques": [
-            "Cannot enter ocean tiles",
-            "Never appears as a Barbarian unit"
+            "Cannot enter ocean tiles"
         ],
         "upgradesTo": "Galleass",
         "obsoleteTech": "Astronomy",
@@ -345,7 +339,7 @@
     },
     {
         "name": "Jet Striker",
-        "unitType": "Close Air Support",
+        "unitType": "Attack Aircraft",
         "movement": 1,
         "strength": 75,
         "rangedStrength": 75,
@@ -361,7 +355,7 @@
     },
     {
         "name": "A-10 Warthog Thunderbolt II",
-        "unitType": "Close Air Support",
+        "unitType": "Attack Aircraft",
         "replaces": "Jet Striker",
         "uniqueTo": "The United States of America",
         "movement": 1,
@@ -383,7 +377,7 @@
     },
     {
         "name": "OA-1K Skyraider II",
-        "unitType": "Close Air Support",
+        "unitType": "Attack Aircraft",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 75,
@@ -403,7 +397,7 @@
     },
     {
         "name": "Pre-Dreadnought",
-        "unitType": "Naval Ranged",
+        "unitType": "Dreadnought",
         "movement": 3,
         "strength": 35,
         "rangedStrength": 40,
@@ -415,14 +409,13 @@
         "uniques": [
             "Consumes [1] [Iron]",
             "Consumes [1] [Coal]",
-            "Double movement in [Coast]",
-            "Never appears as a Barbarian unit"
+            "Double movement in [Coast]"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Yamato Battleship",
-        "unitType": "Naval Ranged",
+        "unitType": "Battleship",
         "replaces": "Battleship",
         "uniqueTo": "Japan",
         "movement": 5,
@@ -433,15 +426,14 @@
         "requiredTech": "Electronics",
         "uniques": [
             "Consumes [1] [Iron]",
-            "Consumes [1] [Oil]",
-            "Never appears as a Barbarian unit"
+            "Consumes [1] [Oil]"
         ],
         "upgradesTo": "Arsenal Ship",
         "attackSound": "shipguns"
     },
     {
         "name": "Modern Attack Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Attack Submarine",
         "movement": 8,
         "strength": 70,
         "rangedStrength": 85,
@@ -453,13 +445,13 @@
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "Never appears as a Barbarian unit",
-            "Can carry [4] [Missile] units"
+            "Can carry [4] [Cruise Missiles] units"
         ],
         "attackSound": "torpedo"
     },
     {
         "name": "Virginia Class Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Attack Submarine",
         "uniqueTo": "The United States of America",
         "replaces": "Modern Attack Submarine",
         "movement": 10,
@@ -474,26 +466,26 @@
             "Can only attack [Water] tiles",
             "[+2] Sight",
             "Invisible to others",
-            "Can carry [8] [Missile] units"
+            "Can carry [8] [Cruise Missiles] units"
         ],
         "attackSound": "torpedo"
     },
     {
         "name": "Field Artillery",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 60,
         "rangedStrength": 90,
         "range": 2,
         "cost": 425,
         "requiredTech": "Robotics",
-        "uniques": ["Never appears as a Barbarian unit"],
+        
         "attackSound": "artillery"
     },
     {
         "name": "M109A6 Paladin Howitzers",
         "replaces": "Field Artillery",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "uniqueTo": "The United States of America",
         "movement": 2,
         "strength": 60,
@@ -501,12 +493,12 @@
         "range": 3,
         "cost": 425,
         "requiredTech": "Robotics",
-        "uniques": ["Never appears as a Barbarian unit"],
+        
         "attackSound": "artillery"
     },
     {
         "name": "Chariot Archer",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "movement": 4,
         "strength": 6,
         "rangedStrength": 10,
@@ -517,8 +509,7 @@
         "obsoleteTech": "Chivalry",
         "uniques": [
             "No defensive terrain bonus",
-            "Rough terrain penalty",
-            "Never appears as a Barbarian unit"
+            "Rough terrain penalty"
         ],
         "attackSound": "arrow"
     },
@@ -534,14 +525,13 @@
         "obsoleteTech": "Chivalry",
         "uniques": [
             "No defensive terrain bonus",
-            "Rough terrain penalty",
-            "Never appears as a Barbarian unit"
+            "Rough terrain penalty"
         ],
         "attackSound": "nonmetalhit"
     },
     {
         "name": "War Elephant",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "movement": 3,
         "strength": 11,
         "rangedStrength": 11,
@@ -602,7 +592,6 @@
             "Can move after attacking",
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities>",
-            "Never appears as a Barbarian unit",
             "Consumes [1] [Horses]"
         ],
         "hurryCostModifier": 20,
@@ -610,7 +599,7 @@
     },
     {
         "name": "Horse Archer",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "movement": 5,
         "strength": 8,
         "rangedStrength": 12,
@@ -620,21 +609,19 @@
         "obsoleteTech": "Chivalry",
         "requiredResource": "Horses",
         "uniques": [
-            "No defensive terrain bonus",
-            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus"
         ],
         "attackSound": "arrow"
     },
     {
         "name": "Explorer",
-        "unitType": "Recon",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 13,
         "cost": 70,
         "uniques": [
             "Can see over obstacles",
-            "[+1] Sight <when [Embarked]>",
-            "Never appears as a Barbarian unit"
+            "[+1] Sight <when [Embarked]>"
         ],
         "requiredTech": "Compass",
         "obsoleteTech": "Rifling",
@@ -649,8 +636,7 @@
         "requiredTech": "Civil Service",
         "uniques": [
             "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>"
+            "[+50]% Strength <vs [Light Cavalry] units>"
         ],
         "obsoleteTech": "Gunpowder",
         "attackSound": "metalhit"
@@ -742,7 +728,7 @@
     },
     {
         "name": "Armored War Elephant",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "movement": 3,
         "strength": 25,
         "rangedStrength": 18,
@@ -779,7 +765,7 @@
     },
     {
         "name": "Cog",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "movement": 4,
         "strength": 15,
         "cost": 100,
@@ -794,7 +780,7 @@
     },
     {
         "name": "Carrack",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "movement": 3,
         "strength": 18,
         "rangedStrength": 20,
@@ -805,8 +791,7 @@
         "requiredResource": "Iron",
         "upgradesTo": "Ship of the Line",
         "uniques": [
-            "[+50]% Strength <vs cities> <when attacking>",
-            "Never appears as a Barbarian unit"
+            "[+50]% Strength <vs cities> <when attacking>"
         ],
         "attackSound": "throw"
     },
@@ -837,16 +822,15 @@
         "requiredResource": "Oil",
         "uniques": [
             "No defensive terrain bonus",
-            "Never appears as a Barbarian unit",
+            
             "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>"
+            "[+50]% Strength <vs [Light Cavalry] units>"
         ],
         "attackSound": "tankshot"
     },
     {
         "name": "Modern Frigate",
-        "unitType": "Naval Melee",
+        "unitType": "Frigate",
         "movement": 7,
         "strength": 80,
         "interceptRange": 1,
@@ -854,17 +838,14 @@
         "requiredTech": "Robotics",
         "uniques": [
             "[90]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "Can carry [3] [Missile] units",
-            "Can see invisible [Naval Raider] units",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Never appears as a Barbarian unit"
+            
+            "Can carry [3] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Constellation Class Frigate",
-        "unitType": "Naval Melee",
+        "unitType": "Frigate",
         "replaces": "Modern Frigate",
         "uniqueTo": "The United States of America",
         "movement": 8,
@@ -874,50 +855,44 @@
         "requiredTech": "Robotics",
         "uniques": [
             "[100]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "Can carry [6] [Missile] units",
-            "Can see invisible [Naval Raider] units",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Never appears as a Barbarian unit"
+            
+            "Can carry [6] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "FF(X) Frigate",
-        "unitType": "Naval Melee",
+        "unitType": "Frigate",
         "uniqueTo": "The United States of America",
         "movement": 7,
         "strength": 110,
         "cost": 375,
         "requiredTech": "Robotics",
         "uniques": [
-            "Can carry [4] [Missile] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [4] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Modern Corvette",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "movement": 8,
         "strength": 75,
         "interceptRange": 1,
         "cost": 425,
         "requiredTech": "Lasers",
         "uniques": [
-            "Never appears as a Barbarian unit",
+            
             "[80]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "Can carry [2] [Missile] units",
-            "Can see invisible [Naval Raider] units",
-            "[+100]% Strength <vs [Naval Submarine] units>"
+            
+            "Can carry [2] [Cruise Missiles] units"
         ],
         "hurryCostModifier": 20,
         "attackSound": "shipguns"
     },
     {
         "name": "Freedom Class Littoral Combat Ship",
-        "unitType": "Naval Melee",
+        "unitType": "Littoral Combat Ship (LCS)",
         "replaces": "Modern Corvette",
         "uniqueTo": "The United States of America",
         "movement": 9,
@@ -926,20 +901,18 @@
         "cost": 425,
         "requiredTech": "Lasers",
         "uniques": [
-            "Never appears as a Barbarian unit",
+            
             "[100]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "Can see invisible [Naval Raider] units",
-            "Can carry [2] [Missile] units",
-            "Double movement in [Coast]",
-            "[+100]% Strength <vs [Naval Submarine] units>"
+            
+            "Can carry [2] [Cruise Missiles] units",
+            "Double movement in [Coast]"
         ],
         "hurryCostModifier": 20,
         "attackSound": "shipguns"
     },
     {
         "name": "Independence Class Littoral Combat Ship",
-        "unitType": "Naval Melee",
+        "unitType": "Littoral Combat Ship (LCS)",
         "uniqueTo": "The United States of America",
         "movement": 8,
         "strength": 105,
@@ -947,14 +920,11 @@
         "cost": 425,
         "requiredTech": "Lasers",
         "uniques": [
-            "Never appears as a Barbarian unit",
+            
             "[100]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "Can see invisible [Naval Raider] units",
             "[+25]% Strength bonus for [Helicopter] units within [7] tiles",
-            "Can carry [2] [Missile] units",
-            "Double movement in [Coast]",
-            "[+100]% Strength <vs [Naval Submarine] units>"
+            "Can carry [2] [Cruise Missiles] units",
+            "Double movement in [Coast]"
         ],
         "hurryCostModifier": 20,
         "attackSound": "shipguns"
@@ -976,7 +946,6 @@
             "Cannot be carried by [LHA] units",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Atomic Bomber] units>",
-            "[+50]% Strength <vs [Close Air Support] units>",
             "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "jetgun"
@@ -1039,7 +1008,7 @@
     },
     {
         "name": "Fighter-Bomber",
-        "unitType": "Close Air Support",
+        "unitType": "Attack Aircraft",
         "movement": 1,
         "strength": 45,
         "rangedStrength": 60,
@@ -1051,14 +1020,13 @@
         "obsoleteTech": "Lasers",
         "uniques": [
             "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units>"
+            "[+50]% Strength <vs [Heavy Cavalry] units>"
         ],
         "attackSound": "machinegun"
     },
     {
         "name": "A1 Skyraider",
-        "unitType": "Close Air Support",
+        "unitType": "Attack Aircraft",
         "replaces": "Fighter-Bomber",
         "uniqueTo": "The United States of America",
         "movement": 1,
@@ -1071,8 +1039,7 @@
         "obsoleteTech": "Lasers",
         "uniques": [
             "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units>"
+            "[+50]% Strength <vs [Heavy Cavalry] units>"
         ],
         "attackSound": "bombing"
     },
@@ -1109,8 +1076,7 @@
             "No defensive terrain bonus",
             "Never appears as a Barbarian unit",
             "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>"
+            "[+50]% Strength <vs [Light Cavalry] units>"
         ],
         "attackSound": "tankshot"
     },
@@ -1145,7 +1111,6 @@
             "[70]% chance to intercept air attacks",
             "[+150]% Strength <vs [Bomber] units>",
             "[+150]% Strength <vs [Atomic Bomber] units>",
-            "[+30]% Strength <vs [Close Air Support] units>",
             "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "machinegun"
@@ -1158,8 +1123,7 @@
         "cost": 450,
         "requiredTech": "Combined Arms",
         "uniques": [
-            "Can move after attacking",
-            "Never appears as a Barbarian unit"
+            "Can move after attacking"
         ],
         "upgradesTo": "Mechanized Infantry",
         "obsoleteTech": "Mobile Tactics",
@@ -1167,7 +1131,7 @@
     },
     {
         "name": "Modern Self Propelled Gun",
-        "unitType": "Ranged Support",
+        "unitType": "Infantry",
         "movement": 5,
         "strength": 60,
         "rangedStrength": 85,
@@ -1175,8 +1139,7 @@
         "requiredTech": "Mobile Tactics",
         "requiredResource": "Oil",
         "uniques": [
-            "No defensive terrain bonus",
-            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus"
         ],
         "attackSound": "artillery"
     },
@@ -1251,24 +1214,22 @@
         "cost": 425,
         "requiredTech": "Lasers",
         "uniques": [
-            "Never appears as a Barbarian unit",
+            
             "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>"
+            "[+50]% Strength <vs [Light Cavalry] units>"
         ],
         "attackSound": "missile"
     },
     {
         "name": "Modern Commando",
-        "unitType": "Siege Melee",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 70,
         "cost": 425,
         "requiredTech": "Telecommunications",
         "uniques": [
             "[+100]% Strength <vs cities>",
-            "May Paradrop to [Land] tiles up to [10] tiles away",
-            "Never appears as a Barbarian unit"
+            "May Paradrop to [Land] tiles up to [10] tiles away"
         ],
         "attackSound": "shot"
     },
@@ -1284,14 +1245,13 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities>",
-            "Never appears as a Barbarian unit"
+            "[-33]% Strength <vs cities>"
         ],
         "attackSound": "horse"
     },
     {
         "name": "Commerce Raider",
-        "unitType": "Naval Raider",
+        "unitType": "Corvette",
         "movement": 4,
         "strength": 34,
         "cost": 250,
@@ -1303,7 +1263,7 @@
     },
     {
         "name": "Armored Cruiser",
-        "unitType": "Naval Ranged",
+        "unitType": "Armored Cruiser",
         "movement": 3,
         "strength": 40,
         "rangedStrength": 45,
@@ -1314,14 +1274,13 @@
         "upgradesTo": "Light Cruiser",
         "obsoleteTech": "Combustion",
         "uniques": [
-            "Double movement in [Coast]",
-            "Never appears as a Barbarian unit"
+            "Double movement in [Coast]"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Monitor",
-        "unitType": "Naval Ranged",
+        "unitType": "Monitor",
         "movement": 3,
         "strength": 35,
         "rangedStrength": 40,
@@ -1332,14 +1291,13 @@
         "upgradesTo": "Pre-Dreadnought",
         "obsoleteTech": "Replaceable Parts",
         "uniques": [
-            "Double movement in [Coast]",
-            "Never appears as a Barbarian unit"
+            "Double movement in [Coast]"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Dreadnought",
-        "unitType": "Naval Ranged",
+        "unitType": "Dreadnought",
         "movement": 3,
         "strength": 50,
         "rangedStrength": 52,
@@ -1350,8 +1308,7 @@
         "upgradesTo": "Battleship",
         "obsoleteTech": "Electronics",
         "uniques": [
-            "Double movement in [Coast]",
-            "Never appears as a Barbarian unit"
+            "Double movement in [Coast]"
         ],
         "attackSound": "shipguns"
     },
@@ -1359,7 +1316,7 @@
         "name": "New York Class Battleship",
         "replaces": "Dreadnought",
         "uniqueTo": "The United States of America",
-        "unitType": "Naval Ranged",
+        "unitType": "Dreadnought",
         "movement": 4,
         "strength": 50,
         "rangedStrength": 72,
@@ -1371,8 +1328,7 @@
         "obsoleteTech": "Electronics",
         "uniques": [
             "[+20]% Strength <vs [Land] units>",
-            "Double movement in [Coast]",
-            "Never appears as a Barbarian unit"
+            "Double movement in [Coast]"
         ],
         "attackSound": "shipguns"
     },
@@ -1403,8 +1359,7 @@
         "obsoleteTech": "Combined Arms",
         "uniques": [
             "Can move after attacking",
-            "No defensive terrain bonus",
-            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus"
         ],
         "attackSound": "shot"
     },
@@ -1421,7 +1376,7 @@
     },
     {
         "name": "Light Cruiser",
-        "unitType": "Naval Ranged",
+        "unitType": "Infantry",
         "movement": 5,
         "strength": 50,
         "rangedStrength": 55,
@@ -1431,7 +1386,7 @@
         "obsoleteTech": "Robotics",
         "uniques": [
             "[60]% chance to intercept air attacks",
-            "Never appears as a Barbarian unit",
+            
             "Withdraws before melee combat <with [20]% chance>"
         ],
         "upgradesTo": "Missile Cruiser",
@@ -1439,7 +1394,7 @@
     },
     {
         "name": "Heavy Howitzer",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 33,
         "rangedStrength": 40,
@@ -1451,14 +1406,13 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            "Must set up to ranged attack"
         ],
         "attackSound": "artillery"
     },
     {
         "name": "Self Propelled Gun",
-        "unitType": "Ranged Support",
+        "unitType": "Infantry",
         "movement": 4,
         "strength": 38,
         "rangedStrength": 60,
@@ -1468,14 +1422,13 @@
         "upgradesTo": "Modern Self Propelled Gun",
         "requiredResource": "Oil",
         "uniques": [
-            "No defensive terrain bonus",
-            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus"
         ],
         "attackSound": "artillery"
     },
     {
         "name": "Field Gun",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 40,
         "rangedStrength": 55,
@@ -1487,7 +1440,7 @@
     },
     {
         "name": "Corvette",
-        "unitType": "Naval Escort",
+        "unitType": "Corvette",
         "movement": 7,
         "strength": 39,
         "rangedStrength": 42,
@@ -1498,7 +1451,7 @@
         "upgradesTo": "Modern Corvette",
         "uniques": [
             "[30]% chance to intercept air attacks",
-            "Never appears as a Barbarian unit",
+            
             "Withdraws before melee combat"
         ],
         "hurryCostModifier": 20,
@@ -1533,7 +1486,7 @@
     },
     {
         "name": "Commando",
-        "unitType": "Siege Melee",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 65,
         "cost": 400,
@@ -1548,7 +1501,7 @@
     },
     {
         "name": "Heavy Weapons",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "range": 1,
         "movement": 2,
         "strength": 70,
@@ -1561,7 +1514,7 @@
     },
     {
         "name": "Field Howitzer",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 50,
         "rangedStrength": 80,
@@ -1569,12 +1522,12 @@
         "requiredTech": "Combined Arms",
         "obsoleteTech": "Robotics",
         "upgradesTo": "Field Artillery",
-        "uniques": ["Never appears as a Barbarian unit"],
+        
         "attackSound": "artillery"
     },
     {
         "name": "Privateer",
-        "unitType": "Naval Raider",
+        "unitType": "Corvette",
         "movement": 5,
         "strength": 25,
         "cost": 150,
@@ -1586,13 +1539,12 @@
     },
     {
         "name": "Schooner",
-        "unitType": "Naval Escort",
+        "unitType": "Corvette",
         "movement": 5,
         "strength": 20,
         "rangedStrength": 17,
         "range": 1,
         "cost": 135,
-        "uniques": ["Withdraws before melee combat"],
         "requiredTech": "Navigation",
         "obsoleteTech": "Combustion",
         "upgradesTo": "Corvette",
@@ -1601,7 +1553,7 @@
     },
     {
         "name": "Royal Navy Ship of the Line",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "uniqueTo": "England",
         "movement": 4,
         "strength": 32,
@@ -1626,10 +1578,9 @@
         "uniques": [
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities>",
-            "Never appears as a Barbarian unit",
+            
             "[+50]% Strength <vs [Heavy Cavalry] units>",
-            "[+50]% Strength <vs [Light Cavalry] units>",
-            "[+50]% Strength <vs [Ranged Cavalry] units> <when attacking>"
+            "[+50]% Strength <vs [Light Cavalry] units>"
         ],
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
@@ -1673,7 +1624,7 @@
     },
     {
         "name": "Horse Artillery",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "movement": 4,
         "strength": 19,
         "rangedStrength": 22,
@@ -1685,14 +1636,13 @@
         "upgradesTo": "Self Propelled Gun",
         "uniques": [
             "No defensive terrain bonus",
-            "[-20]% Strength <vs cities>",
-            "Never appears as a Barbarian unit"
+            "[-20]% Strength <vs cities>"
         ],
         "attackSound": "cannon"
     },
     {
         "name": "Cannon",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 16,
         "rangedStrength": 22,
@@ -1700,12 +1650,11 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Field Cannon",
         "obsoleteTech": "Industrialization",
-        "uniques": ["Never appears as a Barbarian unit"],
         "attackSound": "cannon"
     },
     {
         "name": "Bombard Cannon",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 14,
         "rangedStrength": 20,
@@ -1716,14 +1665,13 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            "Must set up to ranged attack"
         ],
         "attackSound": "cannon"
     },
     {
         "name": "Arquebusier",
-        "unitType": "Ranged Support",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 19,
         "rangedStrength": 19,
@@ -1733,24 +1681,6 @@
         "upgradesTo": "Gatling Gun",
         "obsoleteTech": "Industrialization",
         "attackSound": "arrow"
-    },
-    {
-        "name": "Ranger",
-        "unitType": "Recon",
-        "movement": 2,
-        "strength": 20,
-        "rangedStrength": 25,
-        "range": 1,
-        "cost": 185,
-        "uniques": [
-            "Can see over obstacles",
-            "[+1] Sight <when [Embarked]>",
-            "Can move after attacking",
-            "Never appears as a Barbarian unit"
-        ],
-        "requiredTech": "Rifling",
-        "obsoleteTech": "Radar",
-        "attackSound": "shot"
     },
     {
         "name": "Medic",
@@ -1764,7 +1694,7 @@
     },
     {
         "name": "Field Cannon",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 28,
         "rangedStrength": 32,
@@ -1772,7 +1702,6 @@
         "requiredTech": "Industrialization",
         "upgradesTo": "Field Gun",
         "obsoleteTech": "Ballistics",
-        "uniques": ["Never appears as a Barbarian unit"],
         "attackSound": "cannon"
     },
     {
@@ -1831,6 +1760,19 @@
             "No defensive terrain bonus",
             "May enter foreign tiles without open borders",
             "Gain [250] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
+        ]
+    },
+        {
+        "name": "Large Container ship",
+        "unitType": "Civilian Water",
+        "movement": 5,
+        "cost": 290,
+        "requiredTech": "Combustion",
+        "uniques": [
+            "No defensive terrain bonus",
+            "May enter foreign tiles without open borders",
+            "Gain [300] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
             "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
@@ -1915,16 +1857,6 @@
         ],
         "requiredTech": "Guilds",
         "religiousStrength": 750
-    },
-    {
-        "name": "PMC",
-        "unitType": "Private Military Company",
-        "movement": 3,
-        "cost": 700,
-        "strength": 90,
-        "uniques": ["Unbuildable"],
-        "attackSound": "gun"
-    },
     {
         "name": "Settler",
         "unitType": "Civilian",
@@ -1950,7 +1882,7 @@
             "Excess Food converted to Production when under construction",
             "Requires at least [2] population"
         ],
-        "promotions": ["Ignore terrain cost"],
+        
         "hurryCostModifier": 20,
         "attackSound": "nonmetalhit"
     },
@@ -1969,20 +1901,19 @@
     },
     {
         "name": "Scout",
-        "unitType": "Recon",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 5,
         "cost": 25,
         "obsoleteTech": "Steam Power",
-        "uniques": ["Never appears as a Barbarian unit"],
-        "promotions": ["Ignore terrain cost"],
+        
         "attackSound": "nonmetalhit"
     },
     {
         "name": "Pathfinder",
         "replaces": "Scout",
         "uniqueTo": "Shoshone",
-        "unitType": "Recon",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 8,
         "cost": 40,
@@ -1990,7 +1921,7 @@
         "uniques": [
             "May upgrade to [Composite Bowman] through ruins-like effects"
         ],
-        "promotions": ["Ignore terrain cost"],
+        
         "attackSound": "nonmetalhit"
     },
     {
@@ -2018,7 +1949,7 @@
         "strength": 8,
         "cost": 40,
         "obsoleteTech": "Iron Working",
-        "promotions": ["Woodsman"],
+        
         "upgradesTo": "Swordsman",
         "attackSound": "nonmetalhit"
     },
@@ -2036,7 +1967,7 @@
     },
     {
         "name": "Nomad Horse-Archer",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "uniqueTo": "Barbarians",
         "replaces": "Chariot Archer",
         "movement": 3,
@@ -2051,7 +1982,7 @@
     },
     {
         "name": "Thief",
-        "unitType": "Recon",
+        "unitType": "Infantry",
         "uniqueTo": "Barbarians",
         "replaces": "Scout",
         "movement": 4,
@@ -2082,24 +2013,6 @@
         "attackSound": "horse"
     },
     {
-        "name": "Ladder-carrier",
-        "unitType": "Siege Melee",
-        "uniqueTo": "Barbarians",
-        "replaces": "Catapult",
-        "movement": 2,
-        "strength": 3,
-        "cost": 75,
-        "requiredTech": "Mathematics",
-        "obsoleteTech": "Physics",
-        "upgradesTo": "Trebuchet",
-        "uniques": [
-            "[+1000]% Strength <vs cities> <when attacking>",
-            "[-1] Sight"
-        ],
-        "hurryCostModifier": 20,
-        "attackSound": "nonmetalhit"
-    },
-    {
         "name": "Nomadic Archer",
         "unitType": "Archery",
         "uniqueTo": "Barbarians",
@@ -2128,23 +2041,8 @@
         "attackSound": "metalhit"
     },
     {
-        "name": "Highwayman",
-        "unitType": "Sword",
-        "uniqueTo": "Barbarians",
-        "replaces": "Swordsman",
-        "movement": 2,
-        "strength": 12,
-        "cost": 75,
-        "requiredTech": "Iron Working",
-        "uniques": ["[+50]% Strength <vs [Wounded] units>"],
-        "upgradesTo": "Longswordsman",
-        "obsoleteTech": "Steel",
-        "hurryCostModifier": 20,
-        "attackSound": "metalhit"
-    },
-    {
         "name": "Sea-Raider",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "uniqueTo": "Barbarians",
         "replaces": "Galleass",
         "movement": 3,
@@ -2190,41 +2088,8 @@
         "attackSound": "crossbow"
     },
     {
-        "name": "Sieger",
-        "unitType": "Siege Ranged",
-        "uniqueTo": "Barbarians",
-        "replaces": "Trebuchet",
-        "movement": 2,
-        "strength": 8,
-        "rangedStrength": 15,
-        "range": 2,
-        "cost": 120,
-        "requiredTech": "Physics",
-        "obsoleteTech": "Chemistry",
-        "upgradesTo": "Cannon",
-        "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "Must set up to ranged attack",
-            "[-1] Sight"
-        ],
-        "attackSound": "throw"
-    },
-    {
-        "name": "Armored Brigand",
-        "unitType": "Sword",
-        "uniqueTo": "Barbarians",
-        "replaces": "Longswordsman",
-        "movement": 2,
-        "strength": 21,
-        "cost": 120,
-        "requiredTech": "Steel",
-        "upgradesTo": "Musketman",
-        "obsoleteTech": "Gunpowder",
-        "attackSound": "metalhit"
-    },
-    {
         "name": "Pirate",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "uniqueTo": "Barbarians",
         "replaces": "Caravel",
         "movement": 4,
@@ -2241,21 +2106,8 @@
         "attackSound": "cannon"
     },
     {
-        "name": "Freebooter",
-        "unitType": "Naval Melee",
-        "uniqueTo": "Barbarians",
-        "replaces": "Privateer",
-        "movement": 5,
-        "strength": 25,
-        "cost": 150,
-        "requiredTech": "Navigation",
-        "upgradesTo": "Destroyer",
-        "uniques": ["No movement cost to pillage"],
-        "attackSound": "cannon"
-    },
-    {
         "name": "Plunderer",
-        "unitType": "Naval Ranged",
+        "unitType": "Frigate",
         "uniqueTo": "Barbarians",
         "replaces": "Frigate",
         "movement": 5,
@@ -2272,14 +2124,14 @@
     },
     {
         "name": "Arsonist",
-        "unitType": "Recon",
+        "unitType": "Infantry",
         "uniqueTo": "Barbarians",
         "movement": 4,
         "strength": 16,
         "cost": 25,
         "requiredTech": "Scientific Theory",
         "uniques": ["No movement cost to pillage"],
-        "promotions": ["Ignore terrain cost"],
+        
         "attackSound": "nonmetalhit"
     },
     {
@@ -2301,55 +2153,6 @@
         "attackSound": "horse"
     },
     {
-        "name": "Cannoneer Brigand",
-        "unitType": "Siege Ranged",
-        "uniqueTo": "Barbarians",
-        "replaces": "Cannon",
-        "movement": 2,
-        "strength": 10,
-        "rangedStrength": 20,
-        "range": 2,
-        "cost": 185,
-        "requiredTech": "Chemistry",
-        "upgradesTo": "Artillery",
-        "obsoleteTech": "Dynamite",
-        "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "[-1] Sight"
-        ],
-        "attackSound": "cannon"
-    },
-    {
-        "name": "Native Gunner",
-        "unitType": "Ranged Heavy",
-        "uniqueTo": "Barbarians",
-        "replaces": "Gatling Gun",
-        "range": 1,
-        "movement": 2,
-        "strength": 25,
-        "rangedStrength": 30,
-        "cost": 225,
-        "requiredTech": "Industrialization",
-        "obsoleteTech": "Ballistics",
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Native Rifleman",
-        "unitType": "Infantry",
-        "uniqueTo": "Barbarians",
-        "replaces": "Rifleman",
-        "movement": 2,
-        "strength": 30,
-        "cost": 225,
-        "requiredTech": "Rifling",
-        "promotions": ["Woodsman"],
-        "obsoleteTech": "Replaceable Parts",
-        "upgradesTo": "Great War Infantry",
-        "attackSound": "shot"
-    },
-    {
         "name": "Horseback Native",
         "unitType": "Light Cavalry",
         "uniqueTo": "Barbarians",
@@ -2358,7 +2161,7 @@
         "strength": 30,
         "cost": 225,
         "requiredTech": "Military Science",
-        "promotions": ["Woodsman"],
+        
         "obsoleteTech": "Combustion",
         "upgradesTo": "Landship",
         "uniques": [
@@ -2369,43 +2172,8 @@
         "attackSound": "horse"
     },
     {
-        "name": "Hijacked Ironclad",
-        "unitType": "Naval Melee",
-        "uniqueTo": "Barbarians",
-        "replaces": "Ironclad",
-        "movement": 3,
-        "strength": 40,
-        "cost": 250,
-        "requiredTech": "Steam Power",
-        "upgradesTo": "Destroyer",
-        "obsoleteTech": "Combustion",
-        "uniques": [
-            "[+33]% Strength <vs cities>",
-            "Double movement in [Coast]"
-        ],
-        "attackSound": "shipguns"
-    },
-    {
-        "name": "Mortar Operator",
-        "unitType": "Siege Ranged",
-        "uniqueTo": "Barbarians",
-        "replaces": "Artillery",
-        "movement": 2,
-        "strength": 15,
-        "rangedStrength": 28,
-        "range": 3,
-        "cost": 320,
-        "requiredTech": "Dynamite",
-        "upgradesTo": "Rocket Artillery",
-        "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "Must set up to ranged attack"
-        ],
-        "attackSound": "artillery"
-    },
-    {
         "name": "Narco Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Attack Submarine",
         "uniqueTo": "Barbarians",
         "replaces": "Submarine",
         "movement": 6,
@@ -2421,25 +2189,12 @@
         "attackSound": "torpedo"
     },
     {
-        "name": "Battlefield Looter",
-        "unitType": "Infantry",
-        "uniqueTo": "Barbarians",
-        "replaces": "Great War Infantry",
-        "movement": 2,
-        "strength": 48,
-        "cost": 320,
-        "requiredTech": "Replaceable Parts",
-        "upgradesTo": "Infantry",
-        "uniques": ["[+33]% Strength <vs [Wounded] units>"],
-        "attackSound": "shot"
-    },
-    {
         "name": "Insurgent",
         "unitType": "Infantry",
         "uniqueTo": "Barbarians",
         "replaces": "Infantry",
         "movement": 2,
-        "strength": 70,
+        "strength": 100,
         "cost": 375,
         "requiredTech": "Plastics",
         "upgradesTo": "Mechanized Infantry",
@@ -2447,21 +2202,8 @@
         "attackSound": "shot"
     },
     {
-        "name": "Hijacked Battleship",
-        "unitType": "Naval Ranged",
-        "uniqueTo": "Barbarians",
-        "replaces": "Battleship",
-        "movement": 6,
-        "strength": 50,
-        "rangedStrength": 50,
-        "range": 3,
-        "cost": 375,
-        "requiredTech": "Electronics",
-        "attackSound": "shipguns"
-    },
-    {
         "name": "Hired Mercenary",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "uniqueTo": "Barbarians",
         "replaces": "Machine Gun",
         "range": 1,
@@ -2490,36 +2232,6 @@
         "attackSound": "machinegun"
     },
     {
-        "name": "Makeshift Tank",
-        "unitType": "Heavy Cavalry",
-        "uniqueTo": "Barbarians",
-        "replaces": "Landship",
-        "movement": 3,
-        "strength": 60,
-        "cost": 350,
-        "requiredTech": "Combustion",
-        "upgradesTo": "Tank",
-        "obsoleteTech": "Combined Arms",
-        "uniques": ["Can move after attacking", "No defensive terrain bonus"],
-        "attackSound": "tankshot"
-    },
-    {
-        "name": "Mercenary Destroyer",
-        "unitType": "Naval Melee",
-        "uniqueTo": "Barbarians",
-        "replaces": "Destroyer",
-        "movement": 5,
-        "strength": 55,
-        "interceptRange": 2,
-        "cost": 375,
-        "requiredTech": "Combustion",
-        "uniques": [
-            "[100]% chance to intercept air attacks",
-            "Withdraws before melee combat <with [50]% chance>"
-        ],
-        "attackSound": "shipguns"
-    },
-    {
         "name": "Modern Pirate",
         "unitType": "Marines",
         "uniqueTo": "Barbarians",
@@ -2528,23 +2240,10 @@
         "strength": 50,
         "cost": 400,
         "requiredTech": "Pharmaceuticals",
-        "promotions": ["Amphibious"],
         "uniques": [
             "May attack when embarked",
             "[+100]% Strength <when defending> <when [Embarked]>"
         ],
-        "attackSound": "shot"
-    },
-    {
-        "name": "Mercenary Air Trooper",
-        "unitType": "Paratrooper",
-        "uniqueTo": "Barbarians",
-        "replaces": "Paratrooper",
-        "movement": 2,
-        "strength": 60,
-        "cost": 375,
-        "requiredTech": "Radar",
-        "uniques": ["May Paradrop to [Land] tiles up to [15] tiles away"],
         "attackSound": "shot"
     },
     {
@@ -2559,144 +2258,6 @@
         "upgradesTo": "Advanced Tank",
         "uniques": ["Can move after attacking"],
         "attackSound": "tankshot"
-    },
-    {
-        "name": "Anti-Tank Insurgency Sniper",
-        "unitType": "Counter Cavalry",
-        "uniqueTo": "Barbarians",
-        "replaces": "Anti-Tank Gun",
-        "movement": 2,
-        "strength": 30,
-        "range": 2,
-        "rangedStrength": 55,
-        "cost": 300,
-        "requiredTech": "Combined Arms",
-        "upgradesTo": "Helicopter Gunship",
-        "uniques": ["[+100]% Strength <vs [Heavy Cavalry] units>"],
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Rocket Truck Insurgent",
-        "unitType": "Siege Ranged",
-        "uniqueTo": "Barbarians",
-        "replaces": "Rocket Artillery",
-        "movement": 2,
-        "strength": 40,
-        "rangedStrength": 50,
-        "range": 3,
-        "cost": 425,
-        "requiredTech": "Rocketry",
-        "uniques": [
-            "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus"
-        ],
-        "attackSound": "artillery"
-    },
-    {
-        "name": "Insurgent Anti-Air",
-        "unitType": "Anti-Air",
-        "uniqueTo": "Barbarians",
-        "replaces": "Mobile SAM",
-        "movement": 4,
-        "interceptRange": 2,
-        "strength": 60,
-        "cost": 425,
-        "requiredTech": "Rocketry",
-        "uniques": [
-            "[100]% chance to intercept air attacks",
-            "[+150]% Strength <vs [Air] units>",
-            "[+150]% Strength <vs [Helicopter] units>"
-        ],
-        "attackSound": "missile"
-    },
-    {
-        "name": "Insurgent Gunship",
-        "unitType": "Helicopter",
-        "uniqueTo": "Barbarians",
-        "replaces": "Helicopter Gunship",
-        "movement": 6,
-        "strength": 60,
-        "cost": 425,
-        "requiredTech": "Computers",
-        "uniques": [
-            "[+100]% Strength <vs [Heavy Cavalry] units>",
-            "No defensive terrain bonus",
-            "Can move after attacking",
-            "All tiles cost 1 movement",
-            "Ignores Zone of Control",
-            "Unable to capture cities"
-        ],
-        "attackSound": "machinegun"
-    },
-    {
-        "name": "Insurgent Submarine",
-        "unitType": "Naval Submarine",
-        "uniqueTo": "Barbarians",
-        "replaces": "Nuclear Submarine",
-        "movement": 5,
-        "strength": 40,
-        "range": 3,
-        "rangedStrength": 85,
-        "cost": 425,
-        "requiredTech": "Telecommunications",
-        "uniques": [
-            "[+100]% Strength <when attacking>",
-            "Can only attack [Water] tiles"
-        ],
-        "attackSound": "torpedo"
-    },
-    {
-        "name": "Mechanized Insurgent",
-        "unitType": "Light Cavalry",
-        "uniqueTo": "Barbarians",
-        "replaces": "Mechanized Infantry",
-        "movement": 5,
-        "strength": 80,
-        "cost": 375,
-        "requiredTech": "Mobile Tactics",
-        "attackSound": "tankshot"
-    },
-    {
-        "name": "Insurgent Cruiser",
-        "unitType": "Naval Ranged",
-        "uniqueTo": "Barbarians",
-        "replaces": "Missile Cruiser",
-        "movement": 6,
-        "strength": 80,
-        "rangedStrength": 100,
-        "range": 3,
-        "interceptRange": 3,
-        "cost": 425,
-        "requiredTech": "Robotics",
-        "uniques": [
-            "[100]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "[+100]% Strength <vs [Naval Submarine] units>"
-        ],
-        "attackSound": "shipguns"
-    },
-    {
-        "name": "Insurgency Battle Tank",
-        "unitType": "Heavy Cavalry",
-        "uniqueTo": "Barbarians",
-        "replaces": "Advanced Tank",
-        "movement": 5,
-        "strength": 100,
-        "cost": 425,
-        "requiredTech": "Lasers",
-        "uniques": ["Can move after attacking", "No defensive terrain bonus"],
-        "attackSound": "tankshot"
-    },
-    {
-        "name": "Nuclear Mech",
-        "unitType": "Heavy Cavalry",
-        "uniqueTo": "Barbarians",
-        "movement": 4,
-        "strength": 140,
-        "cost": 425,
-        "requiredTech": "Nuclear Fusion",
-        "uniques": ["Can move after attacking", "No defensive terrain bonus"],
-        "attackSound": "gdrAttack"
     },
     {
         "name": "Terrorist",
@@ -2760,7 +2321,7 @@
     },
     {
         "name": "Leviathan",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "uniqueTo": "Barbarians",
         "movement": 2,
         "strength": 300,
@@ -2775,7 +2336,6 @@
         ],
         "attackSound": "nonmetalhit",
         "requiredTech": "Steam Power",
-        "obsoleteTech": "Industrialization",
         "civilopediaText": [
             {
                 "text": "One of the largest aquatic xeno threats ever encountered - the Leviathan is so large that it looks like an unsuspecting island from afar, preying on nearby ships."
@@ -2790,9 +2350,8 @@
         "strength": 300,
         "cost": 100,
         "uniques": ["Uncapturable", "Limited to [1] per Civilization"],
-        "attackSound": "gdrAttack",
+        
         "requiredTech": "Nuclear Fusion",
-        "obsoleteTech": "Autonomous Systems",
         "civilopediaText": [
             {
                 "text": "If you think Gigantes is already the biggest and worst xeno you have seen, then you haven't seen this rampaging giant - few weapons can match it in raw strength."
@@ -2806,8 +2365,7 @@
         "movement": 2,
         "strength": 85,
         "uniques": [
-            "Can move immediately once bought",
-            "Never appears as a Barbarian unit <hidden from users>"
+            "Can move immediately once bought"
         ],
         "requiredTech": "Replaceable Parts",
         "attackSound": "metalhit"
@@ -2866,37 +2424,6 @@
         "attackSound": "arrow"
     },
     {
-        "name": "Caravan",
-        "unitType": "Civilian",
-        "movement": 2,
-        "cost": 85,
-        "uniques": [
-            "Can instantly construct a [Land Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
-            "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
-            "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
-            "Consumes [1] [Trade Route]",
-            "Only available <for [non-[City-States]] Civilizations>",
-            "No Sight"
-        ],
-        "promotions": ["Ignore terrain cost"],
-        "requiredTech": "Animal Husbandry"
-    },
-    {
-        "name": "Cargo Ship",
-        "unitType": "Civilian Water",
-        "movement": 4,
-        "cost": 100,
-        "uniques": [
-            "Can instantly construct a [Sea Trade Route (Food)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
-            "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
-            "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
-            "Consumes [1] [Trade Route]",
-            "Only available <for [non-[City-States]] Civilizations>",
-            "No Sight"
-        ],
-        "requiredTech": "Sailing"
-    },
-    {
         "name": "Work Boats",
         "unitType": "Civilian Water",
         "movement": 4,
@@ -2911,7 +2438,7 @@
     },
     {
         "name": "Trireme",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "movement": 4,
         "strength": 10,
         "cost": 45,
@@ -2929,7 +2456,7 @@
         "name": "Longship",
         "replaces": "Trireme",
         "uniqueTo": "Denmark",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "movement": 6,
         "strength": 10,
         "cost": 45,
@@ -2945,7 +2472,7 @@
     },
     {
         "name": "Quinquereme",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "movement": 4,
         "strength": 13,
         "uniques": [
@@ -2995,7 +2522,7 @@
         "requiredTech": "Mining",
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
-        "promotions": ["Enhanced Flank Attack"],
+        
         "uniques": ["[+50]% Strength <vs [Heavy Cavalry] units>"],
         "attackSound": "metalhit"
     },
@@ -3009,7 +2536,6 @@
         "cost": 120,
         "requiredTech": "Horseback Riding",
         "upgradesTo": "Knight",
-        "promotions": ["Leadership"],
         "uniques": [
             "Consumes [2] [Horses]",
             "Can move after attacking",
@@ -3040,7 +2566,7 @@
     },
     {
         "name": "Catapult",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 7,
         "rangedStrength": 8,
@@ -3052,15 +2578,14 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            "Must set up to ranged attack"
         ],
         "hurryCostModifier": 20,
         "attackSound": "throw"
     },
     {
         "name": "Ballista",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "replaces": "Catapult",
         "uniqueTo": "Rome",
         "movement": 2,
@@ -3132,7 +2657,6 @@
         "requiredTech": "Iron Working",
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
-        "promotions": ["Range Defence", "May Not Melee Attack"],
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -3157,7 +2681,7 @@
     },
     {
         "name": "Galley",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "movement": 3,
         "strength": 8,
         "rangedStrength": 10,
@@ -3185,7 +2709,7 @@
     },
     {
         "name": "Galleass",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "movement": 3,
         "strength": 16,
         "rangedStrength": 16,
@@ -3210,8 +2734,7 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "Never appears as a Barbarian unit"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "attackSound": "horse"
     },
@@ -3249,7 +2772,7 @@
         "obsoleteTech": "Military Science",
         "upgradesTo": "Cavalry",
         "requiredResource": "Horses",
-        "promotions": ["Swift Charge"],
+        
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -3259,7 +2782,7 @@
     },
     {
         "name": "Keshik",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "replaces": "Knight",
         "uniqueTo": "Mongolia",
         "range": 2,
@@ -3272,7 +2795,7 @@
         "upgradesTo": "Cavalry",
         "obsoleteTech": "Military Science",
         "uniques": ["Can move after attacking", "No defensive terrain bonus"],
-        "promotions": ["Great Generals I", "Quick Study"],
+        
         "attackSound": "arrow"
     },
     {
@@ -3288,10 +2811,9 @@
             "Can move after attacking",
             "No defensive terrain bonus",
             "Founds a new city <by consuming this unit>",
-            "[+2] Sight",
-            "Never appears as a Barbarian unit"
+            "[+2] Sight"
         ],
-        "promotions": ["[Conquistador] ability"],
+        
         "attackSound": "horse"
     },
     {
@@ -3318,7 +2840,7 @@
         "requiredTech": "Machinery",
         "upgradesTo": "Gatling Gun",
         "obsoleteTech": "Industrialization",
-        "promotions": ["[Chu-Ko-Nu] ability"],
+        
         "attackSound": "crossbow"
     },
     {
@@ -3338,7 +2860,7 @@
     },
     {
         "name": "Trebuchet",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 12,
         "rangedStrength": 14,
@@ -3350,14 +2872,13 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            "Must set up to ranged attack"
         ],
         "attackSound": "throw"
     },
     {
         "name": "Hwach'a",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "replaces": "Trebuchet",
         "uniqueTo": "Korea",
         "movement": 2,
@@ -3398,7 +2919,7 @@
         "upgradesTo": "Musketman",
         "obsoleteTech": "Gunpowder",
         "requiredResource": "Iron",
-        "promotions": ["Amphibious"],
+        
         "hurryCostModifier": 20,
         "attackSound": "metalhit"
     },
@@ -3414,7 +2935,7 @@
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
         "requiredResource": "Iron",
-        "promotions": ["Great Generals II"],
+        
         "uniques": ["Can build [Fishing Boats] improvements on tiles"],
         "attackSound": "metalhit"
     },
@@ -3427,7 +2948,7 @@
         "strength": 23,
         "cost": 105,
         "requiredTech": "Theology",
-        "promotions": ["Foreign Land Bonus", "Can Enter Rival Territory"],
+        
         "uniques": [
             "Earn [300]% of killed [Military] unit's [Strength] as [Faith]"
         ],
@@ -3438,7 +2959,7 @@
     },
     {
         "name": "Caravel",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "movement": 5,
         "strength": 20,
         "cost": 120,
@@ -3455,7 +2976,7 @@
     },
     {
         "name": "Turtle Ship",
-        "unitType": "Naval Melee",
+        "unitType": "Corvette",
         "replaces": "Caravel",
         "uniqueTo": "Korea",
         "movement": 4,
@@ -3490,7 +3011,6 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
-        "promotions": ["Ignore terrain cost"],
         "attackSound": "shot"
     },
     {
@@ -3531,12 +3051,11 @@
         "requiredTech": "Gunpowder",
         "upgradesTo": "Rifleman",
         "obsoleteTech": "Rifling",
-        "promotions": ["[Janissary] ability"],
         "attackSound": "shot"
     },
     {
         "name": "Frigate",
-        "unitType": "Naval Ranged",
+        "unitType": "Frigate",
         "movement": 6,
         "strength": 25,
         "rangedStrength": 27,
@@ -3551,7 +3070,7 @@
     },
     {
         "name": "USS Constitution",
-        "unitType": "Naval Ranged",
+        "unitType": "Frigate",
         "replaces": "Frigate",
         "uniqueTo": "The United States of America",
         "movement": 6,
@@ -3568,7 +3087,7 @@
     },
     {
         "name": "Ship of the Line",
-        "unitType": "Naval Ranged",
+        "unitType": "Frigate",
         "replaces": "Frigate",
         "uniqueTo": "England",
         "movement": 5,
@@ -3580,7 +3099,6 @@
         "requiredTech": "Navigation",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Battleship",
-        "promotions": ["Extra Sight"],
         "hurryCostModifier": 20,
         "attackSound": "cannon"
     },
@@ -3597,9 +3115,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "[+33]% Strength <vs [Heavy Cavalry] units>",
-            "[+33]% Strength <vs [Light Cavalry] units>",
-            "[+33]% Strength <vs [Ranged Cavalry] units>",
-            "Never appears as a Barbarian unit"
+            "[+33]% Strength <vs [Light Cavalry] units>"
         ],
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
@@ -3620,8 +3136,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "[+33]% Strength <vs [Heavy Cavalry] units>",
-            "[+33]% Strength <vs [Light Cavalry] units>",
-            "[+33]% Strength <vs [Ranged Cavalry] units>"
+            "[+33]% Strength <vs [Light Cavalry] units>"
         ],
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
@@ -3642,17 +3157,16 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "[+33]% Strength <vs [Heavy Cavalry] units>",
-            "[+33]% Strength <vs [Light Cavalry] units>",
-            "[+33]% Strength <vs [Ranged Cavalry] units>"
+            "[+33]% Strength <vs [Light Cavalry] units>"
         ],
-        "promotions": ["No movement cost to pillage"],
+        
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
         "attackSound": "horse"
     },
     {
         "name": "Cannon",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 16,
         "rangedStrength": 22,
@@ -3664,8 +3178,7 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            "Must set up to ranged attack"
         ],
         "attackSound": "cannon"
     },
@@ -3687,7 +3200,7 @@
     },
     {
         "name": "Gatling Gun",
-        "unitType": "Ranged Support",
+        "unitType": "Infantry",
         "range": 1,
         "movement": 2,
         "strength": 30,
@@ -3702,7 +3215,7 @@
         "name": "Tachanka",
         "uniqueTo": "Ukraine",
         "replaces": "Gatling Gun",
-        "unitType": "Ranged Cavalry",
+        "unitType": "Infantry",
         "range": 2,
         "movement": 4,
         "strength": 30,
@@ -3772,8 +3285,7 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[-33]% Strength <vs cities> <when attacking>",
-            "Never appears as a Barbarian unit"
+            "[-33]% Strength <vs cities> <when attacking>"
         ],
         "attackSound": "horse"
     },
@@ -3808,7 +3320,7 @@
         "obsoleteTech": "Combustion",
         "requiredResource": "Horses",
         "upgradesTo": "Landship",
-        "promotions": ["Extra Movement"],
+        
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
@@ -3844,12 +3356,12 @@
         "requiredTech": "Biology",
         "upgradesTo": "Marine",
         "obsoleteTech": "Pharmaceuticals",
-        "promotions": ["Amphibious", "Embarkation with Defence"],
+        
         "attackSound": "shot"
     },
     {
         "name": "Ironclad",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "movement": 3,
         "strength": 45,
         "cost": 250,
@@ -3860,14 +3372,13 @@
         "uniques": [
             "Can move after attacking",
             "[+33]% Strength <vs cities> <when attacking>",
-            "Double movement in [Coast]",
-            "Never appears as a Barbarian unit"
+            "Double movement in [Coast]"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Artillery",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 21,
         "rangedStrength": 28,
@@ -3879,14 +3390,13 @@
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
             "No defensive terrain bonus",
-            "Must set up to ranged attack",
-            "Never appears as a Barbarian unit"
+            "Must set up to ranged attack"
         ],
         "attackSound": "artillery"
     },
     {
         "name": "Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Attack Submarine",
         "movement": 5,
         "strength": 35,
         "rangedStrength": 60,
@@ -3897,8 +3407,7 @@
         "uniques": [
             "Can move after attacking",
             "[+75]% Strength <when attacking>",
-            "Can only attack [Water] tiles",
-            "Never appears as a Barbarian unit"
+            "Can only attack [Water] tiles"
         ],
         "attackSound": "torpedo"
     },
@@ -3912,8 +3421,7 @@
         "upgradesTo": "Anti-Tank Gun",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-            "[+200]% Strength <vs [Heavy Cavalry] units>",
-            "Never appears as a Barbarian unit"
+            "[+200]% Strength <vs [Heavy Cavalry] units>"
         ],
         "attackSound": "machinegun"
     },
@@ -3939,7 +3447,7 @@
         "requiredTech": "Replaceable Parts",
         "obsoleteTech": "Electronics",
         "upgradesTo": "Infantry",
-        "promotions": ["[Norwegian Ski Infantry] ability"],
+        
         "attackSound": "shot"
     },
     {
@@ -4069,7 +3577,7 @@
         ]
     },
     {
-        "name": "Nimitz Class Carrier",
+        "name": "Nimitz Class Supercarrier",
         "unitType": "Aircraft Carrier",
         "uniqueTo": "The United States of America",
         "replaces": "Nuclear Carrier",
@@ -4086,7 +3594,7 @@
         ]
     },
     {
-        "name": "Gerald Ford Class Carrier",
+        "name": "Gerald Ford Class Supercarrier",
         "unitType": "Aircraft Carrier",
         "uniqueTo": "The United States of America",
         "replaces": "Large Aircraft Carrier",
@@ -4106,7 +3614,7 @@
     },
     {
         "name": "Battleship",
-        "unitType": "Naval Ranged",
+        "unitType": "Battleship",
         "movement": 5,
         "strength": 55,
         "rangedStrength": 55,
@@ -4115,12 +3623,12 @@
         "requiredResource": "Oil",
         "requiredTech": "Electronics",
         "obsoleteTech": "Rocketry",
-        "uniques": ["Never appears as a Barbarian unit"],
+        
         "attackSound": "shipguns"
     },
     {
         "name": "Iowa Class Battleship",
-        "unitType": "Naval Ranged",
+        "unitType": "Battleship",
         "replaces": "Battleship",
         "uniqueTo": "The United States of America",
         "movement": 6,
@@ -4132,14 +3640,14 @@
         "requiredTech": "Electronics",
         "obsoleteTech": "Rocketry",
         "uniques": [
-            "Never appears as a Barbarian unit",
+            
             "[+20]% Strength <vs [Land] units>"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Machine Gun",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "range": 1,
         "movement": 2,
         "strength": 50,
@@ -4163,8 +3671,7 @@
         "uniques": [
             "[100]% chance to intercept air attacks",
             "[+150]% Strength <vs [Air] units>",
-            "[+150]% Strength <vs [Helicopter] units>",
-            "Never appears as a Barbarian unit"
+            "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "machinegun"
     },
@@ -4181,14 +3688,13 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit"
+            "[+50]% Strength <vs [Land] units>"
         ],
         "attackSound": "tankshot"
     },
     {
         "name": "Destroyer",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "movement": 7,
         "strength": 60,
         "interceptRange": 2,
@@ -4196,9 +3702,8 @@
         "requiredTech": "Combustion",
         "obsoleteTech": "Lasers",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
-            "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Naval Submarine] units>"
+            
+            "[100]% chance to intercept air attacks"
         ],
         "attackSound": "shipguns"
     },
@@ -4206,7 +3711,7 @@
         "name": "Allen M. Sumner Class Destroyer",
         "replaces": "Destroyer",
         "uniqueTo": "The United States of America",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "movement": 8,
         "strength": 80,
         "interceptRange": 2,
@@ -4214,10 +3719,9 @@
         "requiredTech": "Combustion",
         "obsoleteTech": "Lasers",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+            
             "[+20]% Strength <when defending>",
-            "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Naval Submarine] units>"
+            "[100]% chance to intercept air attacks"
         ],
         "attackSound": "shipguns"
     },
@@ -4371,7 +3875,7 @@
     },
     {
         "name": "Arsenal Ship",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "movement": 8,
         "strength": 75,
         "rangedStrength": 75,
@@ -4380,8 +3884,8 @@
         "requiredTech": "Distributed Computing",
         "uniques": [
             "Cannot attack",
-            "Can see invisible [Naval Submarine] units",
-            "Can carry [12] [Missile] units"
+            
+            "Can carry [12] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
@@ -4389,19 +3893,19 @@
         "name": "Modular Attack Surface Craft (MASC)",
         "uniqueTo": "The United States of America",
         "replaces": "Arsenal Ship",
-        "unitType": "Naval Ranged",
+        "unitType": "Cruiser",
         "movement": 10,
         "strength": 95,
         "rangedStrength": 75,
         "range": 2,
         "cost": 300,
         "requiredTech": "Autonomous Systems",
-        "uniques": ["Cannot attack", "Can carry [2] [Missile] units"],
+        "uniques": ["Cannot attack", "Can carry [2] [Cruise Missiles] units"],
         "attackSound": "shipguns"
     },
     {
         "name": "Modern Destroyer",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "movement": 7,
         "strength": 85,
         "interceRange": 3,
@@ -4410,17 +3914,17 @@
         "upgradesTo": "Advanced Destroyer",
         "obsoleteTech": "Autonomous Systems",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+            
             "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [4] [Missile] units"
+            
+            "Can carry [5] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Arleigh Burke Class Destroyer",
         "replaces": "Modern Destroyer",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "uniqueTo": "The United States of America",
         "movement": 8,
         "strength": 125,
@@ -4428,10 +3932,10 @@
         "cost": 2725,
         "requiredTech": "Rocketry",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+            
             "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [9] [Missile] units"
+            
+            "Can carry [9] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
@@ -4522,23 +4026,23 @@
     },
     {
         "name": "Advanced Destroyer",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "movement": 8,
         "strength": 110,
         "interceptRange": 4,
         "cost": 1000,
         "requiredTech": "Autonomous Systems",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+            
             "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [6] [Missile] units"
+            
+            "Can carry [6] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "DDGX Class Destroyer",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "replaces": "Advanced Destroyer",
         "uniqueTo": "The United States of America",
         "movement": 10,
@@ -4547,16 +4051,16 @@
         "cost": 4400,
         "requiredTech": "Autonomous Systems",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+            
             "[100]% chance to intercept air attacks",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "Can carry [9] [Missile] units"
+            
+            "Can carry [9] [Cruise Missiles] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Zumwalt Class Destroyer",
-        "unitType": "Naval Melee",
+        "unitType": "Destroyer",
         "uniqueTo": "The United States of America",
         "movement": 9,
         "strength": 130,
@@ -4564,19 +4068,19 @@
         "cost": 8000,
         "requiredTech": "Autonomous Systems",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+            
             "[100]% chance to intercept air attacks",
             "Invisible to non-adjacent units",
             "Double movement in [Coast]",
             "[-80]% maintenance costs",
             "[+20]% Strength bonus for [Special Operations Forces] units within [5] tiles",
-            "Can carry [12] [Hypersonic Missile] units"
+            "Can carry [10] [Hypersonic Missile] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Trump Class Battleship",
-        "unitType": "Naval Ranged",
+        "unitType": "Battleship",
         "uniqueTo": "The United States of America",
         "movement": 8,
         "strength": 110,
@@ -4586,12 +4090,10 @@
         "cost": 1410,
         "requiredTech": "Autonomous Systems",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
-            "[+100]% Strength <vs [Naval Submarine] units>",
+            
             "[100]% chance to intercept air attacks",
-            "Can carry [8] [Missile] units",
-            "Can carry [2] [Hypersonic Missile] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [8] [Cruise Missiles] units",
+            "Can carry [2] [Hypersonic Missile] units"
         ],
         "attackSound": "shipguns"
     },
@@ -4610,14 +4112,14 @@
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
-            "Can carry [3] [Missile] units"
+            "Can carry [3] [Thermonuclear ICBM] units"
         ],
         "attackSound": "torpedo"
     },
     {
         "name": "Columbia Class Submarine",
         "replaces": "Advanced Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Ballistic Missile Submarine",
         "uniqueTo": "The United States of America",
         "movement": 10,
         "strength": 130,
@@ -4631,13 +4133,13 @@
             "Invisible to others",
             "May enter foreign tiles without open borders",
             "Can only attack [Water] tiles",
-            "Can carry [6] [Missile] units"
+            "Can carry [6] [Thermonuclear ICBM] units"
         ],
         "attackSound": "torpedo"
     },
     {
         "name": "Hypervelocity Missile",
-        "unitType": "Missile",
+        "unitType": "Cruise Missiles",
         "strength": 120,
         "movement": 2,
         "rangedStrength": 120,
@@ -4651,7 +4153,7 @@
         "name": "Tomahawk Missile",
         "replaces": "Hypervelocity Missile",
         "uniqueTo": "The United States of America",
-        "unitType": "Missile",
+        "unitType": "Cruise Missiles",
         "strength": 120,
         "movement": 1,
         "rangedStrength": 130,
@@ -4667,7 +4169,7 @@
     {
         "name": "AGM-158C LRASM Missile",
         "uniqueTo": "The United States of America",
-        "unitType": "Missile",
+        "unitType": "Cruise Missiles",
         "strength": 120,
         "movement": 1,
         "rangedStrength": 130,
@@ -4681,24 +4183,6 @@
         "attackSound": "missile"
     },
     {
-        "name": "Suborbital Bomber",
-        "unitType": "Bomber",
-        "strength": 110,
-        "rangedStrength": 110,
-        "range": 30,
-        "cost": 625,
-        "movement": 3,
-        "requiredTech": "Nuclear Fusion",
-        "requiredResource": "Nanomaterial",
-        "uniques": [
-            "Damage taken from interception reduced by [70]%",
-            "Cannot be carried by [Aircraft Carrier] units",
-            "[+4] Sight",
-            "Can see over obstacles"
-        ],
-        "attackSound": "bombing"
-    },
-    {
         "name": "Anti-Tank Gun",
         "unitType": "Counter Cavalry",
         "movement": 2,
@@ -4708,8 +4192,7 @@
         "upgradesTo": "Tank Destroyer",
         "obsoleteTech": "Combined Arms",
         "uniques": [
-            "[+200]% Strength <vs [Heavy Cavalry] units>",
-            "Never appears as a Barbarian unit"
+            "[+200]% Strength <vs [Heavy Cavalry] units>"
         ],
         "attackSound": "machinegun"
     },
@@ -4726,8 +4209,7 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit"
+            "[+50]% Strength <vs [Land] units>"
         ],
         "attackSound": "tankshot"
     },
@@ -4753,7 +4235,7 @@
         "name": "T-34",
         "unitType": "Heavy Cavalry",
         "replaces": "Tank",
-        "uniqueTo": "Soviet Union",
+        "uniqueTo": "USSR",
         "movement": 6,
         "strength": 80,
         "cost": 419,
@@ -4765,7 +4247,7 @@
     },
     {
         "name": "Rocket Artillery",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "movement": 2,
         "strength": 45,
         "rangedStrength": 60,
@@ -4774,14 +4256,13 @@
         "requiredTech": "Advanced Ballistics",
         "uniques": [
             "[+200]% Strength <vs cities> <when attacking>",
-            "No defensive terrain bonus",
-            "Never appears as a Barbarian unit"
+            "No defensive terrain bonus"
         ],
         "attackSound": "artillery"
     },
     {
         "name": "M142 HIMARS",
-        "unitType": "Siege Ranged",
+        "unitType": "Infantry",
         "uniqueTo": "The United States of America",
         "replaces": "Rocket Artillery",
         "movement": 2,
@@ -4808,8 +4289,7 @@
         "uniques": [
             "[90]% chance to intercept air attacks",
             "[+150]% Strength <vs [Air] units>",
-            "[+150]% Strength <vs [Helicopter] units>",
-            "Never appears as a Barbarian unit"
+            "[+150]% Strength <vs [Helicopter] units>"
         ],
         "attackSound": "missile"
     },
@@ -4864,7 +4344,7 @@
     },
     {
         "name": "Bazooka",
-        "unitType": "Ranged Heavy",
+        "unitType": "Infantry",
         "range": 1,
         "movement": 2,
         "strength": 80,
@@ -4950,7 +4430,7 @@
         "name": "AGM-158D JASSM-XR",
         "replaces": "Guided Missile",
         "uniqueTo": "The United States of America",
-        "unitType": "Missile",
+        "unitType": "Cruise Missiles",
         "movement": 1,
         "strength": 125,
         "rangedStrength": 135,
@@ -4965,7 +4445,7 @@
     },
     {
         "name": "Nuke",
-        "unitType": "Nuclear Missile",
+        "unitType": "Thermonuclear ICBM",
         "movement": 1,
         "strength": 300,
         "rangedStrength": 300,
@@ -4977,14 +4457,13 @@
             "Only available <if [Manhattan Project] is constructed>",
             "Blast radius [2]",
             "Cannot be carried by [Aircraft Carrier] units",
-            "Cannot be carried by [Naval Submarine] units",
             "Consumes [2] [Uranium]"
         ],
         "attackSound": "nuke"
     },
     {
         "name": "Trident II",
-        "unitType": "Nuclear Missile",
+        "unitType": "Thermonuclear ICBM",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 350,
@@ -5005,7 +4484,7 @@
     },
     {
         "name": "Minuteman III",
-        "unitType": "Nuclear Missile",
+        "unitType": "Thermonuclear ICBM",
         "replaces": "Nuke",
         "uniqueTo": "The United States of America",
         "movement": 1,
@@ -5022,27 +4501,13 @@
             "Cannot be carried by [Aircraft Carrier] units",
             "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units",
-            "Cannot be carried by [Naval Submarine] units",
             "Consumes [2] [Uranium]"
         ],
         "attackSound": "nuke"
     },
     {
-        "name": "Supersonic Missile",
-        "unitType": "Missile",
-        "cost": 500,
-        "movement": 1,
-        "strength": 150,
-        "rangedStrength": 150,
-        "range": 40,
-        "requiredTech": "Advanced Ballistics",
-        "requiredResource": "Aluminum",
-        "uniques": ["Only available <if [Manhattan Project] is constructed>"],
-        "attackSound": "missile"
-    },
-    {
         "name": "Thermonuclear ICBM",
-        "unitType": "Nuclear Missile",
+        "unitType": "Thermonuclear ICBM",
         "cost": 1300,
         "strength": 500,
         "rangedStrength": 500,
@@ -5053,15 +4518,14 @@
             "Blast radius [3]",
             "Only available <if [Manhattan Project] is constructed>",
             "Cannot be carried by [Aircraft Carrier] units",
-            "Cannot be carried by [Naval Submarine] units",
             "Consumes [5] [Uranium]"
         ]
     },
     {
         "name": "Tsar Bomb",
-        "unitType": "Nuclear Missile",
+        "unitType": "Thermonuclear Bomber",
         "replaces": "Thermonuclear ICBM",
-        "uniqueTo": "Soviet Union",
+        "uniqueTo": "USSR",
         "cost": 5300,
         "strength": 500,
         "rangedStrength": 500,
@@ -5072,14 +4536,13 @@
             "Blast radius [10]",
             "Only available <if [Manhattan Project] is constructed>",
             "Cannot be carried by [Aircraft Carrier] units",
-            "Cannot be carried by [Naval Submarine] units",
             "[+500]% maintenance costs",
             "Consumes [5] [Uranium]"
         ]
     },
     {
         "name": "Sentinel",
-        "unitType": "Nuclear Missile",
+        "unitType": "Thermonuclear ICBM",
         "replaces": "Thermonuclear ICBM",
         "uniqueTo": "The United States of America",
         "cost": 1300,
@@ -5094,7 +4557,6 @@
             "Cannot be carried by [Aircraft Carrier] units",
             "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units",
-            "Cannot be carried by [Naval Submarine] units",
             "[+200]% maintenance costs",
             "Consumes [3] [Uranium]"
         ]
@@ -5137,8 +4599,7 @@
             "May attack when embarked",
             "Ignores Zone of Control",
             "Can pass through impassable tiles",
-            "May travel on Water tiles without embarking",
-            "Never appears as a Barbarian unit"
+            "May travel on Water tiles without embarking"
         ],
         "attackSound": "machinegun"
     },
@@ -5161,7 +4622,7 @@
             "Unable to capture cities",
             "Can pass through impassable tiles",
             "May travel on Water tiles without embarking",
-            "Can carry [4] [Missile] units"
+            "Can carry [4] [Tactical Missiles] units"
         ],
         "attackSound": "machinegun"
     },
@@ -5178,7 +4639,7 @@
             "Can move after attacking",
             "Ignores Zone of Control",
             "All adjacent units heal [+5] HP when healing",
-            "Can carry [2] [Missile] units",
+            "Can carry [2] [Tactical Missiles] units",
             "Can pass through impassable tiles",
             "May travel on Water tiles without embarking"
         ],
@@ -5232,7 +4693,7 @@
             "[+2] Sight",
             "Cannot attack",
             "All adjacent units heal [+10] HP when healing",
-            "Can see invisible [Naval Submarine] units",
+            
             "Double movement in [Ocean]",
             "Ignores Zone of Control",
             "Can pass through impassable tiles",
@@ -5258,7 +4719,7 @@
     },
     {
         "name": "160th Special Operations Aviation Regiment (SOAR) (Night Stalkers)",
-        "unitType": "Special Operations Forces",
+        "unitType": "Special Mission Units",
         "uniqueTo": "The United States of America",
         "movement": 10,
         "strength": 135,
@@ -5278,7 +4739,7 @@
     },
     {
         "name": "Nuclear Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Cruise Missile Submarine",
         "movement": 6,
         "strength": 50,
         "range": 3,
@@ -5290,14 +4751,13 @@
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
-            "Can carry [4] [Missile] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [4] [Cruise Missiles] units"
         ],
         "attackSound": "torpedo"
     },
     {
         "name": "Orca XLUUV",
-        "unitType": "Naval Submarine",
+        "unitType": "Cruise Missile Submarine",
         "uniqueTo": "The United States of America",
         "movement": 8,
         "strength": 95,
@@ -5310,14 +4770,13 @@
             "[+4] Sight",
             "Invisible to others",
             "[-60]% maintenance costs",
-            "Can carry [4] [Missile] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [4] [Cruise Missiles] units"
         ],
         "attackSound": "torpedo"
     },
     {
         "name": "Ohio Class Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Cruise Missile Submarine",
         "uniqueTo": "The United States of America",
         "replaces": "Nuclear Submarine",
         "movement": 10,
@@ -5332,7 +4791,27 @@
             "[+1] Sight",
             "May enter foreign tiles without open borders",
             "Invisible to others",
-            "Can carry [8] [Nuclear Missile] units"
+            "Can carry [8] [Cruise Missiles] units"
+        ],
+        "attackSound": "torpedo"
+    },
+        {
+        "name": "Ohio Class Submarine",
+        "unitType": "Ballistic Missile Submarine",
+        "uniqueTo": "The United States of America",
+        "movement": 10,
+        "strength": 125,
+        "rangedStrength": 50,
+        "range": 4,
+        "cost": 810,
+        "requiredTech": "Telecommunications",
+        "requiredResource": "Uranium",
+        "uniques": [
+            "Can only attack [Water] tiles",
+            "[+1] Sight",
+            "May enter foreign tiles without open borders",
+            "Invisible to others",
+            "Can carry [10] [Thermonuclear ICBM] units"
         ],
         "attackSound": "torpedo"
     },
@@ -5343,7 +4822,7 @@
         "strength": 100,
         "cost": 650,
         "requiredTech": "Mobile Tactics",
-        "uniques": ["Cannot attack", "Never appears as a Barbarian unit"],
+        "uniques": ["Cannot attack"],
         "attackSound": "tankshot"
     },
     {
@@ -5353,7 +4832,6 @@
         "strength": 90,
         "cost": 650,
         "requiredTech": "Mobile Tactics",
-        "uniques": ["Never appears as a Barbarian unit"],
         "attackSound": "tankshot"
     },
     {
@@ -5366,8 +4844,7 @@
         "cost": 650,
         "requiredTech": "Mobile Tactics",
         "uniques": [
-            "[+20]% Strength <vs [Heavy Cavalry] units>",
-            "Never appears as a Barbarian unit"
+            "[+20]% Strength <vs [Heavy Cavalry] units>"
         ],
         "attackSound": "tankshot"
     },
@@ -5380,8 +4857,7 @@
         "requiredTech": "Rocketry",
         "uniques": [
             "Cannot attack",
-            "Can carry [6] [Missile] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [6] [Missile] units"
         ]
     },
     {
@@ -5393,13 +4869,12 @@
         "requiredTech": "Robotics",
         "uniques": [
             "Cannot attack",
-            "Can carry [6] [Loitering Munitions] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [6] [Loitering Munitions] units"
         ]
     },
     {
         "name": "Missile Cruiser",
-        "unitType": "Naval Ranged",
+        "unitType": "Guided Missile Cruiser",
         "movement": 7,
         "strength": 75,
         "rangedStrength": 90,
@@ -5408,17 +4883,14 @@
         "requiredTech": "Robotics",
         "requiredResource": "Aluminum",
         "uniques": [
-            "Can carry [6] [Missile] units",
-            "Can see invisible [Naval Submarine] units",
-            "Can see invisible [Naval Raider] units",
-            "[100]% chance to intercept air attacks",
-            "Never appears as a Barbarian unit"
+            "Can carry [8] [Missile] units",
+            "[100]% chance to intercept air attacks"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Ticonderoga Class Cruiser",
-        "unitType": "Naval Ranged",
+        "unitType": "Guided Missile Cruiser",
         "uniqueTo": "The United States of America",
         "replaces": "Missile Cruiser",
         "movement": 8,
@@ -5432,30 +4904,26 @@
      "obsoleteTech": "Autonomous Systems",
         "uniques": [
             "[100]% chance to intercept air attacks",
-            "Can see invisible [Naval Submarine] units",
-            "Can see invisible [Naval Raider] units",
-            "Can carry [12] [Missile] units",
-            "Never appears as a Barbarian unit"
+            "Can carry [12] [Missile] units"
         ],
         "attackSound": "shipguns"
     },
     {
         "name": "Advanced Tank",
-        "unitType": "Heavy Cavalry",
+        "unitType": "Main Battle Tank (MBT)",
         "movement": 5,
         "strength": 100,
         "cost": 800,
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum",
         "uniques": [
-            "[+50]% Strength <vs [Land] units>",
-            "Never appears as a Barbarian unit"
+            "[+50]% Strength <vs [Land] units>"
         ],
         "attackSound": "tankshot"
     },
     {
         "name": "M1A2 Abrams",
-        "unitType": "Heavy Cavalry",
+        "unitType": "Main Battle Tank (MBT)",
         "uniqueTo": "The United States of America",
         "replaces": "Advanced Tank",
         "movement": 6,
@@ -5464,14 +4932,14 @@
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum",
         "uniques": [
-            "[+1000]% Strength <vs [Infantry] units>",
+            "[+100]% Strength <vs [Infantry] units>",
             "[+20]% Strength <vs [Heavy Cavalry] units>"
         ],
         "attackSound": "tankshot"
     },
     {
         "name": "Jet Fighter",
-        "unitType": "Fighter",
+        "unitType": "Air Superiority Fighter",
         "movement": 1,
         "strength": 75,
         "rangedStrength": 75,
@@ -5489,7 +4957,7 @@
     },
     {
         "name": "F-16C/D Fighting Falcon",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "replaces": "Jet Interceptor",
         "uniqueTo": "The United States of America",
         "movement": 1,
@@ -5518,7 +4986,7 @@
     },
     {
         "name": "F-15EX Eagle II",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 115,
@@ -5547,7 +5015,7 @@
     },
     {
         "name": "F/A-18E/F Super Hornet",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 115,
@@ -5574,7 +5042,7 @@
     },
     {
         "name": "F-22 Raptor",
-        "unitType": "Fighter",
+        "unitType": "Air Superiority Fighter",
         "uniqueTo": "The United States of America",
         "replaces": "Jet Fighter",
         "movement": 1,
@@ -5601,7 +5069,7 @@
     },
     {
         "name": "F-117 Nighthawk",
-        "unitType": "Fighter",
+        "unitType": "Stealth Bomber",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 125,
@@ -5620,7 +5088,7 @@
     },
     {
         "name": "F-35A Lightning II",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 130,
@@ -5647,7 +5115,7 @@
     },
     {
         "name": "F-35C Lightning II",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 130,
@@ -5673,7 +5141,7 @@
     },
     {
         "name": "F-35B Lightning II",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 130,
@@ -5698,7 +5166,7 @@
     },
     {
         "name": "F-47 NGAD",
-        "unitType": "Fighter",
+        "unitType": "Air Superiority Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 147,
@@ -5723,7 +5191,7 @@
     },
     {
         "name": "F/A XX",
-        "unitType": "Fighter",
+        "unitType": "Multirole Fighter",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 145,
@@ -5748,7 +5216,7 @@
         "attackSound": "jetgun"
     },
     {
-        "name": "Long-range Radar Aircraft",
+        "name": "Radar Aircraft",
         "unitType": "Radar Aircraft",
         "cost": 500,
         "movement": 1,
@@ -5756,7 +5224,7 @@
         "rangedStrength": 1,
         "range": 25,
         "interceptRange": 0,
-        "uniques": ["Cannot attack", "[+6] Sight", "Consumes [2] [Aluminum]"],
+        "uniques": ["Cannot attack", "[+4] Sight", "Consumes [2] [Aluminum]"],
         "requiredTech": "Lasers",
         "requiredResource": "Aluminum"
     },
@@ -5779,33 +5247,14 @@
         ]
     },
     {
-        "name": "Heavy Cruiser",
-        "unitType": "Naval Melee",
-        "movement": 8,
-        "strength": 80,
-        "interceptRange": 2,
-        "cost": 680,
-        "requiredTech": "Lasers",
-        "uniques": [
-            "Can see invisible [Naval Submarine] units",
-            "[100]% chance to intercept air attacks",
-            "Can move after attacking",
-            "Withdraws before melee combat",
-            "[+100]% Strength <vs [Naval Submarine] units>",
-            "[-50]% Damage when intercepting"
-        ],
-        "attackSound": "shipguns"
-    },
-    {
         "name": "1st Special Forces Operational Detachment–Delta (1st SFOD-D)-(Delta Force)",
-        "unitType": "Special Operations Forces",
+        "unitType": "Special Mission Units",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 130,
         "cost": 500,
         "requiredTech": "Globalization",
         "uniques": [
-            "Never appears as a Barbarian unit",
             "May enter foreign tiles without open borders",
             "[+25]% Strength <vs [Barbarian] units>",
             "[+75]% Strength <when attacking>"
@@ -5814,14 +5263,13 @@
     },
     {
         "name": "Naval Special Warfare Development Group (DEVGRU) - (SEAL Team Six)",
-        "unitType": "Special Operations Forces",
+        "unitType": "Special Mission Units",
         "uniqueTo": "The United States of America",
         "movement": 3,
         "strength": 130,
         "cost": 500,
         "requiredTech": "Mobile Tactics",
         "uniques": [
-            "Never appears as a Barbarian unit",
             "May enter foreign tiles without open borders",
             "[+25]% Strength <vs [Barbarian] units>",
             "[+100]% Strength <when defending> <when [Embarked]>",
@@ -5831,7 +5279,7 @@
     },
     {
         "name": "Stealth Bomber",
-        "unitType": "Bomber",
+        "unitType": "Stealth Bomber",
         "movement": 2,
         "strength": 85,
         "rangedStrength": 90,
@@ -5841,14 +5289,13 @@
         "requiredResource": "Aluminum",
         "uniques": [
             "Damage taken from interception reduced by [100]%",
-            "Cannot be carried by [Aircraft Carrier] units",
             "Can see over obstacles"
         ],
         "attackSound": "bombing"
     },
     {
         "name": "B-52 Stratofortress",
-        "unitType": "Bomber",
+        "unitType": "Heavy Bomber",
         "uniqueTo": "The United States of America",
         "replaces": "Jet Bomber",
         "movement": 1,
@@ -5859,14 +5306,13 @@
         "requiredTech": "Lasers",
         "uniques": [
             "[+100]% Strength <vs cities>",
-            "Can see over obstacles",
-            "Cannot be carried by [Aircraft Carrier] units"
+            "Can see over obstacles"
         ],
         "attackSound": "bombing"
     },
     {
         "name": "B1 Lancer",
-        "unitType": "Bomber",
+        "unitType": "Heavy Bomber",
         "uniqueTo": "The United States of America",
         "movement": 1,
         "strength": 90,
@@ -5877,14 +5323,13 @@
         "obsoleteTech": "Nanotechnology",
         "uniques": [
             "[+100]% Strength <vs cities>",
-            "Cannot be carried by [Aircraft Carrier] units",
             "Damage taken from interception reduced by [110]%"
         ],
         "attackSound": "bombing"
     },
     {
         "name": "B2 Spirit",
-        "unitType": "Bomber",
+        "unitType": "Heavy Stealth Bomber",
         "uniqueTo": "The United States of America",
         "replaces": "Stealth Bomber",
         "movement": 1,
@@ -5896,16 +5341,14 @@
         "obsoleteTech": "Nanotechnology",
         "uniques": [
             "Damage taken from interception reduced by [150]%",
-            "Cannot be carried by [Aircraft Carrier] units",
             "Can see over obstacles"
         ],
         "attackSound": "bombing"
     },
     {
         "name": "B-21 Raider",
-        "unitType": "Bomber",
+        "unitType": "Heavy Stealth Bomber",
         "uniqueTo": "The United States of America",
-        "replaces": "Suborbital Bomber",
         "movement": 1,
         "strength": 130,
         "rangedStrength": 140,
@@ -5913,8 +5356,7 @@
         "cost": 1205,
         "requiredTech": "Nanotechnology",
         "uniques": [
-            "Damage taken from interception reduced by [170]%",
-            "Cannot be carried by [Aircraft Carrier] units"
+            "Damage taken from interception reduced by [170]%"
         ],
         "attackSound": "bombing"
     },
@@ -5932,12 +5374,8 @@
         "uniques": [
             "[+10] Sight",
             "Cannot attack",
-            "Can see invisible [Military] units",
-            "Can see invisible [Naval Submarine] units",
-            "Can only be built <in cities with a [Launch Facility]>",
-            "Never appears as a Barbarian unit"
+            "Can see invisible [Military] units"
         ],
-        "attackSound": "shot",
         "civilopediaText": [
             {
                 "text": "A satellite in geosynchronous orbit over a city, it is equipped with state-of-the-art sensors to survey the land."

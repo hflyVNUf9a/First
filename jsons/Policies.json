@@ -475,8 +475,6 @@
             {
                 "name": "Merchant Confederacy",
                 "uniques": [
-                    "[+2 Production, +2 Food] from every [Land Trade Route (Gold)]",
-                    "[+2 Production, +2 Food] from every [Sea Trade Route (Gold)]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -649,8 +647,6 @@
                 "name": "Silk Road",
                 "uniques": [
                     "[+30]% [Gold] from Trade Routes",
-                    "[+25]% Yield from every [Land Trade Route (Gold)]",
-                    "[+25]% Yield from every [Sea Trade Route (Gold)]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
@@ -672,7 +668,6 @@
                 "uniques": [
                     "[-35]% maintenance on road & railroads",
                     "[-30]% maintenance cost for [all] buildings [in all cities]",
-                    "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
                 ],
                 "requires": [
@@ -1097,7 +1092,6 @@
                     "[+1 Happiness] from every [Bank]",
                     "[+1 Happiness] from every [Stock Exchange]",
                     "[+10]% [Gold] [in all cities]",
-                    "Provides [1] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1108,7 +1102,6 @@
                 "name": "Economic Union",
                 "uniques": [
                     "[+25]% [Gold] [in all cities]",
-                    "Provides [2] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1856,7 +1849,7 @@
             {
                 "name": "Blended elements",
                 "uniques": [
-                    "[+4 Gold] from each Trade Route"
+                    "[+4 Gold] from each Trade Routes"
                 ],
                 "row": 2,
                 "column": 3

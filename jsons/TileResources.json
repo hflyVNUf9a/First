@@ -1451,15 +1451,6 @@
         "uniques": ["Generated on every [150] tiles"]
     },
     {
-        "name": "Trade Route",
-        "resourceType": "Strategic",
-        "uniques": [
-            "Cannot be traded",
-            "Excluded from map editor",
-            "Doesn't generate naturally"
-        ]
-    },
-    {
         "name": "Factories",
         "resourceType": "Strategic",
         "uniques": [

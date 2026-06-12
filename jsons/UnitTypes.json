@@ -8,13 +8,15 @@
         "movementType": "Land"
     },
     {
-        "name": "Silo",
+        "name": "Missile Silo",
+        "uniques":[            "Never appears as a Barbarian unit"],
         "movementType": "Land"
     },
     {
         "name": "Icebreaker",
         "movementType": "Water",
         "uniques": [
+                        "Never appears as a Barbarian unit",
             "Can enter ice tiles"
         ]
     },
@@ -61,6 +63,7 @@
     {
         "name": "Special Operations Forces",
         "uniques": [
+            "Never appears as a Barbarian unit",
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
         ],
@@ -69,6 +72,7 @@
     {
         "name": "Special Mission Units",
         "uniques": [
+            "Never appears as a Barbarian unit",
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
         ],
@@ -101,53 +105,9 @@
         "movementType": "Land"
     },
     {
-        "name": "Recon",
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
-            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>",
-            "Ignores terrain cost",
-            "Can see invisible [Land] units"
-        ],
-        "movementType": "Land"
-    },
-    {
-        "name": "Siege Melee",
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
-            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
-        ],
-        "movementType": "Land"
-    },
-    {
-        "name": "Siege Ranged",
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
-            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
-        ],
-        "movementType": "Land"
-    },
-    {
         "name": "Civilian Water",
-        "uniques": [
-            "Automation is a primary action"
-        ],
+        "uniques":["[+1] Movement <when stacked with a [Frigate] unit>",],
         "movementType": "Water"
-    },
-    {
-        "name": "Ranged Heavy",
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
-            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
-        ],
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged Support",
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
-            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>"
-        ],
-        "movementType": "Land"
     },
     {
         "name": "Heavy Cavalry",
@@ -158,8 +118,26 @@
         "movementType": "Land"
     },
     {
+        "name": "Tank Destroyer",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
+        "name": "Main Battle Tank (MBT)",
+        "uniques": [
+                        "Never appears as a Barbarian unit",
+            "Unit will heal every turn, even if it performs an action <in [Fort] tiles> <hidden from users>",
+            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles> <hidden from users>"
+        ],
+        "movementType": "Land"
+    },
+    {
         "name": "Infantry Transport",
         "uniques": [
+                        "Never appears as a Barbarian unit",
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
             "Cannot attack"
@@ -175,14 +153,6 @@
         "movementType": "Land"
     },
     {
-        "name": "Ranged Cavalry",
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
-            "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>"
-        ],
-        "movementType": "Land"
-    },
-    {
         "name": "Counter Cavalry",
         "uniques": [
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
@@ -190,38 +160,146 @@
         ],
         "movementType": "Land"
     },
-    {
-        "name": "Naval Melee",
+        {
+        "name": "Monitor",
+        "movementType": "Water"
+    },
+        {
+        "name": "Littoral Combat Ship (LCS)",
+        "uniques":[            "Never appears as a Barbarian unit"],
         "movementType": "Water"
     },
     {
-        "name": "Naval Ranged",
+        "name": "Destroyer",
+        "uniques":[
+                        "Never appears as a Barbarian unit",
+            "Can see invisible [Attack Submarine] units",
+            "Can see invisible [Ballistic Missile Submarine] units",
+            "Can see invisible [Cruise Missile Submarine] units"],
         "movementType": "Water"
     },
     {
-        "name": "Naval Escort",
+        "name": "Battleship",
+        "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Pre-Dreadnought",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Dreadnought",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Battlecruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Light Cruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+        
+    },
+        {
+        "name": "Heavy Cruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Guided Missile Cruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Cruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Protected Cruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Armored Cruiser",
+                "uniques":[            "Never appears as a Barbarian unit"],
         "movementType": "Water"
     },
     {
-        "name": "Naval Raider",
+        "name": "Corvette",
+        "uniques":[
+            "Never appears as a Barbarian unit",
+            "Can see invisible [Attack Submarine] units"
+         ],
+        "movementType": "Water"
+    },
+    {
+        "name": "Frigate",
+        "uniques":[   
+            "Never appears as a Barbarian unit",        
+             "Can see invisible [Attack Submarine] units",
+            "Can see invisible [Ballistic Missile Submarine] units",
+            "Can see invisible [Cruise Missile Submarine] units"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Cruise Missile Submarine",
         "uniques": [
+            "Can enter ice tiles",
+            "Never appears as a Barbarian unit",
             "Invisible to non-adjacent units",
-            "Can see invisible [Naval Raider] units"
+            "Can see invisible [Attack Submarine] units",
+            "Can see invisible [Ballistic Missile Submarine] units",
+            "Can see invisible [Cruise Missile Submarine] units"
         ],
         "movementType": "Water"
     },
-    {
-        "name": "Naval Submarine",
+        {
+        "name": "Ballistic Missile Submarine",
         "uniques": [
             "Can enter ice tiles",
+                    "Never appears as a Barbarian unit",
             "Invisible to non-adjacent units",
-            "Can see invisible [Naval Submarine] units",
-            "Can see invisible [Naval Raider] units"
+            "Can see invisible [Attack Submarine] units",
+            "Can see invisible [Ballistic Missile Submarine] units",
+            "Can see invisible [Cruise Missile Submarine] units"
+        ],
+        "movementType": "Water"
+    },
+        {
+        "name": "Attack Submarine",
+        "uniques": [
+            "Can enter ice tiles",
+            "Never appears as a Barbarian unit",
+            "Invisible to non-adjacent units",
+            "Can see invisible [Attack Submarine] units",
+            "Can see invisible [Ballistic Missile Submarine] units",
+            "Can see invisible [Cruise Missile Submarine] units"
         ],
         "movementType": "Water"
     },
     {
         "name": "Aircraft Carrier",
+        "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Fleet Carrier",
+        "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Light Aircraft Carrier",
+        "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+        {
+        "name": "Escort Carrier",
+        "uniques":[            "Never appears as a Barbarian unit"],
         "movementType": "Water"
     },
     {
@@ -251,10 +329,17 @@
     },
     {
         "name": "LHD",
+        "uniques":[            "Never appears as a Barbarian unit"],
+        "movementType": "Water"
+    },
+    {
+        "name": "Amphibious Assault Ship",
+        "uniques":[            "Never appears as a Barbarian unit"],
         "movementType": "Water"
     },
     {
         "name": "LHA",
+        "uniques":[            "Never appears as a Barbarian unit"],
         "movementType": "Water"
     },
     {
@@ -262,8 +347,6 @@
         "uniques": [
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
-            "[+50]% Strength <vs [Aircraft] units>",
-            "[+100]% Strength <vs [Helicopter] units>",
             "Cannot intercept [Nuclear Missile] units"
         ],
         "movementType": "Land"
@@ -282,6 +365,27 @@
         "name": "Fighter",
         "uniques": [
             "Aircraft",
+            "Never appears as a Barbarian unit",
+            "Can see over obstacles",
+            "Can perform Air Sweep"
+        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "Air Superiority Fighter",
+        "uniques": [
+            "Aircraft",
+            "Never appears as a Barbarian unit",
+            "Can see over obstacles",
+            "Can perform Air Sweep"
+        ],
+        "movementType": "Air"
+    },
+     {
+        "name": "Multirole Fighter",
+        "uniques": [
+            "Aircraft",
+            "Never appears as a Barbarian unit",
             "Can see over obstacles",
             "Can perform Air Sweep"
         ],
@@ -291,6 +395,29 @@
         "name": "Bomber",
         "uniques": [
             "Aircraft",
+            "Never appears as a Barbarian unit",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units"
+        ],
+        "movementType": "Air"
+    },
+        {
+        "name": "Heavy Bomber",
+        "uniques": [
+            "Aircraft",
+            "Never appears as a Barbarian unit",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units"
+        ],
+        "movementType": "Air"
+    },
+        {
+        "name": "Stealth Bomber",
+        "uniques": [
+            "Aircraft",
+            "Never appears as a Barbarian unit",
             "Cannot be carried by [LHD] units",
             "Cannot be carried by [LHA] units",
             "Cannot be carried by [Aircraft Carrier] units"
@@ -298,9 +425,21 @@
         "movementType": "Air"
     },
     {
-        "name": "Close Air Support",
+        "name": "Heavy Stealth Bomber",
         "uniques": [
-            "Aircraft"        ],
+            "Aircraft",
+            "Never appears as a Barbarian unit",
+            "Cannot be carried by [LHD] units",
+            "Cannot be carried by [LHA] units",
+            "Cannot be carried by [Aircraft Carrier] units"
+        ],
+        "movementType": "Air"
+    },
+    {
+        "name": "Attack Aircraft",
+        "uniques": [
+            "Aircraft",
+            "Never appears as a Barbarian unit"],
         "movementType": "Air"
     },
     {
@@ -308,6 +447,7 @@
         "movementType": "Air",
         "uniques": [
             "Aircraft",
+            "Never appears as a Barbarian unit",
             "Can see over obstacles",
             "Cannot attack"
         ]
@@ -318,6 +458,7 @@
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
             "Land",
+            "Never appears as a Barbarian unit",
             "Invisible to non-adjacent units",
             "Can see over obstacles",
             "Can pass through impassable tiles",
@@ -325,39 +466,59 @@
         ],
         "movementType": "Land"
     },
+     {
+        "name": "Tactical Missiles",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Ballistic Missiles",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Cruise Missiles",
+        "movementType": "Air",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "Self-destructs when attacking"
+        ]
+    },
+    {
+        "name": "Hypersonic Missiles",
+        "movementType": "Air",
+        "uniques": [
+            "Never appears as a Barbarian unit",
+            "Self-destructs when attacking"
+        ]
+    },
     {
         "name": "Atomic Bomber",
         "uniques": [
             "Aircraft",
+            "Never appears as a Barbarian unit",
+            "Self-destructs when attacking"
+        ],
+        "movementType": "Air"
+    },
+        {
+        "name": "Thermonuclear Bomber",
+        "uniques": [
+            "Aircraft",
+            "Never appears as a Barbarian unit",
             "Self-destructs when attacking"
         ],
         "movementType": "Air"
     },
     {
-        "name": "Missile",
+        "name": "Thermonuclear ICBM",
         "movementType": "Air",
         "uniques": [
-            "Self-destructs when attacking"
-        ]
-    },
-    {
-        "name": "Hypersonic Missile",
-        "movementType": "Air",
-        "uniques": [
-            "Self-destructs when attacking"
-        ]
-    },
-    {
-        "name": "Nuclear Missile",
-        "movementType": "Air",
-        "uniques": [
-            "Self-destructs when attacking"
-        ]
-    },
-    {
-        "name": "Thermonuclear Missile",
-        "movementType": "Air",
-        "uniques": [
+            "Never appears as a Barbarian unit",
             "Self-destructs when attacking"
         ]
     },
@@ -371,6 +532,7 @@
             "Ignores Zone of Control",
             "Unable to capture cities",
             "May attack when embarked",
+            "Never appears as a Barbarian unit",
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast",
             "May travel on Water tiles without embarking"
@@ -380,6 +542,7 @@
         "name": "Satellite",
         "movementType": "Air",
         "uniques": [
+            "Never appears as a Barbarian unit",
             "Cannot be intercepted"
         ]
     },
@@ -387,8 +550,7 @@
         "name": "Trade Plane",
         "movementType": "Air",
         "uniques": [
-            "Aircraft",
-            "Automation is a primary action"
-        ]
+            "Never appears as a Barbarian unit",
+            "Aircraft"
     }
 ]

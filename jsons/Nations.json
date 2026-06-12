@@ -48,13 +48,9 @@
             "[+3 Happiness] [in all cities]",
             "[+2 Happiness] from every specialist [in all cities]",
             "[+2 Food] from every specialist [in all cities]",
-            "[Military] units gain the [Overwhelming Force] promotion <hidden from users>",
-            "[Military] units gain the [Foreign Security] promotion <hidden from users>",
-            "[Military] units gain the [Shock and Awe] promotion <hidden from users>",
             "Cities are razed [3] times as fast",
             "[-20]% Unhappiness from [Population] [in puppeted cities]",
             "No damage penalty for wounded units",
-            "[Military] units gain the [Elite Force] promotion",
             "[Faith] cost of purchasing [Military] units [-100]%",
             "When declaring friendship, both parties gain a [20]% boost to great person generation",
             "[+20]% Production when constructing [All] wonders [in all cities]",
@@ -130,7 +126,7 @@
         ]
     },
     {
-        "name": "America",
+        "name": "USA",
         "leaderName": "Donald J Trump",
         "adjective": [
             "American"
@@ -1767,7 +1763,7 @@
         ]
     },
     {
-        "name": "Soviet Union",
+        "name": "USSR",
         "leaderName": "Joseph Stalin",
         "startIntroPart1": "n",
         "startIntroPart2": "n",
@@ -3143,34 +3139,42 @@
         ]
     },
     {
-        "name": "Ayyubid Dynasty",
-        "leaderName": "Saladin",
-        "startIntroPart1": "n",
-        "startIntroPart2": "n",
-        "declaringWar": "n",
-        "attacked": "n",
-        "defeated": "n",
-        "introduction": "n",
-        "neutralHello": "n",
-        "hateHello": "n",
-        "tradeRequest": "n",
-        "outerColor": [
-            0,
-            0,
-            0
-        ],
-        "innerColor": [
-            221,
-            0,
-            0
-        ],
-        "cities": [
-            "b"
-        ],
-        "spyNames": [
-            "j"
-        ]
-    },
+  "name": "Ayyubid Dynasty",
+  "leaderName": "Saladin",
+  "startIntroPart1": "Founded by Saladin in the late 12th century, the Ayyubid Dynasty unified Egypt, Syria and parts of Mesopotamia under Sunni rule.",
+  "startIntroPart2": "Its rule is marked by military success, administrative reforms, and patronage of Islamic learning and architecture.",
+  "declaringWar": "We have mobilized our forces to punish those who threaten Muslim lands and the safety of pilgrims — declare your stance before the armies march.",
+  "attacked": "Our garrisons report an incursion at the frontier. Reinforcements are being dispatched and raiding parties will retaliate without mercy.",
+  "defeated": "Our banners have been forced to withdraw. Salvage what remains, tend the wounded, and prepare for a counteroffensive under new command.",
+  "introduction": "I am Saladin, Sultan of Egypt and Syria. We value justice, religious devotion, and the defense of the realm. Join in alliance or stand aside.",
+  "neutralHello": "Peace be upon you. May our dealings be fair and mutually beneficial.",
+  "hateHello": "You have shown hostility to the faithful. Expect no quarter while you persist on this path.",
+  "tradeRequest": "We seek grain, timber, and skilled craftsmen. In exchange we offer military protection, knowledge from our scholars, and access to trade routes.",
+  "outerColor": [64, 32, 0],
+  "innerColor": [192, 128, 64],
+  "cities": [
+    "Cairo",
+    "Damascus",
+    "Aleppo",
+    "Acre",
+    "Mosul",
+    "Sana'a",
+    "Tripoli",
+    "Beirut",
+    "Palmyra",
+    "Ascalon"
+  ],
+  "spyNames": [
+    "Ibrahim al-Hashimi",
+    "Zaynab bint Karim",
+    "Hassan ibn Umar",
+    "Fatima al-Rashid",
+    "Yusuf al-Maqdisi",
+    "Rashid al-Din",
+    "Layla al-Suri",
+    "Mansur al-Basri"
+  ]
+}
     {
         "name": "The Ottomans",
         "leaderName": "Suleiman",
@@ -4159,7 +4163,7 @@
             "[+1 Food] from every [Maize] <after discovering [The Wheel]>",
             "[+1 Food] from every [Wheat] <after discovering [The Wheel]>",
             "[+1 Food] from every [Salt] <after discovering [The Wheel]>",
-            "[+2 Gold] from each Trade Route"
+            "[+2 Gold] from each Trade Routes"
         ],
         "cities": [
             "Kiev",

@@ -2083,7 +2083,6 @@
         "hurryCostModifier": 25,
         "gold": 2,
         "uniques": [
-            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "Provides [1] [Horses]"
         ],
         "requiredTech": "Horseback Riding"
@@ -2495,10 +2494,7 @@
         "percentStatBonus": {
             "gold": 20
         },
-        "uniques": [
-            "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
-        ],
+        "uniques": [],
         "requiredTech": "Currency"
     },
     {
@@ -2633,11 +2629,7 @@
         "isWonder": true,
         "uniques": [
             "Must be next to [Coast]",
-            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in all cities]",
-            "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]",
-            "Free [Cargo Ship] appears",
-            "[+1 Gold] from [Water] tiles [in all cities]",
-            "Provides [1] [Trade Route]"
+            "[+1 Gold] from [Water] tiles [in all cities]"
         ],
         "requiredTech": "Iron Working",
         "quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
@@ -2809,9 +2801,6 @@
         },
         "isNationalWonder": true,
         "uniques": [
-            "Provides [1] [Trade Route]",
-            "[+3 Gold] from [Land Trade Route (Gold)] tiles [in all cities]",
-            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]"
         ],
         "requiredTech": "Guilds"
     },
@@ -3109,7 +3098,6 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "New [Military] units start with [15] XP [in this city]",
-            "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Steel"
@@ -4360,8 +4348,7 @@
         "uniques": [
             "Must be next to [Coast]",
             "[+1 Gold, +1 Production] from [Coast] tiles [in all cities]",
-            "Free [Great Merchant] appears",
-            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]"
+            "Free [Great Merchant] appears"
         ],
         "requiredTech": "Railroads"
     },
@@ -4376,8 +4363,7 @@
         "uniques": [
             "[+1 Gold] from [Ocean] tiles [in all cities]",
             "Must be next to [Coast]",
-            "Free [Great Merchant] appears",
-            "[+3 Gold] from [Sea Trade Route (Gold)] tiles [in all cities]"
+            "Free [Great Merchant] appears"
         ]
     },
     {
@@ -4497,8 +4483,6 @@
         "maintenance": 3,
         "requiredTech": "Ecology",
         "uniques": [
-            "Must be next to [Desert]",
-            "Only available <in cities without a [Nuclear Plant]>"
         ]
     },
     {
@@ -4624,7 +4608,7 @@
         "requiredTech": "Rocketry"
     },
     {
-        "name": "Great Firewall",
+        "name": "Firewall",
         "isWonder": true,
         "uniques": [
             "Only available <when espionage is enabled>",
@@ -4635,8 +4619,8 @@
     },
     {
         "name": "Golden Dome System",
+        "uniqueTo": "The United States of America",
         "cost": 1500,
-        "isNationalWonder": true,
         "requiredTech": "Lasers",
         "cityStrength": 30,
         "cityHealth": 100,
