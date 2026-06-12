@@ -4098,7 +4098,7 @@
     },
     {
         "name": "Advanced Submarine",
-        "unitType": "Naval Submarine",
+        "unitType": "Ballistic Missile Submarine",
         "movement": 8,
         "strength": 75,
         "range": 4,
@@ -4107,7 +4107,7 @@
         "requiredTech": "Neural Interface",
         "requiredResource": "Nanomaterial",
         "uniques": [
-            "Can see invisible [Naval Submarine] units",
+          
             "[+75]% Strength <when attacking>",
             "Can only attack [Water] tiles",
             "[+1] Sight",
