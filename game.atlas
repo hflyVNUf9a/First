@@ -1,0 +1,160 @@
+
+game.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/A-10 Warthog Thunderbolt II
+  rotate: false
+  xy: 4, 842
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/AH-64 Apache
+  rotate: false
+  xy: 4, 664
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/Arleigh Burke Class Destroyer
+  rotate: false
+  xy: 268, 868
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+UnitIcons/B-52 Stratofortress
+  rotate: false
+  xy: 4, 512
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+UnitIcons/B1 Lancer
+  rotate: false
+  xy: 268, 716
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+UnitIcons/B2 Spirit
+  rotate: false
+  xy: 532, 868
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+UnitIcons/CH-47 Chinook
+  rotate: false
+  xy: 4, 334
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/E-3 Sentry AWACS
+  rotate: false
+  xy: 268, 538
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/F-117 Nighthawk
+  rotate: false
+  xy: 532, 690
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/F-22 Raptor
+  rotate: false
+  xy: 796, 868
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+UnitIcons/F-35A Lightning II
+  rotate: false
+  xy: 4, 156
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/F-35B Lightning II
+  rotate: false
+  xy: 268, 360
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/F-35C Lightning II
+  rotate: false
+  xy: 796, 690
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/Gerald Ford Class Supercarrier
+  rotate: false
+  xy: 1060, 842
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/M1A2 Abrams
+  rotate: false
+  xy: 268, 182
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/M2 Bradley (Infantry Fighting Vehicle)
+  rotate: false
+  xy: 1324, 842
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/MQ-9 Reaper
+  rotate: false
+  xy: 1588, 842
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/Naval Special Warfare Development Group (DEVGRU) - (SEAL Team Six)
+  rotate: false
+  xy: 532, 274
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Ticonderoga Class Cruiser
+  rotate: false
+  xy: 796, 512
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/Tomahawk Missile
+  rotate: false
+  xy: 4, 4
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+UnitIcons/UH-60 Black Hawk
+  rotate: false
+  xy: 268, 4
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
+UnitIcons/Zumwalt Class Destroyer
+  rotate: false
+  xy: 1324, 664
+  size: 256, 170
+  orig: 256, 170
+  offset: 0, 0
+  index: -1
