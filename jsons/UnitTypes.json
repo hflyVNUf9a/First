@@ -106,7 +106,7 @@
     },
     {
         "name": "Civilian Water",
-        "uniques":["[+1] Movement <when stacked with a [Frigate] unit>",],
+        "uniques":["[+1] Movement <when stacked with a [Frigate] unit>"],
         "movementType": "Water"
     },
     {
@@ -551,6 +551,6 @@
         "movementType": "Air",
         "uniques": [
             "Never appears as a Barbarian unit",
-            "Aircraft"
+            "Aircraft"]
     }
 ]

@@ -1334,7 +1334,7 @@
     },
     {
         "name": "Coastal Barrage",
-        "unitType": "Missile",
+        "unitType": "Tactical Missiles",
         "movement": 0,
         "strength": 40,
         "rangedStrength": 70,
@@ -1857,6 +1857,7 @@
         ],
         "requiredTech": "Guilds",
         "religiousStrength": 750
+    },
     {
         "name": "Settler",
         "unitType": "Civilian",
@@ -1990,7 +1991,6 @@
         "cost": 25,
         "obsoleteTech": "Scientific Theory",
         "uniques": ["No movement cost to pillage"],
-        "promotions": ["Ignore terrain cost"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -3459,7 +3459,7 @@
         "strength": 47,
         "cost": 330,
         "requiredTech": "Replaceable Parts",
-        "promotions": ["Extra Movement"],
+      
         "uniques": ["[This Unit] upgrades for free"],
         "upgradesTo": "Infantry",
         "obsoleteTech": "Electronics",
@@ -3732,7 +3732,7 @@
         "strength": 65,
         "cost": 450,
         "requiredTech": "Pharmaceuticals",
-        "promotions": ["Amphibious", "Embarkation with Defence"],
+        
         "uniques": ["[+1] Sight <when [Embarked]>"],
         "attackSound": "shot"
     },
@@ -3749,8 +3749,7 @@
             "[+20]% Strength <when attacking>"
         ],
         "requiredTech": "Electronics",
-        "obsoleteTech": "Mobile Tactics",
-        "promotions": ["Amphibious"]
+        "obsoleteTech": "Mobile Tactics"
     },
     {
         "name": "US Marine",
@@ -3761,7 +3760,7 @@
         "strength": 100,
         "cost": 575,
         "requiredTech": "Mobile Tactics",
-        "promotions": ["Amphibious", "Embarkation with Defence"],
+        
         "uniques": ["Can transform to [Amphibious Combat Vehicle]"],
         "attackSound": "shot"
     },
@@ -4416,7 +4415,7 @@
     },
     {
         "name": "Guided Missile",
-        "unitType": "Missile",
+        "unitType": "Cruise Missiles",
         "movement": 1,
         "strength": 115,
         "rangedStrength": 115,
@@ -4563,7 +4562,7 @@
     },
     {
         "name": "Standard Hypersonic Missile",
-        "unitType": "Hypersonic Missile",
+        "unitType": "Hypersonic Missiles",
         "cost": 300,
         "strength": 135,
         "rangedStrength": 135,
@@ -4573,7 +4572,7 @@
     },
     {
         "name": "Conventional Prompt Strike (CPS) Hypersonic Missile",
-        "unitType": "Hypersonic Missile",
+        "unitType": "Hypersonic Missiles",
         "replaces": "Standard Hypersonic Missile",
         "uniqueTo": "The United States of America",
         "cost": 300,
@@ -5232,7 +5231,7 @@
         "name": "E-3 Sentry AWACS",
         "unitType": "Radar Aircraft",
         "uniqueTo": "The United States of America",
-        "replaces": "Long-range Radar Aircraft",
+        "replaces": "Radar Aircraft",
         "movement": 1,
         "strength": 80,
         "rangedStrength": 1,
