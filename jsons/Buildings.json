@@ -1600,7 +1600,7 @@
         },
         "uniques": [
             "[+25]% Production when constructing [Air] units [in all cities]",
-            "[+25]% Production when constructing [Missile] units [in all cities]",
+            "[+25]% Production when constructing [Thermonuclear ICBM] units [in all cities]",
             "[+25]% Production when constructing [Helicopter] units [in all cities]",
             "Consumes [2] [Aluminum]"
         ],
@@ -1702,9 +1702,7 @@
             "[+1 Food] from [Bison] tiles [in this city]",
             "[+1 Food] from [Bananas] tiles [in this city]",
             "[+1 Food] from [Wheat] tiles [in this city]",
-            "[+1 Food] from [Maize] tiles [in this city]",
-            "[+3 Production] from [Land Trade Route (Production)] tiles [in this city] <in cities without a [Workshop]>",
-            "[+6 Production] from [Sea Trade Route (Production)] tiles [in this city] <in cities without a [Workshop]>"
+            "[+1 Food] from [Maize] tiles [in this city]"
         ],
         "requiredTech": "Pottery"
     },

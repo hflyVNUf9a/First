@@ -542,8 +542,7 @@
         "name": "Satellite",
         "movementType": "Air",
         "uniques": [
-            "Never appears as a Barbarian unit",
-            "Cannot be intercepted"
+            "Never appears as a Barbarian unit"
         ]
     },
     {

@@ -216,7 +216,8 @@
             "text": "Study the lost tribe's religion",
             "uniques": [
                 "Only available <when religion is enabled>",
-                "Gain [20] [Faith]",
+                              "Gain [50]-[100] [Faith] <(modified by game speed)>",
+
                 "Only available <after turn number [15]>"
             ]
         },

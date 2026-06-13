@@ -54,7 +54,7 @@
   {
     "name": "Expanded Vertical Launch Systems (VLS)",
     "uniques": [
-      "Can Carry [+1] [Cruise Missiles] units"
+      "Can carry [+1] [Cruise Missiles] units"
     ],
     "unitTypes": [
       "Destroyer"

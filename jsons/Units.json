@@ -3543,7 +3543,7 @@
         "strength": 100,
         "cost": 3500,
         "requiredTech": "Atomic Theory",
-      "requiredTech": "Nuclear Fission",
+      "obsoleteTech": "Nuclear Fission",
         "uniques": [
             "Cannot attack",
             "[100]% chance to intercept air attacks",
