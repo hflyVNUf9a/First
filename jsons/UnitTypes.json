@@ -347,7 +347,7 @@
         "uniques": [
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
-            "Cannot intercept [Nuclear Missile] units"
+            "Cannot intercept [Thermonuclear ICBM] units"
         ],
         "movementType": "Land"
     },
@@ -357,7 +357,7 @@
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
             "Cannot intercept [Aircraft] units",
-            "Cannot intercept [non-[Missile]] units"
+            "Cannot intercept [non-[Ballistic Missiles]] units"
         ],
         "movementType": "Land"
     },

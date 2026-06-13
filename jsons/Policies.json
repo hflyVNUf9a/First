@@ -992,10 +992,7 @@
             {
                 "name": "Iron Curtain",
                 "uniques": [
-                    "[+11 Production] from every [Land Trade Route (Production)]",
-                    "[+6 Food] from every [Land Trade Route (Food)]",
-                    "[+6 Food] from every [Sea Trade Route (Food)]",
-                    "[+11 Production] from every [Sea Trade Route (Production)]",
+                    
                     "Gain [25] Influence with a [Military] gift to a City-State",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
@@ -1175,7 +1172,7 @@
                 "name": "Arsenal of Democracy",
                 "uniques": [
                     "[+25]% Production when constructing [Air] units [in all cities]",
-                    "[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
+                    "[+25]% Production when constructing [Thermonuclear ICBM] units [in all cities]",
                     "[+25]% Strength for cities",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -1849,7 +1846,7 @@
             {
                 "name": "Blended elements",
                 "uniques": [
-                    "[+4 Gold] from each Trade Routes"
+                    "[+4 Gold] from each Trade Route"
                 ],
                 "row": 2,
                 "column": 3

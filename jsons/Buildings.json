@@ -2476,8 +2476,7 @@
             "gold": 20
         },
         "uniques": [
-            "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+          
         ],
         "requiredTech": "Currency"
     },
@@ -2512,8 +2511,6 @@
         },
         "uniques": [
             "[+1 Gold] from [Luxury resource] tiles [in this city]",
-            "[+2 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+2 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+2 Gold] from [Oil] tiles [in this city]",
             "[+2 Gold] from [Oasis] tiles [in this city]"
         ],
@@ -2532,9 +2529,7 @@
             "gold": 20
         },
         "uniques": [
-            "Gain [50] [Gold] <upon expending a [Great Person] unit>",
-            "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
-            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+            "Gain [50] [Gold] <upon expending a [Great Person] unit>"
         ],
         "requiredTech": "Currency"
     },
@@ -2564,9 +2559,7 @@
         "uniques": [
             "Must be next to [Desert]",
             "[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in all cities]",
-            "[+6 Culture] [in this city] <after discovering [Archaeology]>",
-            "Provides [1] [Trade Route]",
-            "Free [Caravan] appears"
+            "[+6 Culture] [in this city] <after discovering [Archaeology]>"
         ],
         "requiredTech": "Currency",
         "quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
@@ -2880,8 +2873,7 @@
         "hurryCostModifier": 25,
         "uniques": [
             "Connects trade routes over water",
-            "Must be next to [Coast]",
-            "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
+            "Must be next to [Coast]"
         ],
         "requiredTech": "Compass"
     },

@@ -425,7 +425,7 @@
             "Fresh water",
             "Rare feature",
             "Only [All Road] improvements may be built on this tile",
-            "Only [All Trade Route] improvements may be built on this tile",
+            
             "[+4] to Fertility for Map Generation",
             "Considered [Food] when determining start locations",
             "Considered [Desirable] when determining start locations"
@@ -628,7 +628,7 @@
         "unbuildable": true,
         "uniques": [
             "Must be adjacent to [0] [Coast] tiles",
-            "Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
+            
             "Fresh water",
             "Tile provides yield without assigned population"
         ],
@@ -812,8 +812,7 @@
             "Must be adjacent to [2] to [5] [Desert] tiles",
             "Must be adjacent to [1] to [3] [Water] tiles",
             "Must be adjacent to [0] to [1] [Hill] tiles",
-            "Tile provides yield without assigned population",
-            "Grants [Medic] ([Can heal faster]) to adjacent [{Military} {Land}] units for the rest of the game"
+            "Tile provides yield without assigned population"
         ],
         "turnsInto": "Desert",
         "impassable": false,

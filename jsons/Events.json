@@ -216,7 +216,7 @@
             "text": "Study the lost tribe's religion",
             "uniques": [
                 "Only available <when religion is enabled>",
-                "Gain [20] [Faith] <(modified by game speed)>",
+                "Gain [20] [Faith]",
                 "Only available <after turn number [15]>"
             ]
         },
@@ -609,7 +609,7 @@
                         "[-50]% growth [in all cities] <for [10] turns>",
                         "[-50]% [Production] [in all cities] <for [10] turns>",
                         "[-50]% [Culture] [in all cities] <for [20] turns>",
-                        "Only available <when number of [[Nuclear Missile] Units] is more than [0]> <hidden from users>"
+                        
                     ]
                 },
                 {

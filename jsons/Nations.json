@@ -4162,8 +4162,7 @@
         "uniques": [
             "[+1 Food] from every [Maize] <after discovering [The Wheel]>",
             "[+1 Food] from every [Wheat] <after discovering [The Wheel]>",
-            "[+1 Food] from every [Salt] <after discovering [The Wheel]>",
-            "[+2 Gold] from each Trade Routes"
+            "[+1 Food] from every [Salt] <after discovering [The Wheel]>"
         ],
         "cities": [
             "Kiev",
@@ -4244,8 +4243,7 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+2 Food, +1 Production] from every [Marsh]",
-            "[+1 Faith] from every [Jungle]",
-            "[Land] units gain the [Vietnamese Walking] promotion"
+            "[+1 Faith] from every [Jungle]"
         ],
         "cities": [
             "Hà Noi",
