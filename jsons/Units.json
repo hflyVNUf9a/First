@@ -3546,6 +3546,7 @@
         "obsoleteTech": "Nuclear Fission",
         "uniques": [
             "Cannot attack",
+            "Limited to [1] per Civilization",
             "[100]% chance to intercept air attacks",
             "Consumes [2] [Uranium]",
             "Can carry [9] [Aircraft] units"
