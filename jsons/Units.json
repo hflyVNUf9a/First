@@ -1720,7 +1720,7 @@
         "uniques": [
             "No defensive terrain bonus",
             "May enter foreign tiles without open borders",
-            "Gain [250] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "Gain [500] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
             "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
@@ -1733,7 +1733,7 @@
         "uniques": [
             "No defensive terrain bonus",
             "May enter foreign tiles without open borders",
-            "Gain [300] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
+            "Gain [1000] [Gold] <in [Friendly Land] tiles> <in [non-[your]] tiles> <in [Major] tiles> <within [3] tiles of a [City center]> <for [1] movement> <removing the [Loaded] promotion/status> <for [Loaded] units>",
             "[This Unit] gains the [Loaded] promotion <in [Your] cities> <for [1] movement> <for [non-[Loaded]] units>"
         ]
     },
@@ -3543,7 +3543,7 @@
         "strength": 100,
         "cost": 3500,
         "requiredTech": "Atomic Theory",
-      "obsoleteTech": "Nuclear Fission",
+        "obsoleteTech": "Nuclear Fission",
         "uniques": [
             "Cannot attack",
             "[100]% chance to intercept air attacks",
@@ -3580,7 +3580,7 @@
         "requiredTech": "Telecommunications",
         "uniques": [
             "Cannot attack",
-          "Invisible to non-adjacent units",
+            "Invisible to non-adjacent units",
             "[100]% chance to intercept air attacks",
             "Can carry [9] [Aircraft] units",
             "[+5] HP when healing",
