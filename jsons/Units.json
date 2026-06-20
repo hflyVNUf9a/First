@@ -16,7 +16,7 @@
   {
     "name": "Tunnel Worker",
     "unitType": "Civilian",
-    "movement": 3,
+    "movement": 2,
     "cost": 150,
     "requiredTech": "Dynamite",
     "uniques": [
@@ -68,14 +68,13 @@
       "Unbuildable",
       "Cannot be purchased",
       "Can carry [4] [Thermonuclear ICBM] units",
-      "Invisible to others",
-      "[-100]% maintenance costs"
+      "Invisible to others"
     ]
   },
   {
     "name": "Light Infantry",
     "unitType": "Light Infantry",
-    "movement": 2,
+    "movement": 3,
     "strength": 34,
     "range": 1,
     "cost": 225,
@@ -91,7 +90,7 @@
   {
     "name": "Modern Light Infantry",
     "unitType": "Light Infantry",
-    "movement": 2,
+    "movement": 3,
     "strength": 67,
     "rangedStrength": 73,
     "range": 1,
@@ -148,7 +147,7 @@
     "unitType": "Light Infantry",
     "uniqueTo": "The United States of America",
     "replaces": "Modern Light Infantry",
-    "movement": 2,
+    "movement": 3,
     "strength": 100,
     "cost": 450,
     "requiredTech": "Mobile Tactics",
@@ -280,8 +279,8 @@
     "name": "Atomic Bomb",
     "unitType": "Atomic Bomber",
     "movement": 1,
-    "strength": 80,
-    "rangedStrength": 80,
+    "strength": 100,
+    "rangedStrength": 100,
     "range": 10,
     "cost": 600,
     "requiredTech": "Nuclear Fission",
@@ -340,7 +339,7 @@
     "unitType": "Attack Aircraft",
     "movement": 1,
     "strength": 75,
-    "rangedStrength": 75,
+    "rangedStrength": 85,
     "range": 10,
     "cost": 425,
     "requiredTech": "Lasers",
@@ -360,7 +359,7 @@
     "strength": 75,
     "rangedStrength": 100,
     "range": 10,
-    "cost": 225,
+    "cost": 625,
     "requiredTech": "Lasers",
     "requiredResource": "Oil",
     "uniques": [
@@ -379,9 +378,9 @@
     "uniqueTo": "The United States of America",
     "movement": 1,
     "strength": 75,
-    "rangedStrength": 100,
+    "rangedStrength": 110,
     "range": 10,
-    "cost": 325,
+    "cost": 725,
     "requiredTech": "Globalization",
     "uniques": [
       "Cannot be carried by [LHD] units",
@@ -389,7 +388,8 @@
       "Cannot be carried by [Aircraft Carrier] units",
       "[+5] Sight",
       "[+150]% Strength <vs [non-air] units>",
-      "[+30]% Strength bonus for [Special Operations Forces] units within [3] tiles"
+      "[+20]% Strength bonus for [Special Operations Forces] units within [3] tiles",
+      "[+20]% Strength bonus for [Special Mission Units] units within [3] tiles"
     ],
     "attackSound": "bombing"
   },
@@ -434,7 +434,7 @@
     "unitType": "Attack Submarine",
     "movement": 8,
     "strength": 70,
-    "rangedStrength": 85,
+    "rangedStrength": 95,
     "range": 3,
     "cost": 325,
     "requiredTech": "Telecommunications",
@@ -443,7 +443,7 @@
       "[+75]% Strength <when attacking>",
       "Can only attack [Water] tiles",
       "Never appears as a Barbarian unit",
-      "Can carry [4] [Cruise Missiles] units"
+      "Can carry [2] [Cruise Missiles] units"
     ],
     "attackSound": "torpedo"
   },
@@ -453,18 +453,18 @@
     "uniqueTo": "The United States of America",
     "replaces": "Modern Attack Submarine",
     "movement": 10,
-    "strength": 70,
-    "rangedStrength": 125,
+    "strength": 90,
+    "rangedStrength": 115,
     "range": 4,
-    "cost": 325,
+    "cost": 1325,
     "requiredTech": "Telecommunications",
     "requiredResource": "Uranium",
     "uniques": [
       "[+75]% Strength <when attacking>",
       "Can only attack [Water] tiles",
-      "[+2] Sight",
+      "[+1] Sight",
       "Invisible to others",
-      "Can carry [8] [Cruise Missiles] units"
+      "Can carry [4] [Cruise Missiles] units"
     ],
     "attackSound": "torpedo"
   },
@@ -829,13 +829,13 @@
     "name": "Modern Frigate",
     "unitType": "Frigate",
     "movement": 7,
-    "strength": 80,
-    "interceptRange": 1,
+    "strength": 70,
+    "interceptRange": 2,
     "cost": 375,
     "requiredTech": "Robotics",
     "uniques": [
       "[90]% chance to intercept air attacks",
-      "Can carry [3] [Cruise Missiles] units"
+      "Can carry [1] [Cruise Missiles] units"
     ],
     "attackSound": "shipguns"
   },
@@ -845,13 +845,13 @@
     "replaces": "Modern Frigate",
     "uniqueTo": "The United States of America",
     "movement": 8,
-    "strength": 120,
+    "strength": 85,
     "interceptRange": 3,
-    "cost": 575,
+    "cost": 1575,
     "requiredTech": "Robotics",
     "uniques": [
       "[100]% chance to intercept air attacks",
-      "Can carry [6] [Cruise Missiles] units"
+      "Can carry [2] [Cruise Missiles] units"
     ],
     "attackSound": "shipguns"
   },
@@ -860,11 +860,11 @@
     "unitType": "Frigate",
     "uniqueTo": "The United States of America",
     "movement": 7,
-    "strength": 110,
-    "cost": 375,
+    "strength": 77,
+    "cost": 875,
     "requiredTech": "Robotics",
     "uniques": [
-      "Can carry [4] [Cruise Missiles] units"
+      "Can carry [1] [Cruise Missiles] units"
     ],
     "attackSound": "shipguns"
   },
@@ -872,13 +872,13 @@
     "name": "Modern Corvette",
     "unitType": "Corvette",
     "movement": 8,
-    "strength": 75,
+    "strength": 65,
     "interceptRange": 1,
-    "cost": 425,
+    "cost": 225,
     "requiredTech": "Lasers",
     "uniques": [
       "[80]% chance to intercept air attacks",
-      "Can carry [2] [Cruise Missiles] units"
+      "Can carry [1] [Cruise Missiles] units"
     ],
     "hurryCostModifier": 20,
     "attackSound": "shipguns"
@@ -889,13 +889,13 @@
     "replaces": "Modern Corvette",
     "uniqueTo": "The United States of America",
     "movement": 9,
-    "strength": 105,
+    "strength": 69,
     "interceptRange": 1,
-    "cost": 425,
+    "cost": 1425,
     "requiredTech": "Lasers",
     "uniques": [
       "[100]% chance to intercept air attacks",
-      "Can carry [2] [Cruise Missiles] units",
+      "Can carry [1] [Cruise Missiles] units",
       "Double movement in [Coast]"
     ],
     "hurryCostModifier": 20,
@@ -906,14 +906,14 @@
     "unitType": "Littoral Combat Ship (LCS)",
     "uniqueTo": "The United States of America",
     "movement": 8,
-    "strength": 105,
+    "strength": 67,
     "interceptRange": 2,
-    "cost": 425,
+    "cost": 1425,
     "requiredTech": "Lasers",
     "uniques": [
       "[100]% chance to intercept air attacks",
       "[+25]% Strength bonus for [Helicopter] units within [7] tiles",
-      "Can carry [2] [Cruise Missiles] units",
+      "Can carry [1] [Cruise Missiles] units",
       "Double movement in [Coast]"
     ],
     "hurryCostModifier": 20,
@@ -962,7 +962,7 @@
     "unitType": "Drone",
     "movement": 5,
     "strength": 50,
-    "rangedStrength": 70,
+    "rangedStrength": 60,
     "range": 6,
     "cost": 375,
     "requiredTech": "Telecommunications",
@@ -1191,11 +1191,11 @@
     "uniqueTo": "The United States of America",
     "unitType": "Special Operations Forces",
     "movement": 2,
-    "strength": 130,
+    "strength": 105,
     "cost": 450,
     "requiredTech": "Mobile Tactics",
     "uniques": [
-      "[+75]% Strength <when attacking>",
+      "[+25]% Strength <when attacking>",
       "[+2] Sight",
       "[+25]% Strength <vs [Barbarian] units>",
       "Eliminates combat penalty for attacking over a river",
@@ -1317,7 +1317,7 @@
     "unitType": "Dreadnought",
     "movement": 4,
     "strength": 50,
-    "rangedStrength": 72,
+    "rangedStrength": 62,
     "range": 3,
     "cost": 300,
     "requiredTech": "Replaceable Parts",
@@ -1825,7 +1825,7 @@
     "unitType": "Civilian",
     "uniqueTo": "The United States of America",
     "movement": 5,
-    "cost": 1000,
+    "cost": 10000,
     "uniques": [
       "Can hurry technology research",
       "Can speed up construction of a building",
@@ -1841,7 +1841,7 @@
     "unitType": "Civilian",
     "uniqueTo": "The United States of America",
     "movement": 5,
-    "cost": 1000,
+    "cost": 10000,
     "uniques": [
       "Removes other religions when spreading religion",
       "Can generate a large amount of culture",
@@ -2336,10 +2336,10 @@
   },
   {
     "name": "Leviathan",
-    "unitType": "Cruiser",
+    "unitType": "Destroyer",
     "uniqueTo": "Barbarians",
     "movement": 2,
-    "strength": 300,
+    "strength": 500,
     "rangedStrength": 100,
     "range": 2,
     "cost": 100,
@@ -2362,7 +2362,7 @@
     "unitType": "Infantry",
     "uniqueTo": "Barbarians",
     "movement": 2,
-    "strength": 300,
+    "strength": 500,
     "cost": 100,
     "uniques": [
       "Uncapturable",
@@ -3590,7 +3590,7 @@
     "uniqueTo": "The United States of America",
     "unitType": "LHD",
     "movement": 6,
-    "strength": 90,
+    "strength": 130,
     "cost": 400,
     "requiredTech": "Electronics",
     "uniques": [
@@ -3604,7 +3604,7 @@
     "uniqueTo": "The United States of America",
     "unitType": "LHA",
     "movement": 7,
-    "strength": 90,
+    "strength": 130,
     "cost": 400,
     "requiredTech": "Electronics",
     "uniques": [
@@ -3689,7 +3689,7 @@
     "uniqueTo": "The United States of America",
     "movement": 6,
     "strength": 55,
-    "rangedStrength": 85,
+    "rangedStrength": 75,
     "range": 4,
     "cost": 410,
     "requiredResource": "Oil",
@@ -3751,7 +3751,7 @@
     "name": "Destroyer",
     "unitType": "Destroyer",
     "movement": 6,
-    "strength": 55,
+    "strength": 50,
     "interceptRange": 2,
     "cost": 375,
     "requiredTech": "Combustion",
@@ -3904,31 +3904,31 @@
     "unitType": "Special Operations Forces",
     "uniqueTo": "The United States of America",
     "replaces": "Airborne Forces",
-    "movement": 3,
-    "strength": 125,
+    "movement": 2,
+    "strength": 105,
     "cost": 425,
     "requiredTech": "Mobile Tactics",
     "uniques": [
       "May Paradrop to [Land] tiles up to [45] tiles away <in [{Friendly} {Land}] tiles>",
       "[+1] Sight",
       "[1] additional attacks per turn",
-      "[+50]% Strength <when attacking>"
+      "[+20]% Strength <when attacking>"
     ],
     "attackSound": "machinegun"
   },
   {
     "name": "Regimental Reconnaissance Company (RRC)",
-    "unitType": "Special Operations Forces",
+    "unitType": "Special Mission Units",
     "uniqueTo": "The United States of America",
-    "movement": 3,
-    "strength": 135,
+    "movement": 2,
+    "strength": 105,
     "cost": 425,
     "requiredTech": "Mobile Tactics",
     "uniques": [
       "May Paradrop to [Land] tiles up to [45] tiles away <in [{Friendly} {Land}] tiles>",
       "[+2] Sight",
       "[1] additional attacks per turn",
-      "[+75]% Strength <when attacking>"
+      "[+35]% Strength <when attacking>"
     ],
     "attackSound": "machinegun"
   },
@@ -3968,7 +3968,7 @@
     "name": "Guided Missile Destroyer",
     "unitType": "Destroyer",
     "movement": 7,
-    "strength": 75,
+    "strength": 80,
     "interceRange": 3,
     "cost": 425,
     "requiredTech": "Particle Physics",
@@ -3987,8 +3987,8 @@
     "replaces": "Guided Missile Destroyer",
     "unitType": "Destroyer",
     "uniqueTo": "The United States of America",
-    "movement": 6,
-    "strength": 85,
+    "movement": 7,
+    "strength": 100,
     "interceptRange": 3,
     "cost": 2725,
     "requiredTech": "Particle Physics",
@@ -3996,7 +3996,7 @@
       "[100]% chance to intercept air attacks",
       "[+100]% Strength <vs [Attack Submarine] units>",
       "Withdraws before melee combat <with [80]% chance>",
-      "Can carry [1] [Cruise Missiles] units"
+      "Can carry [2] [Cruise Missiles] units"
     ],
     "attackSound": "shipguns"
   },
@@ -4004,8 +4004,8 @@
     "name": "Intelligence Support Activity (ISA)",
     "unitType": "Special Operations Forces",
     "uniqueTo": "The United States of America",
-    "movement": 3,
-    "strength": 130,
+    "movement": 2,
+    "strength": 100,
     "cost": 450,
     "requiredTech": "Globalization",
     "uniques": [
@@ -4033,8 +4033,8 @@
     "unitType": "Special Operations Forces",
     "replaces": "Special Force",
     "uniqueTo": "The United States of America",
-    "movement": 3,
-    "strength": 125,
+    "movement": 2,
+    "strength": 105,
     "cost": 450,
     "requiredTech": "Globalization",
     "uniques": [
@@ -4050,8 +4050,8 @@
     "name": "Navy SEALs",
     "unitType": "Special Operations Forces",
     "uniqueTo": "The United States of America",
-    "movement": 3,
-    "strength": 125,
+    "movement": 2,
+    "strength": 105,
     "cost": 450,
     "requiredTech": "Globalization",
     "uniques": [
@@ -4094,7 +4094,7 @@
     "name": "Advanced Destroyer",
     "unitType": "Destroyer",
     "movement": 8,
-    "strength": 100,
+    "strength": 120,
     "interceptRange": 4,
     "cost": 1000,
     "requiredTech": "Autonomous Systems",
@@ -4111,8 +4111,8 @@
     "unitType": "Destroyer",
     "replaces": "Advanced Destroyer",
     "uniqueTo": "The United States of America",
-    "movement": 6,
-    "strength": 110,
+    "movement": 8,
+    "strength": 130,
     "interceptRange": 4,
     "cost": 4400,
     "requiredTech": "Autonomous Systems",
@@ -4126,7 +4126,7 @@
     "name": "Zumwalt Class Destroyer",
     "unitType": "Destroyer",
     "uniqueTo": "The United States of America",
-    "movement": 6,
+    "movement": 8,
     "strength": 100,
     "interceptRange": 3,
     "cost": 8000,
@@ -4192,7 +4192,7 @@
       "Invisible to others",
       "May enter foreign tiles without open borders",
       "Can only attack [Water] tiles",
-      "Can carry [6] [Thermonuclear ICBM] units"
+      "Can carry [4] [Thermonuclear ICBM] units"
     ],
     "attackSound": "torpedo"
   },
