@@ -3755,7 +3755,7 @@
     "interceptRange": 2,
     "cost": 375,
     "requiredTech": "Combustion",
-    "upgradesTo": "Guided Missile Destoryer",
+    "upgradesTo": "Guided Missile Destroyer",
     "obsoleteTech": "Particle Physics",
     "uniques": [
       "[100]% chance to intercept air attacks",
