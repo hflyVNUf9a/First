@@ -189,38 +189,6 @@
         ]
       },
       {
-        "text": "Convince the remaining population to join one of your cities",
-        "uniques": [
-          "[+1] population in a random city"
-        ]
-      },
-      {
-        "text": "Trade with the lost tribe for [Gold]",
-        "uniques": [
-          "Gain [50]-[100] [Gold] <(modified by game speed)>"
-        ]
-      },
-      {
-        "text": "Study their tools to discover a new technology",
-        "uniques": [
-          "[1] free random researchable Tech(s) from the [Ancient era]"
-        ]
-      },
-      {
-        "text": "Study their maps of nearby territory",
-        "uniques": [
-          "Reveal up to [All] [All] within a [5] tile radius"
-        ]
-      },
-      {
-        "text": "Study the lost tribe's religion",
-        "uniques": [
-          "Only available <when religion is enabled>",
-          "Gain [50]-[100] [Faith] <(modified by game speed)>",
-          "Only available <after turn number [15]>"
-        ]
-      },
-      {
         "name": "Comet Sighted",
         "text": "People are often superstitious and the appearance of a comet has convinced many that the end of times is soon to come. Whether or not this is actually the case, this is bound to cause some instability within the nation.",
         "choices": [
