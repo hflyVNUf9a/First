@@ -2,6 +2,12 @@
   "name": "First",
   "author": "First",
   "version": "40.0",
+  "uniques": [
+    "Can convert gold to science with sliders",
+    "Can trade civilization introductions for [500] Gold",
+    "Allow raze capital",
+    "Allow raze holy city"
+  ],
   "constants": {
     "maxLakeSize": 8,
     "riverCountMultiplier": 0.013,
@@ -22,7 +28,6 @@
     "cityStateElectionTurns": 10,
     "spyRankSkillPercentBonus": 75,
     "minimumWarDuration": 5,
-    "Can trade civilization introductions for [500] Gold": true,
     "unitUpgradeCost": {
       "base": 10,
       "perProduction": 2,
@@ -30,9 +35,6 @@
       "exponent": 1,
       "roundTo": 5
     },
-    "Allow raze holy city": true,
-    "Allow raze capital": true,
-    "Can convert gold to science with sliders": true
-  },
-  "isBaseRuleset": true
+    "isBaseRuleset": true
+  }
 }
