@@ -6,7 +6,18 @@
       "[+3 Culture] from every [Palace]",
       "[-25]% Culture cost of natural border growth [in all cities]",
       "Comment [Unlocks [Hanging Gardens]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+2 Food] [in capital]",
+      "[+1 Culture] from every [Monument]",
+      "[+1 Culture] from every [Library]",
+      "[+1 Culture] from every [Walls]",
+      "[+1 Culture] from every [Granary]",
+      "[-15]% Unhappiness from [Population] [in capital]",
+      "[+10]% growth [in capital]",
+      "[+1 Happiness] [in capital]",
+      "[+2 Science] [in capital]",
+      "[+1 Production] from every [Specialist] [in capital]",
+      "Comment [The bedrock of tall empires — culture, growth, and wonder construction flow from the ancestral seat of power.]"
     ],
     "policies": [
       {
@@ -14,7 +25,14 @@
         "uniques": [
           "[+15]% Production when constructing [All] wonders [in all cities]",
           "[+1 Happiness] per [5] population [in all cities]",
-          "Provides [1] [Policies]"
+          "[+2 Culture] from every [Palace]",
+          "[+1 Culture] from every [World Wonder]",
+          "[+1 Gold] from every [World Wonder]",
+          "[+1 Science] from every [World Wonder]",
+          "[-10]% Gold cost of purchasing [All] wonders [in all cities]",
+          "[+2 Food] from every [World Wonder]",
+          "Provides [1] [Policies]",
+          "Comment [Nobility stewards the realm — grand monuments rise swiftly and the populace rejoices in their shadow.]"
         ],
         "row": 1,
         "column": 1
@@ -33,7 +51,11 @@
           "[+2 Culture] from every [Oxford University]",
           "[+2 Culture] from every [Hermitage]",
           "[+2 Culture] from every [National Intelligence Agency]",
-          "Provides [1] [Policies]"
+          "[+1 Gold] from every [Monument]",
+          "[+1 Science] from every [Monument]",
+          "[-10]% Culture cost of natural border growth [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [The codification of law binds the realm together — cultural institutions flourish and administrative efficiency soars.]"
         ],
         "row": 1,
         "column": 3
@@ -44,7 +66,20 @@
           "Units in cities cost no Maintenance",
           "[+50]% Strength for cities <with a garrison> <when attacking>",
           "[Gold] cost of purchasing items in cities [-15]%",
-          "Provides [1] [Policies]"
+          "[+2 Culture] [in all cities with a garrison]",
+          "[+1 Happiness] [in all cities with a garrison]",
+          "[+2 Science] [in all cities with a garrison]",
+          "[+50]% Production when constructing [Walls] buildings [in all cities]",
+          "[+50]% Production when constructing [Castle] buildings [in all cities]",
+          "[+50]% Production when constructing [Arsenal] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Base] buildings [in all cities]",
+          "[+1 Culture] from every [Walls]",
+          "[+1 Culture] from every [Castle]",
+          "[+1 Culture] from every [Arsenal]",
+          "[+1 Culture] from every [Military Base]",
+          "[-25]% maintenance on road & railroads",
+          "Provides [1] [Policies]",
+          "Comment [A concentration of power in few hands — the garrisoned city becomes an instrument of both defense and enlightenment.]"
         ],
         "row": 1,
         "column": 5
@@ -55,7 +90,17 @@
           "[+25]% growth [in capital]",
           "[+2 Gold] from every [City center]",
           "[+2 Food] [in capital]",
-          "Provides [1] [Policies]"
+          "[+1 Food] from every [Farm]",
+          "[+1 Food] from every [Granary]",
+          "[+1 Gold] from every [Granary]",
+          "[+2 Production] from every [Granary]",
+          "[+1 Happiness] [in capital]",
+          "[+1 Culture] [in capital]",
+          "[-10]% Food consumption by [Specialists] [in capital]",
+          "[+2 Food] from every [Windmill]",
+          "[+2 Food] from every [Water Mill]",
+          "Provides [1] [Policies]",
+          "Comment [The aristocratic landowning class ensures the capital burgeons — granaries overflow and the populace thrives.]"
         ],
         "requires": [
           "Legalism"
@@ -67,7 +112,17 @@
         "name": "Monarchy",
         "uniques": [
           "[+1 Gold, +1 Happiness] per [2] population [in capital]",
-          "Provides [1] [Policies]"
+          "[+2 Gold] from every [Palace]",
+          "[+1 Culture] from every [Palace]",
+          "[+1 Science] from every [Palace]",
+          "[+1 Production] from every [Palace]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Happiness] from every [Market]",
+          "[-15]% [Gold] [in capital]",
+          "Provides [1] [Policies]",
+          "Comment [The crown centralizes wealth and authority — the royal treasury swells and contentment radiates from the throne.]"
         ],
         "requires": [
           "Legalism"
@@ -80,7 +135,27 @@
         "uniques": [
           "[+15]% growth [in all cities]",
           "Provides a [Aqueduct] in your first [5] cities for free",
-          "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+          "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+          "[+3 Food] [in capital]",
+          "[+3 Culture] [in capital]",
+          "[+3 Gold] [in capital]",
+          "[+2 Happiness] [in all cities]",
+          "[+2 Production] [in all cities]",
+          "[+1 Food] from every [Aqueduct]",
+          "[+1 Culture] from every [Aqueduct]",
+          "[+1 Science] from every [Aqueduct]",
+          "[+1 Happiness] from every [Aqueduct]",
+          "[+50]% Production when constructing [Aqueduct] buildings [in all cities]",
+          "[+50]% Production when constructing [Hospital] buildings [in all cities]",
+          "[+50]% Production when constructing [Medical Lab] buildings [in all cities]",
+          "[-25]% Food consumption by [Specialists] [in all cities]",
+          "[+1 Production] from every [Specialist] [in all cities]",
+          "[+2 Culture] from every [World Wonder]",
+          "[+2 Science] from every [World Wonder]",
+          "[+2 Gold] from every [World Wonder]",
+          "[-15]% Culture cost of natural border growth [in all cities]",
+          "[+25]% [Culture] [in capital]",
+          "Comment [The ancestral tradition reaches its zenith — the empire stands as a monolith of culture, growth, and architectural splendor.]"
         ]
       }
     ]
@@ -91,7 +166,14 @@
     "uniques": [
       "[+1 Culture] [in all cities]",
       "Comment [Unlocks [The Pyramids]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Production] [in all cities]",
+      "[+1 Food] [in all cities]",
+      "[-15]% unhappiness from the number of cities",
+      "[-10]% Culture cost of natural border growth [in all cities]",
+      "[+1 Culture] from every [Monument]",
+      "[+1 Production] from every [Monument]",
+      "Comment [Liberty's flame ignites the spirit of expansion — settlers venture forth and the frontier bends to civilization's will.]"
     ],
     "policies": [
       {
@@ -100,7 +182,17 @@
           "[+1 Production] [in all cities]",
           "[+10]% Production when constructing [All] buildings [in all cities]",
           "[+50]% Production towards any buildings that already exist in the Capital",
-          "Provides [1] [Policies]"
+          "[+1 Production] from every [Library]",
+          "[+1 Production] from every [Market]",
+          "[+1 Production] from every [Workshop]",
+          "[+1 Production] from every [Monument]",
+          "[+1 Production] from every [Granary]",
+          "[+1 Production] from every [Barracks]",
+          "[+1 Production] from every [Temple]",
+          "[+1 Production] from every [Water Mill]",
+          "[+1 Production] from every [Windmill]",
+          "Provides [1] [Policies]",
+          "Comment [The republic's collective labor drives the wheels of progress — every city pulses with newfound industrial vigor.]"
         ],
         "row": 1,
         "column": 1
@@ -111,7 +203,16 @@
           "Can build [all] improvements at a [+30]% rate",
           "Free [Worker] appears",
           "[-50]% unhappiness from the number of cities",
-          "Provides [1] [Policies]"
+          "[-25]% maintenance on road & railroads",
+          "Improves movement speed on roads",
+          "[+1 Production] from every [Farm]",
+          "[+1 Production] from every [Mine]",
+          "[+1 Production] from every [Quarry]",
+          "[+1 Production] from every [Pasture]",
+          "[+1 Production] from every [Plantation]",
+          "[+1 Gold] from every [Trading post]",
+          "Provides [1] [Policies]",
+          "Comment [Citizens claim their stake in the frontier — roads stretch across the continent and the land yields its bounty.]"
         ],
         "row": 1,
         "column": 4
@@ -121,7 +222,14 @@
         "uniques": [
           "[+55]% Production when constructing [Settler] units [in capital]",
           "Free [Settler] appears",
-          "Provides [1] [Policies]"
+          "[+25]% Production when constructing [Settler] units [in all cities]",
+          "[+1 Food] [in all cities]",
+          "[+1 Production] [in all cities]",
+          "[-15]% unhappiness from the number of cities",
+          "[+1 Happiness] [in all cities]",
+          "[-10]% Food consumption by [Specialists] [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [The voice of the people demands expansion — settlers march outward with purpose and the empire's breadth knows no bounds.]"
         ],
         "requires": [
           "Republic"
@@ -134,8 +242,15 @@
         "uniques": [
           "Each city founded increases culture cost of policies [30]% less than normal",
           "[+1 Gold] from every [Monument]",
+          "[+1 Culture] from every [Monument]",
+          "[+1 Science] from every [Monument]",
           "Empire enters golden age",
-          "Provides [1] [Policies]"
+          "[+1 Happiness] [in all cities]",
+          "[+1 Culture] [in all cities]",
+          "[+1 Science] [in all cities]",
+          "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
+          "Provides [1] [Policies]",
+          "Comment [Every city sends its voice to the capital — the diverse chorus of a sprawling republic enriches all.]"
         ],
         "requires": [
           "Citizenship"
@@ -149,7 +264,16 @@
           "[+20]% [Gold] from Trade Routes",
           "[+1 Happiness] [in all cities connected to capital]",
           "[-10]% Unhappiness from [Population] [in all non-occupied cities]",
-          "Provides [1] [Policies]"
+          "[+1 Science] [in all cities connected to capital]",
+          "[+1 Culture] [in all cities connected to capital]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Gold] from every [Trading post]",
+          "[+1 Gold] from every [Customs house]",
+          "[-15]% maintenance on road & railroads",
+          "Provides [1] [Policies]",
+          "Comment [Talent rises on merit, not birthright — the connected empire hums with efficiency and prosperity flows along every road.]"
         ],
         "requires": [
           "Citizenship"
@@ -180,7 +304,16 @@
           "[+15]% Production when constructing [Workshop] buildings [in all cities]",
           "[+15]% Production when constructing [University] buildings [in all cities]",
           "[+15]% Production when constructing [Opera House] buildings [in all cities]",
-          "[+15]% Production when constructing [Constabulary] buildings [in all cities]"
+          "[+15]% Production when constructing [Constabulary] buildings [in all cities]",
+          "[+2 Production] [in all cities]",
+          "[+2 Food] [in all cities]",
+          "[+2 Culture] [in all cities]",
+          "[+2 Gold] [in all cities]",
+          "[-25]% unhappiness from the number of cities",
+          "[+50]% Golden Age length",
+          "[-25]% Culture cost of natural border growth [in all cities]",
+          "[+1 Happiness] [in all cities]",
+          "Comment [Liberty's promise fulfilled — the sprawling empire stands united, productive, and free, a testament to the power of collective endeavor.]"
         ]
       }
     ]
@@ -191,7 +324,15 @@
     "uniques": [
       "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
       "Comment [Unlocks [Temple of Artemis]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+25]% Production when constructing [Barracks] buildings [in all cities]",
+      "[+25]% Production when constructing [Armory] buildings [in all cities]",
+      "[+25]% Production when constructing [Military Academy] buildings [in all cities]",
+      "[+25]% XP gained from combat <for [non-[Air]] units>",
+      "[+1 Production] from every [Barracks]",
+      "[+1 Culture] from every [Barracks]",
+      "[+1 Science] from every [Barracks]",
+      "Comment [Honor's martial spirit pervades the empire — every fallen foe enriches the realm and every soldier stands ready.]"
     ],
     "policies": [
       {
@@ -200,7 +341,14 @@
           "[3] free [Warrior] units appear",
           "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
           "[5] units cost no maintenance",
-          "Provides [1] [Policies]"
+          "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+          "[+1 Culture] from every [Barracks]",
+          "[+1 Science] from every [Barracks]",
+          "[+1 Production] from every [Barracks]",
+          "[Great General] is earned [25]% faster",
+          "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+          "Provides [1] [Policies]",
+          "Comment [The warrior's code binds soldier to sovereign — discipline, loyalty, and the promise of glory in battle.]"
         ],
         "row": 1,
         "column": 2
@@ -210,13 +358,21 @@
         "uniques": [
           "[+1 Production, +1 Gold, +1 Culture] from every [Military Academy]",
           "[+1 Production, +1 Gold, +1 Culture] from every [Armory]",
-          "[+1 Production, +1 Gold, +1 Culture] from every [Barracks]",
+          "[+1 Production, +1 Barracks]",
           "[+100]% Production when constructing [Barracks] buildings [in all cities]",
           "[+100]% Production when constructing [Armory] buildings [in all cities]",
           "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
           "[-25]% maintenance on road & railroads",
           "Improves movement speed on roads",
-          "Provides [1] [Policies]"
+          "[-25]% maintenance costs <for [All] units>",
+          "[+1 Happiness] from every [Barracks]",
+          "[+1 Happiness] from every [Armory]",
+          "[+1 Happiness] from every [Military Academy]",
+          "[-20]% Gold cost of purchasing [Military] units [in all cities]",
+          "[+2 Culture] from every [Military Academy]",
+          "[+2 Science] from every [Armory]",
+          "Provides [1] [Policies]",
+          "Comment [The professional army stands as a pillar of the state — disciplined, provisioned, and ever-ready to march at the sovereign's command.]"
         ],
         "row": 1,
         "column": 5
@@ -227,7 +383,17 @@
           "Units in cities cost no Maintenance",
           "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
           "[+2 Happiness] from every [Courthouse]",
-          "Provides [1] [Policies]"
+          "[+1 Production] [in all cities with a garrison]",
+          "[+1 Science] [in all cities with a garrison]",
+          "[+2 Food] [in all cities with a garrison]",
+          "[+1 Gold] [in all cities with a garrison]",
+          "[-15]% Unhappiness from [Population] [in all cities with a garrison]",
+          "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
+          "[+1 Culture] from every [Walls]",
+          "[+1 Culture] from every [Castle]",
+          "[+1 Culture] from every [Arsenal]",
+          "Provides [1] [Policies]",
+          "Comment [The soldier-citizen anchors the frontier — garrisoned towns flourish under the protective gaze of the warrior caste.]"
         ],
         "requires": [
           "Warrior Code"
@@ -243,7 +409,15 @@
           "[+1 Food, +2 Science, +2 Culture] from every [Citadel]",
           "[Great General] is earned [50]% faster",
           "[Great Admiral] is earned [50]% faster",
-          "Provides [1] [Policies]"
+          "[+2 Culture] from every [Courthouse]",
+          "[+2 Science] from every [Courthouse]",
+          "[+1 Happiness] from every [Courthouse]",
+          "[+50]% XP gained from combat <for [non-[Air]] units>",
+          "[+25]% Strength <for [Military] units> <when adjacent to a [Great General] unit>",
+          "[+2 Production] from every [Citadel]",
+          "[+2 Gold] from every [Citadel]",
+          "Provides [1] [Policies]",
+          "Comment [The traditions of war echo through generations — generals and admirals rise with unprecedented speed, and conquered lands are swiftly integrated.]"
         ],
         "requires": [
           "Professional Army"
@@ -257,7 +431,17 @@
           "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
           "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
           "[50]% XP gained from combat <for [non-[Air]] units>",
-          "Provides [1] [Policies]"
+          "[+15]% Strength <for [Military] units> <when adjacent to [2] other [Military] units>",
+          "[+1 Culture] from every [Barracks]",
+          "[+1 Culture] from every [Armory]",
+          "[+1 Culture] from every [Military Academy]",
+          "[+1 Production] from every [Barracks]",
+          "[+1 Production] from every [Armory]",
+          "[+1 Production] from every [Military Academy]",
+          "[+2 Happiness] from every [Heroic Epic]",
+          "[+2 Science] from every [Heroic Epic]",
+          "Provides [1] [Policies]",
+          "Comment [Discipline forges the spirit of the army — soldiers standing shoulder to shoulder become an unbreakable wall of steel and resolve.]"
         ],
         "requires": [
           "Warrior Code"
@@ -270,7 +454,25 @@
         "uniques": [
           "[+10]% [Food] [in all cities]",
           "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
-          "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+          "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "New [Military] units start with [15] XP [in all cities]",
+          "[+2 Production] [in all cities with a garrison]",
+          "[+2 Science] [in all cities with a garrison]",
+          "[+2 Culture] [in all cities with a garrison]",
+          "[+2 Happiness] [in all cities with a garrison]",
+          "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+          "[+50]% Production when constructing [Armory] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Academy] buildings [in all cities]",
+          "[Great General] is earned [100]% faster",
+          "[Great Admiral] is earned [100]% faster",
+          "[+3 Culture] from every [Barracks]",
+          "[+3 Science] from every [Armory]",
+          "[+3 Gold] from every [Military Academy]",
+          "[-30]% maintenance costs <for [All] units>",
+          "Comment [Honor's path reaches its martial apex — the empire's armies are feared across the known world, and every victory enriches the nation in body, mind, and spirit.]"
         ]
       }
     ]
@@ -285,7 +487,14 @@
       "Gain enough Faith for [50]% of a Great Prophet",
       "Comment [Unlocks [Great Mosque of Djenne]]",
       "Only available <before adopting [Secularism]>",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Faith] from every [Monument]",
+      "[+1 Faith] from every [Palace]",
+      "[+2 Faith] [in capital]",
+      "[+1 Happiness] from every [Temple]",
+      "[+1 Happiness] from every [Shrine]",
+      "[-10]% Unhappiness from [Population] [in all cities]",
+      "Comment [The divine speaks through the faithful — temples rise and shrines multiply as the spirit of devotion sweeps the land.]"
     ],
     "policies": [
       {
@@ -294,7 +503,18 @@
           "[+1 Happiness] from every [Temple]",
           "[+1 Faith] [in capital]",
           "[Faith] cost of purchasing items in cities [-20]%",
-          "Provides [1] [Policies]"
+          "[+2 Faith] from every [Temple]",
+          "[+2 Faith] from every [Shrine]",
+          "[+1 Culture] from every [Temple]",
+          "[+1 Culture] from every [Shrine]",
+          "[+1 Gold] from every [Temple]",
+          "[+1 Gold] from every [Shrine]",
+          "[+1 Science] from every [Temple]",
+          "[-15]% Unhappiness from [Population] [in all cities]",
+          "[+1 Happiness] [in capital]",
+          "[+1 Happiness] from every [Shrine]",
+          "Provides [1] [Policies]",
+          "Comment [Heaven's mandate rests upon the ruler — the divine right legitimizes the throne and the faithful flock to the temples.]"
         ],
         "row": 1,
         "column": 1
@@ -304,7 +524,18 @@
         "uniques": [
           "[+1 Culture, +1 Faith] from every [Shrine]",
           "[+1 Culture, +1 Faith] from every [Temple]",
-          "Provides [1] [Policies]"
+          "[+2 Faith] from every [Grand Temple]",
+          "[+2 Culture] from every [Grand Temple]",
+          "[+1 Gold] from every [Shrine]",
+          "[+1 Gold] from every [Temple]",
+          "[+1 Happiness] from every [Shrine]",
+          "[+1 Happiness] from every [Temple]",
+          "[+50]% Production when constructing [Grand Temple] wonders [in all cities]",
+          "[-10]% Faith cost of purchasing [[Great Person] units [in all cities]",
+          "[+1 Science] from every [Temple]",
+          "[+1 Science] from every [Shrine]",
+          "Provides [1] [Policies]",
+          "Comment [The priesthood organizes into a formal hierarchy — rituals are codified, temples proliferate, and faith becomes a pillar of the state.]"
         ],
         "row": 1,
         "column": 3
@@ -317,7 +548,18 @@
           "[+1 Gold] from every [Shrine]",
           "[+3 Gold] from every [Holy site]",
           "[50]% of excess happiness converted to [Faith]",
-          "Provides [1] [Policies]"
+          "[+2 Gold] from every [Temple]",
+          "[+2 Gold] from every [Shrine]",
+          "[+1 Culture] from every [Holy site]",
+          "[+1 Science] from every [Holy site]",
+          "[+1 Happiness] from every [Holy site]",
+          "[+5 Gold] from every [Grand Temple]",
+          "[+2 Faith] from every [Holy site]",
+          "[-15]% maintenance cost for [all] buildings [in all cities]",
+          "[+25]% [Gold] [in capital]",
+          "[-10]% Unhappiness from [Population] [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [The divine and the crown intertwine — theocracy channels devotion into gold, and the temple's coffers rival the treasury itself.]"
         ],
         "row": 1,
         "column": 5
@@ -329,7 +571,18 @@
           "Comment [Gain a free [Reformation] belief]",
           "Triggers a [Reformation] event <after founding a religion> <hidden from users>",
           "Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
-          "Provides [1] [Policies]"
+          "[+2 Culture] from every [Temple]",
+          "[+2 Faith] from every [Temple]",
+          "[+2 Science] from every [Temple]",
+          "[+1 Happiness] from every [Temple]",
+          "[+50]% Production when constructing [Temple] buildings [in all cities]",
+          "[+50]% Production when constructing [Shrine] buildings [in all cities]",
+          "[+1 Culture] from every [Holy site]",
+          "[+1 Faith] from every [Holy site]",
+          "[+3 Culture] from every [Grand Temple]",
+          "[+3 Faith] from every [Grand Temple]",
+          "Provides [1] [Policies]",
+          "Comment [The old ways are swept aside — reformation ignites a spiritual awakening that reshapes the very fabric of faith across the empire.]"
         ],
         "requires": [
           "Organized Religion"
@@ -343,7 +596,18 @@
           "[+1 Culture, +1 Faith] [in all cities]",
           "[+27]% [Science] from every [Grand Temple]",
           "[+2 Science] from every [Temple]",
-          "Provides [1] [Policies]"
+          "[+1 Science] from every [Shrine]",
+          "[+2 Culture] from every [Temple]",
+          "[+2 Faith] from every [Shrine]",
+          "[+1 Happiness] from every [Temple]",
+          "[+1 Happiness] from every [Shrine]",
+          "[-10]% Unhappiness from [Population] [in all cities]",
+          "[+1 Science] from every [Holy site]",
+          "[+1 Culture] from every [Holy site]",
+          "[+2 Science] from every [Grand Temple]",
+          "[+2 Culture] from every [Grand Temple]",
+          "Provides [1] [Policies]",
+          "Comment [All faiths find a home within the empire's borders — diversity of belief becomes a wellspring of knowledge, culture, and spiritual wealth.]"
         ],
         "requires": [
           "Organized Religion"
@@ -359,7 +623,31 @@
           "[+3 Food, +3 Culture] from every [Holy site]",
           "Provides a [Garden] in your first [4] cities for free",
           "May buy [Religious Complete Building] buildings for [1875] [Faith] [in capital] <(modified by game speed)> <hidden from users> <starting from the [Industrial era]>",
-          "Comment [May buy [{non-[Great Scientist]} {Great Person}] units for [1875] [Faith] [in capital] [(modified by game speed)] [once] [starting from the [Industrial era]]]"
+          "Comment [May buy [{non-[Great Scientist]} {Great Person}] units for [1875] [Faith] [in capital] [(modified by game speed)] [once] [starting from the [Industrial era]]]",
+          "[+3 Faith] from every [Temple]",
+          "[+3 Faith] from every [Shrine]",
+          "[+3 Culture] from every [Temple]",
+          "[+3 Culture] from every [Shrine]",
+          "[+3 Gold] from every [Temple]",
+          "[+3 Gold] from every [Shrine]",
+          "[+2 Happiness] from every [Temple]",
+          "[+2 Happiness] from every [Shrine]",
+          "[+2 Science] from every [Temple]",
+          "[+2 Science] from every [Shrine]",
+          "[+5 Faith] from every [Holy site]",
+          "[+5 Culture] from every [Holy site]",
+          "[+5 Gold] from every [Holy site]",
+          "[+3 Happiness] from every [Holy site]",
+          "[+3 Science] from every [Holy site]",
+          "[+5 Food] from every [Holy site]",
+          "[+100]% Production when constructing [Temple] buildings [in all cities]",
+          "[+100]% Production when constructing [Shrine] buildings [in all cities]",
+          "[+50]% Production when constructing [Grand Temple] wonders [in all cities]",
+          "[+50]% Production when constructing [Garden] buildings [in all cities]",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "[+25]% [Faith] [in all cities]",
+          "[+10]% [Culture] [in all cities]",
+          "Comment [The religious path reaches its divine culmination — faith permeates every stone, every soul, and every breath of the empire's being.]"
         ]
       }
     ]
@@ -372,7 +660,15 @@
       "[Great Writer] is earned [25]% faster",
       "[Great Musician] is earned [25]% faster",
       "Comment [Unlocks [Uffizi]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Culture] from every [Monument]",
+      "[+1 Culture] from every [Amphitheater]",
+      "[+1 Culture] from every [Opera House]",
+      "[+1 Culture] from every [Museum]",
+      "[+1 Culture] from every [Broadcast Tower]",
+      "[+1 Culture] from every [World Wonder]",
+      "[-10]% Culture cost of natural border growth [in all cities]",
+      "Comment [Beauty becomes a pursuit of the state — artists, writers, and musicians find patronage and the empire's soul blossoms.]"
     ],
     "policies": [
       {
@@ -385,7 +681,25 @@
           "[+1 Happiness] from every [Writer Guild]",
           "[+1 Happiness] from every [Artist Guild]",
           "[+1 Happiness] from every [Musician Guild]",
-          "Provides [1] [Policies]"
+          "[+1 Culture] from every [Writer Guild]",
+          "[+1 Culture] from every [Artist Guild]",
+          "[+1 Culture] from every [Musician Guild]",
+          "[+1 Science] from every [Writer Guild]",
+          "[+1 Science] from every [Artist Guild]",
+          "[+1 Science] from every [Musician Guild]",
+          "[+1 Gold] from every [Writer Guild]",
+          "[+1 Gold] from every [Artist Guild]",
+          "[+1 Gold] from every [Musician Guild]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "Provides [1] [Policies]",
+          "Comment [Cultural institutions anchor the creative life of the nation — guilds flourish and performance halls become cathedrals of the human spirit.]"
         ],
         "row": 1,
         "column": 3
@@ -397,7 +711,17 @@
           "[+1 Culture] from every [Great Improvement]",
           "[+1 Culture] from every [Trading post]",
           "[+1 Culture] from every [Chateau]",
-          "Provides [1] [Policies]"
+          "[+1 Gold] from every [Great Improvement]",
+          "[+1 Gold] from every [Trading post]",
+          "[+1 Science] from every [Great Improvement]",
+          "[+1 Science] from every [Trading post]",
+          "[+1 Culture] from every [Landmark]",
+          "[+2 Culture] from every [Great Work]",
+          "[+1 Happiness] from every [Great Work]",
+          "[+1 Gold] from every [Great Work]",
+          "[+1 Science] from every [Great Work]",
+          "Provides [1] [Policies]",
+          "Comment [The exchange of ideas across borders enriches all — great works travel the empire and every landmark tells a story of shared humanity.]"
         ],
         "requires": [
           "Cultural Centers"
@@ -415,7 +739,23 @@
           "[+1 Science] from every [Broadcast Tower]",
           "[+3 Science] from every [Great Work]",
           "[+2 Science] from every [Landmark]",
-          "Provides [1] [Policies]"
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[+1 Gold] from every [Museum]",
+          "[+1 Gold] from every [Amphitheater]",
+          "[+1 Gold] from every [Opera House]",
+          "[+1 Gold] from every [Broadcast Tower]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "[+3 Culture] from every [Great Work]",
+          "[+2 Happiness] from every [Great Work]",
+          "[+2 Gold] from every [Great Work]",
+          "Provides [1] [Policies]",
+          "Comment [Genius transcends the ordinary — the artist's vision transforms cities into living galleries and every work becomes a beacon of civilization.]"
         ],
         "requires": [
           "Cultural Centers"
@@ -429,7 +769,21 @@
           "[+1 Culture] from every [Great Work]",
           "[+1 Culture] from every [World Wonder]",
           "Empire enters golden age",
-          "Provides [1] [Policies]"
+          "[+2 Culture] from every [World Wonder]",
+          "[+2 Science] from every [World Wonder]",
+          "[+2 Gold] from every [World Wonder]",
+          "[+1 Happiness] from every [World Wonder]",
+          "[+2 Culture] from every [Great Work]",
+          "[+2 Happiness] from every [Great Work]",
+          "[+2 Gold] from every [Great Work]",
+          "[+2 Science] from every [Great Work]",
+          "[+1 Happiness] from every [Landmark]",
+          "[+1 Culture] from every [Landmark]",
+          "[+1 Gold] from every [Landmark]",
+          "[+1 Science] from every [Landmark]",
+          "[+25]% [Culture] [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [The arts flourish beyond measure — a golden age dawns and the empire's cultural output becomes the envy of the civilized world.]"
         ],
         "requires": [
           "Cultural Exchange"
@@ -441,7 +795,19 @@
         "name": "Fine Arts",
         "uniques": [
           "Gain a free [Fine Art Specialist] [in all cities]",
-          "Provides [1] [Policies]"
+          "[+1 Culture] from every specialist [in all cities]",
+          "[+1 Science] from every specialist [in all cities]",
+          "[+1 Gold] from every specialist [in all cities]",
+          "[+50]% [Culture] <in cities with a [Museum]>",
+          "[+50]% [Culture] <in cities with a [Broadcast Tower]>",
+          "[+50]% [Culture] <in cities with a [Opera House]>",
+          "[+50]% [Culture] <in cities with a [Amphitheater]>",
+          "[-25]% Culture cost of natural border growth [in all cities]",
+          "[+2 Culture] from every [Great Work]",
+          "[+2 Science] from every [Great Work]",
+          "[+2 Gold] from every [Great Work]",
+          "Provides [1] [Policies]",
+          "Comment [The fine arts become the lifeblood of the nation — every specialist contributes to the cultural tapestry and cities radiate with creative energy.]"
         ],
         "requires": [
           "Cultural Exchange",
@@ -458,7 +824,33 @@
           "Free Social Policy",
           "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
           "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-          "May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+          "May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+          "[+3 Culture] from every [Great Work]",
+          "[+3 Science] from every [Great Work]",
+          "[+3 Gold] from every [Great Work]",
+          "[+2 Happiness] from every [Great Work]",
+          "[+3 Culture] from every [World Wonder]",
+          "[+3 Science] from every [World Wonder]",
+          "[+3 Gold] from every [World Wonder]",
+          "[+2 Happiness] from every [World Wonder]",
+          "[+3 Culture] from every [Landmark]",
+          "[+3 Science] from every [Landmark]",
+          "[+3 Gold] from every [Landmark]",
+          "[+2 Happiness] from every [Landmark]",
+          "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
+          "[+50]% Production when constructing [Opera House] buildings [in all cities]",
+          "[+50]% Production when constructing [Museum] buildings [in all cities]",
+          "[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+          "[Great Artist] is earned [50]% faster",
+          "[Great Writer] is earned [50]% faster",
+          "[Great Musician] is earned [50]% faster",
+          "[+25]% [Culture] [in all cities]",
+          "[-25]% Culture cost of natural border growth [in all cities]",
+          "[+2 Happiness] from every [Museum]",
+          "[+2 Happiness] from every [Opera House]",
+          "[+2 Happiness] from every [Amphitheater]",
+          "[+2 Happiness] from every [Broadcast Tower]",
+          "Comment [Aesthetics reaches its sublime pinnacle — the empire becomes a living masterpiece, every city a canvas, every citizen a brushstroke in the grand composition of civilization.]"
         ]
       }
     ]
@@ -469,13 +861,31 @@
     "uniques": [
       "Resting point for Influence with City-States is increased by [25]",
       "Comment [Unlocks [Forbidden Palace]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Happiness] [in all cities connected to capital]",
+      "[+1 Gold] [in all cities connected to capital]",
+      "[+1 Culture] [in all cities connected to capital]",
+      "[-10]% City-State Influence degradation",
+      "[+1 Science] [in all cities connected to capital]",
+      "Comment [The empire extends its hand to the lesser nations of the world — diplomacy becomes a weapon as potent as any army.]"
     ],
     "policies": [
       {
         "name": "Merchant Confederacy",
         "uniques": [
-          "Provides [1] [Policies]"
+          "[+25]% [Gold] from Trade Routes",
+          "[+1 Gold] from every [Trading post]",
+          "[+1 Gold] from every [Customs house]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Happiness] [in all cities connected to capital]",
+          "[+1 Culture] [in all cities connected to capital]",
+          "[-15]% City-State Influence degradation",
+          "[+1 Gold] from every [Luxury resource]",
+          "[-10]% maintenance on road & railroads",
+          "Provides [1] [Policies]",
+          "Comment [Merchants weave a confederacy of mutual interest — gold flows between capitals and the bonds of commerce become stronger than iron.]"
         ],
         "row": 1,
         "column": 3
@@ -484,7 +894,17 @@
         "name": "Scholasticism",
         "uniques": [
           "Allied City-States provide [Science] equal to [25]% of what they produce for themselves",
-          "Provides [1] [Policies]"
+          "[+1 Science] [in all cities connected to capital]",
+          "[+2 Science] from every [Library]",
+          "[+2 Science] from every [University]",
+          "[+2 Science] from every [Observatory]",
+          "[+2 Science] from every [Public School]",
+          "[+2 Science] from every [Research Lab]",
+          "[+1 Culture] [in all cities connected to capital]",
+          "[+1 Gold] [in all cities connected to capital]",
+          "[-10]% City-State Influence degradation",
+          "Provides [1] [Policies]",
+          "Comment [Scholarship transcends borders — allied city-states share their learning and the empire becomes a nexus of intellectual exchange.]"
         ],
         "requires": [
           "Merchant Confederacy"
@@ -499,7 +919,15 @@
           "[+55]% Happiness from luxury resources gifted by City-States",
           "Gain an extra spy",
           "[+25]% spy effectiveness [in all cities]",
-          "Provides [1] [Policies]"
+          "[+1 Culture] [in all cities connected to capital]",
+          "[+1 Science] [in all cities connected to capital]",
+          "[+1 Gold] [in all cities connected to capital]",
+          "[+1 Happiness] [in all cities connected to capital]",
+          "[-15]% City-State Influence degradation",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "Provides [1] [Policies]",
+          "Comment [Diplomacy becomes an art form — cultural ties bind city-states to the empire and spies weave invisible threads of influence.]"
         ],
         "requires": [
           "Merchant Confederacy"
@@ -513,7 +941,14 @@
           "Gifts of Gold to City-States generate [25]% more Influence",
           "[-30]% City-State Influence degradation",
           "City-State territory always counts as friendly territory",
-          "Provides [1] [Policies]"
+          "[+1 Happiness] [in all cities connected to capital]",
+          "[+1 Gold] [in all cities connected to capital]",
+          "[+1 Culture] [in all cities connected to capital]",
+          "[+1 Science] [in all cities connected to capital]",
+          "[-15]% maintenance on road & railroads",
+          "[+25]% [Gold] from Trade Routes",
+          "Provides [1] [Policies]",
+          "Comment [Generosity becomes strategy — philanthropic gifts secure loyalty and city-state territory becomes an extension of the empire's friendly domain.]"
         ],
         "requires": [
           "Merchant Confederacy"
@@ -527,7 +962,16 @@
           "Resting point for Influence with City-States is increased by [30]",
           "Promotes all spies [1] time(s)",
           "New spies start with [2] level(s)",
-          "Provides [1] [Policies]"
+          "[+1 Culture] [in all cities connected to capital]",
+          "[+1 Science] [in all cities connected to capital]",
+          "[+1 Gold] [in all cities connected to capital]",
+          "[+1 Happiness] [in all cities connected to capital]",
+          "[-20]% City-State Influence degradation",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[+50]% spy effectiveness [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [Consulates dot the map like stars — diplomatic missions extend the empire's reach and spies operate with unprecedented skill.]"
         ],
         "requires": [
           "Cultural Diplomacy"
@@ -542,7 +986,23 @@
           "[+50]% [Faith] from City-States",
           "[+50]% [Food] from City-States",
           "[+50]% [Happiness] from City-States",
-          "Allied City-States will occasionally gift Great People"
+          "Allied City-States will occasionally gift Great People",
+          "[+50]% [Gold] from City-States",
+          "[+50]% [Science] from City-States",
+          "[+50]% [Production] from City-States",
+          "Resting point for Influence with City-States is increased by [50]",
+          "[-50]% City-State Influence degradation",
+          "[+2 Gold] [in all cities connected to capital]",
+          "[+2 Culture] [in all cities connected to capital]",
+          "[+2 Science] [in all cities connected to capital]",
+          "[+2 Happiness] [in all cities connected to capital]",
+          "[+2 Production] [in all cities connected to capital]",
+          "[+2 Food] [in all cities connected to capital]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-25]% maintenance on road & railroads",
+          "Gain [2] extra spies",
+          "[+50]% spy effectiveness [in all cities]",
+          "Comment [The empire's diplomatic web spans the globe — city-states are not mere allies but extensions of the imperial will, bound by gold, culture, and shared destiny.]"
         ]
       }
     ]
@@ -555,7 +1015,14 @@
       "Free [Fluyt] appears",
       "Comment [Unlocks [The Louvre]]",
       "Comment [Unlocks [Conquistador]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Gold] from every [Coast]",
+      "[+1 Gold] from every [Ocean]",
+      "[+1 Culture] from every [Coast]",
+      "[+1 Culture] from every [Ocean]",
+      "[+1 Science] from every [Coast]",
+      "[+1 Science] from every [Ocean]",
+      "Comment [The call of the unknown drives the empire outward — ships venture beyond the horizon and the sea becomes a highway of discovery.]"
     ],
     "era": "Medieval era",
     "policies": [
@@ -565,7 +1032,20 @@
           "[+1 Happiness, +1 Culture] from every [Lighthouse]",
           "[+1 Happiness, +1 Culture] from every [Harbor]",
           "[+1 Happiness, +1 Culture] from every [Seaport]",
-          "Provides [1] [Policies]"
+          "[+1 Science] from every [Lighthouse]",
+          "[+1 Science] from every [Harbor]",
+          "[+1 Science] from every [Seaport]",
+          "[+1 Gold] from every [Lighthouse]",
+          "[+1 Gold] from every [Harbor]",
+          "[+1 Gold] from every [Seaport]",
+          "[+1 Production] from every [Lighthouse]",
+          "[+1 Production] from every [Harbor]",
+          "[+1 Production] from every [Seaport]",
+          "[+1 Food] from every [Lighthouse]",
+          "[+1 Food] from every [Harbor]",
+          "[+1 Food] from every [Seaport]",
+          "Provides [1] [Policies]",
+          "Comment [The sea runs in the blood of the nation — every lighthouse, harbor, and seaport becomes a monument to the enduring bond between the people and the deep.]"
         ],
         "row": 1,
         "column": 1
@@ -580,7 +1060,16 @@
           "[+50]% Production when constructing [Seaport] buildings [in all cities]",
           "[+1 Gold] from every [Harbor]",
           "[+1 Gold] from every [Seaport]",
-          "Provides [1] [Policies]"
+          "[+2 Gold] from every [Lighthouse]",
+          "[+2 Gold] from every [Harbor]",
+          "[+2 Gold] from every [Seaport]",
+          "[+1 Food] [in all coastal cities]",
+          "[+1 Science] [in all coastal cities]",
+          "[+1 Culture] [in all coastal cities]",
+          "[+1 Happiness] [in all coastal cities]",
+          "[-15]% maintenance on road & railroads",
+          "Provides [1] [Policies]",
+          "Comment [The coastline bristles with industry — shipyards, wharves, and workshops line the shore and maritime commerce drives the engine of progress.]"
         ],
         "row": 1,
         "column": 3
@@ -590,7 +1079,17 @@
         "uniques": [
           "Gain a free [Governor's Mansion] [in this city] <upon founding a city>",
           "Free [Worker] appears <upon founding a city>",
-          "Provides [1] [Policies]"
+          "[+2 Food] [in all coastal cities]",
+          "[+2 Gold] [in all coastal cities]",
+          "[+1 Happiness] [in all coastal cities]",
+          "[+1 Culture] [in all coastal cities]",
+          "[+1 Science] [in all coastal cities]",
+          "[+1 Production] [in all coastal cities]",
+          "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
+          "[+50]% Production when constructing [Harbor] buildings [in all cities]",
+          "[-20]% unhappiness from the number of cities",
+          "Provides [1] [Policies]",
+          "Comment [Colonies sprout across distant shores — each new settlement arrives fully provisioned and the empire's reach extends to every corner of the map.]"
         ],
         "row": 1,
         "column": 5
@@ -600,7 +1099,19 @@
         "uniques": [
           "[+2 Science] [in all cities]",
           "[+10]% Strength <for [Water] units>",
-          "Provides [1] [Policies]"
+          "[+1 Science] from every [Lighthouse]",
+          "[+1 Science] from every [Harbor]",
+          "[+1 Science] from every [Seaport]",
+          "[+2 Science] [in all coastal cities]",
+          "[+1 Culture] [in all coastal cities]",
+          "[+1 Gold] [in all coastal cities]",
+          "[+1 Production] [in all coastal cities]",
+          "[+1 Food] [in all coastal cities]",
+          "[+1 Happiness] [in all coastal cities]",
+          "[+2] Sight <for [{Military} {Water}] units>",
+          "[Great Admiral] is earned [25]% faster",
+          "Provides [1] [Policies]",
+          "Comment [The navigation school charts the stars and currents — naval officers graduate with unparalleled knowledge and the fleet sails with supreme confidence.]"
         ],
         "requires": [
           "Maritime Infrastructure",
@@ -614,7 +1125,19 @@
         "uniques": [
           "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
           "[+1 Gold, +1 Production, +1 Food] from every [Ocean]",
-          "Provides [1] [Policies]"
+          "[+2 Gold] from every [Coast]",
+          "[+2 Gold] from every [Ocean]",
+          "[+1 Culture] from every [Coast]",
+          "[+1 Culture] from every [Ocean]",
+          "[+1 Science] from every [Coast]",
+          "[+1 Science] from every [Ocean]",
+          "[+25]% [Gold] from Trade Routes",
+          "[+2 Gold] from every [Harbor]",
+          "[+2 Gold] from every [Seaport]",
+          "[+2 Gold] from every [Customs house]",
+          "[+50]% [Gold] [in all coastal cities]",
+          "Provides [1] [Policies]",
+          "Comment [Treasure fleets sail the trade winds — the ocean's bounty fills the imperial coffers and every wave carries fortune to the homeland.]"
         ],
         "requires": [
           "Navigation School"
@@ -628,7 +1151,35 @@
           "[Great Admiral] is earned [150]% faster",
           "Free [Great Admiral] appears",
           "[+1] Happiness from each type of luxury resource",
-          "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+          "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+          "[+2 Gold] from every [Coast]",
+          "[+2 Gold] from every [Ocean]",
+          "[+2 Culture] from every [Coast]",
+          "[+2 Culture] from every [Ocean]",
+          "[+2 Science] from every [Coast]",
+          "[+2 Science] from every [Ocean]",
+          "[+2 Production] from every [Coast]",
+          "[+2 Production] from every [Ocean]",
+          "[+2 Food] from every [Coast]",
+          "[+2 Food] from every [Ocean]",
+          "[+2 Happiness] [in all coastal cities]",
+          "[+3 Gold] [in all coastal cities]",
+          "[+3 Science] [in all coastal cities]",
+          "[+3 Culture] [in all coastal cities]",
+          "[+3 Production] [in all coastal cities]",
+          "[+3 Food] [in all coastal cities]",
+          "[+50]% [Gold] [in all coastal cities]",
+          "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
+          "[+50]% Production when constructing [Harbor] buildings [in all cities]",
+          "[+50]% Production when constructing [Seaport] buildings [in all cities]",
+          "[+2] Movement <for [{Military} {Water}] units>",
+          "[+2] Sight <for [{Military} {Water}] units>",
+          "[+15]% Strength <for [Water] units>",
+          "[-25]% maintenance costs <for [{Military} {Water}] units>",
+          "[+2 Happiness] from every [Lighthouse]",
+          "[+2 Happiness] from every [Harbor]",
+          "[+2 Happiness] from every [Seaport]",
+          "Comment [Exploration reaches its ultimate expression — the empire rules the waves, and every ocean tile, every coastal city, and every distant shore bows to the nation's maritime supremacy.]"
         ]
       }
     ]
@@ -639,7 +1190,15 @@
       "[Great Merchant] is earned [30]% faster",
       "Comment [Unlocks [Big Ben]]",
       "[+20]% [Gold] [in capital]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Gold] from every [Market]",
+      "[+1 Gold] from every [Bank]",
+      "[+1 Gold] from every [Stock Exchange]",
+      "[+1 Gold] from every [Trading post]",
+      "[+1 Gold] from every [Customs house]",
+      "[-10]% maintenance on road & railroads",
+      "[+1 Culture] from every [Market]",
+      "Comment [Commerce courses through the empire's veins — markets bustle, banks hum with activity, and gold flows like water from every corner of the realm.]"
     ],
     "era": "Medieval era",
     "policies": [
@@ -647,7 +1206,20 @@
         "name": "Silk Road",
         "uniques": [
           "[+30]% [Gold] from Trade Routes",
-          "Provides [1] [Policies]"
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[+1 Gold] from every [Market]",
+          "[+1 Gold] from every [Bank]",
+          "[+1 Gold] from every [Stock Exchange]",
+          "[+1 Science] from every [Trading post]",
+          "[+1 Science] from every [Customs house]",
+          "[+1 Culture] from every [Trading post]",
+          "[+1 Culture] from every [Customs house]",
+          "[-15]% maintenance on road & railroads",
+          "Improves movement speed on roads",
+          "[+1 Happiness] [in all cities connected to capital]",
+          "Provides [1] [Policies]",
+          "Comment [The Silk Road spans continents — caravans carry silk, spice, and silver across vast distances and the empire grows rich on trade.]"
         ],
         "row": 1,
         "column": 2
@@ -657,7 +1229,17 @@
         "uniques": [
           "[+5 Gold] from every [Customs house]",
           "Provides [1] [Policies]",
-          "[-30]% maintenance cost for [all] buildings [in all cities]"
+          "[-30]% maintenance cost for [all] buildings [in all cities]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Science] from every [Customs house]",
+          "[+1 Culture] from every [Customs house]",
+          "[+1 Happiness] from every [Customs house]",
+          "[+1 Gold] from every [Trading post]",
+          "[-20]% maintenance on road & railroads",
+          "[+25]% [Gold] [in capital]",
+          "Comment [Private enterprise drives innovation — the owner's stake in the land yields dividends and the reduction in overhead enriches every enterprise.]"
         ],
         "row": 1,
         "column": 5
@@ -667,7 +1249,21 @@
         "uniques": [
           "[-35]% maintenance on road & railroads",
           "[-30]% maintenance cost for [all] buildings [in all cities]",
-          "Provides [1] [Policies]"
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Science] from every [Market]",
+          "[+1 Science] from every [Bank]",
+          "[+1 Science] from every [Stock Exchange]",
+          "[+1 Culture] from every [Market]",
+          "[+1 Culture] from every [Bank]",
+          "[+1 Culture] from every [Stock Exchange]",
+          "[+25]% [Gold] from Trade Routes",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[-20]% maintenance costs <for [All] units>",
+          "Provides [1] [Policies]",
+          "Comment [Entrepreneurs seize opportunity with both hands — ventures flourish, overhead shrinks, and the entrepreneurial spirit transforms the empire's economy.]"
         ],
         "requires": [
           "Silk Road"
@@ -682,7 +1278,20 @@
           "[+2 Science] from every [Market]",
           "[+2 Science] from every [Bank]",
           "[+2 Science] from every [Stock Exchange]",
-          "Provides [1] [Policies]"
+          "[+1 Gold] from every [Market]",
+          "[+1 Gold] from every [Bank]",
+          "[+1 Gold] from every [Stock Exchange]",
+          "[+1 Culture] from every [Market]",
+          "[+1 Culture] from every [Bank]",
+          "[+1 Culture] from every [Stock Exchange]",
+          "[+1 Happiness] from every [Market]",
+          "[+1 Happiness] from every [Bank]",
+          "[+1 Happiness] from every [Stock Exchange]",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[+25]% [Gold] [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [Mercantilist doctrine guides the empire's economic policy — gold accumulates, science advances, and the nation's wealth becomes its strength.]"
         ],
         "requires": [
           "Silk Road"
@@ -698,7 +1307,24 @@
           "[+30]% [Gold] [in all cities]",
           "[+50]% [Production] [in all cities]",
           "[-1 Happiness] per [3] population [in all cities]",
-          "Provides [1] [Policies]"
+          "[+3 Science] from every [Market]",
+          "[+3 Science] from every [Bank]",
+          "[+3 Science] from every [Stock Exchange]",
+          "[+3 Gold] from every [Market]",
+          "[+3 Gold] from every [Bank]",
+          "[+3 Gold] from every [Stock Exchange]",
+          "[+3 Culture] from every [Market]",
+          "[+3 Culture] from every [Bank]",
+          "[+3 Culture] from every [Stock Exchange]",
+          "[+5 Gold] from every [Customs house]",
+          "[+5 Gold] from every [Trading post]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-40]% maintenance cost for [all] buildings [in all cities]",
+          "[-35]% maintenance on road & railroads",
+          "[+2 Production] from every [Workshop]",
+          "[+2 Production] from every [Factory]",
+          "Provides [1] [Policies]",
+          "Comment [Capitalism's relentless engine drives the empire to unprecedented prosperity — markets expand, factories roar, and the cost of progress is measured in the coin of human contentment.]"
         ],
         "requires": [
           "Mercantilism"
@@ -712,7 +1338,35 @@
           "[2] free [Great Merchant] units appear",
           "[+2 Food, +2 Gold] from every [Trading post]",
           "[+110]% Gold from Great Merchant trade missions",
-          "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+          "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+          "[+5 Gold] from every [Market]",
+          "[+5 Gold] from every [Bank]",
+          "[+5 Gold] from every [Stock Exchange]",
+          "[+3 Science] from every [Market]",
+          "[+3 Science] from every [Bank]",
+          "[+3 Science] from every [Stock Exchange]",
+          "[+3 Culture] from every [Market]",
+          "[+3 Culture] from every [Bank]",
+          "[+3 Culture] from every [Stock Exchange]",
+          "[+2 Happiness] from every [Market]",
+          "[+2 Happiness] from every [Bank]",
+          "[+2 Happiness] from every [Stock Exchange]",
+          "[+5 Gold] from every [Customs house]",
+          "[+5 Gold] from every [Trading post]",
+          "[+3 Food] from every [Customs house]",
+          "[+3 Food] from every [Trading post]",
+          "[+3 Science] from every [Customs house]",
+          "[+3 Science] from every [Trading post]",
+          "[+3 Culture] from every [Customs house]",
+          "[+3 Culture] from every [Trading post]",
+          "[+50]% [Gold] [in all cities]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[Great Merchant] is earned [75]% faster",
+          "Comment [Commerce reaches its zenith — the empire's economic machinery operates at peak efficiency, gold cascades from every market and trade route, and the great merchants of the realm become legends of wealth and influence.]"
         ]
       }
     ]
@@ -725,7 +1379,15 @@
       "[-100]% Natural religion spread [in all cities]",
       "Only available <before adopting [Religious]>",
       "Comment [Unlocks [Porcelain Tower]]",
-      "Provides [1] [Policies]"
+      "Provides [1] [Policies]",
+      "[+1 Science] from every [Library]",
+      "[+1 Science] from every [University]",
+      "[+1 Science] from every [Observatory]",
+      "[+1 Science] from every [Research Lab]",
+      "[+1 Science] from every [Public School]",
+      "[+1 Culture] from every [Library]",
+      "[+1 Culture] from every [University]",
+      "Comment [Reason supersedes revelation — the empire turns from faith to inquiry and the light of science illuminates every corner of the realm.]"
     ],
     "policies": [
       {
@@ -736,7 +1398,23 @@
           "[+1 Gold] from every [Observatory]",
           "[+1 Gold] from every [Research Lab]",
           "[+1 Gold] from every [Public School]",
-          "Provides [1] [Policies]"
+          "[+2 Science] from every [Library]",
+          "[+2 Science] from every [University]",
+          "[+2 Science] from every [Observatory]",
+          "[+2 Science] from every [Research Lab]",
+          "[+2 Science] from every [Public School]",
+          "[+1 Culture] from every [Library]",
+          "[+1 Culture] from every [University]",
+          "[+1 Culture] from every [Observatory]",
+          "[+1 Culture] from every [Research Lab]",
+          "[+1 Culture] from every [Public School]",
+          "[+1 Happiness] from every [Library]",
+          "[+1 Happiness] from every [University]",
+          "[+1 Happiness] from every [Observatory]",
+          "[+1 Happiness] from every [Research Lab]",
+          "[+1 Happiness] from every [Public School]",
+          "Provides [1] [Policies]",
+          "Comment [Sovereignty of the intellect — the state claims authority over knowledge and scientific institutions become the new temples of the realm.]"
         ],
         "row": 1,
         "column": 1
@@ -749,7 +1427,19 @@
           "[+4 Science] from every [Customs house]",
           "[+4 Science] from every [Academy]",
           "[+25]% Great Person generation [in all cities]",
-          "Provides [1] [Policies]"
+          "[+2 Science] from every [Market]",
+          "[+2 Science] from every [Bank]",
+          "[+2 Science] from every [Stock Exchange]",
+          "[+1 Culture] from every [Trading post]",
+          "[+1 Culture] from every [Customs house]",
+          "[+1 Gold] from every [Academy]",
+          "[+1 Happiness] from every [Academy]",
+          "[+50]% Production when constructing [University] buildings [in all cities]",
+          "[+50]% Production when constructing [Observatory] buildings [in all cities]",
+          "[+50]% Production when constructing [Research Lab] buildings [in all cities]",
+          "[+50]% Production when constructing [Public School] buildings [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [Free thought unshackles the mind — every trading post becomes a node of inquiry and the academy stands as the supreme monument to unfettered reason.]"
         ],
         "row": 1,
         "column": 3
@@ -758,7 +1448,19 @@
         "name": "Humanism",
         "uniques": [
           "[+30]% Production when constructing [Military] units [in all cities]",
-          "Provides [1] [Policies]"
+          "[+1 Science] from every [Monument]",
+          "[+1 Science] from every [Temple]",
+          "[+1 Science] from every [Amphitheater]",
+          "[+1 Science] from every [Opera House]",
+          "[+1 Science] from every [Museum]",
+          "[+1 Science] from every [Broadcast Tower]",
+          "[+2 Science] from every specialist [in all cities]",
+          "[+1 Culture] from every specialist [in all cities]",
+          "[+1 Happiness] from every specialist [in all cities]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[-15]% Food consumption by [Specialists] [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [Humanism places the individual at the center of the cosmos — every person becomes a vessel of reason and the pursuit of knowledge becomes the highest calling.]"
         ],
         "row": 1,
         "column": 5
@@ -769,7 +1471,17 @@
           "Free [Great Scientist] appears",
           "[+25]% [Science] [in all cities] <during a Golden Age>",
           "Empire enters golden age",
-          "Provides [1] [Policies]"
+          "[+50]% [Science] [in capital]",
+          "[+2 Science] from every [Library]",
+          "[+2 Science] from every [University]",
+          "[+2 Science] from every [Observatory]",
+          "[+2 Science] from every [Research Lab]",
+          "[+2 Science] from every [Public School]",
+          "[+3 Science] from every [Academy]",
+          "[+3 Science] from every specialist [in all cities]",
+          "[-25]% Science cost of researching new Technologies",
+          "Provides [1] [Policies]",
+          "Comment [The scientific revolution overturns the old order — a golden age of reason dawns and the pace of discovery accelerates beyond all prior reckoning.]"
         ],
         "requires": [
           "Free Thought",
@@ -782,7 +1494,22 @@
         "name": "Atheism",
         "uniques": [
           "[+2 Science] from every specialist [in all cities]",
-          "Provides [1] [Policies]"
+          "[+3 Science] from every [Library]",
+          "[+3 Science] from every [University]",
+          "[+3 Science] from every [Observatory]",
+          "[+3 Science] from every [Research Lab]",
+          "[+3 Science] from every [Public School]",
+          "[+1 Culture] from every specialist [in all cities]",
+          "[+1 Gold] from every specialist [in all cities]",
+          "[+1 Happiness] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-30]% Food consumption by [Specialists] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[-15]% Unhappiness from [Population] [in all cities]",
+          "[+50]% Production when constructing [Library] buildings [in all cities]",
+          "[+50]% Production when constructing [University] buildings [in all cities]",
+          "Provides [1] [Policies]",
+          "Comment [The abandonment of the divine frees the mind — without the burden of faith, the empire's intellectuals pursue truth with unclouded eyes and science advances at a prodigious rate.]"
         ],
         "requires": [
           "Scientific Revolution"
@@ -794,7 +1521,38 @@
         "name": "Secularism Complete",
         "uniques": [
           "[10]% [Science] <while the empire is happy>",
-          "[2] Free Technologies"
+          "[2] Free Technologies",
+          "[+5 Science] from every [Library]",
+          "[+5 Science] from every [University]",
+          "[+5 Science] from every [Observatory]",
+          "[+5 Science] from every [Research Lab]",
+          "[+5 Science] from every [Public School]",
+          "[+5 Science] from every [Academy]",
+          "[+3 Science] from every specialist [in all cities]",
+          "[+3 Culture] from every specialist [in all cities]",
+          "[+3 Gold] from every specialist [in all cities]",
+          "[+2 Happiness] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+50]% [Science] [in all cities]",
+          "[-33]% Science cost of researching new Technologies",
+          "[Great Scientist] is earned [75]% faster",
+          "[+50]% Production when constructing [Library] buildings [in all cities]",
+          "[+50]% Production when constructing [University] buildings [in all cities]",
+          "[+50]% Production when constructing [Observatory] buildings [in all cities]",
+          "[+50]% Production when constructing [Research Lab] buildings [in all cities]",
+          "[+50]% Production when constructing [Public School] buildings [in all cities]",
+          "[+2 Culture] from every [Library]",
+          "[+2 Culture] from every [University]",
+          "[+2 Culture] from every [Observatory]",
+          "[+2 Culture] from every [Research Lab]",
+          "[+2 Culture] from every [Public School]",
+          "[+2 Gold] from every [Library]",
+          "[+2 Gold] from every [University]",
+          "[+2 Gold] from every [Observatory]",
+          "[+2 Gold] from every [Research Lab]",
+          "[+2 Gold] from every [Public School]",
+          "Comment [Secularism reaches its ultimate triumph — the empire stands as a beacon of reason in a world still shrouded in superstition, and the pursuit of knowledge becomes the sole religion of the state.]"
         ]
       }
     ]
@@ -807,7 +1565,13 @@
       "[+25]% Production when constructing [All] buildings [in all cities]",
       "Only available <before adopting [Fascism]>",
       "Only available <before adopting [Liberalism]>",
-      "Only available <after adopting [Ideology]>"
+      "Only available <after adopting [Ideology]>",
+      "[+2 Production] [in all cities]",
+      "[+2 Science] [in all cities]",
+      "[-15]% Unhappiness from [Population] [in all cities]",
+      "[+1 Happiness] from every [Factory]",
+      "[+1 Happiness] from every [Workshop]",
+      "Comment [The workers rise — the means of production belong to the people and the collective will drives the empire toward an egalitarian future.]"
     ],
     "policies": [
       {
@@ -815,7 +1579,14 @@
         "uniques": [
           "[+20]% Great Person generation [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Production] from every [Factory]",
+          "[+1 Production] from every [Workshop]",
+          "[+1 Science] from every [Factory]",
+          "[+1 Science] from every [Workshop]",
+          "[+1 Culture] from every [Factory]",
+          "[+1 Culture] from every [Workshop]",
+          "Comment [The hero of the people embodies the ideals of the revolution — labor is exalted and the worker becomes the protagonist of history.]"
         ],
         "row": 1,
         "column": 1
@@ -826,7 +1597,15 @@
           "[+2 Happiness] from every [Monument]",
           "[+100]% Production when constructing [Monument] buildings [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Culture] from every [Monument]",
+          "[+1 Science] from every [Monument]",
+          "[+1 Gold] from every [Monument]",
+          "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
+          "[+50]% Production when constructing [Opera House] buildings [in all cities]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "Comment [Socialist realism shapes art to serve the people — monuments glorify the worker's struggle and cultural production serves the collective good.]"
         ],
         "row": 1,
         "column": 3
@@ -836,7 +1615,13 @@
         "uniques": [
           "[Gold] cost of purchasing [All] buildings [-60]%",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% Production when constructing [All] buildings [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]",
+          "[+2 Production] [in all cities]",
+          "[+1 Gold] from every [Workshop]",
+          "[+1 Gold] from every [Factory]",
+          "Comment [Skyscrapers pierce the sky — monumental architecture proclaims the power of the state and the urban landscape transforms at breakneck speed.]"
         ],
         "row": 1,
         "column": 5
@@ -846,7 +1631,12 @@
         "uniques": [
           "[-100]% enemy spy effectiveness [in all cities connected to capital]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "Gain an extra spy",
+          "[+50]% spy effectiveness [in all cities]",
+          "New spies start with [2] level(s)",
+          "Promotes all spies [1] time(s)",
+          "Comment [Double agents infiltrate every foreign network — the intelligence apparatus becomes impenetrable and enemy spies find only mirrors and shadows.]"
         ],
         "row": 1,
         "column": 7
@@ -860,7 +1650,18 @@
           "[+1 Happiness] from every [Nuclear Plant]",
           "[+1 Happiness] from every [Hydro Plant]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Science] from every [Workshop]",
+          "[+1 Science] from every [Factory]",
+          "[+1 Science] from every [Solar Plant]",
+          "[+1 Science] from every [Nuclear Plant]",
+          "[+1 Science] from every [Hydro Plant]",
+          "[+1 Production] from every [Workshop]",
+          "[+1 Production] from every [Factory]",
+          "[+1 Production] from every [Solar Plant]",
+          "[+1 Production] from every [Nuclear Plant]",
+          "[+1 Production] from every [Hydro Plant]",
+          "Comment [The young pioneers carry the revolution forward — industrial workers find pride and purpose in the factories and power plants that drive the nation.]"
         ],
         "row": 1,
         "column": 9
@@ -870,7 +1671,11 @@
         "uniques": [
           "[+2 Food, +2 Gold, +2 Production, +2 Science] [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Culture] [in all cities]",
+          "[+1 Happiness] [in all cities]",
+          "[-10]% Unhappiness from [Population] [in all cities]",
+          "Comment [The party's leadership guides every aspect of life — centralized planning ensures that no city is left behind and the collective flourishes.]"
         ],
         "row": 1,
         "column": 11
@@ -885,7 +1690,11 @@
           "Gain a free [Library] [in this city] <upon founding a city>",
           "Gain a free [Aqueduct] [in this city] <upon founding a city>",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "Gain a free [Market] [in this city] <upon founding a city>",
+          "Gain a free [Barracks] [in this city] <upon founding a city>",
+          "[-20]% unhappiness from the number of cities",
+          "Comment [Resettlement programs populate the frontier — new cities arrive fully provisioned with industry, culture, and knowledge, ready to contribute to the collective from day one.]"
         ],
         "row": 1,
         "column": 13
@@ -898,7 +1707,11 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "New [Military] units start with [15] XP [in all cities]",
+          "[+15]% Strength <for [Military] units> <when adjacent to a [Great General] unit>",
+          "Comment [The patriotic war mobilizes the entire populace — every citizen becomes a soldier and the defense of the motherland becomes the sacred duty of all.]"
         ],
         "row": 2,
         "column": 2
@@ -912,7 +1725,17 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Science] from every [Observatory]",
+          "[+2 Science] from every [Public School]",
+          "[+2 Science] from every [Research Lab]",
+          "[+1 Culture] from every [Observatory]",
+          "[+1 Culture] from every [Public School]",
+          "[+1 Culture] from every [Research Lab]",
+          "[+50]% Production when constructing [Observatory] buildings [in all cities]",
+          "[+50]% Production when constructing [Public School] buildings [in all cities]",
+          "[+50]% Production when constructing [Research Lab] buildings [in all cities]",
+          "Comment [The academy of sciences marshals the intellect of the nation — research institutions become fortresses of knowledge and scientific advancement serves the people.]"
         ],
         "row": 2,
         "column": 4
@@ -925,7 +1748,19 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% [Culture] [in all cities]",
+          "[+2 Culture] from every [Monument]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[+1 Happiness] from every [Monument]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "Comment [The cultural revolution sweeps away the old — a golden age of proletarian culture dawns and every institution serves the revolutionary spirit.]"
         ],
         "row": 2,
         "column": 6
@@ -938,7 +1773,14 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Science] from every [Factory]",
+          "[+2 Production] from every [Factory]",
+          "[+1 Culture] from every [Factory]",
+          "[+1 Happiness] from every [Factory]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+2 Science] from every [Workshop]",
+          "Comment [Workers' faculties educate the laboring masses — factories become centers of learning and the worker-scholar leads the march toward progress.]"
         ],
         "row": 2,
         "column": 8
@@ -952,7 +1794,15 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Production] from every [Factory]",
+          "[+1 Production] from every [Workshop]",
+          "[+1 Production] from every [Windmill]",
+          "[+1 Production] from every [Water Mill]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+25]% [Production] [in all cities]",
+          "Comment [The five-year plan marshals the productive forces of the nation — mines, quarries, and factories operate at unprecedented capacity and the industrial base expands exponentially.]"
         ],
         "row": 2,
         "column": 10
@@ -967,7 +1817,15 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Science] from every [Barracks]",
+          "[+2 Culture] from every [Barracks]",
+          "[+1 Happiness] from every [Barracks]",
+          "[+1 Happiness] from every [Armory]",
+          "[+1 Happiness] from every [Military Academy]",
+          "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "Comment [The people's army arises from the factories and fields — every worker stands ready to defend the revolution and military institutions serve as schools of science and culture.]"
         ],
         "row": 2,
         "column": 12
@@ -983,7 +1841,12 @@
           "Provides [5] [Uranium]",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Production] from every [Mine]",
+          "[+2 Production] from every [Quarry]",
+          "[+1 Happiness] from every [Strategic resource]",
+          "[+25]% [Production] [in all cities]",
+          "Comment [Communism's promise is fulfilled — strategic resources belong to the people and the nation's industrial might becomes inexhaustible.]"
         ],
         "row": 3,
         "column": 3
@@ -994,7 +1857,13 @@
           "Gain [25] Influence with a [Military] gift to a City-State",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% resources gifted by City-States",
+          "[+2 Happiness] [in all cities connected to capital]",
+          "[+2 Production] [in all cities connected to capital]",
+          "[+2 Science] [in all cities connected to capital]",
+          "[-25]% City-State Influence degradation",
+          "Comment [The iron curtain descends — the sphere of influence hardens into an impregnable wall and city-states within it become extensions of the revolutionary state.]"
         ],
         "row": 3,
         "column": 5
@@ -1006,13 +1875,46 @@
           "Free [Great Engineer] appears",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% Production when constructing [Spaceship part] units [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+2 Science] from every [Research Lab]",
+          "[+2 Science] from every [Observatory]",
+          "[+2 Science] from every [Public School]",
+          "Comment [The spaceflight pioneers reach for the stars — the revolution's final frontier is the cosmos itself and the collective's science propels the nation skyward.]"
         ],
         "row": 3,
         "column": 7
       },
       {
-        "name": "Communisms Complete"
+        "name": "Communisms Complete",
+        "uniques": [
+          "[+5 Production] [in all cities]",
+          "[+5 Science] [in all cities]",
+          "[+3 Culture] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[+3 Gold] [in all cities]",
+          "[+50]% Production when constructing [All] buildings [in all cities]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+3 Production] from every [Factory]",
+          "[+3 Science] from every [Factory]",
+          "[+3 Culture] from every [Factory]",
+          "[+2 Happiness] from every [Factory]",
+          "[+3 Production] from every [Workshop]",
+          "[+3 Science] from every [Workshop]",
+          "[+2 Culture] from every [Workshop]",
+          "[+2 Happiness] from every [Workshop]",
+          "[+3 Production, +3 Science, +1 Gold] from [Strategic resource] tiles [in all cities]",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "[+50]% Great Person generation [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]",
+          "[-35]% maintenance on road & railroads",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Production] [in all cities]",
+          "Comment [The communist ideal reaches its fullest expression — the workers' paradise stands as a monument to collective achievement, where industry, science, and culture serve all people equally.]"
+        ]
       }
     ]
   },
@@ -1023,7 +1925,13 @@
       "Comment [Unlocks [Statue of Liberty]]",
       "Only available <before adopting [Fascism]>",
       "Only available <before adopting [Communism]>",
-      "Only available <after adopting [Ideology]>"
+      "Only available <after adopting [Ideology]>",
+      "[+1 Happiness] from every [Market]",
+      "[+1 Happiness] from every [Bank]",
+      "[+1 Happiness] from every [Stock Exchange]",
+      "[+1 Culture] from every specialist [in all cities]",
+      "[+1 Science] from every specialist [in all cities]",
+      "Comment [Liberty's flame burns bright — the individual stands sovereign and the free market of ideas drives the empire toward ever-greater heights.]"
     ],
     "policies": [
       {
@@ -1031,7 +1939,12 @@
         "uniques": [
           "[+25]% Great Person generation [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Culture] from every specialist [in all cities]",
+          "[+1 Science] from every specialist [in all cities]",
+          "[+1 Gold] from every specialist [in all cities]",
+          "[+2 Culture] from every [Great Work]",
+          "Comment [The avant garde pushes the boundaries of art and thought — great minds flourish in the atmosphere of freedom and genius becomes the norm, not the exception.]"
         ],
         "row": 1,
         "column": 1
@@ -1041,7 +1954,15 @@
         "uniques": [
           "[+2 Culture] from every [Great Work]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Science] from every [Great Work]",
+          "[+1 Gold] from every [Great Work]",
+          "[+1 Happiness] from every [Great Work]",
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "Comment [Creative expression knows no bounds — the free mind produces works of staggering beauty and the empire's cultural output becomes the wonder of the world.]"
         ],
         "row": 1,
         "column": 3
@@ -1051,7 +1972,11 @@
         "uniques": [
           "[-50]% Food consumption by [Specialists] [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[+1 Production] from every specialist [in all cities]",
+          "[+1 Gold] from every specialist [in all cities]",
+          "Comment [Civil society flourishes — voluntary associations, civic engagement, and the free exchange of ideas create a populace that is both productive and content.]"
         ],
         "row": 1,
         "column": 5
@@ -1064,7 +1989,10 @@
           "[Infantry] units gain the [Morale] promotion",
           "All newly-trained [Infantry] units [in all cities] receive the [Morale] promotion",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% Production when constructing [Infantry] units [in all cities]",
+          "New [Infantry] units start with [15] XP [in all cities]",
+          "Comment [The volunteer army embodies the free citizen's willingness to defend liberty — soldiers fight not from compulsion but from conviction and their morale is unbreakable.]"
         ],
         "row": 1,
         "column": 7
@@ -1075,7 +2003,11 @@
           "[+100]% spy effectiveness [in City-State cities]",
           "Gain an extra spy",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "New spies start with [2] level(s)",
+          "[+50]% spy effectiveness [in all cities]",
+          "Promotes all spies [1] time(s)",
+          "Comment [Covert action extends the empire's influence through shadow and subtlety — spies operate with unmatched precision and city-states bend to the invisible hand.]"
         ],
         "row": 1,
         "column": 9
@@ -1088,7 +2020,14 @@
           "[+1 Happiness] from every [Stock Exchange]",
           "[+10]% [Gold] [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Culture] from every [Market]",
+          "[+1 Culture] from every [Bank]",
+          "[+1 Culture] from every [Stock Exchange]",
+          "Comment [Protectionism shields domestic enterprise — markets thrive under the state's watchful eye and the wealth of the nation grows alongside the contentment of its merchants.]"
         ],
         "row": 1,
         "column": 11
@@ -1098,7 +2037,14 @@
         "uniques": [
           "[+25]% [Gold] [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% [Gold] from Trade Routes",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[+1 Happiness] [in all cities connected to capital]",
+          "[+1 Science] [in all cities connected to capital]",
+          "[-20]% maintenance on road & railroads",
+          "Comment [The economic union binds the empire's markets into a single organism — trade flows freely and the wealth of the collective exceeds the sum of its parts.]"
         ],
         "row": 1,
         "column": 13
@@ -1112,7 +2058,14 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Culture] from every [Workshop]",
+          "[+1 Culture] from every [Factory]",
+          "[+1 Happiness] from every [Workshop]",
+          "[+1 Happiness] from every [Factory]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "Comment [Urbanization transforms the landscape — cities swell with industry and the workshop of the world hums with the energy of free labor.]"
         ],
         "row": 2,
         "column": 2
@@ -1129,7 +2082,14 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[+2 Culture] from every [Zoo]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "[+1 Happiness] from every [Zoo]",
+          "Comment [The free mind roams without constraint — artists, writers, and musicians produce masterpieces at an unprecedented rate and cultural institutions become engines of both enlightenment and wealth.]"
         ],
         "row": 2,
         "column": 4
@@ -1143,7 +2103,12 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Happiness] from every specialist [in all cities]",
+          "[+1 Culture] from every specialist [in all cities]",
+          "[+1 Science] from every specialist [in all cities]",
+          "[-25]% Food consumption by [Specialists] [in all cities]",
+          "Comment [Universal suffrage extends the franchise to all — the people's voice shapes the nation's destiny and golden ages stretch ever longer under the mandate of the masses.]"
         ],
         "row": 2,
         "column": 6
@@ -1161,7 +2126,12 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Science] from every [Great Improvement]",
+          "[+2 Culture] from every [Great Improvement]",
+          "[+2 Gold] from every [Great Improvement]",
+          "[+2 Happiness] from every [Great Improvement]",
+          "Comment [The constitution enshrines the rights of all — great improvements yield bountiful returns and the rule of law transforms the landscape into a garden of prosperity.]"
         ],
         "row": 2,
         "column": 8
@@ -1175,7 +2145,11 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% Production when constructing [Military] units [in all cities]",
+          "New [Air] units start with [15] XP [in all cities]",
+          "[+1 Happiness] from every [Barracks]",
+          "Comment [The arsenal of democracy arms the free world — air power and military production surge and the empire stands as the ultimate guarantor of liberty's defense.]"
         ],
         "row": 2,
         "column": 10
@@ -1193,7 +2167,13 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+3 Food] from every [Hospital]",
+          "[+3 Food] from every [Medical Lab]",
+          "[+1 Culture] from every [Hospital]",
+          "[+1 Culture] from every [Medical Lab]",
+          "[-10]% Unhappiness from [Population] [in all cities]",
+          "Comment [Universal healthcare tends to the body politic — hospitals and medical labs advance the nation's well-being and the populace thrives under the state's care.]"
         ],
         "row": 2,
         "column": 12
@@ -1206,7 +2186,12 @@
           "Free Great Person",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[+2 Gold] from every [Broadcast Tower]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "[+25]% [Culture] [in all cities]",
+          "Comment [Media culture shapes the narrative — broadcast towers become cathedrals of the modern age and the empire's cultural influence radiates across the airwaves to every corner of the globe.]"
         ],
         "row": 3,
         "column": 3
@@ -1217,7 +2202,14 @@
           "[+2 Production, +2 Gold] from every specialist [in all cities]",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Science] from every specialist [in all cities]",
+          "[+1 Culture] from every specialist [in all cities]",
+          "[+1 Happiness] from every specialist [in all cities]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-15]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [25]",
+          "Comment [The treaty organization binds allies in mutual prosperity — specialists drive the economy and diplomatic ties with city-states solidify into an unbreakable web of shared interest.]"
         ],
         "row": 3,
         "column": 5
@@ -1228,13 +2220,46 @@
           "Provides [-1] [Level 2 Ideology]",
           "May buy [Spaceship part] units with [Gold] [in all cities]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% Production when constructing [Spaceship part] units [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+2 Science] from every [Research Lab]",
+          "[+2 Science] from every [Observatory]",
+          "Comment [Space procurements open the cosmos to commerce — the stars themselves become attainable through the power of gold and the empire's scientific enterprise reaches beyond the atmosphere.]"
         ],
         "row": 3,
         "column": 7
       },
       {
-        "name": "Liberalisms Complete"
+        "name": "Liberalisms Complete",
+        "uniques": [
+          "[+5 Production] [in all cities]",
+          "[+5 Gold] [in all cities]",
+          "[+5 Culture] [in all cities]",
+          "[+5 Science] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[+50]% Great Person generation [in all cities]",
+          "[+3 Production] from every specialist [in all cities]",
+          "[+3 Science] from every specialist [in all cities]",
+          "[+3 Gold] from every specialist [in all cities]",
+          "[+3 Culture] from every specialist [in all cities]",
+          "[+2 Happiness] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+50]% Golden Age length",
+          "[+25]% [Gold] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[+5 Science] from every [Academy]",
+          "[+5 Production] from every [Manufactory]",
+          "[+5 Gold] from every [Customs house]",
+          "[+5 Culture] from every [Landmark]",
+          "[+200]% Yield from every [Great Improvement]",
+          "Comment [Liberalism reaches its fullest flowering — the free individual, the free market, and the free mind combine to create the most prosperous, cultured, and scientifically advanced civilization the world has ever known.]"
+        ]
       }
     ]
   },
@@ -1245,7 +2270,13 @@
       "Comment [Unlocks [Prora]]",
       "Only available <before adopting [Communism]>",
       "Only available <before adopting [Liberalism]>",
-      "Only available <after adopting [Ideology]>"
+      "Only available <after adopting [Ideology]>",
+      "[+15]% Strength <for [Military] units>",
+      "[+25]% Production when constructing [Military] units [in all cities]",
+      "[+1 Happiness] from every [Barracks]",
+      "[+1 Happiness] from every [Armory]",
+      "[+1 Happiness] from every [Military Academy]",
+      "Comment [The iron will of the state mobilizes every resource for war — the military becomes the highest expression of national purpose and the empire girds itself for conquest.]"
     ],
     "policies": [
       {
@@ -1255,7 +2286,10 @@
           "[+20]% Strength <vs [Wounded] units>",
           "[+10] HP when healing <for [Military] units>",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% XP gained from combat <for [non-[Air]] units>",
+          "New [Military] units start with [10] XP [in all cities]",
+          "Comment [Elite forces form the spearhead of the nation's might — the best trained, best equipped warriors crush all before them and the wounded enemy finds no mercy.]"
         ],
         "row": 1,
         "column": 1
@@ -1266,7 +2300,10 @@
           "[Gold] cost of purchasing [All] units [-35]%",
           "[-35]% maintenance costs <for [All] units>",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "[-25]% maintenance on road & railroads",
+          "Comment [Mobilization turns the entire economy toward war — units are purchased cheaply, maintained at minimal cost, and produced with terrifying speed.]"
         ],
         "row": 1,
         "column": 3
@@ -1276,7 +2313,11 @@
         "uniques": [
           "Militaristic City-States grant units [3] times as fast when you are at war with a common nation",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% resources gifted by City-States",
+          "Resting point for Influence with City-States is increased by [15]",
+          "[+1 Happiness] [in all cities] <when at war>",
+          "Comment [The united front rallies allies against common foes — militaristic city-states pour units into the war effort and the empire's enemies face a coalition they cannot withstand.]"
         ],
         "row": 1,
         "column": 5
@@ -1288,7 +2329,14 @@
           "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
           "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "Gain [250] [Gold] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+          "Gain [250] [Gold] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+          "Gain [250] [Gold] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
+          "Gain [250] [Science] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+          "Gain [250] [Science] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+          "Gain [250] [Science] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
+          "Comment [Futurism glorifies speed, violence, and progress — every great artist, writer, and musician becomes a weapon of cultural warfare and the empire's aesthetic becomes a tool of domination.]"
         ],
         "row": 1,
         "column": 7
@@ -1298,7 +2346,12 @@
         "uniques": [
           "[+100]% spy effectiveness [in all cities]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "Gain an extra spy",
+          "New spies start with [2] level(s)",
+          "Promotes all spies [1] time(s)",
+          "[+50]% spy effectiveness [in City-State cities]",
+          "Comment [Industrial espionage steals the secrets of rival nations — spies infiltrate every laboratory and factory and the empire's technological advancement accelerates on the backs of its enemies.]"
         ],
         "row": 1,
         "column": 9
@@ -1310,7 +2363,17 @@
           "[+1 Happiness] from every [Armory]",
           "[+1 Happiness] from every [Military Academy]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+1 Culture] from every [Barracks]",
+          "[+1 Culture] from every [Armory]",
+          "[+1 Culture] from every [Military Academy]",
+          "[+1 Production] from every [Barracks]",
+          "[+1 Production] from every [Armory]",
+          "[+1 Production] from every [Military Academy]",
+          "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+          "[+50]% Production when constructing [Armory] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Academy] buildings [in all cities]",
+          "Comment [Militarism permeates every facet of society — military installations become centers of culture, production, and happiness and the barracks is the new heart of the community.]"
         ],
         "row": 1,
         "column": 11
@@ -1320,7 +2383,11 @@
         "uniques": [
           "[+10 Happiness]",
           "Provides [1] [Level 1 Ideology]",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+10]% Strength <for [Military] units>",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "[-25]% maintenance costs <for [All] units>",
+          "Comment [Autocracy concentrates all power in the hands of the leader — the nation moves as one and the supreme will drives the empire toward its destiny of conquest.]"
         ],
         "row": 1,
         "column": 13
@@ -1336,7 +2403,10 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+15]% Strength <for [Military] units> <when attacking>",
+          "[+25]% XP gained from combat <for [non-[Air]] units>",
+          "Comment [Lightning warfare strikes before the enemy can react — the entire military apparatus moves with unprecedented speed and the offensive becomes irresistible.]"
         ],
         "row": 2,
         "column": 2
@@ -1354,7 +2424,13 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+2 Culture] from every [Courthouse]",
+          "[+2 Science] from every [Courthouse]",
+          "[+1 Production] from every [Police Station]",
+          "[+1 Production] from every [Constabulary]",
+          "[-50]% enemy spy effectiveness [in all cities connected to capital]",
+          "Comment [The police state watches every corner — courthouses, police stations, and constabularies maintain order with an iron grip and enemy spies find no purchase in the surveillance state.]"
         ],
         "row": 2,
         "column": 4
@@ -1367,7 +2443,11 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+25]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+          "[+1 Happiness] [in all cities] <when at war>",
+          "[+1 Production] [in all cities] <when at war>",
+          "Comment [Nationalism ignites the fires of patriotic fury — the nation unites behind the war effort and every soldier fights with the strength of a thousand patriots.]"
         ],
         "row": 2,
         "column": 6
@@ -1385,7 +2465,12 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+5 Production] [in capital]",
+          "[+5 Gold] [in capital]",
+          "[+5 Culture] [in capital]",
+          "[+2 Happiness] [in capital]",
+          "Comment [The third alternative seizes every resource with ruthless efficiency — strategic resources double in output and the capital becomes a powerhouse of science, industry, and wealth.]"
         ],
         "row": 2,
         "column": 8
@@ -1398,7 +2483,11 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[-25]% maintenance costs <for [All] units>",
+          "[+15]% Strength <for [Military] units>",
+          "[+50]% XP gained from combat <for [non-[Air]] units>",
+          "Comment [Total war consumes the nation entirely — every factory, every farm, every citizen serves the war machine and the military output of the empire becomes overwhelming.]"
         ],
         "row": 2,
         "column": 10
@@ -1413,7 +2502,10 @@
           "Provides [-1] [Level 1 Ideology]",
           "Provides [1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 1 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+          "[+20]% Strength <for [Military] units>",
+          "Comment [The iron fist crushes all opposition — every fallen enemy enriches the empire in culture, science, gold, and faith and the warrior's path becomes the path of national enrichment.]"
         ],
         "row": 2,
         "column": 12
@@ -1426,7 +2518,12 @@
           "[+25]% growth [in all cities] <when at war>",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+20]% [Production] [in all cities] <when at war>",
+          "[+20]% [Gold] [in all cities] <when at war>",
+          "[+20]% [Science] [in all cities] <when at war>",
+          "[+10 Happiness] <when at war>",
+          "Comment [The cult of personality elevates the leader to divine status — the nation's culture, growth, and productivity surge in wartime and the people find purpose in the leader's vision.]"
         ],
         "row": 3,
         "column": 3
@@ -1437,7 +2534,11 @@
           "Resting point for Influence with City-States is increased by [37]",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[-30]% City-State Influence degradation",
+          "[+50]% resources gifted by City-States",
+          "[+1 Happiness] [in all cities connected to capital]",
+          "Comment [Gunboat diplomacy coerces city-states into submission — the mere presence of the imperial fleet secures loyalty and influence flows from the barrel of a cannon.]"
         ],
         "row": 3,
         "column": 5
@@ -1448,14 +2549,46 @@
           "[+55]% Strength <for [All] units> <for [60] turns>",
           "Provides [-1] [Level 2 Ideology]",
           "Only available <when above [1] [Level 2 Ideology]>",
-          "Provides [1] [Policies]"
+          "Provides [1] [Policies]",
+          "[+50]% XP gained from combat <for [All] units>",
+          "Comment [Clausewitz's legacy transforms the art of war into a science of annihilation — for sixty turns, the empire's military becomes an unstoppable force and no army in the world can withstand its fury.]"
         ],
         "row": 3,
         "column": 7
       },
       {
         "name": "Fascisms Complete",
-        "uniques": []
+        "uniques": [
+          "[+25]% Strength <for [Military] units>",
+          "[+50]% Production when constructing [Military] units [in all cities]",
+          "New [Military] units start with [30] XP [in all cities]",
+          "[-50]% maintenance costs <for [All] units>",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Faith]",
+          "[+100]% XP gained from combat <for [All] units>",
+          "[+10 Happiness] <when at war>",
+          "[+25]% [Production] [in all cities] <when at war>",
+          "[+25]% [Gold] [in all cities] <when at war>",
+          "[+25]% [Science] [in all cities] <when at war>",
+          "[+25]% [Culture] [in all cities] <when at war>",
+          "[+25]% growth [in all cities] <when at war>",
+          "[-25]% Unhappiness from [Population] [in all cities] <when at war>",
+          "[+2 Happiness] from every [Barracks]",
+          "[+2 Happiness] from every [Armory]",
+          "[+2 Happiness] from every [Military Academy]",
+          "[+2 Culture] from every [Barracks]",
+          "[+2 Culture] from every [Armory]",
+          "[+2 Culture] from every [Military Academy]",
+          "[+2 Production] from every [Barracks]",
+          "[+2 Production] from every [Armory]",
+          "[+2 Production] from every [Military Academy]",
+          "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+          "[+50]% Production when constructing [Armory] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Academy] buildings [in all cities]",
+          "Comment [Fascism reaches its terrible zenith — the nation becomes a weapon, every citizen a soldier, every factory an arsenal, and the empire stands ready to impose its will upon the world through overwhelming force of arms.]"
+        ]
       }
     ]
   },
@@ -1484,13 +2617,22 @@
       "Only available <before adopting [Not Aligned]>",
       "Only available <before adopting [Socialism]>",
       "[+1] Sight <for [{Military} {Land}] units>",
-      "[Gold] cost of purchasing [All] units [-53]%"
+      "[Gold] cost of purchasing [All] units [-53]%",
+      "[+15]% Strength <for [Military] units>",
+      "[+25]% Production when constructing [Military] units [in all cities]",
+      "[-25]% maintenance costs <for [All] units>",
+      "Comment [The Axis rises — a military alliance forged in steel and ambition, ready to reshape the world order through overwhelming force.]"
     ],
     "policies": [
       {
         "name": "Fascism",
         "uniques": [
-          "[50]% [Strategic] resource production"
+          "[50]% [Strategic] resource production",
+          "[+1 Happiness] from every [Barracks]",
+          "[+1 Happiness] from every [Armory]",
+          "[+1 Culture] from every [Barracks]",
+          "[+1 Production] from every [Barracks]",
+          "[+25]% Production when constructing [Military] units [in all cities]"
         ],
         "row": 1,
         "column": 1
@@ -1499,7 +2641,11 @@
         "name": "Millitary Alliances",
         "uniques": [
           "[+1] Movement <for [Infantry] units>",
-          "[+1 Happiness] from every [Luxury resource]"
+          "[+1 Happiness] from every [Luxury resource]",
+          "[+1 Culture] from every [Luxury resource]",
+          "[+1 Gold] from every [Luxury resource]",
+          "[+1] Movement <for [Heavy Cavalry] units>",
+          "[+10]% Strength <for [Military] units> <when adjacent to a [Military] unit>"
         ],
         "row": 1,
         "column": 3
@@ -1507,7 +2653,11 @@
       {
         "name": "Blitzkrieg",
         "uniques": [
-          "[+30]% Strength <for [Heavy Cavalry] units> <when adjacent to a [Heavy Cavalry] unit>"
+          "[+30]% Strength <for [Heavy Cavalry] units> <when adjacent to a [Heavy Cavalry] unit>",
+          "[+2] Movement <for [Heavy Cavalry] units>",
+          "[+15]% Strength <for [Infantry] units> <when attacking>",
+          "[+50]% XP gained from combat <for [non-[Air]] units>",
+          "New [Military] units start with [20] XP [in all cities]"
         ],
         "row": 1,
         "column": 5
@@ -1515,7 +2665,11 @@
       {
         "name": "War Propaganda",
         "uniques": [
-          "[+10]% Strength <for [Wounded] units>"
+          "[+10]% Strength <for [Wounded] units>",
+          "[+15]% [Culture] [in all cities] <when at war>",
+          "[+15]% [Production] [in all cities] <when at war>",
+          "[+1 Happiness] [in all cities] <when at war>",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
         ],
         "row": 2,
         "column": 3
@@ -1524,7 +2678,21 @@
         "name": "Axis Complete",
         "uniques": [
           "[+25]% Production when constructing [Military] units [in all cities]",
-          "New [Military] units start with [15] XP [in all cities]"
+          "New [Military] units start with [15] XP [in all cities]",
+          "[+20]% Strength <for [Military] units>",
+          "[-35]% maintenance costs <for [All] units>",
+          "[+50]% XP gained from combat <for [All] units>",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+          "[+2] Movement <for [Infantry] units>",
+          "[+2] Movement <for [Heavy Cavalry] units>",
+          "[+2 Happiness] from every [Barracks]",
+          "[+2 Culture] from every [Barracks]",
+          "[+2 Production] from every [Barracks]",
+          "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+          "[+50]% Production when constructing [Armory] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Academy] buildings [in all cities]",
+          "Comment [The Axis reaches full mobilization — the war machine operates at peak capacity and the empire's military stands as the most formidable force the world has ever witnessed.]"
         ]
       }
     ]
@@ -1539,18 +2707,41 @@
       "Only available <before adopting [Socialism]>",
       "[+1 Production] per [3] social policies adopted",
       "[+3 Happiness] [in capital]",
-      "[-3 Gold] [in capital]"
+      "[-3 Gold] [in capital]",
+      "[+2 Production] [in all cities]",
+      "[+2 Science] [in all cities]",
+      "[+1 Happiness] from every [Factory]",
+      "[+1 Happiness] from every [Workshop]",
+      "[-15]% Unhappiness from [Population] [in all cities]",
+      "Comment [Communism rises on the atomic stage — the workers' revolution reaches global proportions and the collective spirit drives the empire toward a new world order.]"
     ],
     "policies": [
       {
         "name": "Marxism",
+        "uniques": [
+          "[+2 Science] from every specialist [in all cities]",
+          "[+2 Culture] from every specialist [in all cities]",
+          "[+1 Production] from every [Factory]",
+          "[+1 Production] from every [Workshop]",
+          "[+1 Science] from every [Factory]",
+          "[+1 Science] from every [Workshop]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[-15]% Food consumption by [Specialists] [in all cities]"
+        ],
         "row": 1,
         "column": 1
       },
       {
         "name": "Central Planification",
         "uniques": [
-          "[+20]% Yield from every [Strategic resource]"
+          "[+20]% Yield from every [Strategic resource]",
+          "[+2 Production] from every [Mine]",
+          "[+2 Production] from every [Quarry]",
+          "[+1 Production] from every [Factory]",
+          "[+1 Production] from every [Workshop]",
+          "[+25]% [Production] [in all cities]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]"
         ],
         "row": 1,
         "column": 3
@@ -1559,7 +2750,13 @@
         "name": "Proletary Internationalism",
         "uniques": [
           "[+1 Gold] from every [Luxury resource]",
-          "[+1 Gold] per [5] population [in all cities]"
+          "[+1 Gold] per [5] population [in all cities]",
+          "[+1 Culture] from every [Luxury resource]",
+          "[+1 Science] from every [Luxury resource]",
+          "[+1 Happiness] from every [Luxury resource]",
+          "[+25]% [Gold] from Trade Routes",
+          "[-15]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [15]"
         ],
         "row": 1,
         "column": 5
@@ -1568,7 +2765,14 @@
         "name": "Worldwide Revolution",
         "uniques": [
           "[+10]% growth [in capital]",
-          "[+2 Happiness] [in capital]"
+          "[+2 Happiness] [in capital]",
+          "[+5 Science] [in capital]",
+          "[+5 Production] [in capital]",
+          "[+5 Culture] [in capital]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "Empire enters golden age"
         ],
         "row": 2,
         "column": 3
@@ -1576,7 +2780,29 @@
       {
         "name": "Communism Complete",
         "uniques": [
-          "[+3 Production] per [3] social policies adopted"
+          "[+3 Production] per [3] social policies adopted",
+          "[+5 Production] [in all cities]",
+          "[+5 Science] [in all cities]",
+          "[+3 Culture] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[+3 Gold] [in all cities]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+3 Production] from every [Factory]",
+          "[+3 Science] from every [Factory]",
+          "[+3 Culture] from every [Factory]",
+          "[+2 Happiness] from every [Factory]",
+          "[+3 Production] from every [Workshop]",
+          "[+3 Science] from every [Workshop]",
+          "[+2 Culture] from every [Workshop]",
+          "[+2 Happiness] from every [Workshop]",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "[+50]% Great Person generation [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Production] [in all cities]",
+          "Comment [The worldwide revolution reaches its climax — the workers' paradise stands triumphant on the atomic stage and the collective will of the proletariat reshapes the very foundations of civilization.]"
         ]
       }
     ]
@@ -1596,13 +2822,23 @@
       "Only available <before adopting [Axis]>",
       "Only available <before adopting [Communism]>",
       "Only available <before adopting [Socialism]>",
-      "[+50]% Yield from every [Bonus resource]"
+      "[+50]% Yield from every [Bonus resource]",
+      "[+1 Culture] from every [Bonus resource]",
+      "[+1 Science] from every [Bonus resource]",
+      "[+1 Gold] from every [Bonus resource]",
+      "[+1 Happiness] from every [Bonus resource]",
+      "[-10]% Unhappiness from [Population] [in all cities]",
+      "Comment [The Non-Aligned Movement charts an independent course — neither East nor West, the empire finds strength in neutrality and self-determination.]"
     ],
     "policies": [
       {
         "name": "Tank Warfare",
         "uniques": [
-          "New [Heavy Cavalry] units start with [60] XP [in all cities]"
+          "New [Heavy Cavalry] units start with [60] XP [in all cities]",
+          "[+25]% Production when constructing [Heavy Cavalry] units [in all cities]",
+          "[+15]% Strength <for [Heavy Cavalry] units>",
+          "[+1] Movement <for [Heavy Cavalry] units>",
+          "[+1] Sight <for [Heavy Cavalry] units>"
         ],
         "row": 1,
         "column": 1
@@ -1610,7 +2846,15 @@
       {
         "name": "War Economy",
         "uniques": [
-          "[+25]% [Gold] [in all cities]"
+          "[+25]% [Gold] [in all cities]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Gold] from every [Trading post]",
+          "[+1 Gold] from every [Customs house]",
+          "[+25]% [Gold] from Trade Routes",
+          "[-15]% maintenance on road & railroads",
+          "[-15]% maintenance cost for [all] buildings [in all cities]"
         ],
         "row": 1,
         "column": 3
@@ -1618,7 +2862,15 @@
       {
         "name": "Industrial Mobilization",
         "uniques": [
-          "[+25]% [Production] [in all cities]"
+          "[+25]% [Production] [in all cities]",
+          "[+2 Production] from every [Workshop]",
+          "[+2 Production] from every [Factory]",
+          "[+1 Production] from every [Mine]",
+          "[+1 Production] from every [Quarry]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+1 Production] from every [Windmill]",
+          "[+1 Production] from every [Water Mill]"
         ],
         "row": 1,
         "column": 5
@@ -1626,7 +2878,14 @@
       {
         "name": "Patriotic Fervor",
         "uniques": [
-          "[-35]% unhappiness from the number of cities"
+          "[-35]% unhappiness from the number of cities",
+          "[-15]% Unhappiness from [Population] [in all cities]",
+          "[+1 Happiness] [in all cities]",
+          "[+1 Culture] [in all cities]",
+          "[+1 Production] [in all cities]",
+          "[+1 Food] [in all cities]",
+          "[+2 Happiness] from every [Monument]",
+          "[+2 Culture] from every [Monument]"
         ],
         "row": 2,
         "column": 3
@@ -1634,7 +2893,26 @@
       {
         "name": "Not Aligned Complete",
         "uniques": [
-          "[-35]% Science cost of researching new Technologies"
+          "[-35]% Science cost of researching new Technologies",
+          "[+50]% Yield from every [Bonus resource]",
+          "[+2 Culture] from every [Bonus resource]",
+          "[+2 Science] from every [Bonus resource]",
+          "[+2 Gold] from every [Bonus resource]",
+          "[+2 Happiness] from every [Bonus resource]",
+          "[+2 Production] from every [Bonus resource]",
+          "[+2 Food] from every [Bonus resource]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[+25]% [Gold] [in all cities]",
+          "[+25]% [Production] [in all cities]",
+          "[+25]% [Food] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "[+50]% Great Person generation [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]",
+          "[-25]% maintenance on road & railroads",
+          "Comment [The Non-Aligned path reaches its full potential — unburdened by ideological alliances, the empire harnesses its resources, science, and culture with supreme efficiency and stands as a beacon of independent strength in a divided world.]"
         ]
       }
     ]
@@ -1648,13 +2926,28 @@
       "Only available <before adopting [Not Aligned]>",
       "Only available <before adopting [Socialism]>",
       "[+2] Sight <for [{Military} {Water}] units>",
-      "[+2 Happiness] [in capital]"
+      "[+2 Happiness] [in capital]",
+      "[+1 Happiness] [in all cities connected to capital]",
+      "[+1 Gold] [in all cities connected to capital]",
+      "[+1 Science] [in all cities connected to capital]",
+      "[+1 Culture] [in all cities connected to capital]",
+      "[-15]% City-State Influence degradation",
+      "Comment [The Allies stand united — a coalition of free nations bound by shared values and mutual defense, their combined strength greater than any single empire.]"
     ],
     "policies": [
       {
         "name": "Democratic Thinking",
         "uniques": [
-          "[+1 Production] from every [Bonus resource]"
+          "[+1 Production] from every [Bonus resource]",
+          "[+1 Science] from every [Bonus resource]",
+          "[+1 Culture] from every [Bonus resource]",
+          "[+2 Science] from every [Library]",
+          "[+2 Science] from every [University]",
+          "[+2 Science] from every [Observatory]",
+          "[+2 Science] from every [Public School]",
+          "[+2 Science] from every [Research Lab]",
+          "[+1 Happiness] from every [Library]",
+          "[+1 Happiness] from every [University]"
         ],
         "row": 1,
         "column": 1
@@ -1663,7 +2956,14 @@
         "name": "Alliances",
         "uniques": [
           "[+2] Movement <for [{Military} {Water}] units>",
-          "[+1 Food] from every [Bonus resource]"
+          "[+1 Food] from every [Bonus resource]",
+          "[+1 Gold] from every [Bonus resource]",
+          "[+1 Happiness] from every [Bonus resource]",
+          "[+10]% Strength <for [{Military} {Water}] units>",
+          "[+1] Sight <for [{Military} {Water}] units>",
+          "[Great Admiral] is earned [50]% faster",
+          "Resting point for Influence with City-States is increased by [25]",
+          "[-20]% City-State Influence degradation"
         ],
         "row": 1,
         "column": 3
@@ -1671,7 +2971,18 @@
       {
         "name": "Oceanic Strategy",
         "uniques": [
-          "[+20]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>"
+          "[+20]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>",
+          "[+2 Gold] from every [Coast]",
+          "[+2 Gold] from every [Ocean]",
+          "[+2 Science] from every [Coast]",
+          "[+2 Science] from every [Ocean]",
+          "[+2 Culture] from every [Coast]",
+          "[+2 Culture] from every [Ocean]",
+          "[+1 Happiness] [in all coastal cities]",
+          "[+2 Production] [in all coastal cities]",
+          "[+2 Food] [in all coastal cities]",
+          "[+50]% Production when constructing [Harbor] buildings [in all cities]",
+          "[+50]% Production when constructing [Seaport] buildings [in all cities]"
         ],
         "row": 1,
         "column": 5
@@ -1679,7 +2990,14 @@
       {
         "name": "Expression Liberty",
         "uniques": [
-          "[+1 Happiness] from every [Strategic resource]"
+          "[+1 Happiness] from every [Strategic resource]",
+          "[+1 Culture] from every [Strategic resource]",
+          "[+1 Science] from every [Strategic resource]",
+          "[+1 Gold] from every [Strategic resource]",
+          "[+1 Production] from every [Strategic resource]",
+          "[+25]% [Culture] [in all cities]",
+          "[+2 Culture] from every [Great Work]",
+          "[+1 Happiness] from every [Great Work]"
         ],
         "row": 2,
         "column": 3
@@ -1688,7 +3006,35 @@
         "name": "Allies Complete",
         "uniques": [
           "[+4 Production] [in capital]",
-          "New [Military] units start with [25] XP [in all cities]"
+          "New [Military] units start with [25] XP [in all cities]",
+          "[+3 Production] [in all cities]",
+          "[+3 Science] [in all cities]",
+          "[+3 Culture] [in all cities]",
+          "[+3 Gold] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[+3 Food] [in all cities]",
+          "[+2 Happiness] [in all cities connected to capital]",
+          "[+2 Gold] [in all cities connected to capital]",
+          "[+2 Science] [in all cities connected to capital]",
+          "[+2 Culture] [in all cities connected to capital]",
+          "[+2 Production] [in all cities connected to capital]",
+          "[+2 Food] [in all cities connected to capital]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-25]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [50]",
+          "[+50]% resources gifted by City-States",
+          "[+50]% [Science] from City-States",
+          "[+50]% [Culture] from City-States",
+          "[+50]% [Gold] from City-States",
+          "[+50]% [Food] from City-States",
+          "[+50]% [Happiness] from City-States",
+          "Allied City-States provide [Science] equal to [33]% of what they produce for themselves",
+          "Allied City-States provide [Gold] equal to [33]% of what they produce for themselves",
+          "[-25]% maintenance on road & railroads",
+          "[-25]% maintenance cost for [all] buildings [in all cities]",
+          "Gain [2] extra spies",
+          "[+50]% spy effectiveness [in all cities]",
+          "Comment [The Allied coalition reaches the zenith of its power — free nations stand shoulder to shoulder, city-states flock to the banner of liberty, and the combined economic, scientific, cultural, and military might of the alliance becomes an unstoppable force for freedom in the atomic age.]"
         ]
       }
     ]
@@ -1703,13 +3049,27 @@
       "Only available <before adopting [Not Aligned]>",
       "[+25]% [Production] [in all cities]",
       "[+25]% [Science] [in all cities]",
-      "[+15]% [Gold] [in all cities]"
+      "[+15]% [Gold] [in all cities]",
+      "[+1 Happiness] from every [Factory]",
+      "[+1 Happiness] from every [Workshop]",
+      "[+1 Happiness] from every [Hospital]",
+      "[-15]% Unhappiness from [Population] [in all cities]",
+      "Comment [Socialism charts a middle path — the state guides the economy for the benefit of all, balancing collective welfare with individual prosperity.]"
     ],
     "policies": [
       {
         "name": "State-Owned Industries",
         "uniques": [
-          "[+2 Culture] from every specialist [in all cities]"
+          "[+2 Culture] from every specialist [in all cities]",
+          "[+2 Production] from every [Factory]",
+          "[+2 Production] from every [Workshop]",
+          "[+2 Science] from every [Factory]",
+          "[+2 Science] from every [Workshop]",
+          "[+1 Gold] from every [Factory]",
+          "[+1 Gold] from every [Workshop]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]"
         ],
         "row": 1,
         "column": 1
@@ -1717,7 +3077,16 @@
       {
         "name": "Collective Farming",
         "uniques": [
-          "[+2 Production] from every [Windmill]"
+          "[+2 Production] from every [Windmill]",
+          "[+2 Food] from every [Farm]",
+          "[+2 Food] from every [Granary]",
+          "[+1 Food] from every [Water Mill]",
+          "[+1 Food] [in all cities]",
+          "[+25]% [Food] [in all cities]",
+          "[+50]% Production when constructing [Granary] buildings [in all cities]",
+          "[+50]% Production when constructing [Aqueduct] buildings [in all cities]",
+          "[+50]% Production when constructing [Hospital] buildings [in all cities]",
+          "[+2 Happiness] from every [Granary]"
         ],
         "row": 1,
         "column": 3
@@ -1725,7 +3094,16 @@
       {
         "name": "Social Welfare",
         "uniques": [
-          "[+1 Gold] from every [Factory]"
+          "[+1 Gold] from every [Factory]",
+          "[+2 Happiness] from every [Factory]",
+          "[+2 Happiness] from every [Workshop]",
+          "[+1 Happiness] from every [Hospital]",
+          "[+1 Happiness] from every [Medical Lab]",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[+1 Happiness] [in all cities]",
+          "[+1 Culture] [in all cities]",
+          "[+1 Science] [in all cities]"
         ],
         "row": 1,
         "column": 5
@@ -1733,7 +3111,17 @@
       {
         "name": "Free Healthcare",
         "uniques": [
-          "[+3 Happiness, +3 Food] from every [Hospital]"
+          "[+3 Happiness, +3 Food] from every [Hospital]",
+          "[+3 Happiness, +3 Food] from every [Medical Lab]",
+          "[+2 Science] from every [Hospital]",
+          "[+2 Science] from every [Medical Lab]",
+          "[+2 Culture] from every [Hospital]",
+          "[+2 Culture] from every [Medical Lab]",
+          "[+50]% Production when constructing [Hospital] buildings [in all cities]",
+          "[+50]% Production when constructing [Medical Lab] buildings [in all cities]",
+          "[-20]% Unhappiness from [Population] [in all cities]",
+          "[+5 Food] [in all cities]",
+          "[+2 Happiness] [in all cities]"
         ],
         "row": 2,
         "column": 3
@@ -1741,7 +3129,39 @@
       {
         "name": "Socialism Complete",
         "uniques": [
-          "[+2 Culture] from every specialist [in all cities]"
+          "[+2 Culture] from every specialist [in all cities]",
+          "[+5 Production] [in all cities]",
+          "[+5 Science] [in all cities]",
+          "[+5 Culture] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[+3 Gold] [in all cities]",
+          "[+5 Food] [in all cities]",
+          "[+3 Production] from every [Factory]",
+          "[+3 Science] from every [Factory]",
+          "[+3 Culture] from every [Factory]",
+          "[+2 Happiness] from every [Factory]",
+          "[+3 Production] from every [Workshop]",
+          "[+3 Science] from every [Workshop]",
+          "[+2 Culture] from every [Workshop]",
+          "[+2 Happiness] from every [Workshop]",
+          "[+3 Food] from every [Hospital]",
+          "[+3 Happiness] from every [Hospital]",
+          "[+3 Food] from every [Medical Lab]",
+          "[+3 Happiness] from every [Medical Lab]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+50]% Production when constructing [Hospital] buildings [in all cities]",
+          "[+50]% Production when constructing [Medical Lab] buildings [in all cities]",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]",
+          "[-25]% maintenance on road & railroads",
+          "[+25]% [Production] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[+25]% [Food] [in all cities]",
+          "[+50]% Great Person generation [in all cities]",
+          "Comment [Socialism reaches its fullest expression — the state's stewardship of the economy produces a society where industry, science, culture, and welfare are in perfect balance, and every citizen shares in the prosperity of the collective.]"
         ]
       }
     ]
@@ -1760,13 +3180,26 @@
       "[Gold] cost of purchasing items in cities [-25]%",
       "[-25]% maintenance on road & railroads",
       "Can build [All] improvements at a [+25]% rate",
-      "[-25]% Culture cost of natural border growth [in all cities]"
+      "[-25]% Culture cost of natural border growth [in all cities]",
+      "[+1 Culture] from every specialist [in all cities]",
+      "[+1 Science] from every specialist [in all cities]",
+      "[+1 Gold] from every specialist [in all cities]",
+      "Comment [The Western Bloc stands as the bastion of liberal democracy in the information age — free markets, free minds, and free peoples combine to create the most dynamic and innovative civilization on Earth.]"
     ],
     "policies": [
       {
         "name": "Liberal Democracy",
         "uniques": [
-          "[+2 Culture] from all [Science] buildings"
+          "[+2 Culture] from all [Science] buildings",
+          "[+2 Science] from all [Science] buildings",
+          "[+1 Gold] from all [Science] buildings",
+          "[+1 Happiness] from all [Science] buildings",
+          "[+2 Culture] from every specialist [in all cities]",
+          "[+2 Science] from every specialist [in all cities]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[-15]% Food consumption by [Specialists] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]"
         ],
         "row": 1,
         "column": 1
@@ -1774,7 +3207,16 @@
       {
         "name": "Multiparty elections",
         "uniques": [
-          "[+2 Happiness] from [House] tiles [in all cities]"
+          "[+2 Happiness] from [House] tiles [in all cities]",
+          "[+1 Culture] from [House] tiles [in all cities]",
+          "[+1 Science] from [House] tiles [in all cities]",
+          "[+1 Gold] from [House] tiles [in all cities]",
+          "[+1 Production] from [House] tiles [in all cities]",
+          "[+2 Happiness] [in all cities]",
+          "[+50]% Golden Age length",
+          "[+1 Happiness] from every [Monument]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]"
         ],
         "row": 1,
         "column": 3
@@ -1782,7 +3224,18 @@
       {
         "name": "Protected by law",
         "uniques": [
-          "[+30]% Strength <for [Wounded] units>"
+          "[+30]% Strength <for [Wounded] units>",
+          "[+25]% Strength for cities",
+          "[+50]% Production when constructing [Walls] buildings [in all cities]",
+          "[+50]% Production when constructing [Castle] buildings [in all cities]",
+          "[+50]% Production when constructing [Arsenal] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Base] buildings [in all cities]",
+          "[+1 Happiness] from every [Walls]",
+          "[+1 Happiness] from every [Castle]",
+          "[+1 Happiness] from every [Arsenal]",
+          "[+1 Happiness] from every [Military Base]",
+          "[-50]% enemy spy effectiveness [in all cities]",
+          "Gain an extra spy"
         ],
         "row": 1,
         "column": 5
@@ -1790,7 +3243,18 @@
       {
         "name": "Containment",
         "uniques": [
-          "[+4 Gold] from every [Hospital]"
+          "[+4 Gold] from every [Hospital]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+25]% [Gold] from Trade Routes",
+          "[-20]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [25]",
+          "[+50]% resources gifted by City-States",
+          "[+50]% spy effectiveness [in City-State cities]",
+          "Gain an extra spy",
+          "[+2 Science] from every [Hospital]",
+          "[+2 Happiness] from every [Hospital]"
         ],
         "row": 2,
         "column": 3
@@ -1798,7 +3262,34 @@
       {
         "name": "Western Bloc Complete",
         "uniques": [
-          "[+3 Production] from every specialist [in all cities]"
+          "[+3 Production] from every specialist [in all cities]",
+          "[+3 Science] from every specialist [in all cities]",
+          "[+3 Culture] from every specialist [in all cities]",
+          "[+3 Gold] from every specialist [in all cities]",
+          "[+2 Happiness] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+50]% Great Person generation [in all cities]",
+          "[+50]% Golden Age length",
+          "[+50]% [Science] [in all cities]",
+          "[+50]% [Culture] [in all cities]",
+          "[+50]% [Gold] [in all cities]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[-50]% Culture cost of natural border growth [in all cities]",
+          "New [Land] units start with [60] XP [in all cities]",
+          "New [Water] units start with [60] XP [in all cities]",
+          "New [Air] units start with [60] XP [in all cities]",
+          "[+50]% City Strength from defensive buildings",
+          "[Gold] cost of purchasing items in cities [-50]%",
+          "Can build [All] improvements at a [+50]% rate",
+          "[-33]% Science cost of researching new Technologies",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "Gain [2] extra spies",
+          "[+100]% spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities]",
+          "Comment [The Western Bloc reaches the apex of liberal democratic civilization — the free world stands as a colossus of science, culture, and prosperity, its specialists the most productive in history, its military the most experienced, its influence over city-states absolute, and its technological lead insurmountable.]"
         ]
       }
     ]
@@ -1816,13 +3307,27 @@
       "[Gold] cost of purchasing items in cities [-15]%",
       "[-15]% maintenance on road & railroads",
       "Can build [All] improvements at a [+15]% rate",
-      "[-15]% Culture cost of natural border growth [in all cities]"
+      "[-15]% Culture cost of natural border growth [in all cities]",
+      "[+1 Culture] from every [Bonus resource]",
+      "[+1 Science] from every [Bonus resource]",
+      "[+1 Gold] from every [Bonus resource]",
+      "[+1 Happiness] from every [Bonus resource]",
+      "Comment [The Non-Aligned Movement thrives in the information age — independent nations chart their own course, unburdened by the dictates of rival blocs, finding strength in diversity and self-reliance.]"
     ],
     "policies": [
       {
         "name": "Advocated Sovereignty",
         "uniques": [
-          "[+2 Culture] from all [Production] buildings"
+          "[+2 Culture] from all [Production] buildings",
+          "[+2 Science] from all [Production] buildings",
+          "[+1 Gold] from all [Production] buildings",
+          "[+1 Happiness] from all [Production] buildings",
+          "[+2 Production] from every [Workshop]",
+          "[+2 Production] from every [Factory]",
+          "[+1 Culture] from every [Workshop]",
+          "[+1 Culture] from every [Factory]",
+          "[+25]% [Production] [in all cities]",
+          "[+25]% [Culture] [in all cities]"
         ],
         "row": 1,
         "column": 1
@@ -1830,7 +3335,20 @@
       {
         "name": "Peaceful Coexistence",
         "uniques": [
-          "[+1 Happiness] from every [Monument]"
+          "[+1 Happiness] from every [Monument]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "[+2 Culture] from every [Monument]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[-25]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [25]",
+          "[+2 Happiness] [in all cities]",
+          "[+50]% Golden Age length"
         ],
         "row": 1,
         "column": 3
@@ -1838,7 +3356,20 @@
       {
         "name": "Resistance",
         "uniques": [
-          "[+25]% Strength <for [Wounded] units>"
+          "[+25]% Strength <for [Wounded] units>",
+          "[+20]% Strength for cities",
+          "[+50]% Production when constructing [Walls] buildings [in all cities]",
+          "[+50]% Production when constructing [Castle] buildings [in all cities]",
+          "[+50]% Production when constructing [Arsenal] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Base] buildings [in all cities]",
+          "[+1 Happiness] from every [Walls]",
+          "[+1 Happiness] from every [Castle]",
+          "[+1 Happiness] from every [Arsenal]",
+          "[+1 Happiness] from every [Military Base]",
+          "[-50]% enemy spy effectiveness [in all cities]",
+          "Gain an extra spy",
+          "[+25]% spy effectiveness [in all cities]",
+          "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"
         ],
         "row": 1,
         "column": 5
@@ -1846,7 +3377,23 @@
       {
         "name": "Blended elements",
         "uniques": [
-          "[+4 Gold] from each Trade Route"
+          "[+4 Gold] from each Trade Route",
+          "[+2 Science] from each Trade Route",
+          "[+2 Culture] from each Trade Route",
+          "[+1 Happiness] from each Trade Route",
+          "[+50]% [Gold] from Trade Routes",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[+1 Science] from every [Trading post]",
+          "[+1 Science] from every [Customs house]",
+          "[-20]% maintenance on road & railroads",
+          "[-20]% maintenance cost for [all] buildings [in all cities]",
+          "[+25]% [Gold] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]"
         ],
         "row": 2,
         "column": 3
@@ -1854,7 +3401,53 @@
       {
         "name": "Non-Aligned Movement Complete",
         "uniques": [
-          "[+3 Science] from every specialist [in all cities]"
+          "[+3 Science] from every specialist [in all cities]",
+          "[+3 Culture] from every specialist [in all cities]",
+          "[+3 Gold] from every specialist [in all cities]",
+          "[+2 Happiness] from every specialist [in all cities]",
+          "[+2 Production] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+50]% Great Person generation [in all cities]",
+          "[+50]% Golden Age length",
+          "[+50]% [Science] [in all cities]",
+          "[+50]% [Culture] [in all cities]",
+          "[+50]% [Gold] [in all cities]",
+          "[+50]% [Production] [in all cities]",
+          "[+50]% [Food] [in all cities]",
+          "[+100]% Yield from every [Bonus resource]",
+          "[+3 Culture] from every [Bonus resource]",
+          "[+3 Science] from every [Bonus resource]",
+          "[+3 Gold] from every [Bonus resource]",
+          "[+3 Happiness] from every [Bonus resource]",
+          "[+3 Production] from every [Bonus resource]",
+          "[+3 Food] from every [Bonus resource]",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[-50]% Culture cost of natural border growth [in all cities]",
+          "[-33]% Science cost of researching new Technologies",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "New [Infantry] units start with [60] XP [in all cities]",
+          "New [Light Infantry] units start with [60] XP [in all cities]",
+          "[+50]% City Strength from defensive buildings",
+          "[Gold] cost of purchasing items in cities [-50]%",
+          "Can build [All] improvements at a [+50]% rate",
+          "[-50]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [50]",
+          "[+100]% resources gifted by City-States",
+          "[+50]% [Culture] from City-States",
+          "[+50]% [Faith] from City-States",
+          "[+50]% [Food] from City-States",
+          "[+50]% [Happiness] from City-States",
+          "[+50]% [Gold] from City-States",
+          "[+50]% [Science] from City-States",
+          "[+50]% [Production] from City-States",
+          "Allied City-States will occasionally gift Great People",
+          "Gain [2] extra spies",
+          "[+100]% spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities]",
+          "Comment [The Non-Aligned Movement reaches its ultimate expression — unshackled from the rivalries of the great blocs, the empire harnesses the full spectrum of resources, science, culture, and diplomacy to become a superpower in its own right, proving that independence and self-determination are the truest paths to greatness in the information age.]"
         ]
       }
     ]
@@ -1872,13 +3465,36 @@
       "[Gold] cost of purchasing items in cities [-33]%",
       "[-33]% maintenance on road & railroads",
       "Can build [All] improvements at a [+33]% rate",
-      "[-33]% Culture cost of natural border growth [in all cities]"
+      "[-33]% Culture cost of natural border growth [in all cities]",
+      "[+2 Production] from every [Factory]",
+      "[+2 Production] from every [Workshop]",
+      "[+1 Happiness] from every [Factory]",
+      "[+1 Happiness] from every [Workshop]",
+      "[-20]% Unhappiness from [Population] [in all cities]",
+      "Comment [The Eastern Bloc rises as the vanguard of the socialist world — centralized planning, industrial might, and ideological unity forge an empire of steel and science in the information age.]"
     ],
     "policies": [
       {
         "name": "Authoritarian socialism",
         "uniques": [
-          "[+2 Happiness] from all [Production] buildings"
+          "[+2 Happiness] from all [Production] buildings",
+          "[+2 Culture] from all [Production] buildings",
+          "[+2 Science] from all [Production] buildings",
+          "[+1 Gold] from all [Production] buildings",
+          "[+3 Production] from every [Factory]",
+          "[+3 Production] from every [Workshop]",
+          "[+2 Science] from every [Factory]",
+          "[+2 Science] from every [Workshop]",
+          "[+2 Culture] from every [Factory]",
+          "[+2 Culture] from every [Workshop]",
+          "[+2 Happiness] from every [Factory]",
+          "[+2 Happiness] from every [Workshop]",
+          "[+50]% Production when constructing [Factory] buildings [in all cities]",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities]",
+          "[+33]% [Production] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[-25]% maintenance cost for [all] buildings [in all cities]"
         ],
         "row": 1,
         "column": 1
@@ -1886,7 +3502,23 @@
       {
         "name": "One-party rule",
         "uniques": [
-          "[+2 Production] from [House] tiles [in all cities]"
+          "[+2 Production] from [House] tiles [in all cities]",
+          "[+1 Science] from [House] tiles [in all cities]",
+          "[+1 Culture] from [House] tiles [in all cities]",
+          "[+1 Happiness] from [House] tiles [in all cities]",
+          "[+2 Happiness] [in all cities]",
+          "[+2 Culture] [in all cities]",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "[+50]% Golden Age length",
+          "[-50]% enemy spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+          "Gain an extra spy",
+          "[+50]% spy effectiveness [in all cities]",
+          "New spies start with [2] level(s)",
+          "Promotes all spies [1] time(s)",
+          "[+2 Production] [in all cities]",
+          "[+2 Science] [in all cities]"
         ],
         "row": 1,
         "column": 3
@@ -1894,7 +3526,23 @@
       {
         "name": "State-controlled Economy",
         "uniques": [
-          "[+4 Gold] from every [Factory]"
+          "[+4 Gold] from every [Factory]",
+          "[+2 Gold] from every [Workshop]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+50]% [Gold] from Trade Routes",
+          "[+25]% [Gold] [in all cities]",
+          "[-33]% maintenance cost for [all] buildings [in all cities]",
+          "[-33]% maintenance on road & railroads",
+          "[Gold] cost of purchasing items in cities [-33]%",
+          "[+2 Science] from every [Factory]",
+          "[+2 Science] from every [Workshop]",
+          "[+1 Happiness] from every [Factory]",
+          "[+1 Happiness] from every [Workshop]",
+          "[-20]% Unhappiness from [Population] [in all cities]",
+          "[-15]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [20]"
         ],
         "row": 1,
         "column": 5
@@ -1902,7 +3550,31 @@
       {
         "name": "Revolutionary legitimacy",
         "uniques": [
-          "[+25]% Strength <for [Wounded] units>"
+          "[+25]% Strength <for [Wounded] units>",
+          "[+20]% Strength for cities",
+          "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+          "[+50]% Production when constructing [Walls] buildings [in all cities]",
+          "[+50]% Production when constructing [Castle] buildings [in all cities]",
+          "[+50]% Production when constructing [Arsenal] buildings [in all cities]",
+          "[+50]% Production when constructing [Military Base] buildings [in all cities]",
+          "[+1 Happiness] from every [Walls]",
+          "[+1 Happiness] from every [Castle]",
+          "[+1 Happiness] from every [Arsenal]",
+          "[+1 Happiness] from every [Military Base]",
+          "[+1 Culture] from every [Walls]",
+          "[+1 Culture] from every [Castle]",
+          "[+1 Culture] from every [Arsenal]",
+          "[+1 Culture] from every [Military Base]",
+          "[-50]% enemy spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+          "Gain an extra spy",
+          "[+50]% spy effectiveness [in all cities]",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "New [Military] units start with [20] XP [in all cities]",
+          "[+50]% XP gained from combat <for [non-[Air]] units>",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+          "Comment [Revolutionary legitimacy flows from the barrel of a gun and the will of the people — the state's authority is unshakeable, its defenses impregnable, and its soldiers fight with the fervor of those who know their cause is just.]"
         ],
         "row": 2,
         "column": 3
@@ -1910,7 +3582,65 @@
       {
         "name": "Eastern Bloc Complete",
         "uniques": [
-          "[+3 Culture] from every specialist [in all cities]"
+          "[+3 Culture] from every specialist [in all cities]",
+          "[+3 Science] from every specialist [in all cities]",
+          "[+3 Production] from every specialist [in all cities]",
+          "[+2 Gold] from every specialist [in all cities]",
+          "[+2 Happiness] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+75]% Great Person generation [in all cities]",
+          "[+75]% Golden Age length",
+          "[+50]% [Production] [in all cities]",
+          "[+50]% [Science] [in all cities]",
+          "[+50]% [Culture] [in all cities]",
+          "[+33]% [Gold] [in all cities]",
+          "[+33]% [Food] [in all cities]",
+          "[+5 Production] from every [Factory]",
+          "[+5 Science] from every [Factory]",
+          "[+3 Culture] from every [Factory]",
+          "[+3 Happiness] from every [Factory]",
+          "[+3 Gold] from every [Factory]",
+          "[+3 Production] from every [Workshop]",
+          "[+3 Science] from every [Workshop]",
+          "[+2 Culture] from every [Workshop]",
+          "[+2 Happiness] from every [Workshop]",
+          "[+2 Gold] from every [Workshop]",
+          "[+100]% Production when constructing [Factory] buildings [in all cities]",
+          "[+100]% Production when constructing [Workshop] buildings [in all cities]",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[-50]% Culture cost of natural border growth [in all cities]",
+          "[-33]% Science cost of researching new Technologies",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "New [Infantry] units start with [60] XP [in all cities]",
+          "New [Heavy Cavalry] units start with [60] XP [in all cities]",
+          "[+50]% City Strength from defensive buildings",
+          "[Gold] cost of purchasing items in cities [-50]%",
+          "Can build [All] improvements at a [+50]% rate",
+          "[-50]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [40]",
+          "[+100]% resources gifted by City-States",
+          "[+50]% [Culture] from City-States",
+          "[+50]% [Faith] from City-States",
+          "[+50]% [Food] from City-States",
+          "[+50]% [Happiness] from City-States",
+          "[+50]% [Gold] from City-States",
+          "[+50]% [Science] from City-States",
+          "[+50]% [Production] from City-States",
+          "Allied City-States will occasionally gift Great People",
+          "Gain [2] extra spies",
+          "[+100]% spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+          "[+25]% Production when constructing [Military] units [in all cities]",
+          "New [Military] units start with [30] XP [in all cities]",
+          "[+50]% XP gained from combat <for [All] units>",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+          "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+          "Comment [The Eastern Bloc reaches the pinnacle of socialist civilization — the workers' state stands as a titan of industry, science, culture, and military might, its factories the most productive in history, its specialists the most educated, its defenses impenetrable, and its influence over city-states absolute. The revolution's promise is fulfilled in every facet of national life.]"
         ]
       }
     ]
@@ -1923,13 +3653,34 @@
       "Only available <before adopting [Socialism]>",
       "Only available <before adopting [Conservatism]>",
       "Only available <before adopting [Fascism]>",
-      "Only available <before adopting [Anarchism]>"
+      "Only available <before adopting [Anarchism]>",
+      "[+1 Culture] from every [Luxury resource]",
+      "[+1 Gold] from every [Luxury resource]",
+      "[+1 Science] from every [Luxury resource]",
+      "[+1 Production] from every [Luxury resource]",
+      "[-10]% Unhappiness from [Population] [in all cities]",
+      "Comment [Liberalism ascends — the free market, the free mind, and the free citizen combine to create a society where individual liberty and collective prosperity advance hand in hand.]"
     ],
     "policies": [
       {
         "name": "Privatized Property",
         "uniques": [
-          "May buy items in puppet cities"
+          "May buy items in puppet cities",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+2 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Customs house]",
+          "[+1 Happiness] from every [Market]",
+          "[+1 Happiness] from every [Bank]",
+          "[+1 Happiness] from every [Stock Exchange]",
+          "[+1 Science] from every [Market]",
+          "[+1 Science] from every [Bank]",
+          "[+1 Science] from every [Stock Exchange]",
+          "[+25]% [Gold] [in all cities]",
+          "[-15]% maintenance cost for [all] buildings [in all cities]",
+          "[-15]% maintenance on road & railroads",
+          "[Gold] cost of purchasing items in cities [-15]%"
         ],
         "row": 1,
         "column": 1
@@ -1938,7 +3689,21 @@
         "name": "Freedom of Expression",
         "uniques": [
           "[-15]% Food consumption by [Specialists] [in all cities]",
-          "[-20]% Unhappiness from [Specialists] [in all cities]"
+          "[-20]% Unhappiness from [Specialists] [in all cities]",
+          "[+2 Culture] from every [Great Work]",
+          "[+1 Happiness] from every [Great Work]",
+          "[+1 Science] from every [Great Work]",
+          "[+1 Gold] from every [Great Work]",
+          "[+2 Culture] from every [Museum]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "[+2 Culture] from every [Broadcast Tower]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "[+25]% [Culture] [in all cities]",
+          "[-15]% Culture cost of natural border growth [in all cities]"
         ],
         "row": 1,
         "column": 5
@@ -1946,7 +3711,22 @@
       {
         "name": "Cater to Profiteers",
         "uniques": [
-          "Gain [150] [Gold] <upon expending a [Great Person] unit>"
+          "Gain [150] [Gold] <upon expending a [Great Person] unit>",
+          "Gain [150] [Culture] <upon expending a [Great Person] unit>",
+          "Gain [150] [Science] <upon expending a [Great Person] unit>",
+          "[+50]% [Gold] from Trade Routes",
+          "[+3 Gold] from every [Customs house]",
+          "[+3 Gold] from every [Trading post]",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+25]% [Gold] [in all cities]",
+          "[-20]% maintenance cost for [all] buildings [in all cities]",
+          "[-20]% maintenance on road & railroads",
+          "[+1 Happiness] from every [Market]",
+          "[+1 Happiness] from every [Bank]",
+          "[+1 Happiness] from every [Stock Exchange]",
+          "Comment [Profiteers find a willing patron in the liberal state — the expenditure of great persons yields golden dividends and the empire's economic engine roars with the fuel of free enterprise.]"
         ],
         "requires": [
           "Privatized Property"
@@ -1958,7 +3738,18 @@
         "name": "Neo-colonialism",
         "uniques": [
           "Allied City-States provide [Gold] equal to [100]% of what they produce for themselves",
-          "Resting point for Influence with City-States is increased by [-100]"
+          "Resting point for Influence with City-States is increased by [-100]",
+          "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
+          "Allied City-States provide [Culture] equal to [50]% of what they produce for themselves",
+          "[+100]% resources gifted by City-States",
+          "[+50]% Happiness from luxury resources gifted by City-States",
+          "[-30]% City-State Influence degradation",
+          "[+50]% [Gold] from Trade Routes",
+          "[+3 Gold] from every [Customs house]",
+          "[+3 Gold] from every [Trading post]",
+          "[-15]% maintenance on road & railroads",
+          "[+1 Gold] from every [Luxury resource]",
+          "Comment [Neo-colonialism extracts wealth through economic rather than military means — city-states become vassals in all but name, their gold, science, and culture flowing to the imperial center while their sovereignty erodes.]"
         ],
         "requires": [
           "Privatized Property"
@@ -1968,6 +3759,23 @@
       },
       {
         "name": "Agricultural Fundings(Liberalism)",
+        "uniques": [
+          "[+2 Food] from every [Farm]",
+          "[+2 Food] from every [Granary]",
+          "[+1 Food] from every [Pasture]",
+          "[+1 Food] from every [Plantation]",
+          "[+1 Food] from every [Water Mill]",
+          "[+1 Food] from every [Windmill]",
+          "[+25]% [Food] [in all cities]",
+          "[+50]% Production when constructing [Granary] buildings [in all cities]",
+          "[+50]% Production when constructing [Aqueduct] buildings [in all cities]",
+          "[+50]% Production when constructing [Hospital] buildings [in all cities]",
+          "[+1 Happiness] from every [Granary]",
+          "[+1 Happiness] from every [Aqueduct]",
+          "[-10]% Food consumption by [Specialists] [in all cities]",
+          "[+10]% growth [in all cities]",
+          "Comment [Agricultural funding through liberal market mechanisms — private investment flows into the farming sector and the empire's food supply swells to unprecedented levels.]"
+        ],
         "requires": [
           "Privatized Property"
         ],
@@ -1978,7 +3786,16 @@
         "name": "Democratic Crusaders",
         "uniques": [
           "Gain an extra spy",
-          "[+33]% Production when constructing [Infantry] units [in all cities]"
+          "[+33]% Production when constructing [Infantry] units [in all cities]",
+          "New [Infantry] units start with [20] XP [in all cities]",
+          "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+          "[+25]% spy effectiveness [in all cities]",
+          "[+50]% spy effectiveness [in City-State cities]",
+          "[-25]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [25]",
+          "[+1 Happiness] [in all cities] <when at war>",
+          "[+1 Production] [in all cities] <when at war>",
+          "Comment [Democratic crusaders march forth to spread liberty at gunpoint — the empire's military and intelligence apparatus serve the cause of freedom, toppling tyrants and installing allies with surgical precision.]"
         ],
         "requires": [
           "Cater to Profiteers",
@@ -1991,7 +3808,48 @@
         "name": "Liberalism Complete",
         "uniques": [
           "[+33]% Yield from every [Great Improvement]",
-          "[50]% of excess happiness converted to [Science]"
+          "[50]% of excess happiness converted to [Science]",
+          "[+5 Gold] from every [Customs house]",
+          "[+5 Gold] from every [Trading post]",
+          "[+3 Science] from every [Academy]",
+          "[+3 Production] from every [Manufactory]",
+          "[+3 Culture] from every [Landmark]",
+          "[+3 Gold] from every [Customs house]",
+          "[+3 Faith] from every [Holy site]",
+          "[+2 Happiness] from every [Great Improvement]",
+          "[+2 Science] from every [Great Improvement]",
+          "[+2 Culture] from every [Great Improvement]",
+          "[+2 Gold] from every [Great Improvement]",
+          "[+50]% [Gold] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Culture] [in all cities]",
+          "[+50]% [Gold] from Trade Routes",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+50]% Great Person generation [in all cities]",
+          "[+50]% Golden Age length",
+          "[+2 Happiness] from every [Market]",
+          "[+2 Happiness] from every [Bank]",
+          "[+2 Happiness] from every [Stock Exchange]",
+          "[+3 Gold] from every [Market]",
+          "[+3 Gold] from every [Bank]",
+          "[+3 Gold] from every [Stock Exchange]",
+          "[+2 Science] from every [Market]",
+          "[+2 Science] from every [Bank]",
+          "[+2 Science] from every [Stock Exchange]",
+          "[+2 Culture] from every [Market]",
+          "[+2 Culture] from every [Bank]",
+          "[+2 Culture] from every [Stock Exchange]",
+          "Allied City-States provide [Gold] equal to [100]% of what they produce for themselves",
+          "Allied City-States provide [Science] equal to [50]% of what they produce for themselves",
+          "Allied City-States provide [Culture] equal to [50]% of what they produce for themselves",
+          "[+100]% resources gifted by City-States",
+          "[-50]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [50]",
+          "Comment [Liberalism reaches its ultimate triumph — the free market, the free mind, and the free citizen combine to create the most prosperous, innovative, and culturally vibrant civilization the world has ever known. Gold flows from every market, science from every academy, culture from every great work, and the empire's influence extends to every corner of the globe through the soft power of commerce and the hard power of conviction.]"
         ]
       }
     ]
@@ -2003,19 +3861,62 @@
       "Only available <before adopting [Socialism]>",
       "Only available <before adopting [Liberalism]>",
       "Only available <before adopting [Fascism]>",
-      "Only available <before adopting [Anarchism]>"
+      "Only available <before adopting [Anarchism]>",
+      "[+1 Culture] from every [Monument]",
+      "[+1 Culture] from every [Temple]",
+      "[+1 Culture] from every [World Wonder]",
+      "[+1 Happiness] from every [World Wonder]",
+      "[+1 Happiness] from every [Monument]",
+      "[-10]% Unhappiness from [Population] [in all cities]",
+      "Comment [Conservatism preserves the wisdom of the past — tradition, faith, and order anchor the empire against the storms of radical change.]"
     ],
     "policies": [
       {
         "name": "Mixed Economy",
         "uniques": [
-          "[Gold] cost of purchasing items in cities [-15]%"
+          "[Gold] cost of purchasing items in cities [-15]%",
+          "[+2 Gold] from every [Market]",
+          "[+2 Gold] from every [Bank]",
+          "[+2 Gold] from every [Stock Exchange]",
+          "[+1 Happiness] from every [Market]",
+          "[+1 Happiness] from every [Bank]",
+          "[+1 Happiness] from every [Stock Exchange]",
+          "[+1 Science] from every [Market]",
+          "[+1 Science] from every [Bank]",
+          "[+1 Science] from every [Stock Exchange]",
+          "[+15]% [Gold] [in all cities]",
+          "[-15]% maintenance cost for [all] buildings [in all cities]",
+          "[-15]% maintenance on road & railroads",
+          "[+1 Culture] from every [Market]",
+          "[+1 Culture] from every [Bank]",
+          "[+1 Culture] from every [Stock Exchange]",
+          "[-10]% maintenance costs <for [All] units>"
         ],
         "row": 1,
         "column": 1
       },
       {
         "name": "Romantized Tradition",
+        "uniques": [
+          "[+2 Culture] from every [Monument]",
+          "[+2 Culture] from every [Temple]",
+          "[+2 Culture] from every [World Wonder]",
+          "[+1 Happiness] from every [Monument]",
+          "[+1 Happiness] from every [Temple]",
+          "[+1 Happiness] from every [World Wonder]",
+          "[+1 Science] from every [World Wonder]",
+          "[+1 Gold] from every [World Wonder]",
+          "[+1 Production] from every [World Wonder]",
+          "[+25]% [Culture] [in all cities]",
+          "[-15]% Culture cost of natural border growth [in all cities]",
+          "[+50]% Production when constructing [Monument] buildings [in all cities]",
+          "[+50]% Production when constructing [Temple] buildings [in all cities]",
+          "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
+          "[+50]% Production when constructing [Opera House] buildings [in all cities]",
+          "[+2 Culture] from every [Amphitheater]",
+          "[+2 Culture] from every [Opera House]",
+          "Comment [Romanticized tradition elevates the past to mythic status — monuments and temples become cathedrals of national identity and the empire's cultural heritage is enshrined as sacred.]"
+        ],
         "row": 1,
         "column": 3
       },
@@ -2024,7 +3925,19 @@
         "uniques": [
           "[-2 Gold, +5 Happiness] [in all cities]",
           "[+10]% growth [in all cities]",
-          "Provides the cheapest [Culture] building in your first [5] cities for free"
+          "Provides the cheapest [Culture] building in your first [5] cities for free",
+          "[+2 Food] [in all cities]",
+          "[+1 Production] [in all cities]",
+          "[+1 Culture] [in all cities]",
+          "[-20]% Unhappiness from [Population] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "[+1 Happiness] from every [Monument]",
+          "[+1 Happiness] from every [Temple]",
+          "[+1 Happiness] from every [Amphitheater]",
+          "[+1 Happiness] from every [Opera House]",
+          "[+1 Happiness] from every [Museum]",
+          "[+1 Happiness] from every [Broadcast Tower]",
+          "Comment [Class conciliation bridges the divide between rich and poor — the conservative state mediates between capital and labor, trading gold for contentment and stability for growth.]"
         ],
         "row": 1,
         "column": 5
@@ -2034,7 +3947,17 @@
         "uniques": [
           "[+40]% Production when constructing [Military] units [in all cities]",
           "[+10 Culture] from every [Natural Wonder] <after adopting [Religious]>",
-          "[+5 Culture] from every [Holy site] <after adopting [Tradition]>"
+          "[+5 Culture] from every [Holy site] <after adopting [Tradition]>",
+          "[+2 Happiness] from every [Temple] <after adopting [Religious]>",
+          "[+2 Faith] from every [Temple] <after adopting [Religious]>",
+          "[+2 Science] from every [Temple] <after adopting [Religious]>",
+          "[+2 Gold] from every [Temple] <after adopting [Religious]>",
+          "[+1 Happiness] from every [Monument] <after adopting [Tradition]>",
+          "[+1 Culture] from every [Monument] <after adopting [Tradition]>",
+          "[+1 Production] from every [Monument] <after adopting [Tradition]>",
+          "New [Military] units start with [15] XP [in all cities]",
+          "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+          "Comment [Religion and country become one — the church blesses the nation's armies and the state sanctifies the church, creating a unified civilization where faith and patriotism are indistinguishable.]"
         ],
         "requires": [
           "Romantized Tradition",
@@ -2045,6 +3968,24 @@
       },
       {
         "name": "Agricultural Fundings(Conservative)",
+        "uniques": [
+          "[+2 Food] from every [Farm]",
+          "[+2 Food] from every [Granary]",
+          "[+1 Food] from every [Pasture]",
+          "[+1 Food] from every [Plantation]",
+          "[+1 Food] from every [Water Mill]",
+          "[+1 Food] from every [Windmill]",
+          "[+25]% [Food] [in all cities]",
+          "[+50]% Production when constructing [Granary] buildings [in all cities]",
+          "[+50]% Production when constructing [Aqueduct] buildings [in all cities]",
+          "[+1 Happiness] from every [Granary]",
+          "[+1 Happiness] from every [Aqueduct]",
+          "[+1 Culture] from every [Granary]",
+          "[+1 Culture] from every [Aqueduct]",
+          "[-10]% Food consumption by [Specialists] [in all cities]",
+          "[+10]% growth [in all cities]",
+          "Comment [Agricultural fundings through the conservative state — traditional farming practices are supported and the agrarian backbone of the nation is preserved against the encroachments of industrial modernity.]"
+        ],
         "requires": [
           "Mixed Economy"
         ],
@@ -2055,7 +3996,22 @@
         "name": "Deradicalization",
         "uniques": [
           "[-33]% City-State Influence degradation",
-          "[-10]% Unhappiness from [Population] [in all cities]"
+          "[-10]% Unhappiness from [Population] [in all cities]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[-15]% Food consumption by [Specialists] [in all cities]",
+          "[+1 Happiness] [in all cities]",
+          "[+1 Culture] [in all cities]",
+          "[+1 Science] [in all cities]",
+          "[+2 Happiness] from every [Monument]",
+          "[+2 Happiness] from every [Temple]",
+          "[+2 Culture] from every [Monument]",
+          "[+2 Culture] from every [Temple]",
+          "Resting point for Influence with City-States is increased by [20]",
+          "[-50]% enemy spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+          "Gain an extra spy",
+          "[+25]% spy effectiveness [in all cities]",
+          "Comment [Deradicalization cools the passions of the populace — the conservative state defuses ideological extremism through moderation, tradition, and measured reform, creating a society of stability and contentment.]"
         ],
         "requires": [
           "Religion and Country"
@@ -2066,7 +4022,53 @@
       {
         "name": "Conservatism Complete",
         "uniques": [
-          "[-33]% spy effectiveness [in all cities]"
+          "[-33]% spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities]",
+          "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+          "Gain [2] extra spies",
+          "[+50]% spy effectiveness [in all cities]",
+          "[+5 Culture] [in all cities]",
+          "[+5 Happiness] [in all cities]",
+          "[+3 Gold] [in all cities]",
+          "[+3 Science] [in all cities]",
+          "[+3 Production] [in all cities]",
+          "[+3 Food] [in all cities]",
+          "[+3 Culture] from every [Monument]",
+          "[+3 Culture] from every [Temple]",
+          "[+3 Culture] from every [World Wonder]",
+          "[+2 Happiness] from every [Monument]",
+          "[+2 Happiness] from every [Temple]",
+          "[+2 Happiness] from every [World Wonder]",
+          "[+2 Science] from every [World Wonder]",
+          "[+2 Gold] from every [World Wonder]",
+          "[+2 Production] from every [World Wonder]",
+          "[+50]% [Culture] [in all cities]",
+          "[+25]% [Gold] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Food] [in all cities]",
+          "[+25]% [Production] [in all cities]",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% unhappiness from the number of cities",
+          "[-50]% maintenance cost for [all] buildings [in all cities]",
+          "[-50]% maintenance on road & railroads",
+          "[-50]% Culture cost of natural border growth [in all cities]",
+          "[-25]% Science cost of researching new Technologies",
+          "[+50]% Golden Age length",
+          "[+50]% Production when constructing [Monument] buildings [in all cities]",
+          "[+50]% Production when constructing [Temple] buildings [in all cities]",
+          "[+50]% Production when constructing [Amphitheater] buildings [in all cities]",
+          "[+50]% Production when constructing [Opera House] buildings [in all cities]",
+          "[+50]% Production when constructing [Museum] buildings [in all cities]",
+          "[+50]% Production when constructing [Broadcast Tower] buildings [in all cities]",
+          "[-33]% City-State Influence degradation",
+          "Resting point for Influence with City-States is increased by [40]",
+          "[+100]% resources gifted by City-States",
+          "[+50]% [Culture] from City-States",
+          "[+50]% [Faith] from City-States",
+          "[+50]% [Food] from City-States",
+          "[+50]% [Happiness] from City-States",
+          "Comment [Conservatism reaches its fullest expression — the empire stands as a bastion of tradition, faith, and ordered liberty, its monuments and temples the envy of the world, its populace content and stable, its cultural heritage unshakeable, and its diplomatic influence woven into the very fabric of the international order. The wisdom of the past illuminates the path to the future.]"
         ]
       }
     ]
@@ -2078,13 +4080,30 @@
       "Only available <before adopting [Fascism]>",
       "Only available <before adopting [Liberalism]>",
       "Only available <before adopting [Conservatism]>",
-      "Only available <before adopting [Socialism]>"
+      "Only available <before adopting [Socialism]>",
+      "[+1 Culture] from every specialist [in all cities]",
+      "[+1 Science] from every specialist [in all cities]",
+      "[+1 Production] from every specialist [in all cities]",
+      "[-15]% Food consumption by [Specialists] [in all cities]",
+      "[-15]% Unhappiness from [Specialists] [in all cities]",
+      "[-15]% Unhappiness from [Population] [in all cities]",
+      "Comment [Anarchism kindles the flame of liberation — the state withers and the people govern themselves, finding strength in mutual aid and voluntary cooperation.]"
     ],
     "policies": [
       {
         "name": "Abolishment of Government",
         "uniques": [
-          "[-50]% Culture cost of natural border growth [in all cities] <during a Golden Age>"
+          "[-50]% Culture cost of natural border growth [in all cities] <during a Golden Age>",
+          "[+25]% [Culture] [in all cities] <during a Golden Age>",
+          "[+25]% [Science] [in all cities] <during a Golden Age>",
+          "[+25]% [Gold] [in all cities] <during a Golden Age>",
+          "[+25]% [Production] [in all cities] <during a Golden Age>",
+          "[+25]% [Food] [in all cities] <during a Golden Age>",
+          "[-25]% Unhappiness from [Population] [in all cities] <during a Golden Age>",
+          "[-50]% Unhappiness from [Specialists] [in all cities] <during a Golden Age>",
+          "[-50]% Food consumption by [Specialists] [in all cities] <during a Golden Age>",
+          "[+50]% Golden Age length",
+          "Comment [The abolishment of government unleashes the creative potential of the people — during golden ages, the absence of the state's dead hand allows culture, science, and prosperity to explode beyond all prior constraints.]"
         ],
         "row": 1,
         "column": 1
@@ -2093,7 +4112,22 @@
         "name": "Redistribution of Means of Production(Anarchism)",
         "uniques": [
           "[+25]% [Production] <during a Golden Age>",
-          "[+25]% [Gold] <during a Golden Age>"
+          "[+25]% [Gold] <during a Golden Age>",
+          "[+2 Production] from every [Workshop] <during a Golden Age>",
+          "[+2 Production] from every [Factory] <during a Golden Age>",
+          "[+2 Gold] from every [Workshop] <during a Golden Age>",
+          "[+2 Gold] from every [Factory] <during a Golden Age>",
+          "[+2 Science] from every [Workshop] <during a Golden Age>",
+          "[+2 Science] from every [Factory] <during a Golden Age>",
+          "[+2 Culture] from every [Workshop] <during a Golden Age>",
+          "[+2 Culture] from every [Factory] <during a Golden Age>",
+          "[+1 Happiness] from every [Workshop] <during a Golden Age>",
+          "[+1 Happiness] from every [Factory] <during a Golden Age>",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities] <during a Golden Age>",
+          "[+50]% Production when constructing [Factory] buildings [in all cities] <during a Golden Age>",
+          "[-25]% maintenance cost for [all] buildings [in all cities] <during a Golden Age>",
+          "[-25]% maintenance on road & railroads <during a Golden Age>",
+          "Comment [The redistribution of the means of production places the factory and workshop in the hands of the workers — during golden ages, collective ownership transforms industry into a engine of shared prosperity.]"
         ],
         "requires": [
           "Abolishment of Government"
@@ -2103,6 +4137,19 @@
       },
       {
         "name": "Militia Army",
+        "uniques": [
+          "[+25]% Production when constructing [Military] units [in all cities] <during a Golden Age>",
+          "New [Military] units start with [15] XP [in all cities] <during a Golden Age>",
+          "[+15]% Strength <for [Military] units> <during a Golden Age>",
+          "[+50]% XP gained from combat <for [non-[Air]] units> <during a Golden Age>",
+          "[-50]% maintenance costs <for [All] units> <during a Golden Age>",
+          "[5] free [Infantry] units appear <during a Golden Age>",
+          "[5] units cost no maintenance <during a Golden Age>",
+          "[Infantry] units gain the [Morale] promotion",
+          "All newly-trained [Infantry] units [in all cities] receive the [Morale] promotion",
+          "[+1 Happiness] [in all cities] <during a Golden Age>",
+          "Comment [The militia army arises from the people themselves — during golden ages, every citizen becomes a soldier and the defense of the community rests not on a standing army but on the collective will of the free.]"
+        ],
         "requires": [
           "Redistribution of Means of Production(Anarchism)"
         ],
@@ -2112,13 +4159,43 @@
       {
         "name": "Complete Autonomy",
         "uniques": [
-          "[+50]% Yield from every [Great Improvement]"
+          "[+50]% Yield from every [Great Improvement]",
+          "[+3 Science] from every [Great Improvement]",
+          "[+3 Culture] from every [Great Improvement]",
+          "[+3 Gold] from every [Great Improvement]",
+          "[+3 Production] from every [Great Improvement]",
+          "[+3 Food] from every [Great Improvement]",
+          "[+2 Happiness] from every [Great Improvement]",
+          "[+100]% Yield from every [Great Improvement] <during a Golden Age>",
+          "[+5 Science] from every [Academy]",
+          "[+5 Production] from every [Manufactory]",
+          "[+5 Culture] from every [Landmark]",
+          "[+5 Gold] from every [Customs house]",
+          "[+5 Faith] from every [Holy site]",
+          "[+5 Production] from every [Dry Dock]",
+          "Comment [Complete autonomy transforms the landscape — great improvements yield their bounty without the state's interference and every academy, manufactory, and landmark becomes a monument to self-governance.]"
         ],
         "row": 1,
         "column": 5
       },
       {
         "name": "Diversity of Opinions",
+        "uniques": [
+          "[+2 Culture] from every specialist [in all cities]",
+          "[+2 Science] from every specialist [in all cities]",
+          "[+1 Gold] from every specialist [in all cities]",
+          "[+1 Production] from every specialist [in all cities]",
+          "[+1 Happiness] from every specialist [in all cities]",
+          "[-25]% Unhappiness from [Specialists] [in all cities]",
+          "[-25]% Food consumption by [Specialists] [in all cities]",
+          "[+25]% Great Person generation [in all cities]",
+          "[+2 Culture] from every [Great Work]",
+          "[+2 Science] from every [Great Work]",
+          "[+1 Happiness] from every [Great Work]",
+          "[+25]% [Culture] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "Comment [Diversity of opinions enriches the intellectual life of the community — the free exchange of ideas creates a marketplace of thought where every perspective contributes to the collective wisdom.]"
+        ],
         "requires": [
           "Complete Autonomy"
         ],
@@ -2128,7 +4205,22 @@
       {
         "name": "Direct Democracy",
         "uniques": [
-          "[+33]% Strength for cities"
+          "[+33]% Strength for cities",
+          "[+50]% Golden Age length",
+          "[+25]% [Culture] [in all cities]",
+          "[+25]% [Science] [in all cities]",
+          "[+25]% [Gold] [in all cities]",
+          "[+25]% [Production] [in all cities]",
+          "[+25]% [Food] [in all cities]",
+          "[-25]% Unhappiness from [Population] [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+50]% Great Person generation [in all cities]",
+          "[+1 Happiness] [in all cities]",
+          "[+1 Culture] [in all cities]",
+          "[+1 Science] [in all cities]",
+          "Empire enters golden age",
+          "Comment [Direct democracy places power in the hands of every citizen — the community governs itself through assembly and consensus, and the collective will becomes the engine of the state that is not a state.]"
         ],
         "requires": [
           "Diversity of Opinions"
@@ -2137,7 +4229,62 @@
         "column": 5
       },
       {
-        "name": "Anarchism Complete"
+        "name": "Anarchism Complete",
+        "uniques": [
+          "[+5 Culture] [in all cities]",
+          "[+5 Science] [in all cities]",
+          "[+5 Gold] [in all cities]",
+          "[+5 Production] [in all cities]",
+          "[+5 Food] [in all cities]",
+          "[+3 Happiness] [in all cities]",
+          "[+3 Culture] from every specialist [in all cities]",
+          "[+3 Science] from every specialist [in all cities]",
+          "[+3 Gold] from every specialist [in all cities]",
+          "[+3 Production] from every specialist [in all cities]",
+          "[+2 Happiness] from every specialist [in all cities]",
+          "[-50]% Unhappiness from [Specialists] [in all cities]",
+          "[-50]% Food consumption by [Specialists] [in all cities]",
+          "[+100]% Yield from every [Great Improvement]",
+          "[+5 Science] from every [Great Improvement]",
+          "[+5 Culture] from every [Great Improvement]",
+          "[+5 Gold] from every [Great Improvement]",
+          "[+5 Production] from every [Great Improvement]",
+          "[+5 Food] from every [Great Improvement]",
+          "[+3 Happiness] from every [Great Improvement]",
+          "[+200]% Yield from every [Great Improvement] <during a Golden Age>",
+          "[+10 Science] from every [Academy]",
+          "[+10 Production] from every [Manufactory]",
+          "[+10 Culture] from every [Landmark]",
+          "[+10 Gold] from every [Customs house]",
+          "[+10 Faith] from every [Holy site]",
+          "[+10 Production] from every [Dry Dock]",
+          "[+100]% Golden Age length",
+          "[+50]% [Culture] [in all cities] <during a Golden Age>",
+          "[+50]% [Science] [in all cities] <during a Golden Age>",
+          "[+50]% [Gold] [in all cities] <during a Golden Age>",
+          "[+50]% [Production] [in all cities] <during a Golden Age>",
+          "[+50]% [Food] [in all cities] <during a Golden Age>",
+          "[-50]% Unhappiness from [Population] [in all cities] <during a Golden Age>",
+          "[-100]% Unhappiness from [Specialists] [in all cities] <during a Golden Age>",
+          "[-100]% Food consumption by [Specialists] [in all cities] <during a Golden Age>",
+          "[-50]% Culture cost of natural border growth [in all cities] <during a Golden Age>",
+          "[-50]% maintenance cost for [all] buildings [in all cities] <during a Golden Age>",
+          "[-50]% maintenance on road & railroads <during a Golden Age>",
+          "[-50]% maintenance costs <for [All] units> <during a Golden Age>",
+          "[+100]% Great Person generation [in all cities] <during a Golden Age>",
+          "[+50]% Production when constructing [Workshop] buildings [in all cities] <during a Golden Age>",
+          "[+50]% Production when constructing [Factory] buildings [in all cities] <during a Golden Age>",
+          "[+33]% Strength for cities",
+          "[+50]% Strength for cities <during a Golden Age>",
+          "[+25]% Production when constructing [Military] units [in all cities] <during a Golden Age>",
+          "New [Military] units start with [30] XP [in all cities] <during a Golden Age>",
+          "[+25]% Strength <for [Military] units> <during a Golden Age>",
+          "[+100]% XP gained from combat <for [All] units> <during a Golden Age>",
+          "[-50]% unhappiness from the number of cities",
+          "[-33]% Unhappiness from [Population] [in all cities]",
+          "[+100]% Great Person generation [in all cities]",
+          "Comment [Anarchism reaches its ultimate fulfillment — the state has dissolved, the people govern themselves in perfect freedom, and during golden ages the community achieves a utopia of culture, science, prosperity, and strength that no hierarchical society could ever match. The great improvements of the land yield tenfold, the specialists produce without constraint, and the militia stands ready to defend the commune against all threats. The dream of a stateless society is realized.]"
+        ]
       }
     ]
   }
