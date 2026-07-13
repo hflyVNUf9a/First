@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Terraformer",
+    "uniques": [
+      "Turn this tile into a [Ocean] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Ocean]} {Water}] tiles> <for all movement>",
+      "Turn this tile into a [Coast] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Coast]} {Water}] tiles> <for all movement>",
+      "Turn this tile into a [Atoll] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Atoll]} {Water}] tiles> <for all movement>",
+      "Turn this tile into a [Desert] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Ocean]} {Water}] tiles> <by consuming this unit>",
+      "Turn this tile into a [Lakes] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {Land}] tiles> <by consuming this unit>",
+      "Turn this tile into a [Grassland] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Grassland]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Plains] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Plains]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Tundra] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Tundra]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Desert] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Desert]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Snow] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Snow]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Hill] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Hill]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Forest] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Forest]} {non-[Desert]} {non-[Snow]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Jungle] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Jungle]} {non-[Desert]} {non-[Snow]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Marsh] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Marsh]} {Land}] tiles> <for all movement>",
+      "Turn this tile into a [Oasis] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Oasis]} {Desert}] tiles> <for all movement>",
+      "Turn this tile into a [Polar Oasis] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Polar Oasis]} {Snow}] tiles> <for all movement>",
+      "Turn this tile into a [Flood plains] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Flood plains]} {Land}] tiles> <with [1] to [6] neighboring [River] tiles> <for all movement>"
+    ]
+  },
+  {
+    "name": "Cybernetic Pilot Augmentation",
+    "uniques": [
+      "[+25]% Strength"
+    ]
+  },
+  {
+    "name": "Personal AI Copilot",
+    "uniques": [
+      "[+25]% Strength"
+    ]
+  },
+  {
+    "name": "Advanced Radar Systems",
+    "uniques": [
+      "[+1] Sight"
+    ],
+    "unitTypes": [
+      "Destroyer"
+    ]
+  },
+  {
+    "name": "Advanced Sonar Arrays",
+    "uniques": [
+      "[+1] Sight"
+    ],
+    "unitTypes": [
+      "Destroyer"
+    ]
+  },
+  {
+    "name": "Expanded Vertical Launch Systems (VLS)",
+    "uniques": [
+      "Can carry [+1] [Cruise Missiles] units"
+    ],
+    "unitTypes": [
+      "Destroyer"
+    ]
+  },
+  {
+    "name": "Enhanced AI Control",
+    "uniques": [
+      "[+30]% Strength",
+      "[+4] Range"
+    ],
+    "unitTypes": [
+      "Drone"
+    ]
+  },
+  {
+    "name": "Morale",
+    "uniques": [
+      "[+20]% Strength"
+    ]
+  },
+  {
+    "name": "Dojo",
+    "uniques": [
+      "[+15]% Strength"
+    ]
+  },
+  {
+    "name": "Missionary Zeal",
+    "uniques": [
+      "Can Spread Religion <[1] additional time(s)>"
+    ]
+  },
+  {
+    "name": "Devout",
+    "uniques": [
+      "Can Spread Religion <[1] additional time(s)>"
+    ]
+  },
+  {
+    "name": "AI Controlled",
+    "uniques": [
+      "[+50]% Strength"
+    ]
+  },
+  {
+    "name": "Loaded"
+  },
+  {
+    "name": "Seek and Capture",
+    "uniques": [
+      "May capture killed [Military] units <with [60]% chance>"
+    ]
+  },
+  {
+    "name": "Terrorist Strength",
+    "uniques": [
+      "[+10]% Strength"
+    ]
+  },
+  {
+    "name": "No Suicide",
+    "uniques": [
+      "Can only attack [Civilian] units",
+      "Can only attack [Military] units",
+      "[+25]% Strength <when stacked with a [Civilian] unit>",
+      "Heals [25] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Barbarian Civilian",
+    "uniques": [
+      "Can move after attacking",
+      "Ignores Zone of Control",
+      "Can pass through impassable tiles",
+      "Invisible to non-adjacent units",
+      "Unit will heal every turn, even if it performs an action"
+    ]
+  },
+  {
+    "name": "WWV",
+    "uniques": [
+      "Instantly provides [8] [War Weariness] <upon being defeated> <vs [non-[Barbarians]] units> <in [Friendly Land] tiles> <when at war>",
+      "Instantly provides [20] [War Weariness] <upon being defeated> <vs [non-[Barbarians]] units> <in [non-[Friendly Land]] tiles> <when at war>",
+      "Instantly provides [150] [War Weariness] <upon conquering a city>",
+      "Instantly consumes [16] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
+      "Instantly consumes [8] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Foreign Land] tiles>"
+    ]
+  },
+  {
+    "name": "Fearless",
+    "uniques": [
+      "Instantly provides [50] [War Weariness] <upon conquering a city>",
+      "Instantly consumes [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
+      "Instantly consumes [20] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [non-[Friendly Land]] tiles>"
+    ]
+  }
+]
