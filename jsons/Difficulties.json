@@ -2,11 +2,11 @@
   {
     "name": "Normal",
     "baseHappiness": 5,
-    "extraHappinessPerLuxury": 0,
+    "extraHappinessPerLuxury": 2,
     "researchCostModifier": 1,
     "unitCostModifier": 1,
     "unitSupplyBase": 5,
-    "unitSupplyPerCity": 2,
+    "unitSupplyPerCity": 3,
     "buildingCostModifier": 1,
     "policyCostModifier": 1,
     "unhappinessModifier": 1,
