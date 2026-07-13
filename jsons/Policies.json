@@ -16,7 +16,7 @@
       "[+10]% growth [in capital]",
       "[+1 Happiness] [in capital]",
       "[+2 Science] [in capital]",
-      "[+1 Production] from every [Specialist] [in capital]",
+      "[+1 Production] from every specialist [in capital]",
       "Comment [The bedrock of tall empires — culture, growth, and wonder construction flow from the ancestral seat of power.]"
     ],
     "policies": [
@@ -29,7 +29,6 @@
           "[+1 Culture] from every [World Wonder]",
           "[+1 Gold] from every [World Wonder]",
           "[+1 Science] from every [World Wonder]",
-          "[-10]% Gold cost of purchasing [All] wonders [in all cities]",
           "[+2 Food] from every [World Wonder]",
           "Provides [1] [Policies]",
           "Comment [Nobility stewards the realm — grand monuments rise swiftly and the populace rejoices in their shadow.]"
@@ -149,7 +148,7 @@
           "[+50]% Production when constructing [Hospital] buildings [in all cities]",
           "[+50]% Production when constructing [Medical Lab] buildings [in all cities]",
           "[-25]% Food consumption by [Specialists] [in all cities]",
-          "[+1 Production] from every [Specialist] [in all cities]",
+          "[+1 Production] from every specialist [in all cities]",
           "[+2 Culture] from every [World Wonder]",
           "[+2 Science] from every [World Wonder]",
           "[+2 Gold] from every [World Wonder]",
@@ -358,7 +357,7 @@
         "uniques": [
           "[+1 Production, +1 Gold, +1 Culture] from every [Military Academy]",
           "[+1 Production, +1 Gold, +1 Culture] from every [Armory]",
-          "[+1 Production, +1 Barracks]",
+          "[+1 Production, +1 Gold, +1 Culture] Barracks]",
           "[+100]% Production when constructing [Barracks] buildings [in all cities]",
           "[+100]% Production when constructing [Armory] buildings [in all cities]",
           "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
@@ -368,7 +367,6 @@
           "[+1 Happiness] from every [Barracks]",
           "[+1 Happiness] from every [Armory]",
           "[+1 Happiness] from every [Military Academy]",
-          "[-20]% Gold cost of purchasing [Military] units [in all cities]",
           "[+2 Culture] from every [Military Academy]",
           "[+2 Science] from every [Armory]",
           "Provides [1] [Policies]",
@@ -431,7 +429,7 @@
           "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
           "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
           "[50]% XP gained from combat <for [non-[Air]] units>",
-          "[+15]% Strength <for [Military] units> <when adjacent to [2] other [Military] units>",
+          "[+15]% Strength <for [Military] units> <when adjacent to a [Military] unit>",
           "[+1 Culture] from every [Barracks]",
           "[+1 Culture] from every [Armory]",
           "[+1 Culture] from every [Military Academy]",
@@ -531,7 +529,6 @@
           "[+1 Happiness] from every [Shrine]",
           "[+1 Happiness] from every [Temple]",
           "[+50]% Production when constructing [Grand Temple] wonders [in all cities]",
-          "[-10]% Faith cost of purchasing [[Great Person] units [in all cities]",
           "[+1 Science] from every [Temple]",
           "[+1 Science] from every [Shrine]",
           "Provides [1] [Policies]",
@@ -1000,7 +997,7 @@
           "[+2 Food] [in all cities connected to capital]",
           "[+50]% [Gold] from Trade Routes",
           "[-25]% maintenance on road & railroads",
-          "Gain [2] extra spies",
+          "Gain an extra spy",
           "[+50]% spy effectiveness [in all cities]",
           "Comment [The empire's diplomatic web spans the globe — city-states are not mere allies but extensions of the imperial will, bound by gold, culture, and shared destiny.]"
         ]
@@ -3032,7 +3029,7 @@
           "Allied City-States provide [Gold] equal to [33]% of what they produce for themselves",
           "[-25]% maintenance on road & railroads",
           "[-25]% maintenance cost for [all] buildings [in all cities]",
-          "Gain [2] extra spies",
+          "Gain an extra spy",
           "[+50]% spy effectiveness [in all cities]",
           "Comment [The Allied coalition reaches the zenith of its power — free nations stand shoulder to shoulder, city-states flock to the banner of liberty, and the combined economic, scientific, cultural, and military might of the alliance becomes an unstoppable force for freedom in the atomic age.]"
         ]
@@ -3286,7 +3283,7 @@
           "Can build [All] improvements at a [+50]% rate",
           "[-33]% Science cost of researching new Technologies",
           "[-25]% Unhappiness from [Population] [in all cities]",
-          "Gain [2] extra spies",
+          "Gain an extra spy",
           "[+100]% spy effectiveness [in all cities]",
           "[-100]% enemy spy effectiveness [in all cities]",
           "Comment [The Western Bloc reaches the apex of liberal democratic civilization — the free world stands as a colossus of science, culture, and prosperity, its specialists the most productive in history, its military the most experienced, its influence over city-states absolute, and its technological lead insurmountable.]"
@@ -3444,7 +3441,7 @@
           "[+50]% [Science] from City-States",
           "[+50]% [Production] from City-States",
           "Allied City-States will occasionally gift Great People",
-          "Gain [2] extra spies",
+          "Gain an extra spy",
           "[+100]% spy effectiveness [in all cities]",
           "[-100]% enemy spy effectiveness [in all cities]",
           "Comment [The Non-Aligned Movement reaches its ultimate expression — unshackled from the rivalries of the great blocs, the empire harnesses the full spectrum of resources, science, culture, and diplomacy to become a superpower in its own right, proving that independence and self-determination are the truest paths to greatness in the information age.]"
@@ -3630,7 +3627,7 @@
           "[+50]% [Science] from City-States",
           "[+50]% [Production] from City-States",
           "Allied City-States will occasionally gift Great People",
-          "Gain [2] extra spies",
+          "Gain an extra spy",
           "[+100]% spy effectiveness [in all cities]",
           "[-100]% enemy spy effectiveness [in all cities]",
           "[-100]% enemy spy effectiveness [in all cities connected to capital]",
@@ -4025,7 +4022,7 @@
           "[-33]% spy effectiveness [in all cities]",
           "[-100]% enemy spy effectiveness [in all cities]",
           "[-100]% enemy spy effectiveness [in all cities connected to capital]",
-          "Gain [2] extra spies",
+          "Gain an extra spy",
           "[+50]% spy effectiveness [in all cities]",
           "[+5 Culture] [in all cities]",
           "[+5 Happiness] [in all cities]",
