@@ -1,4 +1,5 @@
 {
+  "isBaseRuleset": true,
   "name": "First",
   "author": "First",
   "version": "40.0",
@@ -34,7 +35,6 @@
       "eraMultiplier": 0.5,
       "exponent": 1,
       "roundTo": 5
-    },
-    "isBaseRuleset": true
+    }
   }
 }
