@@ -20,9 +20,9 @@
     "aiBuildingMaintenanceModifier": 1,
     "aiUnitMaintenanceModifier": 1,
     "aiUnitSupplyModifier": 1,
-    "aiUnhappinessModifier": 0.55,
+    "aiUnhappinessModifier": 1,
     "aisExchangeTechs": true,
     "turnBarbariansCanEnterPlayerTiles": 0,
-    "clearBarbarianCampReward": 100
+    "clearBarbarianCampReward": 300
   }
 ]

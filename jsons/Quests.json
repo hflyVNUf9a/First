@@ -1,149 +1,298 @@
 [
-    {
-        "name": "Route",
-        "description": "Build a road to connect your capital to our city.",
-        "influence": 54,
-        "weightForCityStateType": {
-            "Friendly": 2,
-            "Hostile": 0.2,
-            "Maritime": 1.2,
-            "Mercantile": 1.8
-        }
-    },
-    {
-        "name": "Clear Barbarian Camp",
-        "description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
-        "type": "Global",
-        "influence": 80,
-        "minimumCivs": 1,
-        "weightForCityStateType": {
-            "Cultured": 3,
-            "Maritime": 3,
-            "Mercantile": 3,
-            "Militaristic": 8,
-            "Religious": 3
-        }
-    },
-    {
-        "name": "Connect Resource",
-        "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
-        "weightForCityStateType": {
-            "Maritime": 3,
-            "Mercantile": 5
-        }
-    },
-    {
-        "name": "Construct Wonder",
-        "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
-        "influence": 55,
-        "weightForCityStateType": {
-            "Cultured": 4
-        }
-    },
-    {
-        "name": "Acquire Great Person",
-        "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
-        "weightForCityStateType": {
-            "Cultured": 3
-        }
-    },
-    {
-        "name": "Find Player",
-        "description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
-        "influence": 30,
-        "weightForCityStateType": {
-            "Maritime": 3,
-            "Mercantile": 2
-        }
-    },
-    {
-        "name": "Find Natural Wonder",
-        "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet.",
-        "weightForCityStateType": {
-            "Hostile": 0.3,
-            "Militaristic": 0.5
-        }
-    },
-    {
-        "name": "Give Gold",
-        "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
-        "influence": 50,
-        "duration": 30,
-        "weightForCityStateType": {
-            "Cultured": 3,
-            "Maritime": 3,
-            "Mercantile": 3.5,
-            "Militaristic": 2,
-            "Religious": 3
-        }
-    },
-    {
-        "name": "Pledge to Protect",
-        "description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
-        "influence": 100,
-        "duration": 30,
-        "weightForCityStateType": {
-            "Cultured": 3.5,
-            "Maritime": 3,
-            "Mercantile": 5,
-            "Militaristic": 2,
-            "Religious": 5
-        }
-    },
-    {
-        "name": "Contest Culture",
-        "description": "The civilization with the largest Culture growth will gain a reward.",
-        "type": "Global",
-        "duration": 24,
-        "minimumCivs": 3,
-        "weightForCityStateType": {
-            "Cultured": 2,
-            "Maritime": 0.5,
-            "Mercantile": 0.5,
-            "Militaristic": 0.5,
-            "Religious": 0.5
-        }
-    },
-    {
-        "name": "Contest Faith",
-        "description": "The civilization with the largest Faith growth will gain a reward.",
-        "type": "Global",
-        "duration": 24,
-        "minimumCivs": 3,
-        "weightForCityStateType": {
-            "Cultured": 0.5,
-            "Maritime": 0.5,
-            "Mercantile": 0.5,
-            "Militaristic": 0.5,
-            "Religious": 2
-        }
-    },
-    {
-        "name": "Contest Technologies",
-        "description": "The civilization with the largest number of new Technologies researched will gain a reward.",
-        "type": "Global",
-        "duration": 24,
-        "minimumCivs": 3,
-        "weightForCityStateType": {
-            "Religious": 0.5
-        }
-    },
-    {
-        "name": "Invest",
-        "description": "Our people are rejoicing thanks to a tourism boom. For a certain amount of time, any Gold donation will yield [70]% extra Influence.",
-        "type": "Global",
-        "influence": 0,
-        "duration": 30,
-        "minimumCivs": 2,
-        "weightForCityStateType": {
-            "Mercantile": 3
-        }
-    },
-    {
-        "name": "Spread Religion",
-        "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
-        "weightForCityStateType": {
-            "Religious": 3
-        }
+  {
+    "name": "Route",
+    "description": "Our merchants long to reach your capital! Build a road to connect your capital to our city and watch trade flourish between our peoples.",
+    "influence": 75,
+    "duration": 0,
+    "weightForCityStateType": {
+      "Friendly": 3.0,
+      "Neutral": 1.5,
+      "Hostile": 0.1,
+      "Irrational": 1.0,
+      "Cultural": 1.5,
+      "Agricultural": 2.0,
+      "Mercantile": 3.0,
+      "Economic": 3.5,
+      "Industrial": 2.5,
+      "Scientific": 1.0,
+      "Militaristic": 0.5,
+      "Religious": 1.5
     }
+  },
+
+  {
+    "name": "Clear Barbarian Camp",
+    "description": "Barbarians have made camp dangerously close to our city and terrorize our people! We beg you — send your armies to destroy them before it is too late.",
+    "type": "Global",
+    "influence": 100,
+    "minimumCivs": 1,
+    "weightForCityStateType": {
+      "Friendly": 2.0,
+      "Neutral": 1.5,
+      "Hostile": 0.5,
+      "Irrational": 2.5,
+      "Cultural": 2.0,
+      "Agricultural": 3.0,
+      "Mercantile": 3.0,
+      "Economic": 2.5,
+      "Industrial": 2.0,
+      "Scientific": 2.0,
+      "Militaristic": 8.0,
+      "Religious": 3.5
+    }
+  },
+
+  {
+    "name": "Connect Resource",
+    "description": "Our economy desperately needs [tileResource]! Connect it to your trade network and our peoples will both grow stronger from the exchange.",
+    "influence": 65,
+    "weightForCityStateType": {
+      "Friendly": 2.5,
+      "Neutral": 1.5,
+      "Hostile": 0.3,
+      "Irrational": 1.5,
+      "Cultural": 1.5,
+      "Agricultural": 3.5,
+      "Mercantile": 5.0,
+      "Economic": 4.0,
+      "Industrial": 3.0,
+      "Scientific": 1.5,
+      "Militaristic": 1.5,
+      "Religious": 1.5
+    }
+  },
+
+  {
+    "name": "Construct Wonder",
+    "description": "Show the world the glory of your civilization! We challenge you to raise [wonder] — a monument that will echo across the ages.",
+    "influence": 80,
+    "weightForCityStateType": {
+      "Friendly": 2.0,
+      "Neutral": 1.0,
+      "Hostile": 0.2,
+      "Irrational": 1.5,
+      "Cultural": 5.0,
+      "Agricultural": 1.0,
+      "Mercantile": 1.5,
+      "Economic": 2.0,
+      "Industrial": 3.5,
+      "Scientific": 2.5,
+      "Militaristic": 1.0,
+      "Religious": 2.0
+    }
+  },
+
+  {
+    "name": "Acquire Great Person",
+    "description": "The light of genius changes history! Attract a [greatPerson] to your civilization and earn our deepest admiration and gratitude.",
+    "influence": 60,
+    "weightForCityStateType": {
+      "Friendly": 2.5,
+      "Neutral": 1.5,
+      "Hostile": 0.3,
+      "Irrational": 1.0,
+      "Cultural": 4.5,
+      "Agricultural": 1.5,
+      "Mercantile": 2.0,
+      "Economic": 2.0,
+      "Industrial": 2.5,
+      "Scientific": 4.0,
+      "Militaristic": 1.5,
+      "Religious": 2.5
+    }
+  },
+
+  {
+    "name": "Find Player",
+    "description": "Our scouts report that [civName] has founded cities, yet their lands remain a mystery to us. Discover their territory and bring us knowledge of their whereabouts.",
+    "influence": 45,
+    "weightForCityStateType": {
+      "Friendly": 2.0,
+      "Neutral": 2.0,
+      "Hostile": 1.5,
+      "Irrational": 3.0,
+      "Cultural": 1.5,
+      "Agricultural": 1.5,
+      "Mercantile": 2.5,
+      "Economic": 2.5,
+      "Industrial": 1.0,
+      "Scientific": 2.5,
+      "Militaristic": 2.0,
+      "Religious": 1.5
+    }
+  },
+
+  {
+    "name": "Find Natural Wonder",
+    "description": "Legends speak of [naturalWonder], a breathtaking marvel hidden somewhere in the world. Send your greatest explorers to find it and claim the glory of discovery!",
+    "influence": 55,
+    "weightForCityStateType": {
+      "Friendly": 2.5,
+      "Neutral": 1.5,
+      "Hostile": 0.2,
+      "Irrational": 2.0,
+      "Cultural": 3.5,
+      "Agricultural": 2.5,
+      "Mercantile": 1.5,
+      "Economic": 1.5,
+      "Industrial": 0.5,
+      "Scientific": 3.0,
+      "Militaristic": 0.5,
+      "Religious": 3.5
+    }
+  },
+
+  {
+    "name": "Give Gold",
+    "description": "We are suffering great poverty after being robbed by [civName]. Without aid, our city faces collapse. A generous Gold donation will restore hope to our desperate people!",
+    "influence": 65,
+    "duration": 25,
+    "weightForCityStateType": {
+      "Friendly": 3.0,
+      "Neutral": 2.0,
+      "Hostile": 0.5,
+      "Irrational": 2.5,
+      "Cultural": 3.0,
+      "Agricultural": 2.5,
+      "Mercantile": 4.0,
+      "Economic": 3.5,
+      "Industrial": 2.0,
+      "Scientific": 2.0,
+      "Militaristic": 1.5,
+      "Religious": 3.0
+    }
+  },
+
+  {
+    "name": "Pledge to Protect",
+    "description": "The armies of [civName] loom at our borders and we fear annihilation. Only a Pledge of Protection from a powerful friend can deter them — will you stand by our side?",
+    "influence": 120,
+    "duration": 35,
+    "weightForCityStateType": {
+      "Friendly": 4.0,
+      "Neutral": 2.0,
+      "Hostile": 0.2,
+      "Irrational": 3.0,
+      "Cultural": 3.5,
+      "Agricultural": 3.5,
+      "Mercantile": 5.0,
+      "Economic": 3.5,
+      "Industrial": 2.5,
+      "Scientific": 3.0,
+      "Militaristic": 1.5,
+      "Religious": 5.0
+    }
+  },
+
+  {
+    "name": "Contest Culture",
+    "description": "The great civilizations of the world compete for cultural supremacy! The civilization that accumulates the most Culture growth during this contest shall be handsomely rewarded.",
+    "type": "Global",
+    "influence": 70,
+    "duration": 30,
+    "minimumCivs": 3,
+    "weightForCityStateType": {
+      "Friendly": 2.0,
+      "Neutral": 1.5,
+      "Hostile": 0.2,
+      "Irrational": 1.0,
+      "Cultural": 6.0,
+      "Agricultural": 0.5,
+      "Mercantile": 0.5,
+      "Economic": 0.5,
+      "Industrial": 0.5,
+      "Scientific": 0.8,
+      "Militaristic": 0.3,
+      "Religious": 1.5
+    }
+  },
+
+  {
+    "name": "Contest Faith",
+    "description": "The divine calls to all peoples of the earth! Whichever civilization generates the greatest Faith during this sacred period shall receive our highest blessings.",
+    "type": "Global",
+    "influence": 70,
+    "duration": 30,
+    "minimumCivs": 3,
+    "weightForCityStateType": {
+      "Friendly": 1.5,
+      "Neutral": 1.5,
+      "Hostile": 0.2,
+      "Irrational": 1.5,
+      "Cultural": 1.5,
+      "Agricultural": 0.5,
+      "Mercantile": 0.5,
+      "Economic": 0.5,
+      "Industrial": 0.3,
+      "Scientific": 0.5,
+      "Militaristic": 0.3,
+      "Religious": 6.0
+    }
+  },
+
+  {
+    "name": "Contest Technologies",
+    "description": "The age of discovery is upon us! The civilization that researches the greatest number of Technologies during this period shall be recognized as the vanguard of progress.",
+    "type": "Global",
+    "influence": 70,
+    "duration": 30,
+    "minimumCivs": 3,
+    "weightForCityStateType": {
+      "Friendly": 1.5,
+      "Neutral": 1.5,
+      "Hostile": 0.3,
+      "Irrational": 1.0,
+      "Cultural": 1.0,
+      "Agricultural": 0.8,
+      "Mercantile": 1.0,
+      "Economic": 1.0,
+      "Industrial": 1.5,
+      "Scientific": 6.0,
+      "Militaristic": 0.8,
+      "Religious": 0.5
+    }
+  },
+
+  {
+    "name": "Invest",
+    "description": "A great tourism boom has come to our city! For a limited time, every Gold donation you make will yield [70]% extra Influence. Invest now while the opportunity lasts!",
+    "type": "Global",
+    "influence": 0,
+    "duration": 35,
+    "minimumCivs": 2,
+    "weightForCityStateType": {
+      "Friendly": 2.0,
+      "Neutral": 1.5,
+      "Hostile": 0.3,
+      "Irrational": 2.0,
+      "Cultural": 1.5,
+      "Agricultural": 1.0,
+      "Mercantile": 5.0,
+      "Economic": 4.5,
+      "Industrial": 1.5,
+      "Scientific": 1.0,
+      "Militaristic": 1.0,
+      "Religious": 1.5
+    }
+  },
+
+  {
+    "name": "Spread Religion",
+    "description": "Pilgrims from our city have heard of [religionName] and their hearts burn with curiosity. Send missionaries to enlighten our people and forge an eternal spiritual bond between our civilizations.",
+    "influence": 70,
+    "weightForCityStateType": {
+      "Friendly": 2.0,
+      "Neutral": 1.5,
+      "Hostile": 0.3,
+      "Irrational": 2.0,
+      "Cultural": 2.5,
+      "Agricultural": 1.5,
+      "Mercantile": 1.0,
+      "Economic": 1.0,
+      "Industrial": 0.5,
+      "Scientific": 0.5,
+      "Militaristic": 0.8,
+      "Religious": 6.0
+    }
+  }
 ]
