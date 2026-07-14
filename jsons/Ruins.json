@@ -5,11 +5,6 @@
     "weight": 10,
     "uniques": [
       "Gain [30] [Culture] <(modified by game speed)> <after turn number [15]>"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -18,11 +13,6 @@
     "weight": 12,
     "uniques": [
       "Gain [20] [Culture]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -31,11 +21,6 @@
     "weight": 9,
     "uniques": [
       "Gain [50] [Culture]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -44,11 +29,6 @@
     "weight": 6,
     "uniques": [
       "Gain [80]-[120] [Culture]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -57,11 +37,6 @@
     "weight": 1,
     "uniques": [
       "Gain [150]-[600] [Culture]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -70,11 +45,6 @@
     "weight": 2,
     "uniques": [
       "Free Social Policy"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -83,11 +53,6 @@
     "weight": 1,
     "uniques": [
       "Empire enters golden age"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -96,11 +61,6 @@
     "weight": 12,
     "uniques": [
       "Gain [50] [Science]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -109,11 +69,6 @@
     "weight": 9,
     "uniques": [
       "Gain [80]-[120] [Science]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -122,11 +77,6 @@
     "weight": 5,
     "uniques": [
       "Gain [140]-[180] [Science]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -135,11 +85,6 @@
     "weight": 1,
     "uniques": [
       "Gain [150]-[600] [Science]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -148,11 +93,6 @@
     "weight": 4,
     "uniques": [
       "[1] free random researchable Tech(s) from the [Ancient era]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -161,11 +101,6 @@
     "weight": 3,
     "uniques": [
       "[1] free random researchable Tech(s) from the [Ancient era]"
-    ],
-    "color": [
-      127,
-      127,
-      255
     ]
   },
   {
@@ -174,11 +109,6 @@
     "weight": 14,
     "uniques": [
       "Gain [50] [Gold]"
-    ],
-    "color": [
-      255,
-      235,
-      127
     ]
   },
   {
@@ -187,11 +117,6 @@
     "weight": 10,
     "uniques": [
       "Gain [100] [Gold]"
-    ],
-    "color": [
-      255,
-      235,
-      127
     ]
   },
   {
@@ -200,11 +125,6 @@
     "weight": 10,
     "uniques": [
       "Gain [30]-[50] [Gold] <(modified by game speed)>"
-    ],
-    "color": [
-      255,
-      235,
-      127
     ]
   },
   {
@@ -213,11 +133,6 @@
     "weight": 5,
     "uniques": [
       "Gain [175]-[250] [Gold]"
-    ],
-    "color": [
-      255,
-      235,
-      127
     ]
   },
   {
@@ -226,11 +141,6 @@
     "weight": 1,
     "uniques": [
       "Gain [800]-[1200] [Gold]"
-    ],
-    "color": [
-      255,
-      235,
-      127
     ]
   },
   {
@@ -239,11 +149,6 @@
     "weight": 1,
     "uniques": [
       "Gain [300]-[1500] [Gold]"
-    ],
-    "color": [
-      255,
-      235,
-      127
     ]
   },
   {
@@ -253,11 +158,6 @@
     "uniques": [
       "Only available <when religion is enabled>",
       "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"
-    ],
-    "color": [
-      205,
-      221,
-      244
     ]
   },
   {
@@ -268,11 +168,6 @@
       "Only available <when religion is enabled>",
       "Gain enough Faith for a Pantheon",
       "Only available <before founding a Pantheon>"
-    ],
-    "color": [
-      205,
-      221,
-      244
     ]
   },
   {
@@ -284,11 +179,6 @@
       "Gain enough Faith for [33]% of a Great Prophet",
       "Unavailable <after generating a Great Prophet>",
       "Only available <after founding a Pantheon>"
-    ],
-    "color": [
-      205,
-      221,
-      244
     ]
   },
   {
@@ -299,11 +189,6 @@
       "Only available <when religion is enabled>",
       "Gain [100]-[250] [Faith]",
       "Only available <after founding a Pantheon>"
-    ],
-    "color": [
-      205,
-      221,
-      244
     ]
   },
   {
@@ -314,11 +199,6 @@
       "Only available <when religion is enabled>",
       "Gain [250]-[350] [Faith]",
       "Only available <after founding a Pantheon>"
-    ],
-    "color": [
-      205,
-      221,
-      244
     ]
   },
   {
@@ -329,11 +209,6 @@
       "Only available <when religion is enabled>",
       "Gain [200]-[1200] [Faith]",
       "Only available <after founding a Pantheon>"
-    ],
-    "color": [
-      205,
-      221,
-      244
     ]
   },
   {
@@ -342,11 +217,6 @@
     "weight": 8,
     "uniques": [
       "[+1] population in a random city"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -355,11 +225,6 @@
     "weight": 8,
     "uniques": [
       "[+1] population in a random city"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -368,11 +233,6 @@
     "weight": 4,
     "uniques": [
       "[+3] population [in capital]"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -381,11 +241,6 @@
     "weight": 1,
     "uniques": [
       "[+7] population in a random city"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -394,11 +249,6 @@
     "weight": 5,
     "uniques": [
       "Free [Worker] found in the ruins"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -407,11 +257,6 @@
     "weight": 3,
     "uniques": [
       "Free [Settler] found in the ruins"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -421,11 +266,6 @@
     "uniques": [
       "Free [Settler] found in the ruins",
       "Free [Worker] found in the ruins"
-    ],
-    "color": [
-      129,
-      199,
-      132
     ]
   },
   {
@@ -434,11 +274,6 @@
     "weight": 10,
     "uniques": [
       "[This Unit] gains [20] XP"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -447,11 +282,6 @@
     "weight": 7,
     "uniques": [
       "[This Unit] gains [40] XP"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -460,11 +290,6 @@
     "weight": 1,
     "uniques": [
       "[This Unit] gains [120] XP"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -473,11 +298,6 @@
     "weight": 6,
     "uniques": [
       "[This Unit] gains the [Morale] promotion"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -486,11 +306,6 @@
     "weight": 4,
     "uniques": [
       "[This Unit] upgrades for free including special upgrades"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -499,11 +314,6 @@
     "weight": 4,
     "uniques": [
       "[This Unit] upgrades for free including special upgrades"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -512,11 +322,6 @@
     "weight": 4,
     "uniques": [
       "Free [Spearman] appears"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -525,11 +330,6 @@
     "weight": 4,
     "uniques": [
       "Free [Warrior] appears"
-    ],
-    "color": [
-      32,
-      175,
-      232
     ]
   },
   {
@@ -538,11 +338,6 @@
     "weight": 2,
     "uniques": [
       "Free [Great General] found in the ruins"
-    ],
-    "color": [
-      232,
-      146,
-      32
     ]
   },
   {
@@ -551,11 +346,6 @@
     "weight": 2,
     "uniques": [
       "Free [Great Merchant] found in the ruins"
-    ],
-    "color": [
-      232,
-      146,
-      32
     ]
   },
   {
@@ -564,11 +354,6 @@
     "weight": 10,
     "uniques": [
       "Reveal up to [All] [All] within a [3] tile radius"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   },
   {
@@ -577,11 +362,6 @@
     "weight": 9,
     "uniques": [
       "From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   },
   {
@@ -590,11 +370,6 @@
     "weight": 5,
     "uniques": [
       "From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   },
   {
@@ -603,11 +378,6 @@
     "weight": 7,
     "uniques": [
       "Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   },
   {
@@ -616,11 +386,6 @@
     "weight": 7,
     "uniques": [
       "Reveal up to [All] [Bonus resource] within a [10] tile radius"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   },
   {
@@ -629,11 +394,6 @@
     "weight": 6,
     "uniques": [
       "Reveal up to [All] [Luxury resource] within a [7] tile radius"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   },
   {
@@ -644,11 +404,6 @@
       "Reveal up to [All] [Barbarian encampment] within a [10] tile radius",
       "Reveal up to [All] [Luxury resource] within a [10] tile radius",
       "Reveal up to [All] [Bonus resource] within a [10] tile radius"
-    ],
-    "color": [
-      160,
-      210,
-      160
     ]
   }
 ]
