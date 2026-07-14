@@ -29,9 +29,7 @@
       "Turn this tile into a [Plains] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Plains]} {Mountain}] tiles> <by consuming this unit>",
       "Turn this tile into a [Grassland] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Grassland]} {Mountain}] tiles> <by consuming this unit>"
     ],
-    "prerequisites": [
-      "Terraformer"
-    ]
+    "prerequisites": ["Terraformer"]
   },
   {
     "name": "Climate Engineering",
@@ -42,9 +40,7 @@
       "Turn this tile into a [Marsh] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Marsh]} {non-[Snow]} {non-[Desert]} {Land}] tiles> <for all movement>",
       "Turn this tile into a [Flood plains] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Flood plains]} {Land}] tiles> <with [1] to [6] neighboring [River] tiles> <for all movement>"
     ],
-    "prerequisites": [
-      "Advanced Terraforming"
-    ]
+    "prerequisites": ["Advanced Terraforming"]
   },
   {
     "name": "Geoengineering Mastery",
@@ -54,17 +50,14 @@
       "Turn this tile into a [Atoll] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Atoll]} {Water}] tiles> <for all movement>",
       "Turn this tile into a [Lakes] tile <in [{non-[Strategic resource]} {non-[Luxury resource]} {non-[Lakes]} {non-[Ocean]} {Water}] tiles> <for all movement>"
     ],
-    "prerequisites": [
-      "Climate Engineering"
-    ]
+    "prerequisites": ["Climate Engineering"]
   },
   {
     "name": "Shock I",
-    "uniques": [
-      "[+15]% Strength <when attacking>"
-    ],
+    "uniques": ["[+15]% Strength <when attacking>"],
     "row": 0,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Shock II",
@@ -72,11 +65,10 @@
       "[+15]% Strength <when attacking>",
       "[+10]% Strength <when attacking> <vs [Wounded] units>"
     ],
-    "prerequisites": [
-      "Shock I"
-    ],
+    "prerequisites": ["Shock I"],
     "row": 1,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Shock III",
@@ -85,19 +77,17 @@
       "[+15]% Strength <when attacking> <vs [Wounded] units>",
       "Can move after attacking"
     ],
-    "prerequisites": [
-      "Shock II"
-    ],
+    "prerequisites": ["Shock II"],
     "row": 2,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Drill I",
-    "uniques": [
-      "[+15]% Strength <when defending>"
-    ],
+    "uniques": ["[+15]% Strength <when defending>"],
     "row": 0,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Counter Cavalry", "Heavy Cavalry", "Light Cavalry"]
   },
   {
     "name": "Drill II",
@@ -105,11 +95,10 @@
       "[+15]% Strength <when defending>",
       "[+10]% Strength <when defending> <in [Rough terrain] tiles>"
     ],
-    "prerequisites": [
-      "Drill I"
-    ],
+    "prerequisites": ["Drill I"],
     "row": 1,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Counter Cavalry", "Heavy Cavalry", "Light Cavalry"]
   },
   {
     "name": "Drill III",
@@ -118,212 +107,176 @@
       "[+15]% Strength <when defending> <in [Rough terrain] tiles>",
       "Unit will heal every turn, even if it performs an action"
     ],
-    "prerequisites": [
-      "Drill II"
-    ],
+    "prerequisites": ["Drill II"],
     "row": 2,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Counter Cavalry", "Heavy Cavalry", "Light Cavalry"]
   },
   {
     "name": "Accuracy I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [Open terrain] units>"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [ranged] units>"],
     "row": 0,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"]
   },
   {
     "name": "Accuracy II",
     "uniques": [
-      "[+15]% Strength <when attacking> <vs [Open terrain] units>",
+      "[+15]% Strength <when attacking> <vs [ranged] units>",
       "[+10]% Strength <when attacking> <vs [Wounded] units>"
     ],
-    "prerequisites": [
-      "Accuracy I"
-    ],
+    "prerequisites": ["Accuracy I"],
     "row": 1,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"]
   },
   {
     "name": "Accuracy III",
     "uniques": [
-      "[+20]% Strength <when attacking> <vs [Open terrain] units>",
+      "[+20]% Strength <when attacking> <vs [ranged] units>",
       "[+15]% Strength <when attacking> <vs [Wounded] units>",
       "[+1] Range"
     ],
-    "prerequisites": [
-      "Accuracy II"
-    ],
+    "prerequisites": ["Accuracy II"],
     "row": 2,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"]
   },
   {
     "name": "Barrage I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [Rough terrain] units>"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [melee] units>"],
     "row": 0,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"]
   },
   {
     "name": "Barrage II",
     "uniques": [
-      "[+15]% Strength <when attacking> <vs [Rough terrain] units>",
+      "[+15]% Strength <when attacking> <vs [melee] units>",
       "[+10]% Strength <when attacking> <vs [Wounded] units>"
     ],
-    "prerequisites": [
-      "Barrage I"
-    ],
+    "prerequisites": ["Barrage I"],
     "row": 1,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"]
   },
   {
     "name": "Barrage III",
     "uniques": [
-      "[+20]% Strength <when attacking> <vs [Rough terrain] units>",
+      "[+20]% Strength <when attacking> <vs [melee] units>",
       "[+15]% Strength <when attacking> <vs [Wounded] units>",
       "Can move after attacking"
     ],
-    "prerequisites": [
-      "Barrage II"
-    ],
+    "prerequisites": ["Barrage II"],
     "row": 2,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"]
   },
   {
     "name": "Cover I",
-    "uniques": [
-      "[+25]% Strength <when defending> <vs [Ranged] units>"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <vs [ranged] units>"],
     "row": 3,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Counter Cavalry", "Heavy Cavalry", "Light Cavalry", "Heavy Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Cover II",
     "uniques": [
-      "[+33]% Strength <when defending> <vs [Ranged] units>",
+      "[+33]% Strength <when defending> <vs [ranged] units>",
       "[+10]% Strength <when defending>"
     ],
-    "prerequisites": [
-      "Cover I"
-    ],
+    "prerequisites": ["Cover I"],
     "row": 4,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Counter Cavalry", "Heavy Cavalry", "Light Cavalry", "Heavy Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "March",
-    "uniques": [
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "Shock III",
-      "Drill III"
-    ],
+    "uniques": ["Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Shock III", "Drill III"],
     "row": 3,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Counter Cavalry", "Heavy Cavalry", "Light Cavalry", "Heavy Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Blitz",
-    "uniques": [
-      "Can move after attacking",
-      "[+1] Movement"
-    ],
-    "prerequisites": [
-      "Shock III",
-      "Drill III"
-    ],
+    "uniques": ["Can move after attacking", "[+1] Movement"],
+    "prerequisites": ["Shock III", "Drill III"],
     "row": 3,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Logistics",
-    "uniques": [
-      "Can move after attacking",
-      "[+1] Movement"
-    ],
-    "prerequisites": [
-      "Accuracy III",
-      "Barrage III"
-    ],
+    "uniques": ["Can move after attacking", "[+1] Movement"],
+    "prerequisites": ["Accuracy III", "Barrage III"],
     "row": 3,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery"]
   },
   {
     "name": "Range",
-    "uniques": [
-      "[+1] Range"
-    ],
-    "prerequisites": [
-      "Accuracy III",
-      "Barrage III"
-    ],
+    "uniques": ["[+1] Range"],
+    "prerequisites": ["Accuracy III", "Barrage III"],
     "row": 3,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery"]
   },
   {
     "name": "Indirect Fire",
-    "uniques": [
-      "Can see over obstacles"
-    ],
-    "prerequisites": [
-      "Accuracy III",
-      "Barrage III"
-    ],
+    "uniques": ["Can see over obstacles"],
+    "prerequisites": ["Accuracy III", "Barrage III"],
     "row": 4,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Archery", "Artillery", "Rocket Artillery"]
   },
   {
     "name": "Siege I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [City] units>"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [city] units>"],
     "row": 3,
-    "column": 5
+    "column": 5,
+    "unitTypes": ["Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"]
   },
   {
     "name": "Siege II",
     "uniques": [
-      "[+25]% Strength <when attacking> <vs [City] units>",
-      "Earn [50]% of the damage done to cities as Gold"
+      "[+25]% Strength <when attacking> <vs [city] units>",
+      "[+15]% Strength <when attacking>"
     ],
-    "prerequisites": [
-      "Siege I"
-    ],
+    "prerequisites": ["Siege I"],
     "row": 4,
-    "column": 5
+    "column": 5,
+    "unitTypes": ["Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"]
   },
   {
     "name": "Siege III",
     "uniques": [
-      "[+35]% Strength <when attacking> <vs [City] units>",
-      "Earn [50]% of the damage done to cities as Gold",
-      "Earn [25]% of the damage done to cities as Science"
+      "[+35]% Strength <when attacking> <vs [city] units>",
+      "[+25]% Strength <when attacking>",
+      "[+15]% Strength <when attacking> <vs [Wounded] units>"
     ],
-    "prerequisites": [
-      "Siege II"
-    ],
+    "prerequisites": ["Siege II"],
     "row": 5,
-    "column": 5
+    "column": 5,
+    "unitTypes": ["Artillery", "Rocket Artillery", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"]
   },
   {
     "name": "Formation I",
-    "uniques": [
-      "[+25]% Strength <vs [Mounted] units>"
-    ],
+    "uniques": ["[+25]% Strength <vs [mounted] units>"],
     "row": 3,
-    "column": 6
+    "column": 6,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Counter Cavalry", "Special Operations Forces", "Special Mission Units"]
   },
   {
     "name": "Formation II",
     "uniques": [
-      "[+33]% Strength <vs [Mounted] units>",
-      "[+15]% Strength <when defending> <vs [Mounted] units>"
+      "[+33]% Strength <vs [mounted] units>",
+      "[+15]% Strength <when defending> <vs [mounted] units>"
     ],
-    "prerequisites": [
-      "Formation I"
-    ],
+    "prerequisites": ["Formation I"],
     "row": 4,
-    "column": 6
+    "column": 6,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Counter Cavalry", "Special Operations Forces", "Special Mission Units"]
   },
   {
     "name": "Ambush I",
@@ -332,7 +285,8 @@
       "[+25]% Strength <when defending> <in [Jungle] tiles>"
     ],
     "row": 3,
-    "column": 7
+    "column": 7,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"]
   },
   {
     "name": "Ambush II",
@@ -343,300 +297,183 @@
       "Invisible to non-adjacent units <in [Forest] tiles>",
       "Invisible to non-adjacent units <in [Jungle] tiles>"
     ],
-    "prerequisites": [
-      "Ambush I"
-    ],
+    "prerequisites": ["Ambush I"],
     "row": 4,
-    "column": 7
+    "column": 7,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"]
   },
   {
     "name": "Charge I",
-    "uniques": [
-      "[+25]% Strength <when attacking> <vs [Wounded] units>"
-    ],
+    "uniques": ["[+25]% Strength <when attacking> <vs [Wounded] units>"],
     "row": 0,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Charge II",
     "uniques": [
       "[+33]% Strength <when attacking> <vs [Wounded] units>",
-      "Heals [15] damage if it kills a unit"
+      "[+15]% Strength <when attacking>"
     ],
-    "prerequisites": [
-      "Charge I"
-    ],
+    "prerequisites": ["Charge I"],
     "row": 1,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Charge III",
     "uniques": [
       "[+40]% Strength <when attacking> <vs [Wounded] units>",
-      "Heals [25] damage if it kills a unit",
+      "[+25]% Strength <when attacking>",
       "Can move after attacking"
     ],
-    "prerequisites": [
-      "Charge II"
-    ],
+    "prerequisites": ["Charge II"],
     "row": 2,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Mobility I",
-    "uniques": [
-      "[+1] Movement"
-    ],
+    "uniques": ["[+1] Movement"],
     "row": 0,
-    "column": 5
+    "column": 5,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Helicopter"]
   },
   {
     "name": "Mobility II",
-    "uniques": [
-      "[+1] Movement",
-      "Ignores Zone of Control"
-    ],
-    "prerequisites": [
-      "Mobility I"
-    ],
+    "uniques": ["[+1] Movement", "Ignores Zone of Control"],
+    "prerequisites": ["Mobility I"],
     "row": 1,
-    "column": 5
+    "column": 5,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Helicopter"]
   },
   {
     "name": "Mobility III",
-    "uniques": [
-      "[+2] Movement",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles"
-    ],
-    "prerequisites": [
-      "Mobility II"
-    ],
+    "uniques": ["[+2] Movement", "Ignores Zone of Control", "Can pass through impassable tiles"],
+    "prerequisites": ["Mobility II"],
     "row": 2,
-    "column": 5
+    "column": 5,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Helicopter"]
   },
   {
     "name": "Armor Piercing I",
-    "uniques": [
-      "[+25]% Strength <vs [Armor] units>"
-    ],
-    "prerequisites": [
-      "Charge III"
-    ],
+    "uniques": ["[+25]% Strength <vs [armor] units>"],
+    "prerequisites": ["Charge III"],
     "row": 3,
-    "column": 8
+    "column": 8,
+    "unitTypes": ["Tank Destroyer", "Infantry", "Light Infantry", "Special Operations Forces", "Attack Aircraft", "Helicopter"]
   },
   {
     "name": "Armor Piercing II",
     "uniques": [
-      "[+33]% Strength <vs [Armor] units>",
-      "[+15]% Strength <when attacking> <vs [Armor] units>"
+      "[+33]% Strength <vs [armor] units>",
+      "[+15]% Strength <when attacking> <vs [armor] units>"
     ],
-    "prerequisites": [
-      "Armor Piercing I"
-    ],
+    "prerequisites": ["Armor Piercing I"],
     "row": 4,
-    "column": 8
+    "column": 8,
+    "unitTypes": ["Tank Destroyer", "Infantry", "Light Infantry", "Special Operations Forces", "Attack Aircraft", "Helicopter"]
   },
   {
     "name": "Armor Piercing III",
     "uniques": [
-      "[+50]% Strength <vs [Armor] units>",
-      "[+25]% Strength <when attacking> <vs [Armor] units>",
-      "Damage taken from [Armor] units is reduced by [33]%"
+      "[+50]% Strength <vs [armor] units>",
+      "[+25]% Strength <when attacking> <vs [armor] units>",
+      "[+15]% Strength <when defending> <vs [armor] units>"
     ],
-    "prerequisites": [
-      "Armor Piercing II"
-    ],
+    "prerequisites": ["Armor Piercing II"],
     "row": 5,
-    "column": 8
+    "column": 8,
+    "unitTypes": ["Tank Destroyer", "Infantry", "Light Infantry", "Special Operations Forces", "Attack Aircraft", "Helicopter"]
   },
   {
     "name": "Flanking I",
-    "uniques": [
-      "[+15]% Strength <when adjacent to [Military] units>"
-    ],
-    "prerequisites": [
-      "Mobility III"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <when adjacent to a [melee] unit>"],
+    "prerequisites": ["Mobility III"],
     "row": 3,
-    "column": 9
+    "column": 9,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Flanking II",
     "uniques": [
-      "[+25]% Strength <when adjacent to [Military] units>",
-      "Adjacent units get [+10]% Strength"
+      "[+25]% Strength <when attacking> <when adjacent to a [melee] unit>",
+      "[+10]% Strength <when attacking>"
     ],
-    "prerequisites": [
-      "Flanking I"
-    ],
+    "prerequisites": ["Flanking I"],
     "row": 4,
-    "column": 9
+    "column": 9,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Flanking III",
     "uniques": [
-      "[+33]% Strength <when adjacent to [Military] units>",
-      "Adjacent units get [+15]% Strength",
-      "[+1] Movement <when adjacent to [Military] units>"
+      "[+33]% Strength <when attacking> <when adjacent to a [melee] unit>",
+      "[+15]% Strength <when attacking>",
+      "[+1] Movement"
     ],
-    "prerequisites": [
-      "Flanking II"
-    ],
+    "prerequisites": ["Flanking II"],
     "row": 5,
-    "column": 9
+    "column": 9,
+    "unitTypes": ["Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Naval Targeting I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [Water] units>"
-    ],
-    "unitTypes": [
-      "Destroyer",
-      "Frigate",
-      "Corvette",
-      "Battleship",
-      "Cruiser",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Light Cruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Protected Cruiser",
-      "Armored Cruiser",
-      "Littoral Combat Ship (LCS)"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [naval] units>"],
+    "unitTypes": ["Destroyer", "Frigate", "Corvette", "Battleship", "Cruiser", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Light Cruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Protected Cruiser", "Armored Cruiser", "Littoral Combat Ship (LCS)"],
     "row": 0,
     "column": 6
   },
   {
     "name": "Naval Targeting II",
     "uniques": [
-      "[+25]% Strength <when attacking> <vs [Water] units>",
-      "[+15]% Strength <when attacking> <vs [Submarine] units>"
+      "[+25]% Strength <when attacking> <vs [naval] units>",
+      "[+15]% Strength <when attacking> <vs [submarine] units>"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Frigate",
-      "Corvette",
-      "Battleship",
-      "Cruiser",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Light Cruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Protected Cruiser",
-      "Armored Cruiser",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Naval Targeting I"
-    ],
+    "unitTypes": ["Destroyer", "Frigate", "Corvette", "Battleship", "Cruiser", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Light Cruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Protected Cruiser", "Armored Cruiser", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Naval Targeting I"],
     "row": 1,
     "column": 6
   },
   {
     "name": "Naval Targeting III",
     "uniques": [
-      "[+35]% Strength <when attacking> <vs [Water] units>",
-      "[+25]% Strength <when attacking> <vs [Submarine] units>",
+      "[+35]% Strength <when attacking> <vs [naval] units>",
+      "[+25]% Strength <when attacking> <vs [submarine] units>",
       "[+1] Sight"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Frigate",
-      "Corvette",
-      "Battleship",
-      "Cruiser",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Light Cruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Protected Cruiser",
-      "Armored Cruiser",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Naval Targeting II"
-    ],
+    "unitTypes": ["Destroyer", "Frigate", "Corvette", "Battleship", "Cruiser", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Light Cruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Protected Cruiser", "Armored Cruiser", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Naval Targeting II"],
     "row": 2,
     "column": 6
   },
   {
     "name": "Naval Bombardment I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [City] units>"
-    ],
-    "unitTypes": [
-      "Destroyer",
-      "Battleship",
-      "Cruiser",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Armored Cruiser"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [city] units>"],
+    "unitTypes": ["Destroyer", "Battleship", "Cruiser", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Armored Cruiser"],
     "row": 0,
     "column": 7
   },
   {
     "name": "Naval Bombardment II",
     "uniques": [
-      "[+25]% Strength <when attacking> <vs [City] units>",
+      "[+25]% Strength <when attacking> <vs [city] units>",
       "[+1] Range"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Battleship",
-      "Cruiser",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Armored Cruiser"
-    ],
-    "prerequisites": [
-      "Naval Bombardment I"
-    ],
+    "unitTypes": ["Destroyer", "Battleship", "Cruiser", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Armored Cruiser"],
+    "prerequisites": ["Naval Bombardment I"],
     "row": 1,
     "column": 7
   },
   {
     "name": "Naval Bombardment III",
     "uniques": [
-      "[+35]% Strength <when attacking> <vs [City] units>",
+      "[+35]% Strength <when attacking> <vs [city] units>",
       "[+1] Range",
-      "Earn [50]% of the damage done to cities as Gold"
+      "[+15]% Strength <when attacking>"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Battleship",
-      "Cruiser",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Armored Cruiser"
-    ],
-    "prerequisites": [
-      "Naval Bombardment II"
-    ],
+    "unitTypes": ["Destroyer", "Battleship", "Cruiser", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Armored Cruiser"],
+    "prerequisites": ["Naval Bombardment II"],
     "row": 2,
     "column": 7
   },
@@ -646,17 +483,10 @@
       "Can see invisible [Attack Submarine] units",
       "Can see invisible [Ballistic Missile Submarine] units",
       "Can see invisible [Cruise Missile Submarine] units",
-      "[+25]% Strength <vs [Submarine] units>"
+      "[+25]% Strength <vs [submarine] units>"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Frigate",
-      "Corvette",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Naval Targeting II"
-    ],
+    "unitTypes": ["Destroyer", "Frigate", "Corvette", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Naval Targeting II"],
     "row": 3,
     "column": 10
   },
@@ -666,18 +496,11 @@
       "Can see invisible [Attack Submarine] units",
       "Can see invisible [Ballistic Missile Submarine] units",
       "Can see invisible [Cruise Missile Submarine] units",
-      "[+50]% Strength <vs [Submarine] units>",
+      "[+50]% Strength <vs [submarine] units>",
       "[+1] Sight"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Frigate",
-      "Corvette",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Anti-Submarine Warfare I"
-    ],
+    "unitTypes": ["Destroyer", "Frigate", "Corvette", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Anti-Submarine Warfare I"],
     "row": 4,
     "column": 10
   },
@@ -687,2766 +510,1212 @@
       "Can see invisible [Attack Submarine] units",
       "Can see invisible [Ballistic Missile Submarine] units",
       "Can see invisible [Cruise Missile Submarine] units",
-      "[+75]% Strength <vs [Submarine] units>",
+      "[+75]% Strength <vs [submarine] units>",
       "[+2] Sight",
-      "Damage taken from [Submarine] units is reduced by [33]%"
+      "[+15]% Strength <when defending> <vs [submarine] units>"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Frigate",
-      "Corvette",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Anti-Submarine Warfare II"
-    ],
+    "unitTypes": ["Destroyer", "Frigate", "Corvette", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Anti-Submarine Warfare II"],
     "row": 5,
     "column": 10
   },
   {
     "name": "Wolfpack I",
     "uniques": [
-      "[+15]% Strength <when stacked with a [Attack Submarine] unit>",
-      "[+15]% Strength <when stacked with a [Cruise Missile Submarine] unit>"
+      "[+15]% Strength <when adjacent to a [Attack Submarine] unit>",
+      "[+15]% Strength <when adjacent to a [Cruise Missile Submarine] unit>"
     ],
-    "unitTypes": [
-      "Attack Submarine",
-      "Cruise Missile Submarine"
-    ],
+    "unitTypes": ["Attack Submarine", "Cruise Missile Submarine"],
     "row": 3,
     "column": 11
   },
   {
     "name": "Wolfpack II",
     "uniques": [
-      "[+25]% Strength <when stacked with a [Attack Submarine] unit>",
-      "[+25]% Strength <when stacked with a [Cruise Missile Submarine] unit>",
+      "[+25]% Strength <when adjacent to a [Attack Submarine] unit>",
+      "[+25]% Strength <when adjacent to a [Cruise Missile Submarine] unit>",
       "[+1] Movement"
     ],
-    "unitTypes": [
-      "Attack Submarine",
-      "Cruise Missile Submarine"
-    ],
-    "prerequisites": [
-      "Wolfpack I"
-    ],
+    "unitTypes": ["Attack Submarine", "Cruise Missile Submarine"],
+    "prerequisites": ["Wolfpack I"],
     "row": 4,
     "column": 11
   },
   {
     "name": "Wolfpack III",
     "uniques": [
-      "[+33]% Strength <when stacked with a [Attack Submarine] unit>",
-      "[+33]% Strength <when stacked with a [Cruise Missile Submarine] unit>",
+      "[+33]% Strength <when adjacent to a [Attack Submarine] unit>",
+      "[+33]% Strength <when adjacent to a [Cruise Missile Submarine] unit>",
       "[+2] Movement",
       "Can move after attacking"
     ],
-    "unitTypes": [
-      "Attack Submarine",
-      "Cruise Missile Submarine"
-    ],
-    "prerequisites": [
-      "Wolfpack II"
-    ],
+    "unitTypes": ["Attack Submarine", "Cruise Missile Submarine"],
+    "prerequisites": ["Wolfpack II"],
     "row": 5,
     "column": 11
   },
   {
     "name": "Silent Running I",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+10]% Strength <when attacking>"
-    ],
-    "unitTypes": [
-      "Attack Submarine",
-      "Cruise Missile Submarine",
-      "Ballistic Missile Submarine"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+10]% Strength <when attacking>"],
+    "unitTypes": ["Attack Submarine", "Cruise Missile Submarine", "Ballistic Missile Submarine"],
     "row": 3,
     "column": 12
   },
   {
     "name": "Silent Running II",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+20]% Strength <when attacking>",
-      "[+1] Sight"
-    ],
-    "unitTypes": [
-      "Attack Submarine",
-      "Cruise Missile Submarine",
-      "Ballistic Missile Submarine"
-    ],
-    "prerequisites": [
-      "Silent Running I"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+20]% Strength <when attacking>", "[+1] Sight"],
+    "unitTypes": ["Attack Submarine", "Cruise Missile Submarine", "Ballistic Missile Submarine"],
+    "prerequisites": ["Silent Running I"],
     "row": 4,
     "column": 12
   },
   {
     "name": "Silent Running III",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+30]% Strength <when attacking>",
-      "[+2] Sight",
-      "Can enter ice tiles",
-      "Ignores Zone of Control"
-    ],
-    "unitTypes": [
-      "Attack Submarine",
-      "Cruise Missile Submarine",
-      "Ballistic Missile Submarine"
-    ],
-    "prerequisites": [
-      "Silent Running II"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+30]% Strength <when attacking>", "[+2] Sight", "Can enter ice tiles", "Ignores Zone of Control"],
+    "unitTypes": ["Attack Submarine", "Cruise Missile Submarine", "Ballistic Missile Submarine"],
+    "prerequisites": ["Silent Running II"],
     "row": 5,
     "column": 12
   },
   {
     "name": "Fleet Tactics I",
-    "uniques": [
-      "[+15]% Strength <when adjacent to [Water] units>",
-      "[+1] Movement"
-    ],
-    "unitTypes": [
-      "Destroyer",
-      "Battleship",
-      "Cruiser",
-      "Frigate",
-      "Corvette",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Light Cruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Protected Cruiser",
-      "Armored Cruiser",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Naval Targeting III",
-      "Naval Bombardment III"
-    ],
+    "uniques": ["[+15]% Strength <when adjacent to a [naval] unit>", "[+1] Movement"],
+    "unitTypes": ["Destroyer", "Battleship", "Cruiser", "Frigate", "Corvette", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Light Cruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Protected Cruiser", "Armored Cruiser", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Naval Targeting III", "Naval Bombardment III"],
     "row": 3,
     "column": 13
   },
   {
     "name": "Fleet Tactics II",
     "uniques": [
-      "[+25]% Strength <when adjacent to [Water] units>",
+      "[+25]% Strength <when adjacent to a [naval] unit>",
       "[+2] Movement",
-      "Adjacent units get [+10]% Strength"
+      "[+10]% Strength <when attacking>"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Battleship",
-      "Cruiser",
-      "Frigate",
-      "Corvette",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Light Cruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Protected Cruiser",
-      "Armored Cruiser",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Fleet Tactics I"
-    ],
+    "unitTypes": ["Destroyer", "Battleship", "Cruiser", "Frigate", "Corvette", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Light Cruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Protected Cruiser", "Armored Cruiser", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Fleet Tactics I"],
     "row": 4,
     "column": 13
   },
   {
     "name": "Fleet Tactics III",
     "uniques": [
-      "[+33]% Strength <when adjacent to [Water] units>",
+      "[+33]% Strength <when adjacent to a [naval] unit>",
       "[+2] Movement",
-      "Adjacent units get [+15]% Strength",
-      "All adjacent units heal [+10] HP per turn"
+      "[+15]% Strength <when attacking>",
+      "Unit will heal every turn, even if it performs an action"
     ],
-    "unitTypes": [
-      "Destroyer",
-      "Battleship",
-      "Cruiser",
-      "Frigate",
-      "Corvette",
-      "Monitor",
-      "Pre-Dreadnought",
-      "Dreadnought",
-      "Battlecruiser",
-      "Light Cruiser",
-      "Heavy Cruiser",
-      "Guided Missile Cruiser",
-      "Protected Cruiser",
-      "Armored Cruiser",
-      "Littoral Combat Ship (LCS)"
-    ],
-    "prerequisites": [
-      "Fleet Tactics II"
-    ],
+    "unitTypes": ["Destroyer", "Battleship", "Cruiser", "Frigate", "Corvette", "Monitor", "Pre-Dreadnought", "Dreadnought", "Battlecruiser", "Light Cruiser", "Heavy Cruiser", "Guided Missile Cruiser", "Protected Cruiser", "Armored Cruiser", "Littoral Combat Ship (LCS)"],
+    "prerequisites": ["Fleet Tactics II"],
     "row": 5,
     "column": 13
   },
   {
     "name": "Carrier Operations I",
-    "uniques": [
-      "Can carry [+2] [Aircraft] units",
-      "Can carry [+1] [Helicopter] units"
-    ],
-    "unitTypes": [
-      "Aircraft Carrier",
-      "Fleet Carrier",
-      "Light Aircraft Carrier",
-      "Escort Carrier",
-      "LHD",
-      "Amphibious Assault Ship",
-      "LHA"
-    ],
+    "uniques": ["Can carry [+2] [Aircraft] units", "Can carry [+1] [Helicopter] units"],
+    "unitTypes": ["Aircraft Carrier", "Fleet Carrier", "Light Aircraft Carrier", "Escort Carrier", "LHD", "Amphibious Assault Ship", "LHA"],
     "row": 3,
     "column": 14
   },
   {
     "name": "Carrier Operations II",
-    "uniques": [
-      "Can carry [+4] [Aircraft] units",
-      "Can carry [+2] [Helicopter] units",
-      "Adjacent units get [+10]% Strength"
-    ],
-    "unitTypes": [
-      "Aircraft Carrier",
-      "Fleet Carrier",
-      "Light Aircraft Carrier",
-      "Escort Carrier",
-      "LHD",
-      "Amphibious Assault Ship",
-      "LHA"
-    ],
-    "prerequisites": [
-      "Carrier Operations I"
-    ],
+    "uniques": ["Can carry [+4] [Aircraft] units", "Can carry [+2] [Helicopter] units", "[+10]% Strength <when defending>"],
+    "unitTypes": ["Aircraft Carrier", "Fleet Carrier", "Light Aircraft Carrier", "Escort Carrier", "LHD", "Amphibious Assault Ship", "LHA"],
+    "prerequisites": ["Carrier Operations I"],
     "row": 4,
     "column": 14
   },
   {
     "name": "Carrier Operations III",
-    "uniques": [
-      "Can carry [+6] [Aircraft] units",
-      "Can carry [+3] [Helicopter] units",
-      "Adjacent units get [+15]% Strength",
-      "All adjacent units heal [+15] HP per turn"
-    ],
-    "unitTypes": [
-      "Aircraft Carrier",
-      "Fleet Carrier",
-      "Light Aircraft Carrier",
-      "Escort Carrier",
-      "LHD",
-      "Amphibious Assault Ship",
-      "LHA"
-    ],
-    "prerequisites": [
-      "Carrier Operations II"
-    ],
+    "uniques": ["Can carry [+6] [Aircraft] units", "Can carry [+3] [Helicopter] units", "[+15]% Strength <when defending>", "Unit will heal every turn, even if it performs an action"],
+    "unitTypes": ["Aircraft Carrier", "Fleet Carrier", "Light Aircraft Carrier", "Escort Carrier", "LHD", "Amphibious Assault Ship", "LHA"],
+    "prerequisites": ["Carrier Operations II"],
     "row": 5,
     "column": 14
   },
   {
     "name": "Interception I",
-    "uniques": [
-      "[+25]% Strength <when defending> <vs [Air] units>",
-      "Can intercept [Aircraft] units"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Attack Aircraft",
-      "Anti-Air"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <vs [air] units>", "Can intercept [air] units"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Attack Aircraft", "Anti-Air"],
     "row": 0,
     "column": 8
   },
   {
     "name": "Interception II",
-    "uniques": [
-      "[+33]% Strength <when defending> <vs [Air] units>",
-      "Can intercept [Aircraft] units",
-      "Can intercept [Missile] units"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Attack Aircraft",
-      "Anti-Air"
-    ],
-    "prerequisites": [
-      "Interception I"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <vs [air] units>", "Can intercept [air] units", "Can intercept [missile] units"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Attack Aircraft", "Anti-Air"],
+    "prerequisites": ["Interception I"],
     "row": 1,
     "column": 8
   },
   {
     "name": "Interception III",
-    "uniques": [
-      "[+50]% Strength <when defending> <vs [Air] units>",
-      "Can intercept [Aircraft] units",
-      "Can intercept [Missile] units",
-      "Take no damage when intercepting"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Attack Aircraft",
-      "Anti-Air"
-    ],
-    "prerequisites": [
-      "Interception II"
-    ],
+    "uniques": ["[+50]% Strength <when defending> <vs [air] units>", "Can intercept [air] units", "Can intercept [missile] units", "[+1] Sight"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Attack Aircraft", "Anti-Air"],
+    "prerequisites": ["Interception II"],
     "row": 2,
     "column": 8
   },
   {
     "name": "Bombardment I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [Land] units>"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [land] units>"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
     "row": 0,
     "column": 9
   },
   {
     "name": "Bombardment II",
     "uniques": [
-      "[+25]% Strength <when attacking> <vs [Land] units>",
-      "[+15]% Strength <when attacking> <vs [City] units>"
+      "[+25]% Strength <when attacking> <vs [land] units>",
+      "[+15]% Strength <when attacking> <vs [city] units>"
     ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Bombardment I"
-    ],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Bombardment I"],
     "row": 1,
     "column": 9
   },
   {
     "name": "Bombardment III",
     "uniques": [
-      "[+35]% Strength <when attacking> <vs [Land] units>",
-      "[+25]% Strength <when attacking> <vs [City] units>",
-      "Earn [50]% of the damage done to cities as Gold"
+      "[+35]% Strength <when attacking> <vs [land] units>",
+      "[+25]% Strength <when attacking> <vs [city] units>",
+      "[+15]% Strength <when attacking>"
     ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Bombardment II"
-    ],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Bombardment II"],
     "row": 2,
     "column": 9
   },
   {
     "name": "Air Supremacy I",
-    "uniques": [
-      "[+25]% Strength <vs [Air] units>",
-      "Can perform Air Sweep"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter"
-    ],
-    "prerequisites": [
-      "Interception II"
-    ],
+    "uniques": ["[+25]% Strength <vs [air] units>", "Can perform Air Sweep"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter"],
+    "prerequisites": ["Interception II"],
     "row": 3,
     "column": 15
   },
   {
     "name": "Air Supremacy II",
-    "uniques": [
-      "[+33]% Strength <vs [Air] units>",
-      "Can perform Air Sweep",
-      "[+1] Range"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter"
-    ],
-    "prerequisites": [
-      "Air Supremacy I"
-    ],
+    "uniques": ["[+33]% Strength <vs [air] units>", "Can perform Air Sweep", "[+1] Range"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter"],
+    "prerequisites": ["Air Supremacy I"],
     "row": 4,
     "column": 15
   },
   {
     "name": "Air Supremacy III",
-    "uniques": [
-      "[+50]% Strength <vs [Air] units>",
-      "Can perform Air Sweep",
-      "[+2] Range",
-      "Take no damage when intercepting"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter"
-    ],
-    "prerequisites": [
-      "Air Supremacy II"
-    ],
+    "uniques": ["[+50]% Strength <vs [air] units>", "Can perform Air Sweep", "[+2] Range", "[+1] Sight"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter"],
+    "prerequisites": ["Air Supremacy II"],
     "row": 5,
     "column": 15
   },
   {
     "name": "Precision Strike I",
-    "uniques": [
-      "[+25]% Strength <when attacking> <vs [City] units>",
-      "[+15]% Strength <when attacking> <vs [Wounded] units>"
-    ],
-    "unitTypes": [
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Bombardment II"
-    ],
+    "uniques": ["[+25]% Strength <when attacking> <vs [city] units>", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Bombardment II"],
     "row": 3,
     "column": 16
   },
   {
     "name": "Precision Strike II",
-    "uniques": [
-      "[+35]% Strength <when attacking> <vs [City] units>",
-      "[+25]% Strength <when attacking> <vs [Wounded] units>",
-      "[+1] Range"
-    ],
-    "unitTypes": [
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Precision Strike I"
-    ],
+    "uniques": ["[+35]% Strength <when attacking> <vs [city] units>", "[+25]% Strength <when attacking> <vs [Wounded] units>", "[+1] Range"],
+    "unitTypes": ["Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Precision Strike I"],
     "row": 4,
     "column": 16
   },
   {
     "name": "Precision Strike III",
-    "uniques": [
-      "[+50]% Strength <when attacking> <vs [City] units>",
-      "[+35]% Strength <when attacking> <vs [Wounded] units>",
-      "[+2] Range",
-      "Earn [50]% of the damage done to cities as Gold",
-      "Earn [25]% of the damage done to cities as Science"
-    ],
-    "unitTypes": [
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Precision Strike II"
-    ],
+    "uniques": ["[+50]% Strength <when attacking> <vs [city] units>", "[+35]% Strength <when attacking> <vs [Wounded] units>", "[+2] Range", "[+15]% Strength <when attacking>"],
+    "unitTypes": ["Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Precision Strike II"],
     "row": 5,
     "column": 16
   },
   {
     "name": "Electronic Countermeasures I",
-    "uniques": [
-      "Damage taken from [Air] units is reduced by [25]%",
-      "Damage taken from [Missile] units is reduced by [25]%"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Interception II",
-      "Bombardment II"
-    ],
+    "uniques": ["[+15]% Strength <when defending> <vs [air] units>", "[+15]% Strength <when defending> <vs [missile] units>"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Interception II", "Bombardment II"],
     "row": 3,
     "column": 17
   },
   {
     "name": "Electronic Countermeasures II",
-    "uniques": [
-      "Damage taken from [Air] units is reduced by [33]%",
-      "Damage taken from [Missile] units is reduced by [33]%",
-      "Invisible to non-adjacent units"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Electronic Countermeasures I"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <vs [air] units>", "[+25]% Strength <when defending> <vs [missile] units>", "Invisible to non-adjacent units"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Electronic Countermeasures I"],
     "row": 4,
     "column": 17
   },
   {
     "name": "Electronic Countermeasures III",
-    "uniques": [
-      "Damage taken from [Air] units is reduced by [50]%",
-      "Damage taken from [Missile] units is reduced by [50]%",
-      "Invisible to non-adjacent units",
-      "Can see over obstacles"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Electronic Countermeasures II"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <vs [air] units>", "[+33]% Strength <when defending> <vs [missile] units>", "Invisible to non-adjacent units", "Can see over obstacles"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Electronic Countermeasures II"],
     "row": 5,
     "column": 17
   },
   {
     "name": "Standoff Weapons I",
-    "uniques": [
-      "[+1] Range",
-      "[+15]% Strength <when attacking>"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Precision Strike I",
-      "Air Supremacy I"
-    ],
+    "uniques": ["[+1] Range", "[+15]% Strength <when attacking>"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Precision Strike I", "Air Supremacy I"],
     "row": 6,
     "column": 15
   },
   {
     "name": "Standoff Weapons II",
-    "uniques": [
-      "[+2] Range",
-      "[+25]% Strength <when attacking>",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Standoff Weapons I"
-    ],
+    "uniques": ["[+2] Range", "[+25]% Strength <when attacking>", "Can move after attacking"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Standoff Weapons I"],
     "row": 7,
     "column": 15
   },
   {
     "name": "Standoff Weapons III",
-    "uniques": [
-      "[+3] Range",
-      "[+35]% Strength <when attacking>",
-      "Can move after attacking",
-      "Invisible to non-adjacent units"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
-    "prerequisites": [
-      "Standoff Weapons II"
-    ],
+    "uniques": ["[+3] Range", "[+35]% Strength <when attacking>", "Can move after attacking", "Invisible to non-adjacent units"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
+    "prerequisites": ["Standoff Weapons II"],
     "row": 8,
     "column": 15
   },
   {
     "name": "Infiltration I",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+1] Movement",
-      "Ignores Zone of Control"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Marines",
-      "Light Infantry"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+1] Movement", "Ignores Zone of Control"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines", "Light Infantry"],
     "row": 0,
     "column": 10
   },
   {
     "name": "Infiltration II",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+2] Movement",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Marines",
-      "Light Infantry"
-    ],
-    "prerequisites": [
-      "Infiltration I"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+2] Movement", "Ignores Zone of Control", "Can pass through impassable tiles"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines", "Light Infantry"],
+    "prerequisites": ["Infiltration I"],
     "row": 1,
     "column": 10
   },
   {
     "name": "Infiltration III",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+3] Movement",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Can move through tiles with other units"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Marines",
-      "Light Infantry"
-    ],
-    "prerequisites": [
-      "Infiltration II"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+3] Movement", "Ignores Zone of Control", "Can pass through impassable tiles", "[+1] Sight"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines", "Light Infantry"],
+    "prerequisites": ["Infiltration II"],
     "row": 2,
     "column": 10
   },
   {
     "name": "Reconnaissance I",
-    "uniques": [
-      "[+1] Sight",
-      "Can see over obstacles"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Radar Aircraft",
-      "Drone",
-      "Helicopter"
-    ],
+    "uniques": ["[+1] Sight", "Can see over obstacles"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Radar Aircraft", "Drone", "Helicopter"],
     "row": 0,
     "column": 11
   },
   {
     "name": "Reconnaissance II",
-    "uniques": [
-      "[+2] Sight",
-      "Can see over obstacles",
-      "Can see invisible [Attack Submarine] units",
-      "Can see invisible [Cruise Missile Submarine] units"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Radar Aircraft",
-      "Drone",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Reconnaissance I"
-    ],
+    "uniques": ["[+2] Sight", "Can see over obstacles", "Can see invisible [Attack Submarine] units", "Can see invisible [Cruise Missile Submarine] units"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Radar Aircraft", "Drone", "Helicopter"],
+    "prerequisites": ["Reconnaissance I"],
     "row": 1,
     "column": 11
   },
   {
     "name": "Reconnaissance III",
-    "uniques": [
-      "[+3] Sight",
-      "Can see over obstacles",
-      "Can see invisible [Attack Submarine] units",
-      "Can see invisible [Cruise Missile Submarine] units",
-      "Can see invisible [Ballistic Missile Submarine] units"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Radar Aircraft",
-      "Drone",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Reconnaissance II"
-    ],
+    "uniques": ["[+3] Sight", "Can see over obstacles", "Can see invisible [Attack Submarine] units", "Can see invisible [Cruise Missile Submarine] units", "Can see invisible [Ballistic Missile Submarine] units"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Radar Aircraft", "Drone", "Helicopter"],
+    "prerequisites": ["Reconnaissance II"],
     "row": 2,
     "column": 11
   },
   {
     "name": "Sabotage I",
-    "uniques": [
-      "[+25]% Strength <when attacking> <vs [City] units>",
-      "Earn [50]% of the damage done to cities as Gold"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Marines"
-    ],
-    "prerequisites": [
-      "Infiltration II"
-    ],
+    "uniques": ["[+25]% Strength <when attacking> <vs [city] units>", "[+15]% Strength <when attacking>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines"],
+    "prerequisites": ["Infiltration II"],
     "row": 3,
     "column": 18
   },
   {
     "name": "Sabotage II",
-    "uniques": [
-      "[+35]% Strength <when attacking> <vs [City] units>",
-      "Earn [50]% of the damage done to cities as Gold",
-      "Earn [25]% of the damage done to cities as Science"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Marines"
-    ],
-    "prerequisites": [
-      "Sabotage I"
-    ],
+    "uniques": ["[+35]% Strength <when attacking> <vs [city] units>", "[+25]% Strength <when attacking>", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines"],
+    "prerequisites": ["Sabotage I"],
     "row": 4,
     "column": 18
   },
   {
     "name": "Sabotage III",
-    "uniques": [
-      "[+50]% Strength <when attacking> <vs [City] units>",
-      "Earn [50]% of the damage done to cities as Gold",
-      "Earn [25]% of the damage done to cities as Science",
-      "Earn [25]% of the damage done to cities as Culture"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Marines"
-    ],
-    "prerequisites": [
-      "Sabotage II"
-    ],
+    "uniques": ["[+50]% Strength <when attacking> <vs [city] units>", "[+35]% Strength <when attacking>", "[+25]% Strength <when attacking> <vs [Wounded] units>", "Can move after attacking"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines"],
+    "prerequisites": ["Sabotage II"],
     "row": 5,
     "column": 18
   },
   {
     "name": "Asymmetric Warfare I",
-    "uniques": [
-      "[+25]% Strength <when defending> <in [Foreign Land] tiles>",
-      "[+15]% Strength <when attacking> <in [Foreign Land] tiles>"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Mercenary",
-      "Private Military Company",
-      "Light Infantry"
-    ],
-    "prerequisites": [
-      "Infiltration II"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <in [Foreign Land] tiles>", "[+15]% Strength <when attacking> <in [Foreign Land] tiles>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Light Infantry"],
+    "prerequisites": ["Infiltration II"],
     "row": 3,
     "column": 19
   },
   {
     "name": "Asymmetric Warfare II",
-    "uniques": [
-      "[+33]% Strength <when defending> <in [Foreign Land] tiles>",
-      "[+25]% Strength <when attacking> <in [Foreign Land] tiles>",
-      "Invisible to non-adjacent units <in [Foreign Land] tiles>"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Mercenary",
-      "Private Military Company",
-      "Light Infantry"
-    ],
-    "prerequisites": [
-      "Asymmetric Warfare I"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <in [Foreign Land] tiles>", "[+25]% Strength <when attacking> <in [Foreign Land] tiles>", "Invisible to non-adjacent units <in [Foreign Land] tiles>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Light Infantry"],
+    "prerequisites": ["Asymmetric Warfare I"],
     "row": 4,
     "column": 19
   },
   {
     "name": "Asymmetric Warfare III",
-    "uniques": [
-      "[+50]% Strength <when defending> <in [Foreign Land] tiles>",
-      "[+35]% Strength <when attacking> <in [Foreign Land] tiles>",
-      "Invisible to non-adjacent units <in [Foreign Land] tiles>",
-      "Heals [25] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Mercenary",
-      "Private Military Company",
-      "Light Infantry"
-    ],
-    "prerequisites": [
-      "Asymmetric Warfare II"
-    ],
+    "uniques": ["[+50]% Strength <when defending> <in [Foreign Land] tiles>", "[+35]% Strength <when attacking> <in [Foreign Land] tiles>", "Invisible to non-adjacent units <in [Foreign Land] tiles>", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Light Infantry"],
+    "prerequisites": ["Asymmetric Warfare II"],
     "row": 5,
     "column": 19
   },
   {
     "name": "Psychological Warfare I",
-    "uniques": [
-      "Instantly provides [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Foreign Land] tiles>",
-      "Instantly provides [50] [War Weariness] <upon conquering a city>"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber"
-    ],
-    "prerequisites": [
-      "Sabotage I",
-      "Asymmetric Warfare I"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <in [Foreign Land] tiles>", "[+15]% Strength <when defending> <in [Foreign Land] tiles>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"],
+    "prerequisites": ["Sabotage I", "Asymmetric Warfare I"],
     "row": 6,
     "column": 18
   },
   {
     "name": "Psychological Warfare II",
-    "uniques": [
-      "Instantly provides [50] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Foreign Land] tiles>",
-      "Instantly provides [100] [War Weariness] <upon conquering a city>",
-      "Instantly provides [20] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Friendly Land] tiles>"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber"
-    ],
-    "prerequisites": [
-      "Psychological Warfare I"
-    ],
+    "uniques": ["[+25]% Strength <when attacking> <in [Foreign Land] tiles>", "[+25]% Strength <when defending> <in [Foreign Land] tiles>", "[+10]% Strength <when attacking> <in [Friendly Land] tiles>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"],
+    "prerequisites": ["Psychological Warfare I"],
     "row": 7,
     "column": 18
   },
   {
     "name": "Psychological Warfare III",
-    "uniques": [
-      "Instantly provides [75] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Foreign Land] tiles>",
-      "Instantly provides [150] [War Weariness] <upon conquering a city>",
-      "Instantly provides [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Friendly Land] tiles>",
-      "Instantly consumes [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber"
-    ],
-    "prerequisites": [
-      "Psychological Warfare II"
-    ],
+    "uniques": ["[+33]% Strength <when attacking> <in [Foreign Land] tiles>", "[+33]% Strength <when defending> <in [Foreign Land] tiles>", "[+15]% Strength <when attacking> <in [Friendly Land] tiles>", "[+10]% Strength <when defending> <in [Friendly Land] tiles>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber"],
+    "prerequisites": ["Psychological Warfare II"],
     "row": 8,
     "column": 18
   },
   {
     "name": "Deep Strike I",
-    "uniques": [
-      "[+2] Movement",
-      "Ignores Zone of Control",
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast"
-    ],
-    "unitTypes": [
-      "Paratrooper",
-      "Marines",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Infiltration III"
-    ],
+    "uniques": ["[+2] Movement", "Ignores Zone of Control", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
+    "unitTypes": ["Paratrooper", "Marines", "Special Operations Forces", "Special Mission Units", "Helicopter"],
+    "prerequisites": ["Infiltration III"],
     "row": 3,
     "column": 20
   },
   {
     "name": "Deep Strike II",
-    "uniques": [
-      "[+3] Movement",
-      "Ignores Zone of Control",
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Paratrooper",
-      "Marines",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Deep Strike I"
-    ],
+    "uniques": ["[+3] Movement", "Ignores Zone of Control", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "Can move after attacking"],
+    "unitTypes": ["Paratrooper", "Marines", "Special Operations Forces", "Special Mission Units", "Helicopter"],
+    "prerequisites": ["Deep Strike I"],
     "row": 4,
     "column": 20
   },
   {
     "name": "Deep Strike III",
-    "uniques": [
-      "[+4] Movement",
-      "Ignores Zone of Control",
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast",
-      "Can move after attacking",
-      "May attack when embarked",
-      "May travel on Water tiles without embarking"
-    ],
-    "unitTypes": [
-      "Paratrooper",
-      "Marines",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Deep Strike II"
-    ],
+    "uniques": ["[+4] Movement", "Ignores Zone of Control", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "Can move after attacking", "May attack when embarked", "May travel on Water tiles without embarking"],
+    "unitTypes": ["Paratrooper", "Marines", "Special Operations Forces", "Special Mission Units", "Helicopter"],
+    "prerequisites": ["Deep Strike II"],
     "row": 5,
     "column": 20
   },
   {
     "name": "Ghost Protocol I",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "Can move through tiles with other units"
-    ],
-    "unitTypes": [
-      "Special Mission Units",
-      "Special Operations Forces",
-      "Drone"
-    ],
-    "prerequisites": [
-      "Infiltration III",
-      "Reconnaissance III"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "Can pass through impassable tiles", "Ignores Zone of Control", "[+1] Movement"],
+    "unitTypes": ["Special Mission Units", "Special Operations Forces", "Drone"],
+    "prerequisites": ["Infiltration III", "Reconnaissance III"],
     "row": 6,
     "column": 20
   },
   {
     "name": "Ghost Protocol II",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "Can move through tiles with other units",
-      "May withdraw before melee",
-      "[+1] Sight"
-    ],
-    "unitTypes": [
-      "Special Mission Units",
-      "Special Operations Forces",
-      "Drone"
-    ],
-    "prerequisites": [
-      "Ghost Protocol I"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "Can pass through impassable tiles", "Ignores Zone of Control", "[+2] Movement", "[+1] Sight"],
+    "unitTypes": ["Special Mission Units", "Special Operations Forces", "Drone"],
+    "prerequisites": ["Ghost Protocol I"],
     "row": 7,
     "column": 20
   },
   {
     "name": "Ghost Protocol III",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "Can move through tiles with other units",
-      "May withdraw before melee",
-      "[+2] Sight",
-      "Can see over obstacles",
-      "Heals [25] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Special Mission Units",
-      "Special Operations Forces",
-      "Drone"
-    ],
-    "prerequisites": [
-      "Ghost Protocol II"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "Can pass through impassable tiles", "Ignores Zone of Control", "[+2] Movement", "[+2] Sight", "Can see over obstacles", "[+15]% Strength <when attacking>"],
+    "unitTypes": ["Special Mission Units", "Special Operations Forces", "Drone"],
+    "prerequisites": ["Ghost Protocol II"],
     "row": 8,
     "column": 20
   },
   {
     "name": "Cybernetic Pilot Augmentation",
-    "uniques": [
-      "[+25]% Strength",
-      "[+1] Sight"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft"
-    ],
+    "uniques": ["[+25]% Strength", "[+1] Sight"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"],
     "row": 6,
     "column": 17
   },
   {
     "name": "Cybernetic Enhancement I",
-    "uniques": [
-      "[+15]% Strength",
-      "[+1] Movement"
-    ],
+    "uniques": ["[+15]% Strength", "[+1] Movement"],
     "row": 6,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Cybernetic Enhancement II",
-    "uniques": [
-      "[+25]% Strength",
-      "[+2] Movement",
-      "Heals [15] damage if it kills a unit"
-    ],
-    "prerequisites": [
-      "Cybernetic Enhancement I"
-    ],
+    "uniques": ["[+25]% Strength", "[+2] Movement", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "prerequisites": ["Cybernetic Enhancement I"],
     "row": 7,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Cybernetic Enhancement III",
-    "uniques": [
-      "[+35]% Strength",
-      "[+2] Movement",
-      "Heals [25] damage if it kills a unit",
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "Cybernetic Enhancement II"
-    ],
+    "uniques": ["[+35]% Strength", "[+2] Movement", "[+25]% Strength <when attacking> <vs [Wounded] units>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Cybernetic Enhancement II"],
     "row": 8,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Personal AI Copilot",
-    "uniques": [
-      "[+25]% Strength",
-      "[+1] Sight",
-      "Can see over obstacles"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Cybernetic Pilot Augmentation"
-    ],
+    "uniques": ["[+25]% Strength", "[+1] Sight", "Can see over obstacles"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft", "Helicopter"],
+    "prerequisites": ["Cybernetic Pilot Augmentation"],
     "row": 7,
     "column": 17
   },
   {
     "name": "AI Controlled",
-    "uniques": [
-      "[+50]% Strength",
-      "[+1] Movement",
-      "[+1] Sight",
-      "Can move after attacking"
-    ],
-    "prerequisites": [
-      "Cybernetic Enhancement III"
-    ],
+    "uniques": ["[+50]% Strength", "[+1] Movement", "[+1] Sight", "Can move after attacking"],
+    "prerequisites": ["Cybernetic Enhancement III"],
     "row": 9,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Drone"]
   },
   {
     "name": "Enhanced AI Control",
-    "uniques": [
-      "[+30]% Strength",
-      "[+4] Range",
-      "Can see over obstacles",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Drone"
-    ],
-    "prerequisites": [
-      "Personal AI Copilot"
-    ],
+    "uniques": ["[+30]% Strength", "[+4] Range", "Can see over obstacles", "Can move after attacking"],
+    "unitTypes": ["Drone"],
+    "prerequisites": ["Personal AI Copilot"],
     "row": 8,
     "column": 17
   },
   {
     "name": "Autonomous Operations I",
-    "uniques": [
-      "[+20]% Strength",
-      "[+2] Sight",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Can pass through impassable tiles"
-    ],
-    "unitTypes": [
-      "Drone",
-      "Loitering Munitions"
-    ],
-    "prerequisites": [
-      "Enhanced AI Control"
-    ],
+    "uniques": ["[+20]% Strength", "[+2] Sight", "Can see over obstacles", "Invisible to non-adjacent units", "Can pass through impassable tiles"],
+    "unitTypes": ["Drone", "Loitering Munitions"],
+    "prerequisites": ["Enhanced AI Control"],
     "row": 9,
     "column": 17
   },
   {
     "name": "Autonomous Operations II",
-    "uniques": [
-      "[+35]% Strength",
-      "[+3] Sight",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "May travel on Water tiles without embarking"
-    ],
-    "unitTypes": [
-      "Drone",
-      "Loitering Munitions"
-    ],
-    "prerequisites": [
-      "Autonomous Operations I"
-    ],
+    "uniques": ["[+35]% Strength", "[+3] Sight", "Can see over obstacles", "Invisible to non-adjacent units", "Can pass through impassable tiles", "Ignores Zone of Control", "May travel on Water tiles without embarking"],
+    "unitTypes": ["Drone", "Loitering Munitions"],
+    "prerequisites": ["Autonomous Operations I"],
     "row": 10,
     "column": 17
   },
   {
     "name": "Autonomous Operations III",
-    "uniques": [
-      "[+50]% Strength",
-      "[+4] Sight",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "May travel on Water tiles without embarking",
-      "Can move through tiles with other units",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Drone",
-      "Loitering Munitions"
-    ],
-    "prerequisites": [
-      "Autonomous Operations II"
-    ],
+    "uniques": ["[+50]% Strength", "[+4] Sight", "Can see over obstacles", "Invisible to non-adjacent units", "Can pass through impassable tiles", "Ignores Zone of Control", "May travel on Water tiles without embarking", "Can move through tiles with other units", "Can move after attacking"],
+    "unitTypes": ["Drone", "Loitering Munitions"],
+    "prerequisites": ["Autonomous Operations II"],
     "row": 11,
     "column": 17
   },
   {
     "name": "Swarm Tactics I",
-    "uniques": [
-      "[+15]% Strength <when adjacent to [Drone] units>",
-      "[+1] Movement <when adjacent to [Drone] units>"
-    ],
-    "unitTypes": [
-      "Drone",
-      "Loitering Munitions"
-    ],
-    "prerequisites": [
-      "Autonomous Operations I"
-    ],
+    "uniques": ["[+15]% Strength <when adjacent to a [Drone] unit>", "[+1] Movement <when adjacent to a [Drone] unit>"],
+    "unitTypes": ["Drone", "Loitering Munitions"],
+    "prerequisites": ["Autonomous Operations I"],
     "row": 10,
     "column": 16
   },
   {
     "name": "Swarm Tactics II",
-    "uniques": [
-      "[+25]% Strength <when adjacent to [Drone] units>",
-      "[+2] Movement <when adjacent to [Drone] units>",
-      "Adjacent units get [+10]% Strength"
-    ],
-    "unitTypes": [
-      "Drone",
-      "Loitering Munitions"
-    ],
-    "prerequisites": [
-      "Swarm Tactics I"
-    ],
+    "uniques": ["[+25]% Strength <when adjacent to a [Drone] unit>", "[+2] Movement <when adjacent to a [Drone] unit>", "[+10]% Strength <when attacking>"],
+    "unitTypes": ["Drone", "Loitering Munitions"],
+    "prerequisites": ["Swarm Tactics I"],
     "row": 11,
     "column": 16
   },
   {
     "name": "Swarm Tactics III",
-    "uniques": [
-      "[+35]% Strength <when adjacent to [Drone] units>",
-      "[+2] Movement <when adjacent to [Drone] units>",
-      "Adjacent units get [+20]% Strength",
-      "All adjacent units heal [+10] HP per turn"
-    ],
-    "unitTypes": [
-      "Drone",
-      "Loitering Munitions"
-    ],
-    "prerequisites": [
-      "Swarm Tactics II"
-    ],
+    "uniques": ["[+35]% Strength <when adjacent to a [Drone] unit>", "[+2] Movement <when adjacent to a [Drone] unit>", "[+20]% Strength <when attacking>", "Unit will heal every turn, even if it performs an action"],
+    "unitTypes": ["Drone", "Loitering Munitions"],
+    "prerequisites": ["Swarm Tactics II"],
     "row": 12,
     "column": 16
   },
   {
     "name": "Electronic Warfare I",
-    "uniques": [
-      "Damage taken from [Air] units is reduced by [25]%",
-      "Damage taken from [Missile] units is reduced by [25]%",
-      "Can see over obstacles"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft",
-      "Drone",
-      "Radar Aircraft"
-    ],
-    "prerequisites": [
-      "Cybernetic Pilot Augmentation"
-    ],
+    "uniques": ["[+15]% Strength <when defending> <vs [air] units>", "[+15]% Strength <when defending> <vs [missile] units>", "Can see over obstacles"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft", "Drone", "Radar Aircraft"],
+    "prerequisites": ["Cybernetic Pilot Augmentation"],
     "row": 7,
     "column": 16
   },
   {
     "name": "Electronic Warfare II",
-    "uniques": [
-      "Damage taken from [Air] units is reduced by [33]%",
-      "Damage taken from [Missile] units is reduced by [33]%",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft",
-      "Drone",
-      "Radar Aircraft"
-    ],
-    "prerequisites": [
-      "Electronic Warfare I"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <vs [air] units>", "[+25]% Strength <when defending> <vs [missile] units>", "Can see over obstacles", "Invisible to non-adjacent units"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft", "Drone", "Radar Aircraft"],
+    "prerequisites": ["Electronic Warfare I"],
     "row": 8,
     "column": 16
   },
   {
     "name": "Electronic Warfare III",
-    "uniques": [
-      "Damage taken from [Air] units is reduced by [50]%",
-      "Damage taken from [Missile] units is reduced by [50]%",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Can see invisible [Attack Submarine] units",
-      "Can see invisible [Cruise Missile Submarine] units",
-      "Can see invisible [Ballistic Missile Submarine] units"
-    ],
-    "unitTypes": [
-      "Fighter",
-      "Air Superiority Fighter",
-      "Multirole Fighter",
-      "Bomber",
-      "Heavy Bomber",
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Attack Aircraft",
-      "Drone",
-      "Radar Aircraft"
-    ],
-    "prerequisites": [
-      "Electronic Warfare II"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <vs [air] units>", "[+33]% Strength <when defending> <vs [missile] units>", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [Attack Submarine] units", "Can see invisible [Cruise Missile Submarine] units", "Can see invisible [Ballistic Missile Submarine] units"],
+    "unitTypes": ["Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft", "Drone", "Radar Aircraft"],
+    "prerequisites": ["Electronic Warfare II"],
     "row": 9,
     "column": 16
   },
   {
     "name": "Stealth Systems I",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "Damage taken from [Ranged] units is reduced by [25]%"
-    ],
-    "unitTypes": [
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Drone",
-      "Attack Submarine",
-      "Cruise Missile Submarine",
-      "Ballistic Missile Submarine",
-      "Special Operations Forces",
-      "Special Mission Units"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+15]% Strength <when attacking> <vs [ranged] units>"],
+    "unitTypes": ["Stealth Bomber", "Heavy Stealth Bomber", "Drone", "Attack Submarine", "Cruise Missile Submarine", "Ballistic Missile Submarine", "Special Operations Forces", "Special Mission Units"],
     "row": 6,
     "column": 21
   },
   {
     "name": "Stealth Systems II",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "Damage taken from [Ranged] units is reduced by [33]%",
-      "Damage taken from [Air] units is reduced by [25]%"
-    ],
-    "unitTypes": [
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Drone",
-      "Attack Submarine",
-      "Cruise Missile Submarine",
-      "Ballistic Missile Submarine",
-      "Special Operations Forces",
-      "Special Mission Units"
-    ],
-    "prerequisites": [
-      "Stealth Systems I"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+25]% Strength <when attacking> <vs [ranged] units>", "[+15]% Strength <when defending> <vs [air] units>"],
+    "unitTypes": ["Stealth Bomber", "Heavy Stealth Bomber", "Drone", "Attack Submarine", "Cruise Missile Submarine", "Ballistic Missile Submarine", "Special Operations Forces", "Special Mission Units"],
+    "prerequisites": ["Stealth Systems I"],
     "row": 7,
     "column": 21
   },
   {
     "name": "Stealth Systems III",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "Damage taken from [Ranged] units is reduced by [50]%",
-      "Damage taken from [Air] units is reduced by [33]%",
-      "Damage taken from [Missile] units is reduced by [25]%",
-      "[+25]% Strength <when attacking>"
-    ],
-    "unitTypes": [
-      "Stealth Bomber",
-      "Heavy Stealth Bomber",
-      "Drone",
-      "Attack Submarine",
-      "Cruise Missile Submarine",
-      "Ballistic Missile Submarine",
-      "Special Operations Forces",
-      "Special Mission Units"
-    ],
-    "prerequisites": [
-      "Stealth Systems II"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+33]% Strength <when attacking> <vs [ranged] units>", "[+25]% Strength <when defending> <vs [air] units>", "[+15]% Strength <when defending> <vs [missile] units>", "[+25]% Strength <when attacking>"],
+    "unitTypes": ["Stealth Bomber", "Heavy Stealth Bomber", "Drone", "Attack Submarine", "Cruise Missile Submarine", "Ballistic Missile Submarine", "Special Operations Forces", "Special Mission Units"],
+    "prerequisites": ["Stealth Systems II"],
     "row": 8,
     "column": 21
   },
   {
     "name": "Neural Interface I",
-    "uniques": [
-      "[+20]% Strength",
-      "[+1] Sight",
-      "Ignores Zone of Control"
-    ],
-    "prerequisites": [
-      "Cybernetic Enhancement II"
-    ],
+    "uniques": ["[+20]% Strength", "[+1] Sight", "Ignores Zone of Control"],
+    "prerequisites": ["Cybernetic Enhancement II"],
     "row": 8,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Neural Interface II",
-    "uniques": [
-      "[+30]% Strength",
-      "[+2] Sight",
-      "Ignores Zone of Control",
-      "Can see over obstacles",
-      "Can move after attacking"
-    ],
-    "prerequisites": [
-      "Neural Interface I"
-    ],
+    "uniques": ["[+30]% Strength", "[+2] Sight", "Ignores Zone of Control", "Can see over obstacles", "Can move after attacking"],
+    "prerequisites": ["Neural Interface I"],
     "row": 9,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Neural Interface III",
-    "uniques": [
-      "[+40]% Strength",
-      "[+3] Sight",
-      "Ignores Zone of Control",
-      "Can see over obstacles",
-      "Can move after attacking",
-      "Heals [25] damage if it kills a unit",
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "Neural Interface II"
-    ],
+    "uniques": ["[+40]% Strength", "[+3] Sight", "Ignores Zone of Control", "Can see over obstacles", "Can move after attacking", "[+15]% Strength <when attacking> <vs [Wounded] units>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Neural Interface II"],
     "row": 10,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Machine Learning I",
-    "uniques": [
-      "[+15]% Strength <when attacking> <vs [Wounded] units>",
-      "[+15]% Strength <when defending> <vs [Wounded] units>",
-      "Heals [10] damage if it kills a unit"
-    ],
-    "prerequisites": [
-      "Neural Interface I"
-    ],
+    "uniques": ["[+15]% Strength <when attacking> <vs [Wounded] units>", "[+15]% Strength <when defending> <vs [Wounded] units>", "[+10]% Strength <when attacking>"],
+    "prerequisites": ["Neural Interface I"],
     "row": 9,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Drone"]
   },
   {
     "name": "Machine Learning II",
-    "uniques": [
-      "[+25]% Strength <when attacking> <vs [Wounded] units>",
-      "[+25]% Strength <when defending> <vs [Wounded] units>",
-      "Heals [20] damage if it kills a unit",
-      "May withdraw before melee"
-    ],
-    "prerequisites": [
-      "Machine Learning I"
-    ],
+    "uniques": ["[+25]% Strength <when attacking> <vs [Wounded] units>", "[+25]% Strength <when defending> <vs [Wounded] units>", "[+20]% Strength <when attacking>", "[+1] Movement"],
+    "prerequisites": ["Machine Learning I"],
     "row": 10,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Drone"]
   },
   {
     "name": "Machine Learning III",
-    "uniques": [
-      "[+35]% Strength <when attacking> <vs [Wounded] units>",
-      "[+35]% Strength <when defending> <vs [Wounded] units>",
-      "Heals [30] damage if it kills a unit",
-      "May withdraw before melee",
-      "Adjacent units get [+10]% Strength"
-    ],
-    "prerequisites": [
-      "Machine Learning II"
-    ],
+    "uniques": ["[+35]% Strength <when attacking> <vs [Wounded] units>", "[+35]% Strength <when defending> <vs [Wounded] units>", "[+30]% Strength <when attacking>", "[+1] Movement", "[+10]% Strength <when defending>"],
+    "prerequisites": ["Machine Learning II"],
     "row": 11,
-    "column": 2
+    "column": 2,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Drone"]
   },
   {
     "name": "Transcendent Warfare I",
-    "uniques": [
-      "[+40]% Strength",
-      "[+2] Movement",
-      "[+2] Sight",
-      "Unit will heal every turn, even if it performs an action",
-      "Can move after attacking",
-      "Ignores Zone of Control"
-    ],
-    "prerequisites": [
-      "Neural Interface III",
-      "Machine Learning III",
-      "AI Controlled"
-    ],
+    "uniques": ["[+40]% Strength", "[+2] Movement", "[+2] Sight", "Unit will heal every turn, even if it performs an action", "Can move after attacking", "Ignores Zone of Control"],
+    "prerequisites": ["Neural Interface III", "Machine Learning III", "AI Controlled"],
     "row": 11,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Transcendent Warfare II",
-    "uniques": [
-      "[+50]% Strength",
-      "[+3] Movement",
-      "[+3] Sight",
-      "Unit will heal every turn, even if it performs an action",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Heals [30] damage if it kills a unit"
-    ],
-    "prerequisites": [
-      "Transcendent Warfare I"
-    ],
+    "uniques": ["[+50]% Strength", "[+3] Movement", "[+3] Sight", "Unit will heal every turn, even if it performs an action", "Can move after attacking", "Ignores Zone of Control", "Can pass through impassable tiles", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "prerequisites": ["Transcendent Warfare I"],
     "row": 12,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Transcendent Warfare III",
-    "uniques": [
-      "[+60]% Strength",
-      "[+4] Movement",
-      "[+4] Sight",
-      "Unit will heal every turn, even if it performs an action",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Heals [50] damage if it kills a unit",
-      "Adjacent units get [+20]% Strength",
-      "All adjacent units heal [+15] HP per turn"
-    ],
-    "prerequisites": [
-      "Transcendent Warfare II"
-    ],
+    "uniques": ["[+60]% Strength", "[+4] Movement", "[+4] Sight", "Unit will heal every turn, even if it performs an action", "Can move after attacking", "Ignores Zone of Control", "Can pass through impassable tiles", "[+25]% Strength <when attacking> <vs [Wounded] units>", "[+15]% Strength <when defending>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Transcendent Warfare II"],
     "row": 13,
-    "column": 0
+    "column": 0,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Morale",
-    "uniques": [
-      "[+20]% Strength"
-    ]
+    "uniques": ["[+20]% Strength"],
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Archery", "Artillery", "Rocket Artillery"]
   },
   {
     "name": "Dojo",
-    "uniques": [
-      "[+15]% Strength"
-    ]
+    "uniques": ["[+15]% Strength"],
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Leadership I",
-    "uniques": [
-      "[+15]% Strength",
-      "Adjacent units get [+10]% Strength"
-    ],
-    "prerequisites": [
-      "Morale"
-    ],
+    "uniques": ["[+15]% Strength", "[+10]% Strength <when attacking>"],
+    "prerequisites": ["Morale"],
     "row": 6,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Leadership II",
-    "uniques": [
-      "[+20]% Strength",
-      "Adjacent units get [+15]% Strength",
-      "All adjacent units heal [+10] HP per turn"
-    ],
-    "prerequisites": [
-      "Leadership I"
-    ],
+    "uniques": ["[+20]% Strength", "[+15]% Strength <when attacking>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Leadership I"],
     "row": 7,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Leadership III",
-    "uniques": [
-      "[+25]% Strength",
-      "Adjacent units get [+20]% Strength",
-      "All adjacent units heal [+15] HP per turn",
-      "Units in this tile gain [+15]% Strength"
-    ],
-    "prerequisites": [
-      "Leadership II"
-    ],
+    "uniques": ["[+25]% Strength", "[+20]% Strength <when attacking>", "Unit will heal every turn, even if it performs an action", "[+1] Movement"],
+    "prerequisites": ["Leadership II"],
     "row": 8,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Veteran I",
-    "uniques": [
-      "[+15]% Strength <when defending>",
-      "Heals [10] damage if it kills a unit"
-    ],
-    "prerequisites": [
-      "Dojo"
-    ],
+    "uniques": ["[+15]% Strength <when defending>", "[+10]% Strength <when attacking> <vs [Wounded] units>"],
+    "prerequisites": ["Dojo"],
     "row": 6,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Veteran II",
-    "uniques": [
-      "[+20]% Strength <when defending>",
-      "Heals [15] damage if it kills a unit",
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "Veteran I"
-    ],
+    "uniques": ["[+20]% Strength <when defending>", "[+15]% Strength <when attacking> <vs [Wounded] units>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Veteran I"],
     "row": 7,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Veteran III",
-    "uniques": [
-      "[+25]% Strength <when defending>",
-      "Heals [25] damage if it kills a unit",
-      "Unit will heal every turn, even if it performs an action",
-      "Damage taken from [Ranged] units is reduced by [25]%"
-    ],
-    "prerequisites": [
-      "Veteran II"
-    ],
+    "uniques": ["[+25]% Strength <when defending>", "[+25]% Strength <when attacking> <vs [Wounded] units>", "Unit will heal every turn, even if it performs an action", "[+15]% Strength <when defending> <vs [ranged] units>"],
+    "prerequisites": ["Veteran II"],
     "row": 8,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Elite Training I",
-    "uniques": [
-      "[+20]% Strength",
-      "[+1] Movement",
-      "Can move after attacking"
-    ],
-    "prerequisites": [
-      "Leadership II",
-      "Veteran II"
-    ],
+    "uniques": ["[+20]% Strength", "[+1] Movement", "Can move after attacking"],
+    "prerequisites": ["Leadership II", "Veteran II"],
     "row": 9,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Elite Training II",
-    "uniques": [
-      "[+30]% Strength",
-      "[+2] Movement",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "May withdraw before melee"
-    ],
-    "prerequisites": [
-      "Elite Training I"
-    ],
+    "uniques": ["[+30]% Strength", "[+2] Movement", "Can move after attacking", "Ignores Zone of Control"],
+    "prerequisites": ["Elite Training I"],
     "row": 10,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Elite Training III",
-    "uniques": [
-      "[+40]% Strength",
-      "[+2] Movement",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "May withdraw before melee",
-      "Heals [25] damage if it kills a unit",
-      "Adjacent units get [+15]% Strength"
-    ],
-    "prerequisites": [
-      "Elite Training II"
-    ],
+    "uniques": ["[+40]% Strength", "[+2] Movement", "Can move after attacking", "Ignores Zone of Control", "[+15]% Strength <when attacking> <vs [Wounded] units>", "[+15]% Strength <when defending>"],
+    "prerequisites": ["Elite Training II"],
     "row": 11,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Heroic Spirit I",
-    "uniques": [
-      "[+25]% Strength <when below [50]% health>",
-      "Heals [15] damage if it kills a unit",
-      "[+15]% Strength <when defending>"
-    ],
-    "prerequisites": [
-      "Elite Training I"
-    ],
+    "uniques": ["[+25]% Strength <when defending>", "[+15]% Strength <when attacking> <vs [Wounded] units>", "[+15]% Strength <when defending> <vs [Wounded] units>"],
+    "prerequisites": ["Elite Training I"],
     "row": 10,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Heroic Spirit II",
-    "uniques": [
-      "[+35]% Strength <when below [50]% health>",
-      "Heals [25] damage if it kills a unit",
-      "[+20]% Strength <when defending>",
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "Heroic Spirit I"
-    ],
+    "uniques": ["[+35]% Strength <when defending>", "[+25]% Strength <when attacking> <vs [Wounded] units>", "[+20]% Strength <when defending> <vs [Wounded] units>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Heroic Spirit I"],
     "row": 11,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Heroic Spirit III",
-    "uniques": [
-      "[+50]% Strength <when below [50]% health>",
-      "Heals [35] damage if it kills a unit",
-      "[+25]% Strength <when defending>",
-      "Unit will heal every turn, even if it performs an action",
-      "Adjacent units get [+15]% Strength",
-      "All adjacent units heal [+10] HP per turn"
-    ],
-    "prerequisites": [
-      "Heroic Spirit II"
-    ],
+    "uniques": ["[+50]% Strength <when defending>", "[+35]% Strength <when attacking> <vs [Wounded] units>", "[+25]% Strength <when defending> <vs [Wounded] units>", "Unit will heal every turn, even if it performs an action", "[+15]% Strength <when attacking>"],
+    "prerequisites": ["Heroic Spirit II"],
     "row": 12,
-    "column": 4
+    "column": 4,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Legendary Status I",
-    "uniques": [
-      "[+30]% Strength",
-      "[+1] Movement",
-      "[+1] Sight",
-      "Heals [20] damage if it kills a unit",
-      "May withdraw before melee"
-    ],
-    "prerequisites": [
-      "Heroic Spirit II",
-      "Elite Training II"
-    ],
+    "uniques": ["[+30]% Strength", "[+1] Movement", "[+1] Sight", "[+20]% Strength <when attacking> <vs [Wounded] units]", "Can move after attacking"],
+    "prerequisites": ["Heroic Spirit II", "Elite Training II"],
     "row": 12,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Legendary Status II",
-    "uniques": [
-      "[+40]% Strength",
-      "[+2] Movement",
-      "[+2] Sight",
-      "Heals [30] damage if it kills a unit",
-      "May withdraw before melee",
-      "Can move after attacking",
-      "Ignores Zone of Control"
-    ],
-    "prerequisites": [
-      "Legendary Status I"
-    ],
+    "uniques": ["[+40]% Strength", "[+2] Movement", "[+2] Sight", "[+30]% Strength <when attacking> <vs [Wounded] units>", "Can move after attacking", "Ignores Zone of Control"],
+    "prerequisites": ["Legendary Status I"],
     "row": 13,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Legendary Status III",
-    "uniques": [
-      "[+50]% Strength",
-      "[+2] Movement",
-      "[+2] Sight",
-      "Heals [50] damage if it kills a unit",
-      "May withdraw before melee",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Unit will heal every turn, even if it performs an action",
-      "Adjacent units get [+20]% Strength",
-      "All adjacent units heal [+15] HP per turn"
-    ],
-    "prerequisites": [
-      "Legendary Status II"
-    ],
+    "uniques": ["[+50]% Strength", "[+2] Movement", "[+2] Sight", "[+50]% Strength <when attacking> <vs [Wounded] units>", "Can move after attacking", "Ignores Zone of Control", "Unit will heal every turn, even if it performs an action", "[+15]% Strength <when defending>", "[+1] Range"],
+    "prerequisites": ["Legendary Status II"],
     "row": 14,
-    "column": 3
+    "column": 3,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Missionary Zeal",
-    "uniques": [
-      "Can Spread Religion <[1] additional time(s)>"
-    ]
+    "uniques": ["Can Spread Religion <[1] additional time(s)>"],
+    "unitTypes": ["Missionary", "Apostle", "Inquisitor"]
   },
   {
     "name": "Devout",
-    "uniques": [
-      "Can Spread Religion <[1] additional time(s)>"
-    ]
+    "uniques": ["Can Spread Religion <[1] additional time(s)>"],
+    "unitTypes": ["Missionary", "Apostle", "Inquisitor"]
   },
   {
-    "name": "Loaded"
+    "name": "Loaded",
+    "unitTypes": ["Civilian", "Settler", "Builder", "Trader", "Religious", "Great Person"]
   },
   {
     "name": "Seek and Capture",
-    "uniques": [
-      "May capture killed [Military] units <with [60]% chance>"
-    ]
+    "uniques": ["[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines", "Light Infantry"]
   },
   {
     "name": "Seek and Capture II",
-    "uniques": [
-      "May capture killed [Military] units <with [75]% chance>",
-      "Heals [15] damage if it kills a unit"
-    ],
-    "prerequisites": [
-      "Seek and Capture"
-    ]
+    "uniques": ["[+25]% Strength <when attacking> <vs [Wounded] units>", "[+15]% Strength <when attacking>"],
+    "prerequisites": ["Seek and Capture"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines", "Light Infantry"]
   },
   {
     "name": "Seek and Capture III",
-    "uniques": [
-      "May capture killed [Military] units <with [90]% chance>",
-      "Heals [25] damage if it kills a unit",
-      "[+15]% Strength <vs [Wounded] units>"
-    ],
-    "prerequisites": [
-      "Seek and Capture II"
-    ]
+    "uniques": ["[+33]% Strength <when attacking> <vs [Wounded] units>", "[+25]% Strength <when attacking>", "[+15]% Strength <vs [Wounded] units>"],
+    "prerequisites": ["Seek and Capture II"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Marines", "Light Infantry"]
   },
   {
     "name": "Terrorist Strength",
-    "uniques": [
-      "[+10]% Strength"
-    ]
+    "uniques": ["[+10]% Strength"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"]
   },
   {
     "name": "Terrorist Strength II",
-    "uniques": [
-      "[+20]% Strength",
-      "Instantly provides [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Foreign Land] tiles>"
-    ],
-    "prerequisites": [
-      "Terrorist Strength"
-    ]
+    "uniques": ["[+20]% Strength", "[+15]% Strength <when attacking> <in [Foreign Land] tiles>"],
+    "prerequisites": ["Terrorist Strength"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"]
   },
   {
     "name": "Terrorist Strength III",
-    "uniques": [
-      "[+30]% Strength",
-      "Instantly provides [50] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <in [Foreign Land] tiles>",
-      "Instantly provides [100] [War Weariness] <upon conquering a city>"
-    ],
-    "prerequisites": [
-      "Terrorist Strength II"
-    ]
+    "uniques": ["[+30]% Strength", "[+25]% Strength <when attacking> <in [Foreign Land] tiles>", "[+15]% Strength <when defending> <in [Foreign Land] tiles>"],
+    "prerequisites": ["Terrorist Strength II"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"]
   },
   {
     "name": "No Suicide",
-    "uniques": [
-      "Can only attack [Civilian] units",
-      "Can only attack [Military] units",
-      "[+25]% Strength <when stacked with a [Civilian] unit>",
-      "Heals [25] damage if it kills a unit"
-    ]
+    "uniques": ["Can only attack [Civilian] units", "[+25]% Strength <when stacked with a [Civilian] unit>"],
+    "unitTypes": ["Loitering Munitions", "Tactical Missiles", "Ballistic Missiles", "Cruise Missiles", "Hypersonic Missiles"]
   },
   {
     "name": "Barbarian Civilian",
-    "uniques": [
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Invisible to non-adjacent units",
-      "Unit will heal every turn, even if it performs an action"
-    ]
+    "uniques": ["Can move after attacking", "Ignores Zone of Control", "Can pass through impassable tiles", "Invisible to non-adjacent units", "Unit will heal every turn, even if it performs an action"],
+    "unitTypes": ["Civilian"]
   },
   {
     "name": "WWV",
-    "uniques": [
-      "Instantly provides [8] [War Weariness] <upon being defeated> <vs [non-[Barbarians]] units> <in [Friendly Land] tiles> <when at war>",
-      "Instantly provides [20] [War Weariness] <upon being defeated> <vs [non-[Barbarians]] units> <in [non-[Friendly Land]] tiles> <when at war>",
-      "Instantly provides [150] [War Weariness] <upon conquering a city>",
-      "Instantly consumes [16] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
-      "Instantly consumes [8] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Foreign Land] tiles>"
-    ]
+    "uniques": ["[+10]% Strength <when defending> <in [Friendly Land] tiles>", "[+15]% Strength <when attacking> <in [Foreign Land] tiles>"],
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry"]
   },
   {
     "name": "Fearless",
-    "uniques": [
-      "Instantly provides [50] [War Weariness] <upon conquering a city>",
-      "Instantly consumes [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
-      "Instantly consumes [20] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [non-[Friendly Land]] tiles>"
-    ]
+    "uniques": ["[+15]% Strength <when attacking> <in [Foreign Land] tiles>", "[+10]% Strength <when defending> <in [Friendly Land] tiles>"],
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Fearless II",
-    "uniques": [
-      "Instantly provides [75] [War Weariness] <upon conquering a city>",
-      "Instantly consumes [40] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
-      "Instantly consumes [30] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [non-[Friendly Land]] tiles>",
-      "[+15]% Strength"
-    ],
-    "prerequisites": [
-      "Fearless"
-    ]
+    "uniques": ["[+25]% Strength <when attacking> <in [Foreign Land] tiles>", "[+15]% Strength <when defending> <in [Friendly Land] tiles>", "[+15]% Strength"],
+    "prerequisites": ["Fearless"],
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Fearless III",
-    "uniques": [
-      "Instantly provides [100] [War Weariness] <upon conquering a city>",
-      "Instantly consumes [50] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [Friendly Land] tiles>",
-      "Instantly consumes [40] [War Weariness] <upon defeating a [non-[Barbarians]] unit> <when above [1] [War Weariness]> <in [non-[Friendly Land]] tiles>",
-      "[+25]% Strength",
-      "Heals [25] damage if it kills a unit"
-    ],
-    "prerequisites": [
-      "Fearless II"
-    ]
+    "uniques": ["[+33% Strength <when attacking> <in [Foreign Land] tiles>", "[+20]% Strength <when defending> <in [Friendly Land] tiles>", "[+25]% Strength", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "prerequisites": ["Fearless II"],
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper"]
   },
   {
     "name": "Advanced Radar Systems",
-    "uniques": [
-      "[+1] Sight",
-      "Can see over obstacles",
-      "Can see invisible [Attack Submarine] units",
-      "Can see invisible [Ballistic Missile Submarine] units",
-      "Can see invisible [Cruise Missile Submarine] units"
-    ],
-    "unitTypes": [
-      "Destroyer"
-    ]
+    "uniques": ["[+1] Sight", "Can see over obstacles", "Can see invisible [Attack Submarine] units", "Can see invisible [Ballistic Missile Submarine] units", "Can see invisible [Cruise Missile Submarine] units"],
+    "unitTypes": ["Destroyer"]
   },
   {
     "name": "Advanced Sonar Arrays",
-    "uniques": [
-      "[+2] Sight",
-      "Can see invisible [Attack Submarine] units",
-      "Can see invisible [Ballistic Missile Submarine] units",
-      "Can see invisible [Cruise Missile Submarine] units",
-      "[+25]% Strength <vs [Submarine] units>"
-    ],
-    "unitTypes": [
-      "Destroyer"
-    ],
-    "prerequisites": [
-      "Advanced Radar Systems"
-    ]
+    "uniques": ["[+2] Sight", "Can see invisible [Attack Submarine] units", "Can see invisible [Ballistic Missile Submarine] units", "Can see invisible [Cruise Missile Submarine] units", "[+25]% Strength <vs [submarine] units>"],
+    "unitTypes": ["Destroyer"],
+    "prerequisites": ["Advanced Radar Systems"]
   },
   {
     "name": "Expanded Vertical Launch Systems (VLS)",
-    "uniques": [
-      "Can carry [+1] [Cruise Missiles] units"
-    ],
-    "unitTypes": [
-      "Destroyer"
-    ]
+    "uniques": ["Can carry [+1] [Cruise Missiles] units"],
+    "unitTypes": ["Destroyer"]
   },
   {
     "name": "Expanded VLS II",
-    "uniques": [
-      "Can carry [+2] [Cruise Missiles] units",
-      "Can carry [+1] [Tactical Missiles] units"
-    ],
-    "unitTypes": [
-      "Destroyer"
-    ],
-    "prerequisites": [
-      "Expanded Vertical Launch Systems (VLS)"
-    ]
+    "uniques": ["Can carry [+2] [Cruise Missiles] units", "Can carry [+1] [Tactical Missiles] units"],
+    "unitTypes": ["Destroyer"],
+    "prerequisites": ["Expanded Vertical Launch Systems (VLS)"]
   },
   {
     "name": "Expanded VLS III",
-    "uniques": [
-      "Can carry [+3] [Cruise Missiles] units",
-      "Can carry [+2] [Tactical Missiles] units",
-      "Can carry [+1] [Hypersonic Missiles] units"
-    ],
-    "unitTypes": [
-      "Destroyer"
-    ],
-    "prerequisites": [
-      "Expanded VLS II"
-    ]
+    "uniques": ["Can carry [+3] [Cruise Missiles] units", "Can carry [+2] [Tactical Missiles] units", "Can carry [+1] [Hypersonic Missiles] units"],
+    "unitTypes": ["Destroyer"],
+    "prerequisites": ["Expanded VLS II"]
   },
   {
     "name": "Amphibious Assault I",
-    "uniques": [
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast",
-      "May attack when embarked"
-    ],
-    "unitTypes": [
-      "Marines",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Light Infantry",
-      "Helicopter"
-    ],
+    "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked"],
+    "unitTypes": ["Marines", "Special Operations Forces", "Special Mission Units", "Light Infantry", "Helicopter"],
     "row": 3,
     "column": 21
   },
   {
     "name": "Amphibious Assault II",
-    "uniques": [
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast",
-      "May attack when embarked",
-      "May travel on Water tiles without embarking",
-      "[+15]% Strength <when attacking> <in [Coast] tiles>"
-    ],
-    "unitTypes": [
-      "Marines",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Light Infantry",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Amphibious Assault I"
-    ],
+    "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "May travel on Water tiles without embarking", "[+15]% Strength <when attacking> <in [Coast] tiles>"],
+    "unitTypes": ["Marines", "Special Operations Forces", "Special Mission Units", "Light Infantry", "Helicopter"],
+    "prerequisites": ["Amphibious Assault I"],
     "row": 4,
     "column": 21
   },
   {
     "name": "Amphibious Assault III",
-    "uniques": [
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast",
-      "May attack when embarked",
-      "May travel on Water tiles without embarking",
-      "[+25]% Strength <when attacking> <in [Coast] tiles>",
-      "[+1] Movement",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Marines",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Light Infantry",
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Amphibious Assault II"
-    ],
+    "uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "May travel on Water tiles without embarking", "[+25]% Strength <when attacking> <in [Coast] tiles>", "[+1] Movement", "Can move after attacking"],
+    "unitTypes": ["Marines", "Special Operations Forces", "Special Mission Units", "Light Infantry", "Helicopter"],
+    "prerequisites": ["Amphibious Assault II"],
     "row": 5,
     "column": 21
   },
   {
     "name": "Urban Warfare I",
-    "uniques": [
-      "[+25]% Strength <when defending> <vs [City] units>",
-      "[+15]% Strength <when attacking> <vs [City] units>"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Marines",
-      "Mercenary",
-      "Private Military Company"
-    ],
-    "prerequisites": [
-      "Shock II",
-      "Drill II"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <vs [city] units>", "[+15]% Strength <when attacking> <vs [city] units>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company"],
+    "prerequisites": ["Shock II", "Drill II"],
     "row": 3,
     "column": 22
   },
   {
     "name": "Urban Warfare II",
-    "uniques": [
-      "[+33]% Strength <when defending> <vs [City] units>",
-      "[+25]% Strength <when attacking> <vs [City] units>",
-      "Damage taken from [Ranged] units is reduced by [15]%"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Marines",
-      "Mercenary",
-      "Private Military Company"
-    ],
-    "prerequisites": [
-      "Urban Warfare I"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <vs [city] units>", "[+25]% Strength <when attacking> <vs [city] units>", "[+15]% Strength <when defending> <vs [ranged] units>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company"],
+    "prerequisites": ["Urban Warfare I"],
     "row": 4,
     "column": 22
   },
   {
     "name": "Urban Warfare III",
-    "uniques": [
-      "[+50]% Strength <when defending> <vs [City] units>",
-      "[+35]% Strength <when attacking> <vs [City] units>",
-      "Damage taken from [Ranged] units is reduced by [25]%",
-      "Heals [15] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Marines",
-      "Mercenary",
-      "Private Military Company"
-    ],
-    "prerequisites": [
-      "Urban Warfare II"
-    ],
+    "uniques": ["[+50]% Strength <when defending> <vs [city] units>", "[+35]% Strength <when attacking> <vs [city] units>", "[+25]% Strength <when defending> <vs [ranged] units>", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company"],
+    "prerequisites": ["Urban Warfare II"],
     "row": 5,
     "column": 22
   },
   {
     "name": "Guerrilla Warfare I",
-    "uniques": [
-      "[+25]% Strength <when defending> <in [Forest] tiles>",
-      "[+25]% Strength <when defending> <in [Jungle] tiles>",
-      "[+25]% Strength <when defending> <in [Hill] tiles>",
-      "Invisible to non-adjacent units <in [Forest] tiles>",
-      "Invisible to non-adjacent units <in [Jungle] tiles>"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Mercenary",
-      "Private Military Company"
-    ],
-    "prerequisites": [
-      "Ambush I"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <in [Forest] tiles>", "[+25]% Strength <when defending> <in [Jungle] tiles>", "[+25]% Strength <when defending> <in [Hill] tiles>", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"],
+    "prerequisites": ["Ambush I"],
     "row": 5,
     "column": 7
   },
   {
     "name": "Guerrilla Warfare II",
-    "uniques": [
-      "[+33]% Strength <when defending> <in [Forest] tiles>",
-      "[+33]% Strength <when defending> <in [Jungle] tiles>",
-      "[+33]% Strength <when defending> <in [Hill] tiles>",
-      "Invisible to non-adjacent units <in [Forest] tiles>",
-      "Invisible to non-adjacent units <in [Jungle] tiles>",
-      "Invisible to non-adjacent units <in [Hill] tiles>",
-      "May withdraw before melee"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Mercenary",
-      "Private Military Company"
-    ],
-    "prerequisites": [
-      "Guerrilla Warfare I"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <in [Forest] tiles>", "[+33]% Strength <when defending> <in [Jungle] tiles>", "[+33]% Strength <when defending> <in [Hill] tiles>", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>", "Invisible to non-adjacent units <in [Hill] tiles>", "[+15]% Strength <when attacking> <in [Forest] tiles>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"],
+    "prerequisites": ["Guerrilla Warfare I"],
     "row": 6,
     "column": 7
   },
   {
     "name": "Guerrilla Warfare III",
-    "uniques": [
-      "[+50]% Strength <when defending> <in [Forest] tiles>",
-      "[+50]% Strength <when defending> <in [Jungle] tiles>",
-      "[+50]% Strength <when defending> <in [Hill] tiles>",
-      "Invisible to non-adjacent units <in [Forest] tiles>",
-      "Invisible to non-adjacent units <in [Jungle] tiles>",
-      "Invisible to non-adjacent units <in [Hill] tiles>",
-      "May withdraw before melee",
-      "Heals [15] damage if it kills a unit",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Mercenary",
-      "Private Military Company"
-    ],
-    "prerequisites": [
-      "Guerrilla Warfare II"
-    ],
+    "uniques": ["[+50]% Strength <when defending> <in [Forest] tiles>", "[+50]% Strength <when defending> <in [Jungle] tiles>", "[+50]% Strength <when defending> <in [Hill] tiles>", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>", "Invisible to non-adjacent units <in [Hill] tiles>", "[+25]% Strength <when attacking> <in [Forest] tiles>", "Can move after attacking"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company"],
+    "prerequisites": ["Guerrilla Warfare II"],
     "row": 7,
     "column": 7
   },
   {
     "name": "Desert Warfare I",
-    "uniques": [
-      "[+25]% Strength <when defending> <in [Desert] tiles>",
-      "[+15]% Strength <when attacking> <in [Desert] tiles>"
-    ],
-    "prerequisites": [
-      "Shock II",
-      "Drill II"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <in [Desert] tiles>", "[+15]% Strength <when attacking> <in [Desert] tiles>"],
+    "prerequisites": ["Shock II", "Drill II"],
     "row": 3,
-    "column": 23
+    "column": 23,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Desert Warfare II",
-    "uniques": [
-      "[+33]% Strength <when defending> <in [Desert] tiles>",
-      "[+25]% Strength <when attacking> <in [Desert] tiles>",
-      "[+1] Movement <in [Desert] tiles>"
-    ],
-    "prerequisites": [
-      "Desert Warfare I"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <in [Desert] tiles>", "[+25]% Strength <when attacking> <in [Desert] tiles>", "[+1] Movement <in [Desert] tiles>"],
+    "prerequisites": ["Desert Warfare I"],
     "row": 4,
-    "column": 23
+    "column": 23,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Desert Warfare III",
-    "uniques": [
-      "[+50]% Strength <when defending> <in [Desert] tiles>",
-      "[+35]% Strength <when attacking> <in [Desert] tiles>",
-      "[+2] Movement <in [Desert] tiles>",
-      "Invisible to non-adjacent units <in [Desert] tiles>"
-    ],
-    "prerequisites": [
-      "Desert Warfare II"
-    ],
+    "uniques": ["[+50]% Strength <when defending> <in [Desert] tiles>", "[+35]% Strength <when attacking> <in [Desert] tiles>", "[+2] Movement <in [Desert] tiles>", "Invisible to non-adjacent units <in [Desert] tiles>"],
+    "prerequisites": ["Desert Warfare II"],
     "row": 5,
-    "column": 23
+    "column": 23,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Arctic Warfare I",
-    "uniques": [
-      "[+25]% Strength <when defending> <in [Snow] tiles>",
-      "[+25]% Strength <when defending> <in [Tundra] tiles>",
-      "[+15]% Strength <when attacking> <in [Snow] tiles>",
-      "[+15]% Strength <when attacking> <in [Tundra] tiles>"
-    ],
-    "prerequisites": [
-      "Shock II",
-      "Drill II"
-    ],
+    "uniques": ["[+25]% Strength <when defending> <in [Snow] tiles>", "[+25]% Strength <when defending> <in [Tundra] tiles>", "[+15]% Strength <when attacking> <in [Snow] tiles>", "[+15]% Strength <when attacking> <in [Tundra] tiles>"],
+    "prerequisites": ["Shock II", "Drill II"],
     "row": 3,
-    "column": 24
+    "column": 24,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Arctic Warfare II",
-    "uniques": [
-      "[+33]% Strength <when defending> <in [Snow] tiles>",
-      "[+33]% Strength <when defending> <in [Tundra] tiles>",
-      "[+25]% Strength <when attacking> <in [Snow] tiles>",
-      "[+25]% Strength <when attacking> <in [Tundra] tiles>",
-      "Can enter ice tiles"
-    ],
-    "prerequisites": [
-      "Arctic Warfare I"
-    ],
+    "uniques": ["[+33]% Strength <when defending> <in [Snow] tiles>", "[+33]% Strength <when defending> <in [Tundra] tiles>", "[+25]% Strength <when attacking> <in [Snow] tiles>", "[+25]% Strength <when attacking> <in [Tundra] tiles>", "Can enter ice tiles"],
+    "prerequisites": ["Arctic Warfare I"],
     "row": 4,
-    "column": 24
+    "column": 24,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Arctic Warfare III",
-    "uniques": [
-      "[+50]% Strength <when defending> <in [Snow] tiles>",
-      "[+50]% Strength <when defending> <in [Tundra] tiles>",
-      "[+35]% Strength <when attacking> <in [Snow] tiles>",
-      "[+35]% Strength <when attacking> <in [Tundra] tiles>",
-      "Can enter ice tiles",
-      "Invisible to non-adjacent units <in [Snow] tiles>",
-      "Invisible to non-adjacent units <in [Tundra] tiles>"
-    ],
-    "prerequisites": [
-      "Arctic Warfare II"
-    ],
+    "uniques": ["[+50]% Strength <when defending> <in [Snow] tiles>", "[+50]% Strength <when defending> <in [Tundra] tiles>", "[+35]% Strength <when attacking> <in [Snow] tiles>", "[+35]% Strength <when attacking> <in [Tundra] tiles>", "Can enter ice tiles", "Invisible to non-adjacent units <in [Snow] tiles>", "Invisible to non-adjacent units <in [Tundra] tiles>"],
+    "prerequisites": ["Arctic Warfare II"],
     "row": 5,
-    "column": 24
+    "column": 24,
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines", "Mercenary", "Private Military Company", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Night Operations I",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+15]% Strength <when attacking>",
-      "[+1] Movement"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Light Infantry",
-      "Drone"
-    ],
-    "prerequisites": [
-      "Infiltration I"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+15]% Strength <when attacking>", "[+1] Movement"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Light Infantry", "Drone"],
+    "prerequisites": ["Infiltration I"],
     "row": 3,
     "column": 25
   },
   {
     "name": "Night Operations II",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+25]% Strength <when attacking>",
-      "[+2] Movement",
-      "Can move after attacking"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Light Infantry",
-      "Drone"
-    ],
-    "prerequisites": [
-      "Night Operations I"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+25]% Strength <when attacking>", "[+2] Movement", "Can move after attacking"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Light Infantry", "Drone"],
+    "prerequisites": ["Night Operations I"],
     "row": 4,
     "column": 25
   },
   {
     "name": "Night Operations III",
-    "uniques": [
-      "Invisible to non-adjacent units",
-      "[+35]% Strength <when attacking>",
-      "[+3] Movement",
-      "Can move after attacking",
-      "Heals [20] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Paratrooper",
-      "Light Infantry",
-      "Drone"
-    ],
-    "prerequisites": [
-      "Night Operations II"
-    ],
+    "uniques": ["Invisible to non-adjacent units", "[+35]% Strength <when attacking>", "[+3] Movement", "Can move after attacking", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Special Operations Forces", "Special Mission Units", "Paratrooper", "Light Infantry", "Drone"],
+    "prerequisites": ["Night Operations II"],
     "row": 5,
     "column": 25
   },
   {
     "name": "Counter-Insurgency I",
-    "uniques": [
-      "Can see invisible [Special Operations Forces] units",
-      "Can see invisible [Special Mission Units] units",
-      "[+25]% Strength <vs [Wounded] units>"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Marines"
-    ],
-    "prerequisites": [
-      "Reconnaissance I"
-    ],
+    "uniques": ["Can see invisible [Special Operations Forces] units", "Can see invisible [Special Mission Units] units", "[+25]% Strength <vs [Wounded] units>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines"],
+    "prerequisites": ["Reconnaissance I"],
     "row": 3,
     "column": 26
   },
   {
     "name": "Counter-Insurgency II",
-    "uniques": [
-      "Can see invisible [Special Operations Forces] units",
-      "Can see invisible [Special Mission Units] units",
-      "[+35]% Strength <vs [Wounded] units>",
-      "Can see over obstacles",
-      "[+1] Sight"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Marines"
-    ],
-    "prerequisites": [
-      "Counter-Insurgency I"
-    ],
+    "uniques": ["Can see invisible [Special Operations Forces] units", "Can see invisible [Special Mission Units] units", "[+35]% Strength <vs [Wounded] units>", "Can see over obstacles", "[+1] Sight"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines"],
+    "prerequisites": ["Counter-Insurgency I"],
     "row": 4,
     "column": 26
   },
   {
     "name": "Counter-Insurgency III",
-    "uniques": [
-      "Can see invisible [Special Operations Forces] units",
-      "Can see invisible [Special Mission Units] units",
-      "[+50]% Strength <vs [Wounded] units>",
-      "Can see over obstacles",
-      "[+2] Sight",
-      "Heals [20] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces",
-      "Special Mission Units",
-      "Marines"
-    ],
-    "prerequisites": [
-      "Counter-Insurgency II"
-    ],
+    "uniques": ["Can see invisible [Special Operations Forces] units", "Can see invisible [Special Mission Units] units", "[+50]% Strength <vs [Wounded] units>", "Can see over obstacles", "[+2] Sight", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Infantry", "Light Infantry", "Special Operations Forces", "Special Mission Units", "Marines"],
+    "prerequisites": ["Counter-Insurgency II"],
     "row": 5,
     "column": 26
   },
   {
     "name": "Logistical Support I",
-    "uniques": [
-      "All adjacent units heal [+10] HP per turn",
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "March"
-    ],
+    "uniques": ["Unit will heal every turn, even if it performs an action", "[+10]% Strength <when defending>"],
+    "prerequisites": ["March"],
     "row": 4,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Logistical Support II",
-    "uniques": [
-      "All adjacent units heal [+15] HP per turn",
-      "Unit will heal every turn, even if it performs an action",
-      "Adjacent units get [+10]% Strength"
-    ],
-    "prerequisites": [
-      "Logistical Support I"
-    ],
+    "uniques": ["Unit will heal every turn, even if it performs an action", "[+15]% Strength <when defending>", "[+10]% Strength <when attacking>"],
+    "prerequisites": ["Logistical Support I"],
     "row": 5,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Logistical Support III",
-    "uniques": [
-      "All adjacent units heal [+25] HP per turn",
-      "Unit will heal every turn, even if it performs an action",
-      "Adjacent units get [+15]% Strength",
-      "Units in this tile gain [+10]% Strength"
-    ],
-    "prerequisites": [
-      "Logistical Support II"
-    ],
+    "uniques": ["Unit will heal every turn, even if it performs an action", "[+25]% Strength <when defending>", "[+15]% Strength <when attacking>", "[+1] Movement"],
+    "prerequisites": ["Logistical Support II"],
     "row": 6,
-    "column": 1
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Airborne Operations I",
-    "uniques": [
-      "[+2] Movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control"
-    ],
-    "unitTypes": [
-      "Paratrooper",
-      "Special Operations Forces",
-      "Special Mission Units"
-    ],
-    "prerequisites": [
-      "Infiltration II"
-    ],
+    "uniques": ["[+2] Movement", "Can pass through impassable tiles", "Ignores Zone of Control"],
+    "unitTypes": ["Paratrooper", "Special Operations Forces", "Special Mission Units"],
+    "prerequisites": ["Infiltration II"],
     "row": 3,
     "column": 27
   },
   {
     "name": "Airborne Operations II",
-    "uniques": [
-      "[+3] Movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "Can move after attacking",
-      "May travel on Water tiles without embarking"
-    ],
-    "unitTypes": [
-      "Paratrooper",
-      "Special Operations Forces",
-      "Special Mission Units"
-    ],
-    "prerequisites": [
-      "Airborne Operations I"
-    ],
+    "uniques": ["[+3] Movement", "Can pass through impassable tiles", "Ignores Zone of Control", "Can move after attacking", "May travel on Water tiles without embarking"],
+    "unitTypes": ["Paratrooper", "Special Operations Forces", "Special Mission Units"],
+    "prerequisites": ["Airborne Operations I"],
     "row": 4,
     "column": 27
   },
   {
     "name": "Airborne Operations III",
-    "uniques": [
-      "[+4] Movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "Can move after attacking",
-      "May travel on Water tiles without embarking",
-      "Invisible to non-adjacent units",
-      "Heals [25] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Paratrooper",
-      "Special Operations Forces",
-      "Special Mission Units"
-    ],
-    "prerequisites": [
-      "Airborne Operations II"
-    ],
+    "uniques": ["[+4] Movement", "Can pass through impassable tiles", "Ignores Zone of Control", "Can move after attacking", "May travel on Water tiles without embarking", "Invisible to non-adjacent units", "[+15]% Strength <when attacking>"],
+    "unitTypes": ["Paratrooper", "Special Operations Forces", "Special Mission Units"],
+    "prerequisites": ["Airborne Operations II"],
     "row": 5,
     "column": 27
   },
   {
     "name": "Heliborne Operations I",
-    "uniques": [
-      "[+1] Movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "May travel on Water tiles without embarking"
-    ],
-    "unitTypes": [
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Mobility II"
-    ],
+    "uniques": ["[+1] Movement", "Can pass through impassable tiles", "Ignores Zone of Control", "May travel on Water tiles without embarking"],
+    "unitTypes": ["Helicopter"],
+    "prerequisites": ["Mobility II"],
     "row": 3,
     "column": 28
   },
   {
     "name": "Heliborne Operations II",
-    "uniques": [
-      "[+2] Movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "May travel on Water tiles without embarking",
-      "May attack when embarked",
-      "Eliminates combat penalty for attacking over a river"
-    ],
-    "unitTypes": [
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Heliborne Operations I"
-    ],
+    "uniques": ["[+2] Movement", "Can pass through impassable tiles", "Ignores Zone of Control", "May travel on Water tiles without embarking", "May attack when embarked", "Eliminates combat penalty for attacking over a river"],
+    "unitTypes": ["Helicopter"],
+    "prerequisites": ["Heliborne Operations I"],
     "row": 4,
     "column": 28
   },
   {
     "name": "Heliborne Operations III",
-    "uniques": [
-      "[+3] Movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "May travel on Water tiles without embarking",
-      "May attack when embarked",
-      "Eliminates combat penalty for attacking over a river",
-      "Eliminates combat penalty for attacking across a coast",
-      "Can move after attacking",
-      "Heals [20] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Helicopter"
-    ],
-    "prerequisites": [
-      "Heliborne Operations II"
-    ],
+    "uniques": ["[+3] Movement", "Can pass through impassable tiles", "Ignores Zone of Control", "May travel on Water tiles without embarking", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "Can move after attacking", "[+15]% Strength <when attacking>"],
+    "unitTypes": ["Helicopter"],
+    "prerequisites": ["Heliborne Operations II"],
     "row": 5,
     "column": 28
   },
   {
     "name": "Anti-Tank I",
-    "uniques": [
-      "[+33]% Strength <vs [Armor] units>",
-      "[+25]% Strength <when defending> <vs [Armor] units>"
-    ],
-    "unitTypes": [
-      "Tank Destroyer",
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces"
-    ],
-    "prerequisites": [
-      "Formation I"
-    ],
+    "uniques": ["[+33]% Strength <vs [armor] units>", "[+25]% Strength <when defending> <vs [armor] units>"],
+    "unitTypes": ["Tank Destroyer", "Infantry", "Light Infantry", "Special Operations Forces"],
+    "prerequisites": ["Formation I"],
     "row": 5,
     "column": 6
   },
   {
     "name": "Anti-Tank II",
-    "uniques": [
-      "[+50]% Strength <vs [Armor] units>",
-      "[+33]% Strength <when defending> <vs [Armor] units>",
-      "Damage taken from [Armor] units is reduced by [25]%"
-    ],
-    "unitTypes": [
-      "Tank Destroyer",
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces"
-    ],
-    "prerequisites": [
-      "Anti-Tank I"
-    ],
+    "uniques": ["[+50]% Strength <vs [armor] units>", "[+33]% Strength <when defending> <vs [armor] units>", "[+15]% Strength <when attacking> <vs [armor] units>"],
+    "unitTypes": ["Tank Destroyer", "Infantry", "Light Infantry", "Special Operations Forces"],
+    "prerequisites": ["Anti-Tank I"],
     "row": 6,
     "column": 6
   },
   {
     "name": "Anti-Tank III",
-    "uniques": [
-      "[+75]% Strength <vs [Armor] units>",
-      "[+50]% Strength <when defending> <vs [Armor] units>",
-      "Damage taken from [Armor] units is reduced by [33]%",
-      "Heals [15] damage if it kills a unit"
-    ],
-    "unitTypes": [
-      "Tank Destroyer",
-      "Infantry",
-      "Light Infantry",
-      "Special Operations Forces"
-    ],
-    "prerequisites": [
-      "Anti-Tank II"
-    ],
+    "uniques": ["[+75]% Strength <vs [armor] units>", "[+50]% Strength <when defending> <vs [armor] units>", "[+25]% Strength <when attacking> <vs [armor] units>", "[+15]% Strength <when attacking> <vs [Wounded] units>"],
+    "unitTypes": ["Tank Destroyer", "Infantry", "Light Infantry", "Special Operations Forces"],
+    "prerequisites": ["Anti-Tank II"],
     "row": 7,
     "column": 6
   },
   {
     "name": "Combined Arms I",
-    "uniques": [
-      "[+15]% Strength <when adjacent to [Armor] units>",
-      "[+15]% Strength <when adjacent to [Air] units>",
-      "[+10]% Strength <when adjacent to [Helicopter] units>"
-    ],
-    "prerequisites": [
-      "Flanking II",
-      "Armor Piercing II"
-    ],
+    "uniques": ["[+15]% Strength <when adjacent to a [armor] unit>", "[+15]% Strength <when adjacent to a [air] unit>", "[+10]% Strength <when adjacent to a [helicopter] unit>"],
+    "prerequisites": ["Flanking II", "Armor Piercing II"],
     "row": 6,
-    "column": 9
+    "column": 9,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Combined Arms II",
-    "uniques": [
-      "[+25]% Strength <when adjacent to [Armor] units>",
-      "[+25]% Strength <when adjacent to [Air] units>",
-      "[+15]% Strength <when adjacent to [Helicopter] units>",
-      "Adjacent units get [+10]% Strength"
-    ],
-    "prerequisites": [
-      "Combined Arms I"
-    ],
+    "uniques": ["[+25]% Strength <when adjacent to a [armor] unit>", "[+25]% Strength <when adjacent to a [air] unit>", "[+15]% Strength <when adjacent to a [helicopter] unit>", "[+10]% Strength <when attacking>"],
+    "prerequisites": ["Combined Arms I"],
     "row": 7,
-    "column": 9
+    "column": 9,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Combined Arms III",
-    "uniques": [
-      "[+35]% Strength <when adjacent to [Armor] units>",
-      "[+35]% Strength <when adjacent to [Air] units>",
-      "[+25]% Strength <when adjacent to [Helicopter] units>",
-      "Adjacent units get [+15]% Strength",
-      "All adjacent units heal [+10] HP per turn"
-    ],
-    "prerequisites": [
-      "Combined Arms II"
-    ],
+    "uniques": ["[+35]% Strength <when adjacent to a [armor] unit>", "[+35]% Strength <when adjacent to a [air] unit>", "[+25]% Strength <when adjacent to a [helicopter] unit>", "[+15]% Strength <when attacking>", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Combined Arms II"],
     "row": 8,
-    "column": 9
+    "column": 9,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Mercenary", "Private Military Company", "Paratrooper", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer"]
   },
   {
     "name": "Singularity Protocol I",
-    "uniques": [
-      "[+50]% Strength",
-      "[+2] Movement",
-      "[+2] Sight",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Unit will heal every turn, even if it performs an action"
-    ],
-    "prerequisites": [
-      "Transcendent Warfare II",
-      "Autonomous Operations II",
-      "Electronic Warfare III"
-    ],
+    "uniques": ["[+50]% Strength", "[+2] Movement", "[+2] Sight", "Can move after attacking", "Ignores Zone of Control", "Can pass through impassable tiles", "Can see over obstacles", "Invisible to non-adjacent units", "Unit will heal every turn, even if it performs an action"],
+    "prerequisites": ["Transcendent Warfare II", "Autonomous Operations II", "Electronic Warfare III"],
     "row": 12,
-    "column": 0
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Drone", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"]
   },
   {
     "name": "Singularity Protocol II",
-    "uniques": [
-      "[+60]% Strength",
-      "[+3] Movement",
-      "[+3] Sight",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Unit will heal every turn, even if it performs an action",
-      "Heals [35] damage if it kills a unit",
-      "Adjacent units get [+15]% Strength"
-    ],
-    "prerequisites": [
-      "Singularity Protocol I"
-    ],
+    "uniques": ["[+60]% Strength", "[+3] Movement", "[+3] Sight", "Can move after attacking", "Ignores Zone of Control", "Can pass through impassable tiles", "Can see over obstacles", "Invisible to non-adjacent units", "Unit will heal every turn, even if it performs an action", "[+15]% Strength <when attacking> <vs [Wounded] units>", "[+15]% Strength <when defending>"],
+    "prerequisites": ["Singularity Protocol I"],
     "row": 13,
-    "column": 0
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Drone", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"]
   },
   {
     "name": "Singularity Protocol III",
-    "uniques": [
-      "[+75]% Strength",
-      "[+4] Movement",
-      "[+4] Sight",
-      "Can move after attacking",
-      "Ignores Zone of Control",
-      "Can pass through impassable tiles",
-      "Can see over obstacles",
-      "Invisible to non-adjacent units",
-      "Unit will heal every turn, even if it performs an action",
-      "Heals [50] damage if it kills a unit",
-      "Adjacent units get [+25]% Strength",
-      "All adjacent units heal [+20] HP per turn",
-      "Damage taken from [Ranged] units is reduced by [33]%",
-      "Damage taken from [Air] units is reduced by [33]%",
-      "Damage taken from [Missile] units is reduced by [33]%"
-    ],
-    "prerequisites": [
-      "Singularity Protocol II"
-    ],
+    "uniques": ["[+75]% Strength", "[+4] Movement", "[+4] Sight", "Can move after attacking", "Ignores Zone of Control", "Can pass through impassable tiles", "Can see over obstacles", "Invisible to non-adjacent units", "Unit will heal every turn, even if it performs an action", "[+25]% Strength <when attacking> <vs [Wounded] units>", "[+25]% Strength <when defending>", "[+15]% Strength <when defending> <vs [ranged] units>", "[+15]% Strength <when defending> <vs [air] units>", "[+15]% Strength <when defending> <vs [missile] units>"],
+    "prerequisites": ["Singularity Protocol II"],
     "row": 14,
-    "column": 0
+    "column": 1,
+    "unitTypes": ["Sword", "Infantry", "Light Infantry", "Marines", "Special Operations Forces", "Special Mission Units", "Drone", "Heavy Cavalry", "Light Cavalry", "Counter Cavalry", "Main Battle Tank (MBT)", "Tank Destroyer", "Fighter", "Air Superiority Fighter", "Multirole Fighter", "Bomber", "Heavy Bomber", "Stealth Bomber", "Heavy Stealth Bomber", "Attack Aircraft"]
   }
 ]
