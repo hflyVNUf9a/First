@@ -37,7 +37,7 @@
   },
   {
     "name": "Military Airfield Ground Unit",
-    "unitType": "Civilian",
+    "unitType": "Light Infantry",
     "movement": 3,
     "cost": 600,
     "requiredResource": "Oil",
