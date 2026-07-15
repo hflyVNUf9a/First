@@ -4703,7 +4703,7 @@
   },
   {
     "name": "Utopia Project",
-    "cost": 1500,
+    "cost": 5000,
     "isNationalWonder": true,
     "uniques": [
       "Unavailable <when number of [Completed Policy branches] is less than [8]>",
