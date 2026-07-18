@@ -903,8 +903,7 @@
                 "text": "Hold fast and wait for the eruption to subside — the ash will enrich the soil",
                 "uniques": [
                     "[-3] population [in all cities]",
-                    "[-50]% [Production] [in all cities] <for [5] turns>",
-                    "[+50]% [Food] [in all cities] <for [15] turns> <starting from [5] turns>"
+                    "[-50]% [Production] [in all cities] <for [5] turns>"
                 ]
             },
             {
@@ -1202,8 +1201,7 @@
                 "text": "Reserve it for the military and the elite — the masses will breed regardless",
                 "uniques": [
                     "[+5]% Strength <for [All] units> <for [15] turns>",
-                    "[+2 Happiness] [in all cities] <for [5] turns>",
-                    "[-3 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>"
+                    "[+2 Happiness] [in all cities] <for [5] turns>"
                 ]
             }
         ]
@@ -1906,7 +1904,6 @@
                 "text": "Cut taxes and reduce government spending — let the free market heal itself",
                 "uniques": [
                     "[-20]% [Gold] [in all cities] <for [10] turns>",
-                    "[+10]% [Production] [in all cities] <for [10] turns> <starting from [5] turns>",
                     "[-5 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
@@ -2134,8 +2131,7 @@
                     "[-20]% [Culture] [in all cities] <for [10] turns>",
                     "[-15]% [Science] [in all cities] <for [10] turns>",
                     "[+10]% [Production] [in all cities] <for [10] turns>",
-                    "[+5 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [15] turns> <starting from [5] turns>"
+                    "[+5 Happiness] [in all cities] <for [5] turns>"
                 ]
             },
             {
@@ -2334,10 +2330,7 @@
                 "uniques": [
                     "Comment [Lose 2000 [Gold]]",
                     "Gain [-2000] [Gold] <hidden from users>",
-                    "[-30]% [Production] [in all cities] <for [10] turns>",
-                    "[+25 Gold] [in all cities] <for [30] turns> <starting from [10] turns>",
-                    "[+10 Culture] [in all cities] <for [15] turns> <starting from [10] turns>",
-                    "[+5 Happiness] [in all cities] <for [10] turns> <starting from [10] turns>"
+                    "[-30]% [Production] [in all cities] <for [10] turns>"
                 ]
             },
             {
@@ -2345,9 +2338,7 @@
                 "uniques": [
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
-                    "[-15]% [Production] [in all cities] <for [8] turns>",
-                    "[+12 Gold] [in all cities] <for [25] turns> <starting from [8] turns>",
-                    "[+5 Culture] [in all cities] <for [10] turns> <starting from [8] turns>"
+                    "[-15]% [Production] [in all cities] <for [8] turns>"
                 ]
             },
             {
@@ -2625,7 +2616,6 @@
                 "text": "Sign but immediately begin working to undermine the charter's provisions",
                 "uniques": [
                     "[+3 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>",
                     "[+5]% [Production] [in all cities] <for [10] turns>",
                     "[-3 Culture] [in all cities] <for [10] turns>"
                 ]
@@ -2790,8 +2780,6 @@
                 "uniques": [
                     "[-10]% [Production] [in all cities] <for [10] turns>",
                     "[-15]% [Gold] [in all cities] <for [10] turns>",
-                    "[+10]% [Science] [in all cities] <for [20] turns> <starting from [10] turns>",
-                    "[+5 Culture] [in all cities] <for [15] turns> <starting from [10] turns>",
                     "[-3 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
@@ -3118,7 +3106,6 @@
                 "uniques": [
                     "[-2 Happiness] [in all cities] <for [5] turns>",
                     "[+3]% Strength <for [All] units> <for [5] turns>",
-                    "[+3 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>",
                     "[+3 Culture] [in all cities] <for [5] turns>"
                 ]
             }
@@ -3170,10 +3157,7 @@
                 "text": "Let the boom ride — prosperity should be enjoyed, not feared",
                 "uniques": [
                     "[+25 Gold] [in all cities] <for [10] turns>",
-                    "[+8 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [15] turns> <starting from [10] turns>",
-                    "[-20]% [Gold] [in all cities] <for [10] turns> <starting from [10] turns>"
-                ]
+                    "[+8 Happiness] [in all cities] <for [5] turns>"                ]
             },
             {
                 "text": "Tax the windfall and invest the revenue in long-term infrastructure",
@@ -3442,10 +3426,7 @@
                     "Comment [Lose 1500 [Gold]]",
                     "Gain [-1500] [Gold] <hidden from users>",
                     "[-15]% [Production] [in all cities] <for [8] turns>",
-                    "[+20]% [Science] [in all cities] <for [20] turns>",
-                    "[+15 Gold] [in all cities] <for [25] turns> <starting from [8] turns>",
-                    "[+8 Happiness] [in all cities] <for [15] turns> <starting from [8] turns>"
-                ]
+                    "[+20]% [Science] [in all cities] <for [20] turns>"                ]
             },
             {
                 "text": "Seek new fossil fuel reserves through exploration and extraction technology",
@@ -3486,9 +3467,7 @@
                 "uniques": [
                     "[+5 Culture] [in all cities] <for [5] turns>",
                     "[+3 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>",
-                    "[-3 Culture] [in all cities] <for [5] turns> <starting from [5] turns>"
-                ]
+                    "[-5 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>"                ]
             },
             {
                 "text": "Use the truce to reposition and resupply your forces — take advantage of the pause",
@@ -3509,11 +3488,7 @@
                 "uniques": [
                     "Comment [Lose 2000 [Gold]]",
                     "Gain [-2000] [Gold] <hidden from users>",
-                    "[-30]% [Production] [in all cities] <for [15] turns>",
-                    "[+25 Culture] [in all cities] <for [30] turns> <starting from [15] turns>",
-                    "[+15 Happiness] [in all cities] <for [20] turns> <starting from [15] turns>",
-                    "[+10 Gold] [in all cities] <for [20] turns> <starting from [15] turns>"
-                ]
+                    "[-30]% [Production] [in all cities] <for [15] turns>"                ]
             },
             {
                 "text": "Build a smaller version — ambitious but achievable within our means",
@@ -3521,7 +3496,6 @@
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
                     "[-15]% [Production] [in all cities] <for [8] turns>",
-                    "[+12 Culture] [in all cities] <for [20] turns> <starting from [8] turns>",
                     "[+8 Happiness] [in all cities] <for [15] turns> <starting from [8] turns>"
                 ]
             },
@@ -3598,7 +3572,6 @@
                     "Gain [-400] [Gold] <hidden from users>",
                     "[-1] population [in all cities]",
                     "[-10]% [Food] [in all cities] <for [3] turns>",
-                    "[+10]% [Production] [in all cities] <for [15] turns> <starting from [5] turns>",
                     "[+5]% [Science] [in all cities] <for [10] turns>"
                 ]
             }
@@ -3762,11 +3735,7 @@
                     "[-4] population [in all cities]",
                     "[-20]% [Production] [in all cities] <for [5] turns>",
                     "Comment [Lose 800 [Gold]]",
-                    "Gain [-800] [Gold] <hidden from users>",
-                    "[+15]% [Production] [in all cities] <for [20] turns> <starting from [5] turns>",
-                    "[+10 Culture] [in all cities] <for [15] turns> <starting from [5] turns>",
-                    "[+8 Happiness] [in all cities] <for [15] turns> <starting from [5] turns>"
-                ]
+                    "Gain [-800] [Gold] <hidden from users>"                ]
             }
         ]
     },
