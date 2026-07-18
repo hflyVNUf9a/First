@@ -30,9 +30,7 @@
             {
                 "name": "Pottery",
                 "row": 2,
-                "prerequisites": [
-                    "Agriculture"
-                ],
+                "prerequisites": ["Agriculture"],
                 "quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9",
                 "uniques": [
                     "[+1 Food] from [Wheat] tiles [in all cities]",
@@ -43,9 +41,7 @@
             {
                 "name": "Animal Husbandry",
                 "row": 5,
-                "prerequisites": [
-                    "Agriculture"
-                ],
+                "prerequisites": ["Agriculture"],
                 "quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4",
                 "uniques": [
                     "[+1 Production] from [Pasture] tiles [in all cities]",
@@ -57,9 +53,7 @@
             {
                 "name": "Archery",
                 "row": 7,
-                "prerequisites": [
-                    "Agriculture"
-                ],
+                "prerequisites": ["Agriculture"],
                 "quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop",
                 "uniques": [
                     "[+5]% Strength <when fighting in [Hill] tiles>",
@@ -69,9 +63,7 @@
             {
                 "name": "Mining",
                 "row": 9,
-                "prerequisites": [
-                    "Agriculture"
-                ],
+                "prerequisites": ["Agriculture"],
                 "quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty",
                 "uniques": [
                     "[+1 Production] from every [City center]",
@@ -91,9 +83,7 @@
             {
                 "name": "Sailing",
                 "row": 1,
-                "prerequisites": [
-                    "Pottery"
-                ],
+                "prerequisites": ["Pottery"],
                 "quote": "'He who commands the sea has command of everything.' - Themistocles",
                 "uniques": [
                     "Enables embarkation for land units",
@@ -104,9 +94,7 @@
             {
                 "name": "Calendar",
                 "row": 2,
-                "prerequisites": [
-                    "Pottery"
-                ],
+                "prerequisites": ["Pottery"],
                 "quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12",
                 "uniques": [
                     "[+1 Culture] from [Plantation] tiles [in all cities]",
@@ -116,9 +104,7 @@
             {
                 "name": "Writing",
                 "row": 3,
-                "prerequisites": [
-                    "Pottery"
-                ],
+                "prerequisites": ["Pottery"],
                 "quote": "'He who destroys a good book kills reason itself.' - John Milton",
                 "uniques": [
                     "[+1 Science] from every [City center]",
@@ -129,9 +115,7 @@
             {
                 "name": "Trapping",
                 "row": 5,
-                "prerequisites": [
-                    "Animal Husbandry"
-                ],
+                "prerequisites": ["Animal Husbandry"],
                 "quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome",
                 "uniques": [
                     "[+1 Food] from [Camp] tiles [in all cities]",
@@ -142,10 +126,7 @@
             {
                 "name": "The Wheel",
                 "row": 7,
-                "prerequisites": [
-                    "Animal Husbandry",
-                    "Archery"
-                ],
+                "prerequisites": ["Animal Husbandry", "Archery"],
                 "quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb",
                 "uniques": [
                     "[+1 Production] from [Quarry] tiles [in all cities]",
@@ -155,9 +136,7 @@
             {
                 "name": "Masonry",
                 "row": 9,
-                "prerequisites": [
-                    "Mining"
-                ],
+                "prerequisites": ["Mining"],
                 "quote": "'How happy are those whose walls already rise!' - Virgil",
                 "uniques": [
                     "[+1 Production] from [Quarry] tiles [in all cities]",
@@ -168,9 +147,7 @@
             {
                 "name": "Bronze Working",
                 "row": 10,
-                "prerequisites": [
-                    "Mining"
-                ],
+                "prerequisites": ["Mining"],
                 "quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer",
                 "uniques": [
                     "[+5]% Strength <when fighting in [Friendly Land] tiles>",
@@ -190,9 +167,7 @@
                 "name": "Optics",
                 "cost": 68,
                 "row": 1,
-                "prerequisites": [
-                    "Sailing"
-                ],
+                "prerequisites": ["Sailing"],
                 "uniques": [
                     "[+1] Movement <for [Embarked] units>",
                     "[+1] Sight <for [Embarked] units>",
@@ -203,10 +178,7 @@
             {
                 "name": "Horseback Riding",
                 "row": 5,
-                "prerequisites": [
-                    "Trapping",
-                    "The Wheel"
-                ],
+                "prerequisites": ["Trapping", "The Wheel"],
                 "quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)",
                 "uniques": [
                     "[+1 Production] from [Pasture] tiles [in all cities]",
@@ -217,9 +189,7 @@
             {
                 "name": "Mathematics",
                 "row": 7,
-                "prerequisites": [
-                    "The Wheel"
-                ],
+                "prerequisites": ["The Wheel"],
                 "quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon",
                 "uniques": [
                     "[+1 Gold] from every [City center]",
@@ -230,10 +200,7 @@
             {
                 "name": "Construction",
                 "row": 9,
-                "prerequisites": [
-                    "Masonry",
-                    "The Wheel"
-                ],
+                "prerequisites": ["Masonry", "The Wheel"],
                 "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe",
                 "uniques": [
                     "[+10]% Production when constructing [Ancient era] buildings [in all cities] <hidden from users>",
@@ -253,10 +220,7 @@
             {
                 "name": "Philosophy",
                 "row": 2,
-                "prerequisites": [
-                    "Writing",
-                    "Calendar"
-                ],
+                "prerequisites": ["Writing", "Calendar"],
                 "quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates",
                 "uniques": [
                     "[+1 Culture] from every [City center]",
@@ -267,9 +231,7 @@
             {
                 "name": "Drama and Poetry",
                 "row": 3,
-                "prerequisites": [
-                    "Writing"
-                ],
+                "prerequisites": ["Writing"],
                 "quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock",
                 "uniques": [
                     "[+1 Culture] from every [City center]",
@@ -280,11 +242,10 @@
             {
                 "name": "Currency",
                 "row": 7,
-                "prerequisites": [
-                    "Mathematics"
-                ],
+                "prerequisites": ["Mathematics"],
                 "quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope",
-                "uniques": ["Enables conversion of city production to [Gold]",
+                "uniques": [
+                    "Enables conversion of city production to [Gold]",
                     "[+1 Gold] from every [City center]",
                     "[+1 Gold] from [Road] tiles [in all cities]",
                     "[+1 Gold] from [Trading Post] tiles [in all cities]"
@@ -293,10 +254,7 @@
             {
                 "name": "Engineering",
                 "row": 8,
-                "prerequisites": [
-                    "Mathematics",
-                    "Construction"
-                ],
+                "prerequisites": ["Mathematics", "Construction"],
                 "quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci",
                 "uniques": [
                     "Roads connect tiles across rivers",
@@ -308,9 +266,7 @@
             {
                 "name": "Iron Working",
                 "row": 10,
-                "prerequisites": [
-                    "Bronze Working"
-                ],
+                "prerequisites": ["Bronze Working"],
                 "quote": "'Do not wait to strike til the iron is hot, but make it hot by striking.' - William Butler Yeats",
                 "uniques": [
                     "[+10]% Strength <when fighting in [Friendly Land] tiles>",
@@ -330,10 +286,7 @@
             {
                 "name": "Theology",
                 "row": 2,
-                "prerequisites": [
-                    "Drama and Poetry",
-                    "Philosophy"
-                ],
+                "prerequisites": ["Drama and Poetry", "Philosophy"],
                 "quote": "'Three things are necessary for the salvation of man: to know what he ought to believe; to know what he ought to desire; and to know what he ought to do' - St. Thomas Aquinas",
                 "uniques": [
                     "[+2 Culture] from every [Holy site]",
@@ -361,9 +314,7 @@
             {
                 "name": "Guilds",
                 "row": 7,
-                "prerequisites": [
-                    "Currency"
-                ],
+                "prerequisites": ["Currency"],
                 "uniques": [
                     "Enables conversion of city production to [Gold]",
                     "[+1 Culture] from every [Artist]",
@@ -377,10 +328,7 @@
             {
                 "name": "Metal Casting",
                 "row": 9,
-                "prerequisites": [
-                    "Engineering",
-                    "Iron Working"
-                ],
+                "prerequisites": ["Engineering", "Iron Working"],
                 "quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib",
                 "uniques": [
                     "[+1 Production] from [Mine] tiles [in all cities]",
@@ -402,10 +350,7 @@
                 "name": "Compass",
                 "cost": 375,
                 "row": 1,
-                "prerequisites": [
-                    "Optics",
-                    "Theology"
-                ],
+                "prerequisites": ["Optics", "Theology"],
                 "quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes",
                 "uniques": [
                     "[+1] Movement <for [Embarked] units>",
@@ -417,10 +362,7 @@
             {
                 "name": "Education",
                 "row": 3,
-                "prerequisites": [
-                    "Theology",
-                    "Civil Service"
-                ],
+                "prerequisites": ["Theology", "Civil Service"],
                 "uniques": [
                     "[+1 Science] from every [Strategic resource]",
                     "[+2 Science] from every [Coral Reef]",
@@ -434,10 +376,7 @@
             {
                 "name": "Chivalry",
                 "row": 6,
-                "prerequisites": [
-                    "Civil Service",
-                    "Guilds"
-                ],
+                "prerequisites": ["Civil Service", "Guilds"],
                 "quote": "'Whoso pulleth out this sword of this stone and anvil, is rightwise king born of all England.' - Malory",
                 "uniques": [
                     "[+1 Culture] from every [City center]",
@@ -449,10 +388,7 @@
             {
                 "name": "Machinery",
                 "row": 8,
-                "prerequisites": [
-                    "Guilds",
-                    "Engineering"
-                ],
+                "prerequisites": ["Guilds", "Engineering"],
                 "uniques": [
                     "Improves movement speed on roads",
                     "[+1 Production] from [Mine] tiles [in all cities]",
@@ -464,9 +400,7 @@
             {
                 "name": "Physics",
                 "row": 9,
-                "prerequisites": [
-                    "Metal Casting"
-                ],
+                "prerequisites": ["Metal Casting"],
                 "quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei",
                 "uniques": [
                     "[+1 Science] from every [Scientist]",
@@ -477,9 +411,7 @@
             {
                 "name": "Steel",
                 "row": 10,
-                "prerequisites": [
-                    "Metal Casting"
-                ],
+                "prerequisites": ["Metal Casting"],
                 "quote": "'John Henry said to his Captain, /n 'A man ain't nothin' but a man, /n And before I'll let your steam drill beat me down, /n I'll die with the hammer in my hand.'' - Anonymous: The Ballad of John Henry, the Steel-Drivin' Man",
                 "uniques": [
                     "[+15]% Strength <when fighting in [Friendly Land] tiles>",
@@ -506,18 +438,13 @@
                     "[+2 Science] from [Observatory] tiles [in all cities]",
                     "[+1 Gold] from [Coast] tiles [in all cities]"
                 ],
-                "prerequisites": [
-                    "Compass",
-                    "Education"
-                ],
+                "prerequisites": ["Compass", "Education"],
                 "quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
             },
             {
                 "name": "Acoustics",
                 "row": 4,
-                "prerequisites": [
-                    "Education"
-                ],
+                "prerequisites": ["Education"],
                 "quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton",
                 "uniques": [
                     "[+2 Culture] from every [City center]",
@@ -529,10 +456,7 @@
             {
                 "name": "Banking",
                 "row": 6,
-                "prerequisites": [
-                    "Chivalry",
-                    "Education"
-                ],
+                "prerequisites": ["Chivalry", "Education"],
                 "quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau",
                 "uniques": [
                     "[+2 Gold] from every [City center]",
@@ -544,11 +468,7 @@
             {
                 "name": "Printing Press",
                 "row": 8,
-                "prerequisites": [
-                    "Machinery",
-                    "Physics",
-                    "Chivalry"
-                ],
+                "prerequisites": ["Machinery", "Physics", "Chivalry"],
                 "quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times",
                 "uniques": [
                     "[+1 Culture] from every [City center]",
@@ -560,10 +480,7 @@
             {
                 "name": "Gunpowder",
                 "row": 10,
-                "prerequisites": [
-                    "Physics",
-                    "Steel"
-                ],
+                "prerequisites": ["Physics", "Steel"],
                 "quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel",
                 "uniques": [
                     "[+15]% Strength <when fighting in [Friendly Land] tiles>",
@@ -583,9 +500,7 @@
             {
                 "name": "Navigation",
                 "row": 2,
-                "prerequisites": [
-                    "Astronomy"
-                ],
+                "prerequisites": ["Astronomy"],
                 "uniques": [
                     "[+1] Movement <for [Embarked] units>",
                     "[+2 Gold] from [Coast] tiles [in all cities]",
@@ -597,10 +512,7 @@
             {
                 "name": "Architecture",
                 "row": 4,
-                "prerequisites": [
-                    "Acoustics",
-                    "Banking"
-                ],
+                "prerequisites": ["Acoustics", "Banking"],
                 "quote": "'Architecture begins where engineering ends.' - Walter Gropius",
                 "uniques": [
                     "[+10]% Production when constructing [Classical era] buildings [in all cities] <hidden from users>",
@@ -613,10 +525,7 @@
             {
                 "name": "Economics",
                 "row": 6,
-                "prerequisites": [
-                    "Banking",
-                    "Printing Press"
-                ],
+                "prerequisites": ["Banking", "Printing Press"],
                 "quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein",
                 "uniques": [
                     "[+2 Gold] from every [City center]",
@@ -629,10 +538,7 @@
             {
                 "name": "Metallurgy",
                 "row": 9,
-                "prerequisites": [
-                    "Printing Press",
-                    "Gunpowder"
-                ],
+                "prerequisites": ["Printing Press", "Gunpowder"],
                 "quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin",
                 "uniques": [
                     "[+20]% Strength <when fighting in [Friendly Land] tiles>",
@@ -644,9 +550,7 @@
             {
                 "name": "Chemistry",
                 "row": 10,
-                "prerequisites": [
-                    "Gunpowder"
-                ],
+                "prerequisites": ["Gunpowder"],
                 "quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge",
                 "uniques": [
                     "[+1 Science] from every [Scientist]",
@@ -667,9 +571,7 @@
             {
                 "name": "Archaeology",
                 "row": 2,
-                "prerequisites": [
-                    "Navigation"
-                ],
+                "prerequisites": ["Navigation"],
                 "quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana",
                 "uniques": [
                     "[+2 Culture] from every [City center]",
@@ -681,10 +583,7 @@
             {
                 "name": "Scientific Theory",
                 "row": 4,
-                "prerequisites": [
-                    "Architecture",
-                    "Economics"
-                ],
+                "prerequisites": ["Architecture", "Economics"],
                 "quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey",
                 "uniques": [
                     "[+2 Science] from every [Scientist]",
@@ -696,9 +595,7 @@
             {
                 "name": "Industrialization",
                 "row": 6,
-                "prerequisites": [
-                    "Economics"
-                ],
+                "prerequisites": ["Economics"],
                 "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch",
                 "uniques": [
                     "[+10]% Production when constructing [Ancient era] buildings [in all cities] <hidden from users>",
@@ -713,9 +610,7 @@
             {
                 "name": "Rifling",
                 "row": 7,
-                "prerequisites": [
-                    "Metallurgy"
-                ],
+                "prerequisites": ["Metallurgy"],
                 "quote": "'It is well that war is so terrible, or we should grow too fond of it.' - Robert E. Lee",
                 "uniques": [
                     "[+20]% Strength <when fighting in [Friendly Land] tiles>",
@@ -727,10 +622,7 @@
             {
                 "name": "Military Science",
                 "row": 9,
-                "prerequisites": [
-                    "Metallurgy",
-                    "Chemistry"
-                ],
+                "prerequisites": ["Metallurgy", "Chemistry"],
                 "quote": "'Wars may be fought with weapons, but they are won by men. It is the spirit of the men who follow and of the man who leads that gains the victory.' - George S. Patton",
                 "uniques": [
                     "[+25]% Strength <when fighting in [Friendly Land] tiles>",
@@ -742,9 +634,7 @@
             {
                 "name": "Fertilizer",
                 "row": 10,
-                "prerequisites": [
-                    "Chemistry"
-                ],
+                "prerequisites": ["Chemistry"],
                 "quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt",
                 "uniques": [
                     "[+4 Production] from [Wheat] tiles [in all cities]",
@@ -765,10 +655,7 @@
             {
                 "name": "Biology",
                 "row": 2,
-                "prerequisites": [
-                    "Archaeology",
-                    "Scientific Theory"
-                ],
+                "prerequisites": ["Archaeology", "Scientific Theory"],
                 "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson",
                 "uniques": [
                     "[+1 Food, +1 Gold] from every [City center]",
@@ -781,9 +668,7 @@
             {
                 "name": "Electricity",
                 "row": 3,
-                "prerequisites": [
-                    "Scientific Theory"
-                ],
+                "prerequisites": ["Scientific Theory"],
                 "quote": "'Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne",
                 "uniques": [
                     "[+2 Science] from every [Scientist]",
@@ -796,10 +681,7 @@
             {
                 "name": "Steam Power",
                 "row": 6,
-                "prerequisites": [
-                    "Industrialization",
-                    "Rifling"
-                ],
+                "prerequisites": ["Industrialization", "Rifling"],
                 "quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris",
                 "uniques": [
                     "[+2 Production] from [Workshop] tiles [in all cities]",
@@ -812,10 +694,7 @@
             {
                 "name": "Dynamite",
                 "row": 9,
-                "prerequisites": [
-                    "Fertilizer",
-                    "Military Science"
-                ],
+                "prerequisites": ["Fertilizer", "Military Science"],
                 "quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson",
                 "uniques": [
                     "[+25]% Strength <when fighting in [Friendly Land] tiles>",
@@ -837,10 +716,7 @@
             {
                 "name": "Refrigeration",
                 "row": 2,
-                "prerequisites": [
-                    "Biology",
-                    "Electricity"
-                ],
+                "prerequisites": ["Biology", "Electricity"],
                 "quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth",
                 "uniques": [
                     "[+2 Food] from [Fishing Boats] tiles [in all cities]",
@@ -853,9 +729,7 @@
             {
                 "name": "Radio",
                 "row": 3,
-                "prerequisites": [
-                    "Electricity"
-                ],
+                "prerequisites": ["Electricity"],
                 "quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen",
                 "uniques": [
                     "[+2 Culture] from every [City center]",
@@ -867,10 +741,7 @@
             {
                 "name": "Replaceable Parts",
                 "row": 4,
-                "prerequisites": [
-                    "Electricity",
-                    "Steam Power"
-                ],
+                "prerequisites": ["Electricity", "Steam Power"],
                 "quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford",
                 "uniques": [
                     "[+2 Production] [in all cities]",
@@ -882,9 +753,7 @@
             {
                 "name": "Flight",
                 "row": 6,
-                "prerequisites": [
-                    "Steam Power"
-                ],
+                "prerequisites": ["Steam Power"],
                 "quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky",
                 "uniques": [
                     "[+1 Science] from every [Scientist]",
@@ -896,10 +765,7 @@
             {
                 "name": "Railroads",
                 "row": 8,
-                "prerequisites": [
-                    "Steam Power",
-                    "Dynamite"
-                ],
+                "prerequisites": ["Steam Power", "Dynamite"],
                 "quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson",
                 "uniques": [
                     "[+2 Production] from [Mine] tiles [in all cities]",
@@ -921,10 +787,7 @@
             {
                 "name": "Plastics",
                 "row": 3,
-                "prerequisites": [
-                    "Radio",
-                    "Replaceable Parts"
-                ],
+                "prerequisites": ["Radio", "Replaceable Parts"],
                 "quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate",
                 "uniques": [
                     "[+2 Production] from [Workshop] tiles [in all cities]",
@@ -936,10 +799,7 @@
             {
                 "name": "Electronics",
                 "row": 5,
-                "prerequisites": [
-                    "Replaceable Parts",
-                    "Flight"
-                ],
+                "prerequisites": ["Replaceable Parts", "Flight"],
                 "quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins",
                 "uniques": [
                     "[+2 Science, +1 Gold] from every [Strategic resource]",
@@ -951,9 +811,7 @@
             {
                 "name": "Ballistics",
                 "row": 6,
-                "prerequisites": [
-                    "Flight"
-                ],
+                "prerequisites": ["Flight"],
                 "quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul",
                 "uniques": [
                     "[+25]% Strength <when attacking>",
@@ -965,9 +823,7 @@
             {
                 "name": "Combustion",
                 "row": 8,
-                "prerequisites": [
-                    "Railroads"
-                ],
+                "prerequisites": ["Railroads"],
                 "quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein",
                 "uniques": [
                     "[+3 Production] from [Workshop] tiles [in all cities]",
@@ -989,10 +845,7 @@
             {
                 "name": "Pharmaceuticals",
                 "row": 2,
-                "prerequisites": [
-                    "Plastics",
-                    "Refrigeration"
-                ],
+                "prerequisites": ["Plastics", "Refrigeration"],
                 "quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero",
                 "uniques": [
                     "[+4 Science, +1 Happiness] from every [Hospital]",
@@ -1004,10 +857,7 @@
             {
                 "name": "Atomic Theory",
                 "row": 4,
-                "prerequisites": [
-                    "Plastics",
-                    "Electronics"
-                ],
+                "prerequisites": ["Plastics", "Electronics"],
                 "quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein",
                 "uniques": [
                     "[+3 Science] from every [Scientist]",
@@ -1019,13 +869,9 @@
             {
                 "name": "Radar",
                 "row": 6,
-                "prerequisites": [
-                    "Ballistics",
-                    "Electronics"
-                ],
+                "prerequisites": ["Ballistics", "Electronics"],
                 "quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift",
                 "uniques": [
-                    "[+1] Sight <for all units>",
                     "[+15]% Strength <when attacking>",
                     "[+2 Science] from every [Scientist]",
                     "[+1 Science] from every [City center]"
@@ -1034,10 +880,7 @@
             {
                 "name": "Combined Arms",
                 "row": 8,
-                "prerequisites": [
-                    "Ballistics",
-                    "Combustion"
-                ],
+                "prerequisites": ["Ballistics", "Combustion"],
                 "quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises",
                 "uniques": [
                     "[+25]% Strength <when fighting in [Friendly Land] tiles>",
@@ -1059,10 +902,7 @@
             {
                 "name": "Ecology",
                 "row": 2,
-                "prerequisites": [
-                    "Atomic Theory",
-                    "Pharmaceuticals"
-                ],
+                "prerequisites": ["Atomic Theory", "Pharmaceuticals"],
                 "quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson",
                 "uniques": [
                     "[+3 Culture] from every [Natural Wonder]",
@@ -1078,10 +918,7 @@
             {
                 "name": "Nuclear Fission",
                 "row": 4,
-                "prerequisites": [
-                    "Atomic Theory",
-                    "Radar"
-                ],
+                "prerequisites": ["Atomic Theory", "Radar"],
                 "uniques": [
                     "[+3 Science] from every [Scientist]",
                     "[+3 Science] from [University] tiles [in all cities]",
@@ -1094,9 +931,7 @@
             {
                 "name": "Rocketry",
                 "row": 6,
-                "prerequisites": [
-                    "Radar"
-                ],
+                "prerequisites": ["Radar"],
                 "quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937",
                 "uniques": [
                     "[+2 Science] from every [Scientist]",
@@ -1109,10 +944,7 @@
             {
                 "name": "Computers",
                 "row": 8,
-                "prerequisites": [
-                    "Combined Arms",
-                    "Radar"
-                ],
+                "prerequisites": ["Combined Arms", "Radar"],
                 "quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell",
                 "uniques": [
                     "[+3 Science] from every [Scientist]",
@@ -1134,9 +966,7 @@
             {
                 "name": "Environmentalism",
                 "row": 1,
-                "prerequisites": [
-                    "Ecology"
-                ],
+                "prerequisites": ["Ecology"],
                 "quote": "'Earth provides enough to satisfy every man's need, but not every man's greed' - Mohandas Gandhi",
                 "uniques": [
                     "[+2 Food] from [Forest] tiles [in all cities]",
@@ -1149,10 +979,7 @@
             {
                 "name": "Telecommunications",
                 "row": 3,
-                "prerequisites": [
-                    "Ecology",
-                    "Nuclear Fission"
-                ],
+                "prerequisites": ["Ecology", "Nuclear Fission"],
                 "quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly",
                 "uniques": [
                     "[+2 Science] from every [City center]",
@@ -1165,25 +992,18 @@
             {
                 "name": "Mobile Tactics",
                 "row": 4,
-                "prerequisites": [
-                    "Ecology",
-                    "Nuclear Fission"
-                ],
+                "prerequisites": ["Ecology", "Nuclear Fission"],
                 "quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu",
                 "uniques": [
                     "[+25]% Strength <when fighting in [Friendly Land] tiles>",
                     "[+20]% Strength <when attacking>",
-                    "[+1] Movement <for all units>",
                     "[+2 Production] from [Workshop] tiles [in all cities]"
                 ]
             },
             {
                 "name": "Robotics",
                 "row": 5,
-                "prerequisites": [
-                    "Rocketry",
-                    "Computers"
-                ],
+                "prerequisites": ["Rocketry", "Computers"],
                 "quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov",
                 "uniques": [
                     "[+3 Production] from [Workshop] tiles [in all cities]",
@@ -1196,9 +1016,7 @@
             {
                 "name": "Lasers",
                 "row": 6,
-                "prerequisites": [
-                    "Computers"
-                ],
+                "prerequisites": ["Computers"],
                 "quote": "'The night is far spent, the day is at hand; let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12",
                 "uniques": [
                     "[+25]% Strength <when attacking>",
@@ -1210,12 +1028,9 @@
             {
                 "name": "Satellites",
                 "row": 7,
-                "prerequisites": [
-                    "Rocketry"
-                ],
+                "prerequisites": ["Rocketry"],
                 "quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson",
                 "uniques": [
-                    "[+2] Sight <for all units>",
                     "[+3 Science] from every [Scientist]",
                     "[+2 Science] from [Observatory] tiles [in all cities]",
                     "[+2 Gold] from every [City center]"
@@ -1224,10 +1039,7 @@
             {
                 "name": "Advanced Ballistics",
                 "row": 9,
-                "prerequisites": [
-                    "Nuclear Fission",
-                    "Rocketry"
-                ],
+                "prerequisites": ["Nuclear Fission", "Rocketry"],
                 "quote": "'Once the rockets are up, who cares where they come down?' - Tom Lehrer",
                 "uniques": [
                     "[+30]% Strength <when attacking>",
@@ -1248,10 +1060,7 @@
             {
                 "name": "Genetic Manipulation",
                 "row": 1,
-                "prerequisites": [
-                    "Telecommunications",
-                    "Environmentalism"
-                ],
+                "prerequisites": ["Telecommunications", "Environmentalism"],
                 "quote": "'The era of the transgenic chicken is quietly dawning, coming soon to your bathroom medicine cabinet.' - Andrew Lawler",
                 "uniques": [
                     "[+3 Food] from [Farm] tiles [in all cities]",
@@ -1264,9 +1073,7 @@
             {
                 "name": "Globalization",
                 "row": 2,
-                "prerequisites": [
-                    "Telecommunications"
-                ],
+                "prerequisites": ["Telecommunications"],
                 "quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan",
                 "uniques": [
                     "[+5]% [Gold] [in all cities] <for every [Remaining [Major] Civilizations]>",
@@ -1279,10 +1086,7 @@
             {
                 "name": "The Internet",
                 "row": 4,
-                "prerequisites": [
-                    "Mobile Tactics",
-                    "Robotics"
-                ],
+                "prerequisites": ["Mobile Tactics", "Robotics"],
                 "quote": "'The Internet is becoming the town square for the global village of tomorrow' - Bill Gates",
                 "uniques": [
                     "[+3 Science] from every [Scientist]",
@@ -1311,15 +1115,11 @@
             {
                 "name": "Stealth",
                 "row": 8,
-                "prerequisites": [
-                    "Advanced Ballistics",
-                    "Satellites"
-                ],
+                "prerequisites": ["Advanced Ballistics", "Satellites"],
                 "quote": "'Be extremely subtle, even to the point of formlessness. Be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu",
                 "uniques": [
                     "[+30]% Strength <when attacking>",
                     "[+25]% Strength <when fighting in [Friendly Land] tiles>",
-                    "[+1] Sight <for all units>",
                     "[+2 Science] from every [Scientist]"
                 ]
             }
@@ -1335,9 +1135,7 @@
             {
                 "name": "Cloning",
                 "row": 1,
-                "prerequisites": [
-                    "Genetic Manipulation"
-                ],
+                "prerequisites": ["Genetic Manipulation"],
                 "quote": "'Better a soulless clone... than a souled roach.' - David Mitchell",
                 "uniques": [
                     "[+4 Food] from [Farm] tiles [in all cities]",
@@ -1367,9 +1165,7 @@
             {
                 "name": "Distributed Computing",
                 "row": 4,
-                "prerequisites": [
-                    "The Internet"
-                ],
+                "prerequisites": ["The Internet"],
                 "quote": "'I think computer viruses should count as life ... I think it says something about human nature that the only form of life we have created so far is purely destructive. We've created life in our own image' - Stephen Hawking",
                 "uniques": [
                     "[+4 Science] from every [Scientist]",
@@ -1382,10 +1178,7 @@
             {
                 "name": "Nanomaterials",
                 "row": 6,
-                "prerequisites": [
-                    "The Internet",
-                    "Particle Physics"
-                ],
+                "prerequisites": ["The Internet", "Particle Physics"],
                 "quote": "'Nanomachines, son!' - Senator Armstrong, Metal Gear Rising",
                 "uniques": [
                     "[+2 Gold, +2 Production] from [Strategic resource] tiles [in all cities]",
@@ -1398,10 +1191,7 @@
             {
                 "name": "High-Energy Physics",
                 "row": 8,
-                "prerequisites": [
-                    "Stealth",
-                    "Particle Physics"
-                ],
+                "prerequisites": ["Stealth", "Particle Physics"],
                 "quote": "'The universe is not only queerer than we suppose, but queerer than we can suppose.' - J.B.S. Haldane",
                 "uniques": [
                     "[+5 Science] from every [Scientist]",
@@ -1414,9 +1204,7 @@
             {
                 "name": "Artificial Environments",
                 "row": 10,
-                "prerequisites": [
-                    "Stealth"
-                ],
+                "prerequisites": ["Stealth"],
                 "quote": "'The marks humans leave are too often scars.' - John Green",
                 "uniques": [
                     "[+2 Science, +3 Happiness] [in all cities]",
@@ -1438,9 +1226,7 @@
             {
                 "name": "Ecotheory",
                 "row": 2,
-                "prerequisites": [
-                    "Memetics"
-                ],
+                "prerequisites": ["Memetics"],
                 "quote": "'Go to heaven for the climate and hell for the company.' - Benjamin Franklin Wade",
                 "uniques": [
                     "[+3 Food] from [Forest] tiles [in all cities]",
@@ -1454,9 +1240,7 @@
             {
                 "name": "Implants",
                 "row": 3,
-                "prerequisites": [
-                    "Memetics"
-                ],
+                "prerequisites": ["Memetics"],
                 "quote": "'The measure of intelligence is the ability to change.' - Albert Einstein",
                 "uniques": [
                     "[+3 Science] from every [City center]",
@@ -1469,10 +1253,7 @@
             {
                 "name": "Cognitive Technology",
                 "row": 5,
-                "prerequisites": [
-                    "Distributed Computing",
-                    "Nanomaterials"
-                ],
+                "prerequisites": ["Distributed Computing", "Nanomaterials"],
                 "quote": "'Everything you can imagine is real.' - Pablo Picasso",
                 "uniques": [
                     "[+5 Science] from every [Scientist]",
@@ -1485,10 +1266,7 @@
             {
                 "name": "Microscale Engineering",
                 "row": 7,
-                "prerequisites": [
-                    "Nanomaterials",
-                    "High-Energy Physics"
-                ],
+                "prerequisites": ["Nanomaterials", "High-Energy Physics"],
                 "quote": "'Stop acting so small. You are the universe in ecstatic motion.' - Rumi",
                 "uniques": [
                     "[+4 Production] from [Mine] tiles [in all cities]",
@@ -1526,10 +1304,7 @@
             {
                 "name": "Transgenics",
                 "row": 1,
-                "prerequisites": [
-                    "Cloning",
-                    "Ecotheory"
-                ],
+                "prerequisites": ["Cloning", "Ecotheory"],
                 "quote": "'The era of the transgenic chicken is quietly dawning, coming soon to your bathroom medicine cabinet.' - Andrew Lawler",
                 "uniques": [
                     "[+5 Food] from [Farm] tiles [in all cities]",
@@ -1543,10 +1318,7 @@
             {
                 "name": "Neural Interface",
                 "row": 4,
-                "prerequisites": [
-                    "Implants",
-                    "Cognitive Technology"
-                ],
+                "prerequisites": ["Implants", "Cognitive Technology"],
                 "quote": "'Why should you believe your eyes? You were given eyes to see with, not to believe with. Your eyes can see the mirage, the hallucination as easily as the actual scenery.' - Ward Moore",
                 "uniques": [
                     "[+5 Science] from every [Scientist]",
@@ -1559,9 +1331,7 @@
             {
                 "name": "Autonomous Systems",
                 "row": 6,
-                "prerequisites": [
-                    "Cognitive Technology"
-                ],
+                "prerequisites": ["Cognitive Technology"],
                 "quote": "'We can only see a short distance ahead, but we can see plenty there that needs to be done.' - Alan Turing",
                 "uniques": [
                     "[+4 Production] from [Workshop] tiles [in all cities]",
@@ -1591,9 +1361,7 @@
             {
                 "name": "Arcologies",
                 "row": 10,
-                "prerequisites": [
-                    "Orbital Development"
-                ],
+                "prerequisites": ["Orbital Development"],
                 "quote": "'We should throw away our arcologies and our starships, and live like the Lord intended' - Peter F. Hamilton",
                 "uniques": [
                     "[+5 Food] from every [City center]",
@@ -1615,9 +1383,7 @@
             {
                 "name": "Designer Lifeforms",
                 "row": 1,
-                "prerequisites": [
-                    "Transgenics"
-                ],
+                "prerequisites": ["Transgenics"],
                 "quote": "'Yeah, yeah, but your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should.' - Dr Ian Malcolm, Jurassic Park",
                 "uniques": [
                     "[+6 Food] from [Farm] tiles [in all cities]",
@@ -1631,10 +1397,7 @@
             {
                 "name": "Biomodification",
                 "row": 3,
-                "prerequisites": [
-                    "Transgenics",
-                    "Implants"
-                ],
+                "prerequisites": ["Transgenics", "Implants"],
                 "quote": "'If it could be demonstrated that any complex organ existed, which could not possibly have been formed by numerous, successive, slight modifications, my theory would absolutely break down. But I can find no such case.' - Charles Darwin",
                 "uniques": [
                     "[+5 Science] from every [City center]",
@@ -1647,9 +1410,7 @@
             {
                 "name": "Cybernetics",
                 "row": 4,
-                "prerequisites": [
-                    "Neural Interface"
-                ],
+                "prerequisites": ["Neural Interface"],
                 "quote": "'It would be possible to describe everything scientifically, but it would make no sense; it would be without meaning, as if you described a Beethoven symphony as a variation of wave pressure.' - Albert Einstein",
                 "uniques": [
                     "[+6 Science] from every [Scientist]",
@@ -1662,9 +1423,7 @@
             {
                 "name": "Artificial Intelligence",
                 "row": 5,
-                "prerequisites": [
-                    "Autonomous Systems"
-                ],
+                "prerequisites": ["Autonomous Systems"],
                 "quote": "'I love mankind ... it's people I can't stand!!' - Charles M. Schulz",
                 "uniques": [
                     "[+6 Science] from every [Scientist]",
@@ -1695,9 +1454,7 @@
             {
                 "name": "Adamantium",
                 "row": 9,
-                "prerequisites": [
-                    "Nuclear Fusion"
-                ],
+                "prerequisites": ["Nuclear Fusion"],
                 "quote": "'We are as indestructible as we believe ourselves to be.' - John Green",
                 "uniques": [
                     "[+30]% Strength <when fighting in [Friendly Land] tiles>",
@@ -1719,10 +1476,7 @@
             {
                 "name": "Terraforming",
                 "row": 1,
-                "prerequisites": [
-                    "Designer Lifeforms",
-                    "Biomodification"
-                ],
+                "prerequisites": ["Designer Lifeforms", "Biomodification"],
                 "quote": "'I am sorry you have to live in the time of terraforming, and not in the spring that follows.' - Annalee Newitz",
                 "uniques": [
                     "[+5 Food] from [Farm] tiles [in all cities]",
@@ -1737,10 +1491,7 @@
             {
                 "name": "Human Augmentation",
                 "row": 3,
-                "prerequisites": [
-                    "Biomodification",
-                    "Cybernetics"
-                ],
+                "prerequisites": ["Biomodification", "Cybernetics"],
                 "quote": "'It's not the machines you need to fear. It's the people. Other people. The augmented men and women that will come afterwards.' - Dave Pryor",
                 "uniques": [
                     "[+6 Science] from every [City center]",
@@ -1753,10 +1504,7 @@
             {
                 "name": "Digital Society",
                 "row": 5,
-                "prerequisites": [
-                    "Cybernetics",
-                    "Artificial Intelligence"
-                ],
+                "prerequisites": ["Cybernetics", "Artificial Intelligence"],
                 "quote": "'Reality is chaos, and we've created an algorithm that keeps us informed of as much of that chaos as possible, from the second we wake up to the second we go to bed, and then we wonder why we're anxious.' - Matty Healy",
                 "uniques": [
                     "[+5 Science] from every [Scientist]",
@@ -1769,9 +1517,7 @@
             {
                 "name": "Smart Materials",
                 "row": 6,
-                "prerequisites": [
-                    "Autonomous Systems"
-                ],
+                "prerequisites": ["Autonomous Systems"],
                 "quote": "'For a smart material to be able to send out a more complex signal it needs to be nonlinear. If you hit a tuning fork twice as hard it will ring twice as loud but still at the same frequency. That's a linear response. If you hit a person twice as hard they're unlikely just to shout twice as loud. That property lets you learn more about the person than the tuning fork.' - Neil Gershenfeld",
                 "uniques": [
                     "[+5 Production] from [Workshop] tiles [in all cities]",
@@ -1785,10 +1531,7 @@
             {
                 "name": "Energy Theory",
                 "row": 8,
-                "prerequisites": [
-                    "Artificial Intelligence",
-                    "Nanotechnology"
-                ],
+                "prerequisites": ["Artificial Intelligence", "Nanotechnology"],
                 "quote": "'Instead of worrying about what you cannot control, shift your energy to what you can create.' - Roy T. Bennett",
                 "uniques": [
                     "[+6 Production] [in all cities]",
@@ -1801,10 +1544,7 @@
             {
                 "name": "Hyperstructures",
                 "row": 10,
-                "prerequisites": [
-                    "Adamantium",
-                    "Arcologies"
-                ],
+                "prerequisites": ["Adamantium", "Arcologies"],
                 "quote": "'The struggle itself towards the heights is enough to fill a man's heart.' - Albert Camus",
                 "uniques": [
                     "[+6 Production] from every [City center]",
@@ -1826,10 +1566,7 @@
             {
                 "name": "Homo Superior",
                 "row": 1,
-                "prerequisites": [
-                    "Terraforming",
-                    "Human Augmentation"
-                ],
+                "prerequisites": ["Terraforming", "Human Augmentation"],
                 "quote": "'What's with these guys? It's like one of my Japanese animes!' - Otacon, Metal Gear Solid",
                 "uniques": [
                     "[+7 Science] from every [City center]",
@@ -1843,10 +1580,7 @@
             {
                 "name": "Computronium",
                 "row": 3,
-                "prerequisites": [
-                    "Digital Society",
-                    "Smart Materials"
-                ],
+                "prerequisites": ["Digital Society", "Smart Materials"],
                 "quote": "'AI has by now succeeded in doing essentially everything that requires 'thinking' but has failed to do most of what people and animals do 'without thinking'—that, somehow, is much harder!' - Donald Knuth",
                 "uniques": [
                     "[+8 Science] from every [Scientist]",
@@ -1860,10 +1594,7 @@
             {
                 "name": "Space Colonization",
                 "row": 10,
-                "prerequisites": [
-                    "Energy Theory",
-                    "Hyperstructures"
-                ],
+                "prerequisites": ["Energy Theory", "Hyperstructures"],
                 "quote": "'In bewilderment then he almost stopped - n/In what cold clockwork of the stars and the nations n/ Was he the hand pointing that second?' - Ted Hughes, Bayonet Charge",
                 "uniques": [
                     "[+7 Science] from every [Scientist]",

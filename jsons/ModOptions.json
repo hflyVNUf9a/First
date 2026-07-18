@@ -36,7 +36,7 @@
 
     "unitSupplyPerPopulation": 0.5,
 
-    "maxXPfromBarbarians": 90,
+    "maxXPfromBarbarians": 450,
 
     "religionLimitBase": 1,
     "religionLimitMultiplier": 0.5,
