@@ -14,10 +14,401 @@
       "Can also be built on tiles adjacent to fresh water <in [Land] tiles>",
       "[+2 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
       "[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+      "[+1 Food] for each adjacent [Farm]",
+      "[+1 Food] for each adjacent [Fresh water]",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Production] <after discovering [Replaceable Parts]>",
+      "[+1 Food] <after discovering [Biology]>",
+      "[+2 Food] <after discovering [Refrigeration]>",
+      "[+1 Food] <after discovering [Genetic Manipulation]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+3 Food] <after discovering [Designer Lifeforms]>",
       "Can only be built to improve a resource <in [resource] tiles>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "F"
+    "shortcutKey": "F",
+    "civilopediaText": [
+      {
+        "text": "Farms are the bedrock of civilization, converting arable land into productive food sources."
+      },
+      {
+        "text": "Farms adjacent to fresh water receive additional food after discovering Civil Service."
+      },
+      {
+        "text": "Farms benefit from adjacency with other farms, representing agricultural communities."
+      }
+    ]
+  },
+  {
+    "name": "Mine",
+    "terrainsCanBeBuiltOn": [
+      "Hill"
+    ],
+    "turnsToBuild": 7,
+    "techRequired": "Mining",
+    "uniques": [
+      "[+1 Production] <after discovering [Chemistry]>",
+      "[+1 Production] <in tiles without [Luxury resource]>",
+      "[+1 Production] for each adjacent [Mine]",
+      "[+1 Production] for each adjacent [Quarry]",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Production] <after discovering [Industrialization]>",
+      "[+1 Production] <after discovering [Dynamite]>",
+      "[+2 Production] <after discovering [Combustion]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+3 Production] <after discovering [Microscale Engineering]>",
+      "[+3 Production] <after discovering [Nanotechnology]>",
+      "Can only be built to improve a resource <in [resource] tiles>",
+      "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "M",
+    "civilopediaText": [
+      {
+        "text": "Mines extract valuable minerals from hills, providing production to nearby cities."
+      },
+      {
+        "text": "Mines benefit from adjacency with other mines and quarries, representing industrial districts."
+      },
+      {
+        "text": "Mines become increasingly productive through technological advancement."
+      }
+    ]
+  },
+  {
+    "name": "Pasture",
+    "turnsToBuild": 8,
+    "techRequired": "Animal Husbandry",
+    "uniques": [
+      "[+1 Food] <after discovering [Fertilizer]>",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Food] for each adjacent [Pasture]",
+      "[+1 Production] <after discovering [Steam Power]>",
+      "[+1 Food] <after discovering [Biology]>",
+      "[+2 Food] <after discovering [Refrigeration]>",
+      "[+1 Gold] <after discovering [Globalization]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+3 Food] <after discovering [Designer Lifeforms]>",
+      "Can only be built to improve a resource",
+      "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "P",
+    "civilopediaText": [
+      {
+        "text": "Pastures graze livestock, providing food and eventually gold through trade."
+      },
+      {
+        "text": "Pastures benefit from adjacency with other pastures, representing ranching communities."
+      }
+    ]
+  },
+  {
+    "name": "Plantation",
+    "turnsToBuild": 6,
+    "techRequired": "Calendar",
+    "uniques": [
+      "[+1 Food] <after discovering [Fertilizer]>",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Culture] <after discovering [Drama and Poetry]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Gold] for each adjacent [Plantation]",
+      "[+1 Food] <after discovering [Biology]>",
+      "[+1 Gold] <after discovering [Banking]>",
+      "[+1 Food] <after discovering [Refrigeration]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+2 Gold] <after discovering [Designer Lifeforms]>",
+      "Can only be built to improve a resource",
+      "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "P",
+    "civilopediaText": [
+      {
+        "text": "Plantations cultivate luxury crops like cotton, silk, and spices, generating wealth and culture."
+      },
+      {
+        "text": "Plantations benefit from adjacency with other plantations, representing plantation economies."
+      }
+    ]
+  },
+  {
+    "name": "Quarry",
+    "turnsToBuild": 8,
+    "techRequired": "Masonry",
+    "uniques": [
+      "[+1 Production] <after discovering [Chemistry]>",
+      "[+1 Production] for each adjacent [Quarry]",
+      "[+1 Production] for each adjacent [Mine]",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Production] <after discovering [Construction]>",
+      "[+2 Production] <after discovering [Industrialization]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Production] <after discovering [Steam Power]>",
+      "[+2 Production] <after discovering [Combustion]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+3 Production] <after discovering [Microscale Engineering]>",
+      "Can only be built to improve a resource",
+      "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "shortcutKey": "Q",
+    "civilopediaText": [
+      {
+        "text": "Quarries extract stone and marble, providing production for construction projects."
+      },
+      {
+        "text": "Quarries benefit from adjacency with other quarries and mines, representing mining districts."
+      }
+    ]
+  },
+  {
+    "name": "Camp",
+    "turnsToBuild": 3,
+    "techRequired": "Trapping",
+    "uniques": [
+      "Does not need removal of [Forest]",
+      "Does not need removal of [Jungle]",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Food] for each adjacent [Camp]",
+      "[+1 Food] for each adjacent [Forest]",
+      "[+1 Food] for each adjacent [Jungle]",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Food] <after discovering [Biology]>",
+      "[+1 Gold] <after discovering [Banking]>",
+      "[+1 Food] <after discovering [Refrigeration]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+1 Science] <after discovering [Ecology]>",
+      "Can only be built to improve a resource",
+      "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "shortcutKey": "C",
+    "civilopediaText": [
+      {
+        "text": "Camps harvest resources from forests and jungles without clearing them."
+      },
+      {
+        "text": "Camps benefit from adjacency with forests, jungles, and other camps."
+      }
+    ]
+  },
+  {
+    "name": "Lumber mill",
+    "terrainsCanBeBuiltOn": [
+      "Forest"
+    ],
+    "production": 1,
+    "turnsToBuild": 5,
+    "techRequired": "Bronze Working",
+    "uniques": [
+      "[+1 Production] <after discovering [Steel]>",
+      "[+1 Production] for each adjacent [Forest]",
+      "[+1 Production] for each adjacent [Lumber mill]",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Production] <after discovering [Industrialization]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Production] <after discovering [Steam Power]>",
+      "[+2 Production] <after discovering [Replaceable Parts]>",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "Can only be built to improve a resource <in [resource] tiles>",
+      "Pillaging this improvement yields approximately [+15 Gold]"
+    ],
+    "shortcutKey": "L",
+    "civilopediaText": [
+      {
+        "text": "Lumber mills process timber from forests into usable production materials."
+      },
+      {
+        "text": "Lumber mills benefit from adjacency with forests and other lumber mills."
+      }
+    ]
+  },
+  {
+    "name": "Trading post",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Hill",
+      "Tundra",
+      "Forest",
+      "Jungle",
+      "Flood plains",
+      "Marsh"
+    ],
+    "gold": 1,
+    "turnsToBuild": 5,
+    "techRequired": "Guilds",
+    "uniques": [
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Gold] for each adjacent [Trading post]",
+      "[+1 Gold] for each adjacent [Road]",
+      "[+1 Gold] for each adjacent [Railroad]",
+      "[+1 Science] <after discovering [Education]>",
+      "[+1 Culture] <after discovering [Chivalry]>",
+      "[+1 Gold] <after discovering [Banking]>",
+      "[+1 Science] <after discovering [Printing Press]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Science] <after discovering [The Internet]>",
+      "[+1 Culture] <after discovering [Memetics]>",
+      "Pillaging this improvement yields approximately [+50 Gold]"
+    ],
+    "shortcutKey": "T",
+    "civilopediaText": [
+      {
+        "text": "Trading posts generate gold through commerce and trade routes."
+      },
+      {
+        "text": "Trading posts benefit from adjacency with roads, railroads, and other trading posts."
+      },
+      {
+        "text": "Trading posts evolve into centers of science and culture as civilization advances."
+      }
+    ]
+  },
+  {
+    "name": "Fishing Boats",
+    "turnsToBuild": 3,
+    "terrainsCanBeBuiltOn": [
+      "Coast"
+    ],
+    "techRequired": "Sailing",
+    "uniques": [
+      "[+1 Gold] <after discovering [Compass]>",
+      "[+1 Food] for each adjacent [Coast]",
+      "[+1 Food] for each adjacent [Fishing Boats]",
+      "[+1 Food] <after discovering [Optics]>",
+      "[+1 Gold] <after discovering [Navigation]>",
+      "[+1 Food] <after discovering [Biology]>",
+      "[+2 Food] <after discovering [Refrigeration]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+1 Science] <after discovering [Ecology]>",
+      "Can only be built to improve a resource",
+      "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fishing boats harvest the bounty of coastal waters, providing food and gold."
+      },
+      {
+        "text": "Fishing boats benefit from adjacency with coast and other fishing operations."
+      }
+    ]
+  },
+  {
+    "name": "Oil well",
+    "turnsToBuild": 10,
+    "techRequired": "Biology",
+    "uniques": [
+      "Can only be built to improve a resource",
+      "Cannot be built on [Water] tiles",
+      "[+10 Gold]",
+      "[+2 Production] <after discovering [Combustion]>",
+      "[+3 Production] <after discovering [Plastics]>",
+      "[+2 Gold] <after discovering [Economics]>",
+      "[+3 Production] <after discovering [Industrialization]>",
+      "[+1 Science] <after discovering [Chemistry]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+5 Gold] <after discovering [Nanomaterials]>",
+      "Pillaging this improvement yields approximately [+50 Gold]"
+    ],
+    "shortcutKey": "W",
+    "civilopediaText": [
+      {
+        "text": "Oil wells extract petroleum from the ground, fueling the modern industrial economy."
+      }
+    ]
+  },
+  {
+    "name": "Offshore Platform",
+    "turnsToBuild": 12,
+    "techRequired": "Refrigeration",
+    "uniques": [
+      "Can only be built to improve a resource",
+      "Can only be built on [Water] tiles",
+      "[+10 Gold]",
+      "[+2 Production] <after discovering [Combustion]>",
+      "[+3 Production] <after discovering [Plastics]>",
+      "[+2 Gold] <after discovering [Economics]>",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+5 Gold] <after discovering [Nanomaterials]>",
+      "Pillaging this improvement yields approximately [+50 Gold]"
+    ],
+    "shortcutKey": "P",
+    "civilopediaText": [
+      {
+        "text": "Offshore platforms extract oil from beneath the ocean floor."
+      }
+    ]
+  },
+  {
+    "name": "Fort",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Hill",
+      "Tundra",
+      "Snow",
+      "Forest",
+      "Jungle"
+    ],
+    "turnsToBuild": 10,
+    "techRequired": "Engineering",
+    "uniques": [
+      "Can be built outside your borders",
+      "Gives a defensive bonus of [75]%",
+      "[+1 Production] for each adjacent [Fort]",
+      "[+5]% Strength <for units stationed on this tile>",
+      "Adjacent enemy units ending their turn take [10] damage",
+      "[+1 Culture] <after discovering [Archaeology]>",
+      "[+2 Culture] <after discovering [Acoustics]>",
+      "Pillaging this improvement yields approximately [+30 Gold]"
+    ],
+    "shortcutKey": "O",
+    "civilopediaText": [
+      {
+        "text": "Forts provide strong defensive bonuses to units stationed on them."
+      },
+      {
+        "text": "Forts can be built outside your borders, allowing forward military positions."
+      }
+    ]
+  },
+  {
+    "name": "Trench",
+    "terrainsCanBeBuiltOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Hill",
+      "Tundra",
+      "Snow",
+      "Forest",
+      "Jungle"
+    ],
+    "turnsToBuild": 2,
+    "techRequired": "Military Science",
+    "uniques": [
+      "Can be built outside your borders",
+      "Gives a defensive bonus of [25]%",
+      "[+5]% Strength <for units stationed on this tile>",
+      "[+1 Production] for each adjacent [Trench]",
+      "Adjacent enemy units ending their turn take [15] damage",
+      "[+1 Culture] <after discovering [Archaeology]>",
+      "Pillaging this improvement yields approximately [+15 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Trenches are quick to build and provide modest defensive bonuses."
+      },
+      {
+        "text": "Trench networks deal damage to adjacent enemy units."
+      }
+    ]
   },
   {
     "name": "Bunker",
@@ -29,7 +420,18 @@
     "turnsToBuild": 15,
     "uniques": [
       "Can be built outside your borders",
-      "Gives a defensive bonus of [100]%"
+      "Gives a defensive bonus of [100]%",
+      "[+10]% Strength <for units stationed on this tile>",
+      "[+1 Production] for each adjacent [Bunker]",
+      "[+1 Science] <after discovering [Radar]>",
+      "Adjacent enemy units ending their turn take [20] damage",
+      "[+2 Culture] <after discovering [Archaeology]>",
+      "Pillaging this improvement yields approximately [+40 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Bunkers are reinforced underground fortifications providing maximum defense."
+      }
     ]
   },
   {
@@ -43,7 +445,66 @@
     "uniques": [
       "Can be built outside your borders",
       "Gives a defensive bonus of [15]%",
-      "Adjacent enemy units ending their turn take [25] damage"
+      "Adjacent enemy units ending their turn take [25] damage",
+      "[+5]% Strength <for units stationed on this tile>",
+      "Pillaging this improvement yields approximately [+10 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Barbed wire is a cheap, quick defensive emplacement that damages enemy units."
+      }
+    ]
+  },
+  {
+    "name": "Road",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "turnsToBuild": 2,
+    "techRequired": "The Wheel",
+    "uniques": [
+      "Can be built outside your borders",
+      "Costs [1] [Gold] per turn",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Gold] <after discovering [Globalization]>"
+    ],
+    "shortcutKey": "R",
+    "civilopediaText": [
+      {
+        "text": "Reduces movement cost to 1/2 if the other tile also has a Road or Railroad"
+      },
+      {
+        "text": "Reduces movement cost to 1/3 with Machinery",
+        "link": "Technology/Machinery"
+      },
+      {
+        "text": "Requires Engineering to bridge rivers",
+        "link": "Technology/Engineering"
+      }
+    ]
+  },
+  {
+    "name": "Railroad",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "turnsToBuild": 3,
+    "techRequired": "Railroads",
+    "uniques": [
+      "Can be built outside your borders",
+      "Costs [2] [Gold] per turn",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Production] <after discovering [Combustion]>",
+      "[+2 Gold] <after discovering [Globalization]>"
+    ],
+    "shortcutKey": "R",
+    "civilopediaText": [
+      {
+        "text": "Reduces movement cost to 1/11 if the other tile also has a Railroad"
+      },
+      {
+        "text": "Railroads connect cities for production bonuses when linking to the capital"
+      }
     ]
   },
   {
@@ -55,7 +516,25 @@
       "Land",
       "Hill"
     ],
-    "turnsToBuild": 10
+    "turnsToBuild": 10,
+    "uniques": [
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Science] <after discovering [The Internet]>",
+      "[+1 Culture] <after discovering [Memetics]>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "[+1 Happiness] <after discovering [The Internet]>",
+      "[+1 Food] <after discovering [Artificial Environments]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+1 Gold] <after discovering [Globalization]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+1 Science] <after discovering [Artificial Intelligence]>",
+      "Pillaging this improvement yields approximately [+30 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Civil factories produce consumer goods, boosting food, happiness, and eventually science."
+      }
+    ]
   },
   {
     "name": "Military Factory",
@@ -65,19 +544,49 @@
       "Land",
       "Hill"
     ],
-    "turnsToBuild": 10
+    "turnsToBuild": 10,
+    "uniques": [
+      "[+2 Production] <after discovering [Combined Arms]>",
+      "[+3 Production] <after discovering [Robotics]>",
+      "[+2 Gold] <after discovering [Economics]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+3 Production] <after discovering [Nanomaterials]>",
+      "[+2 Production] <after discovering [Autonomous Systems]>",
+      "[+4 Production] <after discovering [Microscale Engineering]>",
+      "[+1 Gold] <after discovering [Globalization]>",
+      "[+3 Production] <after discovering [Nanotechnology]>",
+      "[+1 Science] <after discovering [Artificial Intelligence]>",
+      "Pillaging this improvement yields approximately [+40 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Military factories produce war materials, providing massive production output."
+      }
+    ]
   },
   {
     "name": "Geothermal Plant",
     "techRequired": "Plastics",
     "uniques": [
       "[+5 Production] for each adjacent [Mine]",
-      "[+10 Production] for each adjacent [Mountain]"
+      "[+10 Production] for each adjacent [Mountain]",
+      "[+2 Gold] for each adjacent [Mountain]",
+      "[+3 Production] for each adjacent [Geothermal Plant]",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+2 Science] <after discovering [Computers]>",
+      "[+3 Production] <after discovering [Nanomaterials]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "Pillaging this improvement yields approximately [+50 Gold]"
     ],
     "terrainsCanBeBuiltOn": [
       "Hill"
     ],
-    "turnsToBuild": 15
+    "turnsToBuild": 15,
+    "civilopediaText": [
+      {
+        "text": "Geothermal plants harness volcanic and geothermal energy from hills and mountains."
+      }
+    ]
   },
   {
     "name": "Solar Panels",
@@ -90,9 +599,91 @@
     "turnsToBuild": 4,
     "techRequired": "Ecology",
     "uniques": [
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+1 Science] <after discovering [Distributed Computing]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+1 Culture] <after discovering [Memetics]>",
+      "[+3 Production] <after discovering [Microscale Engineering]>",
+      "[+2 Science] <after discovering [Artificial Intelligence]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
       "Pillaging this improvement yields approximately [+30 Gold]"
     ],
-    "shortcutKey": "F"
+    "shortcutKey": "F",
+    "civilopediaText": [
+      {
+        "text": "Solar panels harness renewable energy from the sun, providing clean production and gold."
+      }
+    ]
+  },
+  {
+    "name": "Wind Turbine",
+    "terrainsCanBeBuiltOn": [
+      "Hill",
+      "Plains",
+      "Grassland",
+      "Tundra",
+      "Snow",
+      "Desert"
+    ],
+    "production": 3,
+    "gold": 1,
+    "turnsToBuild": 6,
+    "techRequired": "Ecology",
+    "uniques": [
+      "[+2 Production] for each adjacent [Hill]",
+      "[+2 Production] for each adjacent [Coast]",
+      "[+1 Production] for each adjacent [Wind Turbine]",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+1 Science] <after discovering [Distributed Computing]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
+      "[+3 Production] <after discovering [Microscale Engineering]>",
+      "Pillaging this improvement yields approximately [+25 Gold]"
+    ],
+    "shortcutKey": "D",
+    "civilopediaText": [
+      {
+        "text": "Wind turbines harness wind energy, particularly effective on hills and coasts."
+      },
+      {
+        "text": "Wind turbines benefit from adjacency with hills and coastal areas."
+      }
+    ]
+  },
+  {
+    "name": "Hydroelectric Dam",
+    "terrainsCanBeBuiltOn": [
+      "Hill"
+    ],
+    "production": 4,
+    "gold": 2,
+    "turnsToBuild": 12,
+    "techRequired": "Electricity",
+    "uniques": [
+      "[+3 Production] for each adjacent [River]",
+      "[+2 Gold] for each adjacent [River]",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
+      "[+3 Production] <after discovering [Microscale Engineering]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "Pillaging this improvement yields approximately [+40 Gold]"
+    ],
+    "shortcutKey": "D",
+    "civilopediaText": [
+      {
+        "text": "Hydroelectric dams generate power from flowing rivers, providing production and gold."
+      },
+      {
+        "text": "Dams are most effective when built adjacent to rivers."
+      }
+    ]
   },
   {
     "name": "Modern District",
@@ -109,9 +700,28 @@
     "uniques": [
       "[+3 Production] for each adjacent [Civil Factory]",
       "[+4 Production] for each adjacent [Military Factory]",
+      "[+2 Science] for each adjacent [Civil Factory]",
+      "[+2 Gold] for each adjacent [Civil Factory]",
+      "[+1 Culture] for each adjacent [Modern District]",
+      "[+1 Science] for each adjacent [Modern District]",
+      "[+2 Food] for each adjacent [Farm]",
+      "[+1 Happiness] <after discovering [The Internet]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+1 Gold] <after discovering [Globalization]>",
+      "[+2 Happiness] <after discovering [Digital Society]>",
+      "[+3 Science] <after discovering [Artificial Intelligence]>",
       "Pillaging this improvement yields approximately [+30 Gold]"
     ],
-    "shortcutKey": "F"
+    "shortcutKey": "F",
+    "civilopediaText": [
+      {
+        "text": "Modern districts are self-sustaining urban centers providing all yields."
+      },
+      {
+        "text": "Modern districts synergize with nearby factories, farms, and other districts."
+      }
+    ]
   },
   {
     "name": "Synthetic Oil Factory",
@@ -123,9 +733,19 @@
     "techRequired": "Artificial Environments",
     "uniques": [
       "Provides [2] [Oil]",
+      "[+1 Production] <after discovering [Nanomaterials]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Production] <after discovering [Microscale Engineering]>",
+      "[+2 Gold] <after discovering [Nanotechnology]>",
       "Pillaging this improvement yields approximately [+60 Gold]"
     ],
-    "shortcutKey": "M"
+    "shortcutKey": "M",
+    "civilopediaText": [
+      {
+        "text": "Synthetic oil factories produce petroleum from non-petroleum sources."
+      }
+    ]
   },
   {
     "name": "House",
@@ -139,9 +759,25 @@
       "[+2 Food] for each adjacent [Bonus resource]",
       "[+2 Happiness] for each adjacent [Luxury resource]",
       "[+2 Food] for each adjacent [Bonus resource] <after discovering [Scientific Theory]>",
+      "[+1 Happiness] for each adjacent [House]",
+      "[+1 Culture] for each adjacent [House]",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Happiness] <after discovering [The Internet]>",
+      "[+1 Science] <after discovering [Distributed Computing]>",
+      "[+2 Happiness] <after discovering [Digital Society]>",
+      "[+1 Gold] <after discovering [Globalization]>",
+      "[+1 Culture] <after discovering [Memetics]>",
       "Pillaging this improvement yields approximately [+18 Gold]"
     ],
-    "shortcutKey": "F"
+    "shortcutKey": "F",
+    "civilopediaText": [
+      {
+        "text": "Houses provide housing for citizens, benefiting from nearby resources."
+      },
+      {
+        "text": "Houses benefit from adjacency with bonus and luxury resources."
+      }
+    ]
   },
   {
     "name": "Hunter Lodge",
@@ -154,10 +790,23 @@
     "techRequired": "Trapping",
     "uniques": [
       "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+18 Gold]",
-      "[+1 Gold] <after discovering [Scientific Theory]>"
+      "[+1 Gold] for each adjacent [Forest]",
+      "[+1 Gold] for each adjacent [Jungle]",
+      "[+1 Food] for each adjacent [Camp]",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Food] <after discovering [Biology]>",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+1 Gold] <after discovering [Banking]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "Pillaging this improvement yields approximately [+18 Gold]"
     ],
-    "shortcutKey": "F"
+    "shortcutKey": "F",
+    "civilopediaText": [
+      {
+        "text": "Hunter lodges harvest wild game and furs, generating gold from wilderness tiles."
+      }
+    ]
   },
   {
     "name": "Log Cabin",
@@ -169,10 +818,24 @@
     "turnsToBuild": 7,
     "techRequired": "Trapping",
     "uniques": [
-      "[+1 Production] <after discovering [Scientific Theory]>",
+      "[+1 Production] for each adjacent [Forest]",
+      "[+1 Production] for each adjacent [Lumber mill]",
+      "[+1 Gold] <after discovering [Currency]>",
+      "[+1 Production] <after discovering [Construction]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Production] <after discovering [Industrialization]>",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+2 Production] <after discovering [Replaceable Parts]>",
+      "[+1 Culture] <after discovering [Archaeology]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
       "Pillaging this improvement yields approximately [+10 Gold]"
     ],
-    "shortcutKey": "L"
+    "shortcutKey": "L",
+    "civilopediaText": [
+      {
+        "text": "Log cabins are rustic dwellings built in forests, providing production from timber."
+      }
+    ]
   },
   {
     "name": "Site",
@@ -205,10 +868,28 @@
     "uniques": [
       "[+1 Gold, +1 Food] for each adjacent [City center]",
       "[+2 Gold] from [Coastal] tiles",
+      "[+1 Production] for each adjacent [Arcology]",
+      "[+1 Science] for each adjacent [Arcology]",
       "Gives a defensive bonus of [100]%",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+3 Food] <after discovering [Designer Lifeforms]>",
+      "[+2 Happiness] <after discovering [Digital Society]>",
+      "[+3 Science] <after discovering [Artificial Intelligence]>",
+      "[+2 Production] <after discovering [Nanotechnology]>",
+      "[+3 Gold] <after discovering [Energy Theory]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "A"
+    "shortcutKey": "A",
+    "civilopediaText": [
+      {
+        "text": "Arcologies are massive self-sustaining megastructures housing entire communities."
+      },
+      {
+        "text": "Arcologies provide defense, food, gold, and benefit from adjacency with city centers."
+      }
+    ]
   },
   {
     "name": "Remove Ice",
@@ -240,9 +921,26 @@
       "[+1 Science] <after discovering [Distributed Computing]>",
       "[+1 Science] <after adopting [Free Thought]>",
       "[+1 Culture] <after discovering [Memetics]>",
+      "[+1 Gold] for each adjacent [Communications Array]",
+      "[+1 Science] for each adjacent [City center]",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Science] <after discovering [The Internet]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Culture] <after discovering [Digital Society]>",
+      "[+3 Science] <after discovering [Cognitive Technology]>",
+      "[+2 Science] <after discovering [Artificial Intelligence]>",
+      "[+1 Happiness] <after discovering [The Internet]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "U"
+    "shortcutKey": "U",
+    "civilopediaText": [
+      {
+        "text": "Communications arrays boost connectivity, providing gold, science, and culture."
+      },
+      {
+        "text": "Arrays benefit from adjacency with city centers and other arrays."
+      }
+    ]
   },
   {
     "name": "Eco-Commune",
@@ -261,9 +959,27 @@
     "uniques": [
       "[+1 Food] <after discovering [Biomodification]>",
       "[+1 Culture] from [Fresh water] tiles",
+      "[+1 Food] for each adjacent [Forest]",
+      "[+1 Food] for each adjacent [Jungle]",
+      "[+1 Culture] for each adjacent [Eco-Commune]",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+2 Culture] <after discovering [Digital Society]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+3 Food] <after discovering [Designer Lifeforms]>",
+      "[+2 Gold] <after discovering [Globalization]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "E"
+    "shortcutKey": "E",
+    "civilopediaText": [
+      {
+        "text": "Eco-communes are sustainable communities living in harmony with nature."
+      },
+      {
+        "text": "Eco-communes benefit from adjacency with forests, jungles, and fresh water."
+      }
+    ]
   },
   {
     "name": "Generator",
@@ -285,9 +1001,23 @@
     "uniques": [
       "[+1 Gold] <after discovering [Nanotechnology]>",
       "[+1 Gold] from [Fresh water] tiles",
+      "[+1 Production] for each adjacent [Generator]",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Production] <after discovering [Microscale Engineering]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "[+1 Science] <after discovering [Artificial Intelligence]>",
+      "[+3 Production] <after discovering [Nanotechnology]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "G"
+    "shortcutKey": "G",
+    "civilopediaText": [
+      {
+        "text": "Generators produce power using advanced nanomaterials, providing gold and production."
+      }
+    ]
   },
   {
     "name": "Genocentre",
@@ -311,14 +1041,25 @@
       "[+2 Production] from [Cattle] tiles",
       "[+2 Food] from [Sheep] tiles",
       "[+2 Food] from [Wheat] tiles",
+      "[+1 Food] for each adjacent [Farm]",
+      "[+1 Science] for each adjacent [Genocentre]",
       "Gives a defensive bonus of [100]%",
       "Improves [Horses] resource in this tile",
       "Improves [Cattle] resource in this tile",
       "Improves [Wheat] resource in this tile",
       "Improves [Sheep] resource in this tile",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Food] <after discovering [Designer Lifeforms]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+1 Gold] <after discovering [Globalization]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "J"
+    "shortcutKey": "J",
+    "civilopediaText": [
+      {
+        "text": "Genocentres are advanced agricultural biotechnology centers, enhancing resource yields."
+      }
+    ]
   },
   {
     "name": "Hydroponics Dome",
@@ -335,9 +1076,22 @@
     "uniques": [
       "[+1 Gold] <after discovering [Arcologies]>",
       "[+1 Food] from [Fresh water] tiles",
+      "[+1 Food] for each adjacent [Hydroponics Dome]",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Food] <after discovering [Transgenics]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+3 Food] <after discovering [Designer Lifeforms]>",
+      "[+1 Culture] <after discovering [Memetics]>",
+      "[+2 Gold] <after discovering [Globalization]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "H"
+    "shortcutKey": "H",
+    "civilopediaText": [
+      {
+        "text": "Hydroponics domes grow food in controlled environments, enabling agriculture in harsh terrain."
+      }
+    ]
   },
   {
     "name": "Industrial Complex",
@@ -356,9 +1110,24 @@
     "techRequired": "Artificial Environments",
     "uniques": [
       "[+1 Gold, +2 Production] <after discovering [Microscale Engineering]>",
+      "[+1 Production] for each adjacent [Industrial Complex]",
+      "[+2 Production] for each adjacent [Military Factory]",
+      "[+1 Gold] for each adjacent [Civil Factory]",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "[+3 Production] <after discovering [Nanotechnology]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+1 Science] <after discovering [Artificial Intelligence]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "I"
+    "shortcutKey": "I",
+    "civilopediaText": [
+      {
+        "text": "Industrial complexes are massive manufacturing centers, synergizing with military factories."
+      }
+    ]
   },
   {
     "name": "Nature Preserve",
@@ -378,9 +1147,28 @@
     "techRequired": "Artificial Environments",
     "uniques": [
       "[+2 Culture, +1 Gold] <after discovering [Ecotheory]>",
+      "[+1 Culture] for each adjacent [Forest]",
+      "[+1 Culture] for each adjacent [Jungle]",
+      "[+1 Culture] for each adjacent [Natural Wonder]",
+      "[+1 Happiness] for each adjacent [Natural Wonder]",
+      "[+1 Science] <after discovering [Ecology]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Happiness] <after discovering [Digital Society]>",
+      "[+3 Culture] <after discovering [Digital Society]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "N"
+    "shortcutKey": "N",
+    "civilopediaText": [
+      {
+        "text": "Nature preserves protect natural ecosystems, generating culture and happiness."
+      },
+      {
+        "text": "Nature preserves benefit from adjacency with forests, jungles, and natural wonders."
+      }
+    ]
   },
   {
     "name": "Support Node",
@@ -404,9 +1192,173 @@
       "[+1 Science] <after adopting [Free Thought]>",
       "[+1 Gold] <after adopting [Commerce]>",
       "Gives a defensive bonus of [50]%",
+      "[+1 Production] for each adjacent [Support Node]",
+      "[+1 Science] for each adjacent [Support Node]",
+      "[+2 Science] <after discovering [The Internet]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+1 Happiness] <after discovering [Digital Society]>",
+      "[+3 Science] <after discovering [Artificial Intelligence]>",
+      "[+2 Production] <after discovering [Nanotechnology]>",
       "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "S"
+    "shortcutKey": "S",
+    "civilopediaText": [
+      {
+        "text": "Support nodes are autonomous infrastructure hubs providing production, gold, and defense."
+      }
+    ]
+  },
+  {
+    "name": "Quantum Lab",
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "science": 4,
+    "gold": 1,
+    "turnsToBuild": 10,
+    "techRequired": "High-Energy Physics",
+    "uniques": [
+      "[+2 Science] for each adjacent [Quantum Lab]",
+      "[+1 Science] for each adjacent [City center]",
+      "[+1 Science] for each adjacent [Civil Factory]",
+      "[+2 Science] <after discovering [Cognitive Technology]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+3 Science] <after discovering [Artificial Intelligence]>",
+      "[+1 Culture] <after discovering [Memetics]>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "[+1 Happiness] <after discovering [Digital Society]>",
+      "[+4 Science] <after discovering [Computronium]>",
+      "Pillaging this improvement yields approximately [+40 Gold]"
+    ],
+    "shortcutKey": "Q",
+    "civilopediaText": [
+      {
+        "text": "Quantum laboratories harness quantum mechanics for advanced scientific research."
+      },
+      {
+        "text": "Quantum labs benefit from adjacency with city centers, civil factories, and other labs."
+      }
+    ]
+  },
+  {
+    "name": "Fusion Reactor",
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "production": 5,
+    "gold": 3,
+    "science": 2,
+    "turnsToBuild": 12,
+    "techRequired": "Nuclear Fusion",
+    "uniques": [
+      "[+3 Production] for each adjacent [Fusion Reactor]",
+      "[+2 Science] for each adjacent [City center]",
+      "[+2 Gold] for each adjacent [City center]",
+      "[+2 Production] <after discovering [Nanotechnology]>",
+      "[+3 Science] <after discovering [Cognitive Technology]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+3 Production] <after discovering [Microscale Engineering]>",
+      "[+2 Science] <after discovering [Artificial Intelligence]>",
+      "[+1 Happiness] <after discovering [Digital Society]>",
+      "[+3 Gold] <after discovering [Energy Theory]>",
+      "[+4 Science] <after discovering [Computronium]>",
+      "Pillaging this improvement yields approximately [+60 Gold]"
+    ],
+    "shortcutKey": "V",
+    "civilopediaText": [
+      {
+        "text": "Fusion reactors harness nuclear fusion, providing enormous production and energy."
+      },
+      {
+        "text": "Fusion reactors benefit from adjacency with city centers and other reactors."
+      }
+    ]
+  },
+  {
+    "name": "Orbital Array",
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill"
+    ],
+    "science": 3,
+    "gold": 2,
+    "culture": 1,
+    "turnsToBuild": 10,
+    "techRequired": "Satellites",
+    "uniques": [
+      "[+2 Science] for each adjacent [Orbital Array]",
+      "[+1 Science] for each adjacent [City center]",
+      "[+1 Gold] for each adjacent [Communications Array]",
+      "[+1] Sight <for units stationed on this tile>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+3 Science] <after discovering [Cognitive Technology]>",
+      "[+1 Happiness] <after discovering [Digital Society]>",
+      "[+3 Science] <after discovering [Artificial Intelligence]>",
+      "[+2 Gold] <after discovering [Orbital Development]>",
+      "Pillaging this improvement yields approximately [+40 Gold]"
+    ],
+    "shortcutKey": "B",
+    "civilopediaText": [
+      {
+        "text": "Orbital arrays are ground stations for satellite communications, providing science and gold."
+      }
+    ]
+  },
+  {
+    "name": "Biofuel Refinery",
+    "terrainsCanBeBuiltOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Forest",
+      "Jungle",
+      "Marsh"
+    ],
+    "production": 3,
+    "gold": 1,
+    "turnsToBuild": 8,
+    "techRequired": "Ecology",
+    "uniques": [
+      "Provides [1] [Oil]",
+      "[+1 Production] for each adjacent [Forest]",
+      "[+1 Production] for each adjacent [Jungle]",
+      "[+1 Production] for each adjacent [Farm]",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Production] <after discovering [Nanomaterials]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+1 Happiness] <after discovering [Environmentalism]>",
+      "[+2 Production] <after discovering [Microscale Engineering]>",
+      "Pillaging this improvement yields approximately [+35 Gold]"
+    ],
+    "shortcutKey": "B",
+    "civilopediaText": [
+      {
+        "text": "Biofuel refineries convert organic matter into fuel, providing an alternative oil source."
+      },
+      {
+        "text": "Biofuel refineries benefit from adjacency with forests, jungles, and farms."
+      }
+    ]
   },
   {
     "name": "Canal Construction Site",
@@ -466,7 +1418,11 @@
     "techRequired": "Radar",
     "uniques": [
       "Can be built outside your borders",
-      "Can carry [6] [Aircraft] units"
+      "Can carry [6] [Aircraft] units",
+      "[+1] Sight <for units stationed on this tile>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "Pillaging this improvement yields approximately [+30 Gold]"
     ],
     "civilopediaText": [
       {
@@ -476,141 +1432,6 @@
         "text": "Military Airfield Ground Unit",
         "link": "Units/Military Airfield Ground Unit"
       }
-    ]
-  },
-  {
-    "name": "Lumber mill",
-    "terrainsCanBeBuiltOn": [
-      "Forest"
-    ],
-    "production": 1,
-    "turnsToBuild": 5,
-    "techRequired": "Bronze Working",
-    "uniques": [
-      "[+1 Production] <after discovering [Steel]>",
-      "Can only be built to improve a resource <in [resource] tiles>",
-      "Pillaging this improvement yields approximately [+15 Gold]"
-    ],
-    "shortcutKey": "L"
-  },
-  {
-    "name": "Oil well",
-    "turnsToBuild": 10,
-    "techRequired": "Biology",
-    "uniques": [
-      "Can only be built to improve a resource",
-      "Cannot be built on [Water] tiles",
-      "[+10 Gold]",
-      "Pillaging this improvement yields approximately [+50 Gold]"
-    ],
-    "shortcutKey": "W"
-  },
-  {
-    "name": "Offshore Platform",
-    "turnsToBuild": 12,
-    "techRequired": "Refrigeration",
-    "uniques": [
-      "Can only be built to improve a resource",
-      "Can only be built on [Water] tiles",
-      "[+10 Gold]",
-      "Pillaging this improvement yields approximately [+50 Gold]"
-    ],
-    "shortcutKey": "P"
-  },
-  {
-    "name": "Mine",
-    "terrainsCanBeBuiltOn": [
-      "Hill"
-    ],
-    "turnsToBuild": 7,
-    "techRequired": "Mining",
-    "uniques": [
-      "[+1 Production] <after discovering [Chemistry]>",
-      "[+1 Production] <in tiles without [Luxury resource]>",
-      "Can only be built to improve a resource <in [resource] tiles>",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ],
-    "shortcutKey": "M"
-  },
-  {
-    "name": "Trading post",
-    "terrainsCanBeBuiltOn": [
-      "Plains",
-      "Grassland",
-      "Desert",
-      "Hill",
-      "Tundra",
-      "Forest",
-      "Jungle",
-      "Flood plains",
-      "Marsh"
-    ],
-    "gold": 1,
-    "turnsToBuild": 5,
-    "techRequired": "Guilds",
-    "uniques": [
-      "[+1 Gold] <after discovering [Economics]>",
-      "Pillaging this improvement yields approximately [+50 Gold]"
-    ],
-    "shortcutKey": "T"
-  },
-  {
-    "name": "Camp",
-    "turnsToBuild": 3,
-    "techRequired": "Trapping",
-    "uniques": [
-      "Does not need removal of [Forest]",
-      "Does not need removal of [Jungle]",
-      "[+1 Gold] <after discovering [Economics]>",
-      "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+10 Gold]"
-    ],
-    "shortcutKey": "C"
-  },
-  {
-    "name": "Pasture",
-    "turnsToBuild": 8,
-    "techRequired": "Animal Husbandry",
-    "uniques": [
-      "[+1 Food] <after discovering [Fertilizer]>",
-      "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+10 Gold]"
-    ],
-    "shortcutKey": "P"
-  },
-  {
-    "name": "Plantation",
-    "turnsToBuild": 6,
-    "techRequired": "Calendar",
-    "uniques": [
-      "[+1 Food] <after discovering [Fertilizer]>",
-      "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+10 Gold]"
-    ],
-    "shortcutKey": "P"
-  },
-  {
-    "name": "Quarry",
-    "turnsToBuild": 8,
-    "techRequired": "Masonry",
-    "uniques": [
-      "[+1 Production] <after discovering [Chemistry]>",
-      "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ],
-    "shortcutKey": "Q"
-  },
-  {
-    "name": "Fishing Boats",
-    "turnsToBuild": 3,
-    "terrainsCanBeBuiltOn": [
-      "Coast"
-    ],
-    "techRequired": "Sailing",
-    "uniques": [
-      "[+1 Gold] <after discovering [Compass]>",
-      "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+20 Gold]"
     ]
   },
   {
@@ -641,85 +1462,340 @@
     ]
   },
   {
-    "name": "Fort",
-    "terrainsCanBeBuiltOn": [
-      "Plains",
-      "Grassland",
-      "Desert",
-      "Hill",
-      "Tundra",
-      "Snow",
-      "Forest",
-      "Jungle"
-    ],
-    "turnsToBuild": 10,
-    "techRequired": "Engineering",
-    "uniques": [
-      "Can be built outside your borders",
-      "Gives a defensive bonus of [75]%"
-    ],
-    "shortcutKey": "O"
-  },
-  {
-    "name": "Trench",
-    "terrainsCanBeBuiltOn": [
-      "Plains",
-      "Grassland",
-      "Desert",
-      "Hill",
-      "Tundra",
-      "Snow",
-      "Forest",
-      "Jungle"
-    ],
-    "turnsToBuild": 2,
-    "techRequired": "Military Science",
-    "uniques": [
-      "Can be built outside your borders",
-      "Gives a defensive bonus of [25]%"
-    ]
-  },
-  {
-    "name": "Road",
+    "name": "Academy",
     "terrainsCanBeBuiltOn": [
       "Land"
     ],
-    "turnsToBuild": 2,
-    "techRequired": "The Wheel",
+    "science": 5,
     "uniques": [
-      "Can be built outside your borders",
-      "Costs [1] [Gold] per turn"
+      "Great Improvement",
+      "[+1 Science] for each adjacent [Academy]",
+      "[+1 Science] for each adjacent [City center]",
+      "[+1 Science] for each adjacent [University]",
+      "[+2 Science] <after discovering [Philosophy]>",
+      "[+2 Science] <after discovering [Physics]>",
+      "[+2 Science] <after discovering [Scientific Theory]>",
+      "[+2 Science] <after discovering [Atomic Theory]>",
+      "[+3 Science] <after discovering [Computers]>",
+      "[+3 Science] <after discovering [Particle Physics]>",
+      "[+3 Science] <after discovering [Ecotheory]>",
+      "[+4 Science] <after discovering [Cognitive Technology]>",
+      "[+4 Science] <after discovering [Distributed Computing]>",
+      "[+5 Science] <after discovering [Artificial Intelligence]>",
+      "[+5 Science] <after discovering [High-Energy Physics]>",
+      "[+6 Science] <after discovering [Computronium]>",
+      "Removes removable features when built",
+      "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "R",
     "civilopediaText": [
       {
-        "text": "Reduces movement cost to 1/2 if the other tile also has a Road or Railroad"
+        "text": "Academies are great improvements built by Great Scientists, generating science."
       },
       {
-        "text": "Reduces movement cost to 1/3 with Machinery",
-        "link": "Technology/Machinery"
-      },
-      {
-        "text": "Requires Engineering to bridge rivers",
-        "link": "Technology/Engineering"
+        "text": "Academies benefit from adjacency with city centers, universities, and other academies."
       }
     ]
   },
   {
-    "name": "Railroad",
+    "name": "Holy site",
     "terrainsCanBeBuiltOn": [
       "Land"
     ],
-    "turnsToBuild": 3,
-    "techRequired": "Railroads",
+    "faith": 5,
     "uniques": [
-      "Can be built outside your borders",
-      "Costs [2] [Gold] per turn"
+      "Great Improvement",
+      "[+2 Faith] for each adjacent [Mountain]",
+      "[+2 Faith] for each adjacent [Lakes]",
+      "[+2 Faith] for each adjacent [Jungle]",
+      "[+2 Faith] for each adjacent [Oasis]",
+      "[+2 Faith] for each adjacent [Ice]",
+      "[+1 Faith] for each adjacent [Coast]",
+      "[+3 Faith] for each adjacent [Natural Wonder]",
+      "[+1 Faith] for each adjacent [Holy site]",
+      "[+1 Culture] <after discovering [Theology]>",
+      "[+2 Culture] <after discovering [Acoustics]>",
+      "[+1 Gold] <after discovering [Banking]>",
+      "[+2 Culture] <after discovering [Archaeology]>",
+      "[+1 Science] <after discovering [Scientific Theory]>",
+      "[+2 Culture] <after discovering [Radio]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Faith] <after discovering [Theology]>",
+      "Removes removable features when built",
+      "Pillaging this improvement yields approximately [+20 Gold]"
     ],
-    "shortcutKey": "R",
     "civilopediaText": [
       {
-        "text": "Reduces movement cost to 1/11 if the other tile also has a Railroad"
+        "text": "Holy sites are great improvements built by Great Prophets, generating faith."
+      },
+      {
+        "text": "Holy sites benefit from adjacency with mountains, lakes, jungles, oases, and natural wonders."
+      }
+    ]
+  },
+  {
+    "name": "Landmark",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "culture": 5,
+    "uniques": [
+      "Great Improvement",
+      "Removes removable features when built",
+      "[+1 Culture] for each adjacent [Landmark]",
+      "[+1 Culture] for each adjacent [City center]",
+      "[+3 Culture] for each adjacent [Natural Wonder]",
+      "[+1 Culture] <after discovering [Philosophy]>",
+      "[+1 Culture] <after discovering [Theology]>",
+      "[+1 Culture] <after discovering [Civil Service]>",
+      "[+1 Culture] <after discovering [Acoustics]>",
+      "[+1 Culture] <after discovering [Architecture]>",
+      "[+2 Culture] <after discovering [Archaeology]>",
+      "[+1 Culture] <after discovering [Flight]>",
+      "[+2 Culture] <after discovering [Radio]>",
+      "[+2 Gold] <after discovering [Electricity]>",
+      "[+1 Culture] <after discovering [Ecology]>",
+      "[+2 Culture] <after discovering [The Internet]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+3 Culture] <after discovering [Digital Society]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Landmarks are great improvements built by Great Artists, generating culture."
+      },
+      {
+        "text": "Landmarks benefit from adjacency with city centers, natural wonders, and other landmarks."
+      }
+    ]
+  },
+  {
+    "name": "Manufactory",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "production": 5,
+    "food": 1,
+    "uniques": [
+      "Great Improvement",
+      "[+1 Production] for each adjacent [Manufactory]",
+      "[+1 Production] for each adjacent [City center]",
+      "[+2 Production] for each adjacent [Geothermal Plant]",
+      "[+1 Production] for each adjacent [Mine]",
+      "[+1 Production] for each adjacent [Quarry]",
+      "[+2 Production] for each adjacent [Military Factory]",
+      "[+3 Production] <after discovering [Chemistry]>",
+      "[+3 Production] <after discovering [Industrialization]>",
+      "[+2 Production] <after discovering [Steam Power]>",
+      "[+3 Production] <after discovering [Combustion]>",
+      "[+4 Production] <after discovering [Nanomaterials]>",
+      "[+5 Production] <after discovering [Microscale Engineering]>",
+      "[+5 Production] <after discovering [Nanotechnology]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "Removes removable features when built",
+      "Pillaging this improvement yields approximately [+50 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Manufactories are great improvements built by Great Engineers, generating production."
+      },
+      {
+        "text": "Manufactories benefit from adjacency with mines, quarries, factories, and city centers."
+      }
+    ]
+  },
+  {
+    "name": "Dry Dock",
+    "terrainsCanBeBuiltOn": [
+      "Coast"
+    ],
+    "production": 5,
+    "uniques": [
+      "Great Improvement",
+      "[+1 Production] for each adjacent [Dry Dock]",
+      "[+1 Production] for each adjacent [City center]",
+      "[+2 Production] for each adjacent [Offshore Platform]",
+      "[+1 Gold] for each adjacent [Fishing Boats]",
+      "[+1 Food] for each adjacent [Fishing Boats]",
+      "[+3 Production] <after discovering [Pharmaceuticals]>",
+      "[+2 Production] <after discovering [Combustion]>",
+      "[+3 Production] <after discovering [Industrialization]>",
+      "[+2 Gold] <after discovering [Economics]>",
+      "[+3 Production] <after discovering [Nanomaterials]>",
+      "[+4 Production] <after discovering [Microscale Engineering]>",
+      "[+2 Science] <after discovering [Computers]>",
+      "Removes removable features when built",
+      "Pillaging this improvement yields approximately [+50 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Dry docks are great improvements built on coast tiles, generating naval production."
+      },
+      {
+        "text": "Dry docks benefit from adjacency with city centers, offshore platforms, and fishing boats."
+      }
+    ]
+  },
+  {
+    "name": "Customs house",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "gold": 5,
+    "uniques": [
+      "Improves [Luxury] resource in this tile",
+      "Great Improvement",
+      "[+1 Gold] for each adjacent [Customs house]",
+      "[+1 Gold] for each adjacent [City center]",
+      "[+2 Gold] for each adjacent [Bonus resource]",
+      "[+4 Gold] for each adjacent [Luxury resource]",
+      "[+1 Gold] for each adjacent [Trading post]",
+      "[+2 Gold] for each adjacent [Road]",
+      "[+2 Gold] for each adjacent [Railroad]",
+      "[+4 Gold] <after discovering [Economics]>",
+      "[+3 Production] <after discovering [Economics]>",
+      "[+2 Gold] <after discovering [Banking]>",
+      "[+3 Gold] <after discovering [Globalization]>",
+      "[+2 Science] <after discovering [Computers]>",
+      "[+3 Gold] <after discovering [The Internet]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+3 Science] <after discovering [Distributed Computing]>",
+      "[+5 Gold] <for [AI player] Civilizations> <hidden from users>",
+      "Removes removable features when built",
+      "Pillaging this improvement yields approximately [+50 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Customs houses are great improvements built by Great Merchants, generating gold."
+      },
+      {
+        "text": "Customs houses benefit from adjacency with resources, trading posts, roads, and city centers."
+      }
+    ]
+  },
+  {
+    "name": "Citadel",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Great Improvement",
+      "Gives a defensive bonus of [100]%",
+      "Adjacent enemy units ending their turn take [35] damage",
+      "[+3 Production] for each adjacent [Fort]",
+      "[+1 Culture] for each adjacent [Citadel]",
+      "[+1 Science] for each adjacent [Citadel]",
+      "[+10]% Strength <for units stationed on this tile>",
+      "Can be built just outside your borders",
+      "Gain control over [all] tiles in a [1]-tile radius",
+      "[+2 Culture] <after discovering [Archaeology]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "Removes removable features when built"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Citadels are great improvements built by Great Generals, providing defense and territory."
+      },
+      {
+        "text": "Citadels steal adjacent tiles, damage adjacent enemies, and synergize with forts."
+      }
+    ]
+  },
+  {
+    "name": "Chateau",
+    "uniqueTo": "France",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "gold": 1,
+    "culture": 2,
+    "science": 2,
+    "turnsToBuild": 7,
+    "techRequired": "Chivalry",
+    "uniques": [
+      "Gives a defensive bonus of [50]%",
+      "[+2 Gold, +1 Culture] <after discovering [Flight]>",
+      "Must be next to [Luxury resource]",
+      "Cannot be built on [resource] tiles",
+      "Only available <with [0] to [0] neighboring [Chateau] tiles>",
+      "[+1 Gold] for each adjacent [Chateau]",
+      "[+1 Culture] for each adjacent [Chateau]",
+      "[+1 Science] <after discovering [Scientific Theory]>",
+      "[+1 Gold] <after discovering [Economics]>",
+      "[+2 Culture] <after discovering [Archaeology]>",
+      "[+1 Science] <after discovering [Computers]>",
+      "[+2 Gold] <after discovering [Globalization]>",
+      "[+2 Culture] <after discovering [Memetics]>",
+      "[+2 Science] <after discovering [Distributed Computing]>",
+      "Pillaging this improvement yields approximately [+20 Gold]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Chateaux are unique French improvements that must be adjacent to luxury resources."
+      }
+    ]
+  },
+  {
+    "name": "Ancient ruins",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Unpillagable",
+      "Provides a random bonus when entered",
+      "Unbuildable"
+    ]
+  },
+  {
+    "name": "City ruins",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Unpillagable",
+      "Unbuildable"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A bleak reminder of the destruction wreaked by War"
+      }
+    ]
+  },
+  {
+    "name": "City center",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Ensures a minimum tile yield of [+2 Food, +3 Production] <in [Hill] tiles>",
+      "Ensures a minimum tile yield of [+3 Food, +2 Production] <in tiles without [Hill]>",
+      "Unpillagable",
+      "Irremovable",
+      "Unbuildable"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Marks the center of a city"
+      },
+      {
+        "text": "Appearance changes with the technological era of the owning civilization"
+      }
+    ]
+  },
+  {
+    "name": "Barbarian encampment",
+    "turnsToBuild": 1,
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "uniques": [
+      "Unpillagable",
+      "Can be built outside your borders"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Home to Barbarians encampment, will spawn a hostile unit from time to time"
       }
     ]
   },
@@ -805,217 +1881,6 @@
     "civilopediaText": [
       {
         "text": "Repairs a pillaged Improvement or Route"
-      }
-    ]
-  },
-  {
-    "name": "Academy",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "science": 5,
-    "uniques": [
-      "Great Improvement",
-      "[+2 Science] <after discovering [Scientific Theory]>",
-      "[+2 Science] <after discovering [Atomic Theory]>",
-      "[+2 Science] <after discovering [Philosophy]>",
-      "[+2 Science] <after discovering [Physics]>",
-      "[+2 Science] <after discovering [Scientific Theory]>",
-      "[+3 Science] <after discovering [Atomic Theory]>",
-      "[+3 Science] <after discovering [Ecotheory]>",
-      "[+3 Science] <after discovering [Computers]>",
-      "[+3 Science] <after discovering [Particle Physics]>",
-      "Removes removable features when built",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ]
-  },
-  {
-    "name": "Holy site",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "faith": 5,
-    "uniques": [
-      "Great Improvement",
-      "[+2 Faith] for each adjacent [Mountain]",
-      "[+2 Faith] for each adjacent [Lakes]",
-      "[+2 Faith] for each adjacent [Jungle]",
-      "[+2 Faith] for each adjacent [Oasis]",
-      "[+2 Faith] for each adjacent [Ice]",
-      "[+1 Faith] for each adjacent [Coast]",
-      "[+3 Faith] for each adjacent [Natural Wonder]",
-      "Removes removable features when built",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ]
-  },
-  {
-    "name": "Landmark",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "culture": 5,
-    "uniques": [
-      "Great Improvement",
-      "Removes removable features when built",
-      "[+2 Culture] <after discovering [Radio]>",
-      "[+2 Gold] <after discovering [Electricity]>",
-      "[+1 Culture] <after discovering [Philosophy]>",
-      "[+1 Culture] <after discovering [Theology]>",
-      "[+1 Culture] <after discovering [Civil Service]>",
-      "[+1 Culture] <after discovering [Acoustics]>",
-      "[+1 Culture] <after discovering [Architecture]>",
-      "[+2 Culture] <after discovering [Archaeology]>",
-      "[+1 Culture] <after discovering [Flight]>",
-      "[+1 Culture] <after discovering [Ecology]>",
-      "[+2 Culture] <after discovering [The Internet]>",
-      "[+3 Culture] for each adjacent [Natural Wonder]",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ]
-  },
-  {
-    "name": "Manufactory",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "production": 5,
-    "food": 1,
-    "uniques": [
-      "Great Improvement",
-      "[+3 Production] <after discovering [Chemistry]>",
-      "[+1 Production] for each adjacent [Great Improvement]",
-      "[+2 Production] for each adjacent [Geothermal Plant]",
-      "[+3 Production] <after discovering [Industrialization]>",
-      "Removes removable features when built",
-      "Pillaging this improvement yields approximately [+50 Gold]"
-    ]
-  },
-  {
-    "name": "Dry Dock",
-    "terrainsCanBeBuiltOn": [
-      "Coast"
-    ],
-    "production": 5,
-    "uniques": [
-      "Great Improvement",
-      "[+3 Production] <after discovering [Pharmaceuticals]>",
-      "Removes removable features when built",
-      "Pillaging this improvement yields approximately [+50 Gold]"
-    ]
-  },
-  {
-    "name": "Customs house",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "gold": 5,
-    "uniques": [
-      "Improves [Luxury] resource in this tile",
-      "Great Improvement",
-      "[+4 Gold] <after discovering [Economics]>",
-      "Removes removable features when built",
-      "[+5 Gold] <for [AI player] Civilizations> <hidden from users>",
-      "[+1 Gold] for each adjacent [Great Improvement]",
-      "[+2 Gold] for each adjacent [Bonus resource]",
-      "[+4 Gold] for each adjacent [Luxury resource]",
-      "[+3 Production] <after discovering [Economics]>",
-      "Pillaging this improvement yields approximately [+50 Gold]"
-    ]
-  },
-  {
-    "name": "Citadel",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "uniques": [
-      "Great Improvement",
-      "Gives a defensive bonus of [100]%",
-      "Adjacent enemy units ending their turn take [35] damage",
-      "[+3 Production] for each adjacent [Fort]",
-      "Can be built just outside your borders",
-      "Gain control over [all] tiles in a [1]-tile radius",
-      "Removes removable features when built"
-    ]
-  },
-  {
-    "name": "Chateau",
-    "uniqueTo": "France",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "gold": 1,
-    "culture": 2,
-    "science": 2,
-    "turnsToBuild": 7,
-    "techRequired": "Chivalry",
-    "uniques": [
-      "Gives a defensive bonus of [50]%",
-      "[+2 Gold, +1 Culture] <after discovering [Flight]>",
-      "Must be next to [Luxury resource]",
-      "Cannot be built on [resource] tiles",
-      "Only available <with [0] to [0] neighboring [Chateau] tiles>",
-      "Pillaging this improvement yields approximately [+20 Gold]"
-    ]
-  },
-  {
-    "name": "Ancient ruins",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "uniques": [
-      "Unpillagable",
-      "Provides a random bonus when entered",
-      "Unbuildable"
-    ]
-  },
-  {
-    "name": "City ruins",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "uniques": [
-      "Unpillagable",
-      "Unbuildable"
-    ],
-    "civilopediaText": [
-      {
-        "text": "A bleak reminder of the destruction wreaked by War"
-      }
-    ]
-  },
-  {
-    "name": "City center",
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "uniques": [
-      "Ensures a minimum tile yield of [+2 Food, +3 Production] <in [Hill] tiles>",
-      "Ensures a minimum tile yield of [+3 Food, +2 Production] <in tiles without [Hill]>",
-      "Unpillagable",
-      "Irremovable",
-      "Unbuildable"
-    ],
-    "civilopediaText": [
-      {
-        "text": "Marks the center of a city"
-      },
-      {
-        "text": "Appearance changes with the technological era of the owning civilization"
-      }
-    ]
-  },
-  {
-    "name": "Barbarian encampment",
-    "turnsToBuild": 1,
-    "terrainsCanBeBuiltOn": [
-      "Land"
-    ],
-    "uniques": [
-      "Unpillagable",
-      "Can be built outside your borders"
-    ],
-    "civilopediaText": [
-      {
-        "text": "Home to Barbarians encampment, will spawn a hostile unit from time to time"
       }
     ]
   }

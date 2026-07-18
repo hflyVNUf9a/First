@@ -6,11 +6,380 @@
         "food": 1,
         "improvement": "Pasture",
         "improvementStats": {
-            "production": 1
+            "production": 1,
+            "food": 1
         },
         "uniques": [
             "Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles>",
-            "Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>"
+            "Generated on every [20] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [30] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Domesticated cattle provide food, leather, and labor, forming the backbone of agrarian economies."
+            }
+        ]
+    },
+    {
+        "name": "Sheep",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Hill", "Plains", "Tundra"],
+        "food": 1,
+        "improvement": "Pasture",
+        "improvementStats": {
+            "food": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [20] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+            "Generated on every [30] tiles <in [{Featureless} {Tundra}] tiles>",
+            "Generated on every [40] tiles <in [{Featureless} {Plains}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Sheep thrive on rough, hilly terrain and provide wool, meat, and milk."
+            }
+        ]
+    },
+    {
+        "name": "Deer",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Forest", "Tundra", "Hill"],
+        "food": 1,
+        "improvedBy": ["Camp"],
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [8] tiles <in [{Featureless} {Tundra}] tiles>",
+            "Generated on every [6] tiles <in [{Forest} {Tundra}] tiles>",
+            "Generated on every [22] tiles <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>",
+            "Generated on every [30] tiles <in [{Forest} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Deer are hunted for venison, hides, and antlers, sustaining forest and tundra communities."
+            }
+        ]
+    },
+    {
+        "name": "Bison",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Grassland", "Plains"],
+        "food": 1,
+        "improvedBy": ["Camp"],
+        "improvementStats": {
+            "production": 1,
+            "food": 1
+        },
+        "uniques": [
+            "Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [20] tiles <in [{non-[Fresh Water]} {Featureless} {Grassland}] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Plains} {Fresh Water}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Vast herds of bison once roamed the plains, providing sustenance and materials to indigenous peoples."
+            }
+        ]
+    },
+    {
+        "name": "Bananas",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest"],
+        "food": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "food": 2,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [20] tiles <in [Jungle] tiles>",
+            "Generated on every [40] tiles <in [Forest] tiles> <in tiles without [Tundra]>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Banana plantations thrive in tropical jungles, providing calorie-dense sustenance."
+            }
+        ]
+    },
+    {
+        "name": "Wheat",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": [
+            "Plains",
+            "Flood plains",
+            "Desert",
+            "Grassland"
+        ],
+        "food": 1,
+        "improvement": "Farm",
+        "improvementStats": {
+            "food": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [8] tiles <in [{non-[Hill]} {Fresh Water} {Desert}] tiles>",
+            "Generated on every [12] tiles <in [Flood plains] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Wheat is one of the first domesticated crops, a staple grain that fueled the rise of civilizations."
+            }
+        ]
+    },
+    {
+        "name": "Maize",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Plains", "Grassland"],
+        "food": 1,
+        "improvement": "Farm",
+        "improvementStats": {
+            "food": 1,
+            "production": 1
+        },
+        "uniques": [
+            "Generated on every [35] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
+            "Generated on every [22] tiles <in [{Featureless} {Plains} {Fresh Water}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Maize, domesticated in Mesoamerica, became a cornerstone of agriculture across the Americas."
+            }
+        ]
+    },
+    {
+        "name": "Rice",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Grassland", "Flood plains", "Marsh"],
+        "food": 1,
+        "improvement": "Farm",
+        "improvementStats": {
+            "food": 2
+        },
+        "uniques": [
+            "Generated on every [15] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>",
+            "Generated on every [10] tiles <in [Flood plains] tiles>",
+            "Generated on every [20] tiles <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Rice cultivation in flooded paddies sustains billions, particularly across Asia."
+            }
+        ]
+    },
+    {
+        "name": "Berries",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Forest", "Tundra", "Grassland"],
+        "food": 1,
+        "improvedBy": ["Camp"],
+        "improvementStats": {
+            "food": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [25] tiles <in [Forest] tiles> <in tiles without [Hill]>",
+            "Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
+            "Generated on every [40] tiles <in [{Featureless} {Grassland}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Wild berries provide forage for foragers and wildlife alike, rich in vitamins and flavor."
+            }
+        ]
+    },
+    {
+        "name": "Stone",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": [
+            "Grassland",
+            "Desert",
+            "Tundra",
+            "Plains",
+            "Hill"
+        ],
+        "production": 1,
+        "improvement": "Quarry",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [20] tiles <in [{non-[Fresh Water]} {Featureless} {Grassland}] tiles>",
+            "Generated on every [10] tiles <in [{Featureless} {Tundra}] tiles>",
+            "Generated on every [16] tiles <in [{Featureless} {Desert}] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [30] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Stone is the fundamental building material of early civilizations, from walls to monuments."
+            }
+        ]
+    },
+    {
+        "name": "Fish",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Coast", "Lakes"],
+        "food": 1,
+        "improvementStats": {
+            "food": 1,
+            "gold": 1
+        },
+        "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>",
+            "Generated on every [20] tiles <in [Lakes] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Fish are the primary source of protein for coastal communities worldwide."
+            }
+        ]
+    },
+    {
+        "name": "Crab",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "food": 1,
+        "improvementStats": {
+            "gold": 1,
+            "food": 1
+        },
+        "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated with weight [10] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [10] <in [Grassland] Regions>",
+            "Generated with weight [25] <in [Marsh] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated near City States with weight [30]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Crabs are prized delicacies harvested from coastal waters, fetching high prices in markets."
+            }
+        ]
+    },
+    {
+        "name": "Whales",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast", "Ocean"],
+        "production": 1,
+        "improvementStats": {
+            "food": 1,
+            "gold": 2
+        },
+        "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated with weight [10] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [10] <in [Grassland] Regions>",
+            "Generated with weight [25] <in [Marsh] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated near City States with weight [30]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Whales provide oil, baleen, and ambergris, once driving entire industries of the sea."
+            }
+        ]
+    },
+    {
+        "name": "Pearls",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "culture": 1,
+        "improvementStats": {
+            "food": 1,
+            "gold": 2
+        },
+        "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated with weight [10] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [10] <in [Grassland] Regions>",
+            "Generated with weight [25] <in [Marsh] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated near City States with weight [30]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Pearls are organic gems formed within oysters, treasured across cultures for millennia."
+            }
+        ]
+    },
+    {
+        "name": "Coral",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "gold": 2,
+        "improvementStats": {
+            "faith": 1,
+            "food": 1,
+            "culture": 1
+        },
+        "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated with weight [25] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [10] <in [Grassland] Regions>",
+            "Generated with weight [20] <in [Marsh] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated near City States with weight [30]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Coral reefs are among the most biodiverse ecosystems on Earth, yielding both beauty and bounty."
+            }
+        ]
+    },
+    {
+        "name": "Ambergris",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast", "Ocean"],
+        "gold": 3,
+        "improvementStats": {
+            "gold": 2,
+            "culture": 1
+        },
+        "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated with weight [5] <in [Tundra] Regions>",
+            "Generated with weight [5] <in [Jungle] Regions>",
+            "Generated with weight [5] <in [Forest] Regions>",
+            "Generated with weight [5] <in [Desert] Regions>",
+            "Generated with weight [5] <in [Hill] Regions>",
+            "Generated with weight [5] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Grassland] Regions>",
+            "Generated with weight [10] <in [Marsh] Regions>",
+            "Generated with weight [10] <in [Hybrid] Regions>",
+            "Generated near City States with weight [15]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Ambergris, a rare substance from sperm whales, is among the most valuable materials in perfumery."
+            }
         ]
     },
     {
@@ -21,8 +390,14 @@
         "gold": 2,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "faith": 3
-        }
+            "faith": 3,
+            "culture": 1
+        },
+        "civilopediaText": [
+            {
+                "text": "Humpback whales are known for their complex songs and acrobatic breaches, revered in many cultures."
+            }
+        ]
     },
     {
         "name": "Whale Shark",
@@ -31,8 +406,15 @@
         "faith": 2,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "faith": 3
-        }
+            "faith": 3,
+            "science": 1
+        },
+        "uniques": ["Doesn't generate naturally"],
+        "civilopediaText": [
+            {
+                "text": "The largest fish in the ocean, whale sharks are gentle giants that inspire awe and reverence."
+            }
+        ]
     },
     {
         "name": "Shark",
@@ -43,8 +425,14 @@
         "uniques": ["Fish"],
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 2
-        }
+            "gold": 2,
+            "science": 1
+        },
+        "civilopediaText": [
+            {
+                "text": "Sharks are apex predators of the sea, their fins prized in certain cuisines and their cartilage studied for medicine."
+            }
+        ]
     },
     {
         "name": "Crocodile",
@@ -54,8 +442,14 @@
         "improvement": "Hunter Lodge",
         "uniques": ["Doesn't generate naturally"],
         "improvementStats": {
-            "science": 1
-        }
+            "science": 1,
+            "gold": 1
+        },
+        "civilopediaText": [
+            {
+                "text": "Crocodiles are ancient reptiles whose hides and meat have been valued since antiquity."
+            }
+        ]
     },
     {
         "name": "Snake",
@@ -65,8 +459,14 @@
         "food": 1,
         "improvement": "Hunter Lodge",
         "improvementStats": {
-            "faith": 1
-        }
+            "faith": 1,
+            "science": 1
+        },
+        "civilopediaText": [
+            {
+                "text": "Snakes are revered and feared in equal measure, their venom studied for medicine and their skins traded as luxury."
+            }
+        ]
     },
     {
         "name": "Lobster",
@@ -75,11 +475,17 @@
         "gold": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 2,
+            "food": 1
         },
         "uniques": [
             "Generated on every [160] tiles <in [Coast] tiles>",
             "Generated on every [80] tiles <in [Ocean] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Lobsters are crustaceans prized as a delicacy, fetching premium prices in fine dining."
+            }
         ]
     },
     {
@@ -89,12 +495,18 @@
         "gold": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
+            "food": 1
         },
         "uniques": [
             "Fish",
             "Generated on every [30] tiles <in [Coast] tiles>",
             "Generated on every [80] tiles <in [Ocean] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cod fisheries drove exploration and conflict for centuries, shaping the Atlantic world."
+            }
         ]
     },
     {
@@ -104,9 +516,15 @@
         "gold": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
+            "food": 1
         },
-        "uniques": ["Fish", "Generated on every [30] tiles <in [Ocean] tiles>"]
+        "uniques": ["Fish", "Generated on every [30] tiles <in [Ocean] tiles>"],
+        "civilopediaText": [
+            {
+                "text": "Tuna are fast, powerful fish whose meat is prized in markets from Tokyo to the Mediterranean."
+            }
+        ]
     },
     {
         "name": "Sardine",
@@ -115,24 +533,40 @@
         "gold": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
+            "food": 1
         },
         "uniques": [
             "Fish",
             "Generated on every [30] tiles <in [Coast] tiles>",
             "Generated on every [80] tiles <in [Ocean] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Sardines are small, oily fish preserved and traded across the ancient world."
+            }
         ]
     },
     {
         "name": "Seals",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Coast"],
+        "terrainsCanBeFoundOn": ["Coast", "Snow", "Tundra"],
         "food": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
+            "food": 1
         },
-        "uniques": ["Generated on every [100] tiles <in [Coast] tiles>"]
+        "uniques": [
+            "Generated on every [100] tiles <in [Coast] tiles>",
+            "Generated on every [40] tiles <in [{Featureless} {Snow}] tiles>",
+            "Generated on every [50] tiles <in [{Featureless} {Tundra}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Seals provide fur, oil, and meat, sustaining communities in the harshest polar environments."
+            }
+        ]
     },
     {
         "name": "Sea Lion",
@@ -141,31 +575,56 @@
         "food": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
+            "food": 1
         },
-        "uniques": ["Generated on every [100] tiles <in [Coast] tiles>"]
+        "uniques": ["Generated on every [100] tiles <in [Coast] tiles>"],
+        "civilopediaText": [
+            {
+                "text": "Sea lions are intelligent pinnipeds, hunted for their pelts and blubber."
+            }
+        ]
     },
     {
         "name": "Walrus",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Coast"],
+        "terrainsCanBeFoundOn": ["Coast", "Snow", "Tundra"],
         "gold": 1,
         "improvement": "Fishing Boats",
         "improvementStats": {
-            "gold": 1
+            "gold": 2,
+            "production": 1
         },
-        "uniques": ["Generated on every [200] tiles <in [Coast] tiles>"]
+        "uniques": [
+            "Generated on every [200] tiles <in [Coast] tiles>",
+            "Generated on every [60] tiles <in [{Featureless} {Snow}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Walrus ivory was carved into art and tools by Arctic peoples for thousands of years."
+            }
+        ]
     },
     {
         "name": "Hippopotamus",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Lakes"],
+        "terrainsCanBeFoundOn": ["Lakes", "Flood plains", "Marsh"],
         "food": 1,
         "improvement": "Hunter Lodge",
         "improvementStats": {
-            "gold": 1
+            "gold": 1,
+            "production": 1
         },
-        "uniques": ["Generated on every [40] tiles <in [Lakes] tiles>"]
+        "uniques": [
+            "Generated on every [40] tiles <in [Lakes] tiles>",
+            "Generated on every [30] tiles <in [Flood plains] tiles>",
+            "Generated on every [50] tiles <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Hippopotami are massive semi-aquatic mammals, feared and revered along African waterways."
+            }
+        ]
     },
     {
         "name": "Vents",
@@ -174,8 +633,9 @@
         "terrainsCanBeFoundOn": ["Ocean"],
         "improvement": "Offshore Platform",
         "improvementStats": {
-            "gold": 1,
-            "production": 1
+            "gold": 2,
+            "production": 2,
+            "science": 1
         },
         "uniques": [
             "Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>"
@@ -187,115 +647,152 @@
         ]
     },
     {
-        "name": "War Weariness",
-        "resourceType": "Strategic",
-        "uniques": [
-            "Excluded from map editor",
-            "Will not be displayed in Civilopedia",
-            "Stockpiled"
-        ]
-    },
-    {
-        "name": "Bison",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Grassland", "Plains"],
-        "food": 1,
-        "improvedBy": ["Camp"],
-        "improvementStats": {
-            "production": 1
-        },
-        "uniques": [
-            "Generated on every [15] tiles <in [{Featureless} {Plains}] tiles>",
-            "Generated on every [20] tiles <in [{non-[Fresh Water]} {Featureless} {Grassland}] tiles>"
-        ]
-    },
-    {
-        "name": "Sheep",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Hill"],
-        "food": 1,
-        "improvement": "Pasture",
-        "improvementStats": {
-            "food": 1
-        },
-        "uniques": [
-            "Generated on every [20] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"
-        ]
-    },
-    {
-        "name": "Deer",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Forest", "Tundra"],
-        "food": 1,
-        "improvedBy": ["Camp"],
-        "improvementStats": {
-            "production": 1
-        },
-        "uniques": [
-            "Generated on every [8] tiles <in [{Featureless} {Tundra}] tiles>",
-            "Generated on every [6] tiles <in [{Forest} {Tundra}] tiles>",
-            "Generated on every [22] tiles <in [Forest] tiles> <in tiles without [Hill]> <in tiles without [Tundra]>"
-        ]
-    },
-    {
-        "name": "Bananas",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Jungle"],
-        "food": 1,
-        "improvement": "Plantation",
-        "improvementStats": {
-            "food": 2
-        },
-        "uniques": ["Generated on every [20] tiles <in [Jungle] tiles>"]
-    },
-    {
-        "name": "Wheat",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Plains", "Flood plains", "Desert"],
-        "food": 1,
-        "improvement": "Farm",
-        "uniques": [
-            "Generated on every [30] tiles <in [{Featureless} {Plains}] tiles>",
-            "Generated on every [8] tiles <in [{non-[Hill]} {Fresh Water} {Desert}] tiles>"
-        ]
-    },
-    {
-        "name": "Maize",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Plains", "Grassland"],
-        "food": 1,
-        "improvement": "Farm",
-        "uniques": [
-            "Generated on every [35] tiles <in [{Featureless} {Plains}] tiles>",
-            "Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>"
-        ]
-    },
-    {
-        "name": "Stone",
-        "resourceType": "Bonus",
-        "terrainsCanBeFoundOn": ["Grassland", "Desert", "Tundra"],
-        "production": 1,
-        "improvement": "Quarry",
-        "improvementStats": {
-            "production": 1
-        },
-        "uniques": [
-            "Generated on every [20] tiles <in [{non-[Fresh Water]} {Featureless} {Grassland}] tiles>",
-            "Generated on every [10] tiles <in [{Featureless} {Tundra}] tiles>",
-            "Generated on every [16] tiles <in [{Featureless} {Desert}] tiles>"
-        ]
-    },
-    {
-        "name": "Fish",
+        "name": "Kelp",
         "resourceType": "Bonus",
         "terrainsCanBeFoundOn": ["Coast"],
         "food": 1,
+        "improvement": "Fishing Boats",
         "improvementStats": {
+            "food": 1,
+            "production": 1
+        },
+        "uniques": [
+            "Generated on every [15] tiles <in [{Featureless} {Coast}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Kelp forests are underwater ecosystems that provide food, fertilizer, and industrial materials."
+            }
+        ]
+    },
+    {
+        "name": "Krill",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Coast", "Ocean"],
+        "food": 1,
+        "improvement": "Fishing Boats",
+        "improvementStats": {
+            "food": 1,
+            "science": 1
+        },
+        "uniques": [
+            "Generated on every [40] tiles <in [{Featureless} {Ocean}] tiles>",
+            "Generated on every [60] tiles <in [{Featureless} {Coast}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Krill are tiny crustaceans that form the base of the oceanic food web, supporting whales, fish, and ecosystems."
+            }
+        ]
+    },
+    {
+        "name": "Bamboo",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Forest", "Jungle", "Grassland"],
+        "production": 1,
+        "improvedBy": ["Camp", "Lumber mill"],
+        "improvementStats": {
+            "production": 1,
             "food": 1
         },
-        "improvement": "Fishing Boats",
         "uniques": [
-            "Generated on every [5] tiles <in [{Featureless} {Coast}] tiles>"
+            "Generated on every [20] tiles <in [Jungle] tiles>",
+            "Generated on every [30] tiles <in [Forest] tiles> <in tiles without [Tundra]>",
+            "Generated on every [40] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Bamboo is a fast-growing grass used for construction, paper, and food across Asia."
+            }
+        ]
+    },
+    {
+        "name": "Flax",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Grassland", "Plains", "Flood plains"],
+        "food": 1,
+        "improvement": "Farm",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [30] tiles <in [{Featureless} {Grassland}] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [15] tiles <in [Flood plains] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Flax is cultivated for its fiber, used to make linen, and its seeds, pressed for oil."
+            }
+        ]
+    },
+    {
+        "name": "Clay",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": [
+            "Grassland",
+            "Flood plains",
+            "Plains",
+            "Marsh"
+        ],
+        "production": 1,
+        "improvement": "Quarry",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [25] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>",
+            "Generated on every [20] tiles <in [Flood plains] tiles>",
+            "Generated on every [30] tiles <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Clay deposits near rivers and wetlands have provided raw material for pottery and bricks since prehistory."
+            }
+        ]
+    },
+    {
+        "name": "Peat",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Marsh", "Tundra"],
+        "production": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [15] tiles <in [Marsh] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Tundra}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Peat is decayed organic matter used as fuel and fertilizer, particularly in regions lacking timber or coal."
+            }
+        ]
+    },
+    {
+        "name": "Guano",
+        "resourceType": "Bonus",
+        "revealedBy": "Biology",
+        "terrainsCanBeFoundOn": ["Coast", "Desert", "Snow"],
+        "food": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "food": 2,
+            "production": 1
+        },
+        "uniques": [
+            "Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
+            "Generated on every [60] tiles <in [{Featureless} {Desert}] tiles>",
+            "Generated on every [50] tiles <in [{Featureless} {Snow}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Guano is accumulated bird or bat excrement, rich in phosphorus and nitrogen, prized as fertilizer."
+            }
         ]
     },
     {
@@ -306,7 +803,8 @@
         "production": 1,
         "improvement": "Pasture",
         "improvementStats": {
-            "production": 1
+            "production": 1,
+            "gold": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -316,18 +814,11 @@
             "Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
             "Minor deposits generated with weight [100] <in [{Featureless} {Grassland} {Fresh Water}] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Grassland} {non-[Fresh Water]}] tiles>",
-            "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"
+            "Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>",
+            "Minor deposits generated with weight [15] <in [{Featureless} {Tundra}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 2,
-            "default": 4,
-            "abundant": 8
-        },
-        "minorDepositAmount": {
-            "sparse": 1,
-            "default": 2,
-            "abundant": 4
-        }
+        "majorDepositAmount": { "sparse": 2, "default": 4, "abundant": 8 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 4 }
     },
     {
         "name": "Iron",
@@ -344,6 +835,9 @@
         ],
         "production": 1,
         "improvement": "Mine",
+        "improvementStats": {
+            "production": 2
+        },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
             "Generated with weight [35] <in [{Featureless} {Tundra}] tiles>",
@@ -360,16 +854,8 @@
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 4,
-            "default": 6,
-            "abundant": 8
-        },
-        "minorDepositAmount": {
-            "sparse": 1,
-            "default": 2,
-            "abundant": 4
-        }
+        "majorDepositAmount": { "sparse": 4, "default": 6, "abundant": 8 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 4 }
     },
     {
         "name": "Coal",
@@ -383,10 +869,11 @@
             "Forest",
             "Marsh"
         ],
-        "production": 1,
+        "production": 2,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 1
+            "production": 2,
+            "gold": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -402,16 +889,8 @@
             "Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
             "Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 5,
-            "default": 7,
-            "abundant": 8
-        },
-        "minorDepositAmount": {
-            "sparse": 2,
-            "default": 3,
-            "abundant": 4
-        }
+        "majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 8 },
+        "minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 }
     },
     {
         "name": "Oil",
@@ -428,12 +907,12 @@
         "production": 1,
         "improvedBy": ["Oil well", "Offshore Platform"],
         "improvementStats": {
-            "production": 3
+            "production": 3,
+            "gold": 2
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
             "Deposits in [Coast] tiles always provide [4] resources",
-            "Guaranteed with Strategic Balance resource option",
             "Generated with weight [25] <in [{non-[Hill]} {Forest}] tiles>",
             "Generated with weight [65] <in [{non-[Hill]} {Marsh}] tiles>",
             "Generated with weight [55] <in [{Featureless} {Tundra}] tiles>",
@@ -446,16 +925,8 @@
             "Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 5,
-            "default": 7,
-            "abundant": 10
-        },
-        "minorDepositAmount": {
-            "sparse": 2,
-            "default": 3,
-            "abundant": 5
-        }
+        "majorDepositAmount": { "sparse": 5, "default": 7, "abundant": 10 },
+        "minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 5 }
     },
     {
         "name": "Aluminum",
@@ -473,7 +944,8 @@
         "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 1
+            "production": 2,
+            "science": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -481,18 +953,12 @@
             "Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
             "Generated with weight [39] <in [Hill] tiles>",
             "Minor deposits generated with weight [20] <in [Jungle] tiles>",
-            "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"
+            "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
+            "Minor deposits generated with weight [15] <in [Forest] tiles>",
+            "Minor deposits generated with weight [10] <in [{Featureless} {Plains}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 6,
-            "default": 8,
-            "abundant": 10
-        },
-        "minorDepositAmount": {
-            "sparse": 2,
-            "default": 3,
-            "abundant": 5
-        }
+        "majorDepositAmount": { "sparse": 6, "default": 8, "abundant": 10 },
+        "minorDepositAmount": { "sparse": 2, "default": 3, "abundant": 5 }
     },
     {
         "name": "Uranium",
@@ -506,32 +972,86 @@
             "Snow",
             "Grassland",
             "Plains",
-            "Desert"
+            "Desert",
+            "Hill"
         ],
         "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 1
+            "production": 2,
+            "science": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
             "Generated with weight [35] <in [{non-[Hill]} {Marsh}] tiles>",
             "Generated with weight [70] <in [{non-[Hill]} {Jungle}] tiles>",
             "Generated with weight [50] <in [{non-[Hill]} {Forest}] tiles>",
+            "Generated with weight [20] <in [Hill] tiles>",
             "Minor deposits generated with weight [10] <in [Forest] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
-            "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
+            "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>",
+            "Minor deposits generated with weight [5] <in [{Featureless} {Grassland}] tiles>",
+            "Minor deposits generated with weight [5] <in [{Featureless} {Plains}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 2,
-            "default": 2,
-            "abundant": 10
+        "majorDepositAmount": { "sparse": 2, "default": 2, "abundant": 10 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 5 }
+    },
+    {
+        "name": "Titanium",
+        "resourceType": "Strategic",
+        "revealedBy": "Combined Arms",
+        "terrainsCanBeFoundOn": ["Hill", "Tundra", "Snow", "Desert", "Plains"],
+        "production": 2,
+        "improvement": "Mine",
+        "improvementStats": {
+            "production": 2,
+            "science": 1
         },
-        "minorDepositAmount": {
-            "sparse": 1,
-            "default": 2,
-            "abundant": 5
-        }
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated with weight [30] <in [Hill] tiles>",
+            "Generated with weight [25] <in [{Featureless} {Tundra}] tiles>",
+            "Generated with weight [20] <in [{Featureless} {Snow}] tiles>",
+            "Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
+            "Minor deposits generated with weight [10] <in [{Featureless} {Plains}] tiles>",
+            "Minor deposits generated with weight [10] <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"
+        ],
+        "majorDepositAmount": { "sparse": 3, "default": 5, "abundant": 8 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 4 },
+        "civilopediaText": [
+            {
+                "text": "Titanium is a lightweight, high-strength metal essential for aerospace, military, and advanced engineering applications."
+            }
+        ]
+    },
+    {
+        "name": "Rare Earth Elements",
+        "resourceType": "Strategic",
+        "revealedBy": "Computers",
+        "terrainsCanBeFoundOn": ["Hill", "Desert", "Jungle", "Forest", "Marsh"],
+        "production": 1,
+        "science": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "production": 2,
+            "science": 2,
+            "gold": 1
+        },
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated with weight [25] <in [Hill] tiles>",
+            "Generated with weight [20] <in [{non-[Hill]} {Jungle}] tiles>",
+            "Generated with weight [15] <in [{non-[Hill]} {Forest}] tiles>",
+            "Minor deposits generated with weight [10] <in [{non-[Hill]} {Marsh}] tiles>",
+            "Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"
+        ],
+        "majorDepositAmount": { "sparse": 2, "default": 4, "abundant": 6 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
+        "civilopediaText": [
+            {
+                "text": "Rare earth elements are critical for electronics, magnets, lasers, and advanced military technology."
+            }
+        ]
     },
     {
         "name": "Nanomaterial",
@@ -545,32 +1065,112 @@
             "Snow",
             "Grassland",
             "Plains",
-            "Desert"
+            "Desert",
+            "Hill"
         ],
         "production": 1,
         "improvement": "Mine",
         "improvementStats": {
-            "production": 1
+            "production": 2,
+            "science": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
             "Generated with weight [35] <in [{non-[Hill]} {Marsh}] tiles>",
             "Generated with weight [70] <in [{non-[Hill]} {Jungle}] tiles>",
             "Generated with weight [50] <in [{non-[Hill]} {Forest}] tiles>",
+            "Generated with weight [20] <in [Hill] tiles>",
             "Minor deposits generated with weight [10] <in [Forest] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 2,
-            "default": 2,
-            "abundant": 8
+        "majorDepositAmount": { "sparse": 2, "default": 2, "abundant": 8 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 4 }
+    },
+    {
+        "name": "Graphene",
+        "resourceType": "Strategic",
+        "revealedBy": "Nanomaterials",
+        "terrainsCanBeFoundOn": ["Hill", "Marsh", "Forest", "Jungle", "Plains"],
+        "production": 2,
+        "science": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "production": 2,
+            "science": 2,
+            "gold": 1
         },
-        "minorDepositAmount": {
-            "sparse": 1,
-            "default": 2,
-            "abundant": 4
-        }
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated with weight [25] <in [Hill] tiles>",
+            "Generated with weight [30] <in [{non-[Hill]} {Marsh}] tiles>",
+            "Generated with weight [20] <in [Forest] tiles>",
+            "Minor deposits generated with weight [10] <in [Jungle] tiles>",
+            "Minor deposits generated with weight [10] <in [{Featureless} {Plains}] tiles>"
+        ],
+        "majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 6 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
+        "civilopediaText": [
+            {
+                "text": "Graphene is a single layer of carbon atoms arranged in a hexagonal lattice, the strongest material ever measured."
+            }
+        ]
+    },
+    {
+        "name": "Helium-3",
+        "resourceType": "Strategic",
+        "revealedBy": "Nuclear Fusion",
+        "terrainsCanBeFoundOn": ["Snow", "Tundra", "Desert", "Hill"],
+        "science": 2,
+        "production": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "science": 2,
+            "production": 2,
+            "gold": 2
+        },
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated with weight [30] <in [{Featureless} {Snow}] tiles>",
+            "Generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
+            "Generated with weight [15] <in [{Featureless} {Desert}] tiles>",
+            "Minor deposits generated with weight [10] <in [Hill] tiles>"
+        ],
+        "majorDepositAmount": { "sparse": 1, "default": 2, "abundant": 5 },
+        "minorDepositAmount": { "sparse": 1, "default": 1, "abundant": 3 },
+        "civilopediaText": [
+            {
+                "text": "Helium-3 is a rare isotope with immense potential for clean fusion power, found in lunar regolith and terrestrial deposits."
+            }
+        ]
+    },
+    {
+        "name": "Antimatter",
+        "resourceType": "Strategic",
+        "revealedBy": "High-Energy Physics",
+        "terrainsCanBeFoundOn": ["Hill", "Snow", "Tundra", "Desert"],
+        "science": 3,
+        "production": 2,
+        "improvement": "Mine",
+        "improvementStats": {
+            "science": 3,
+            "production": 3,
+            "gold": 2
+        },
+        "uniques": [
+            "Guaranteed with Strategic Balance resource option",
+            "Generated with weight [15] <in [Hill] tiles>",
+            "Generated with weight [20] <in [{Featureless} {Snow}] tiles>",
+            "Generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
+            "Generated with weight [10] <in [{Featureless} {Desert}] tiles>"
+        ],
+        "majorDepositAmount": { "sparse": 1, "default": 2, "abundant": 4 },
+        "minorDepositAmount": { "sparse": 1, "default": 1, "abundant": 2 },
+        "civilopediaText": [
+            {
+                "text": "Antimatter is the most energy-dense substance known, with potential for propulsion and weaponry beyond imagination."
+            }
+        ]
     },
     {
         "name": "Secret Project",
@@ -588,7 +1188,8 @@
         ],
         "improvement": "Mine",
         "improvementStats": {
-            "science": 1
+            "science": 2,
+            "production": 1
         },
         "uniques": [
             "Guaranteed with Strategic Balance resource option",
@@ -599,16 +1200,8 @@
             "Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
             "Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"
         ],
-        "majorDepositAmount": {
-            "sparse": 2,
-            "default": 2,
-            "abundant": 8
-        },
-        "minorDepositAmount": {
-            "sparse": 1,
-            "default": 2,
-            "abundant": 4
-        }
+        "majorDepositAmount": { "sparse": 2, "default": 2, "abundant": 8 },
+        "minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 4 }
     },
     {
         "name": "Furs",
@@ -625,7 +1218,7 @@
         "improvement": "Camp",
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2
         },
         "uniques": [
             "Generated with weight [40] <in [Tundra] Regions>",
@@ -639,6 +1232,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Fur trading drove exploration and commerce across the northern hemisphere for centuries."
+            }
         ]
     },
     {
@@ -648,7 +1246,7 @@
         "gold": 2,
         "improvementStats": {
             "production": 1,
-            "gold": 1
+            "gold": 2
         },
         "improvement": "Plantation",
         "uniques": [
@@ -661,6 +1259,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cotton is a soft fiber that fueled the Industrial Revolution and remains a cornerstone of textile manufacturing."
+            }
         ]
     },
     {
@@ -677,7 +1280,7 @@
         "gold": 2,
         "improvementStats": {
             "gold": 1,
-            "culture": 1
+            "culture": 2
         },
         "improvement": "Plantation",
         "uniques": [
@@ -689,6 +1292,11 @@
             "Doesn't generate naturally <in [Flood plains] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Natural dyes from plants and shells were the basis of the textile coloration industry for millennia."
+            }
         ]
     },
     {
@@ -699,11 +1307,13 @@
             "Desert",
             "Plains",
             "Grassland",
-            "Hill"
+            "Hill",
+            "Jungle",
+            "Forest"
         ],
-        "gold": 2,
+        "gold": 3,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "production": 1
         },
         "improvement": "Mine",
@@ -715,15 +1325,20 @@
             "Generated with weight [30] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Precious gems — diamonds, rubies, sapphires, emeralds — are among the most valuable substances by weight."
+            }
         ]
     },
     {
         "name": "Gold Ore",
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Desert", "Plains", "Grassland", "Hill"],
-        "gold": 2,
+        "gold": 3,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "production": 1
         },
         "improvement": "Mine",
@@ -734,15 +1349,20 @@
             "Generated with weight [30] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Gold has driven exploration, conquest, and commerce since the dawn of civilization."
+            }
         ]
     },
     {
         "name": "Silver",
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Tundra", "Desert", "Hill"],
-        "gold": 2,
+        "gold": 3,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "production": 1
         },
         "improvement": "Mine",
@@ -754,6 +1374,11 @@
             "Generated with weight [30] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Silver mines funded empires, from the Athenian Laurion to the Spanish Potosi."
+            }
         ]
     },
     {
@@ -769,7 +1394,7 @@
         ],
         "gold": 2,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "production": 1
         },
         "improvement": "Mine",
@@ -781,6 +1406,11 @@
             "Generated with weight [30] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Copper was the first metal worked by humans, launching the Bronze Age and remaining essential in electronics."
+            }
         ]
     },
     {
@@ -791,12 +1421,15 @@
             "Desert",
             "Plains",
             "Grassland",
-            "Hill"
+            "Hill",
+            "Jungle"
         ],
         "gold": 2,
+        "culture": 1,
         "improvementStats": {
             "gold": 1,
-            "production": 1
+            "production": 1,
+            "culture": 1
         },
         "improvement": "Mine",
         "uniques": [
@@ -804,8 +1437,14 @@
             "Generated with weight [10] <in [Desert] Regions>",
             "Generated with weight [30] <in [Hill] Regions>",
             "Generated with weight [30] <in [Hybrid] Regions>",
+            "Generated with weight [15] <in [Jungle] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Jade is revered in East Asian and Mesoamerican cultures as a stone of purity, wisdom, and power."
+            }
         ]
     },
     {
@@ -816,12 +1455,15 @@
             "Desert",
             "Plains",
             "Grassland",
-            "Hill"
+            "Hill",
+            "Forest"
         ],
         "gold": 2,
+        "culture": 1,
         "improvementStats": {
             "gold": 1,
-            "production": 1
+            "production": 1,
+            "culture": 1
         },
         "improvement": "Mine",
         "uniques": [
@@ -829,8 +1471,14 @@
             "Generated with weight [10] <in [Desert] Regions>",
             "Generated with weight [30] <in [Hill] Regions>",
             "Generated with weight [30] <in [Hybrid] Regions>",
+            "Generated with weight [15] <in [Forest] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Amber is fossilized tree resin, prized since the Stone Age for its warm beauty and preserved inclusions."
+            }
         ]
     },
     {
@@ -844,9 +1492,11 @@
             "Hill"
         ],
         "gold": 2,
+        "culture": 1,
         "improvementStats": {
             "gold": 1,
-            "production": 1
+            "production": 1,
+            "faith": 1
         },
         "improvement": "Mine",
         "uniques": [
@@ -856,6 +1506,95 @@
             "Generated with weight [30] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Lapis lazuli, the deep blue stone of Afghanistan, was ground into ultramarine pigment for the finest paintings."
+            }
+        ]
+    },
+    {
+        "name": "Amethyst",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": [
+            "Tundra",
+            "Desert",
+            "Plains",
+            "Grassland",
+            "Hill"
+        ],
+        "gold": 2,
+        "faith": 1,
+        "improvementStats": {
+            "gold": 1,
+            "production": 1,
+            "faith": 1
+        },
+        "improvement": "Mine",
+        "uniques": [
+            "Generated with weight [20] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [30] <in [Hill] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Amethyst is a violet quartz valued by clergy and royalty, believed to prevent intoxication."
+            }
+        ]
+    },
+    {
+        "name": "Turquoise",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Desert", "Plains", "Grassland", "Hill"],
+        "gold": 2,
+        "faith": 1,
+        "improvementStats": {
+            "gold": 1,
+            "production": 1,
+            "faith": 1
+        },
+        "improvement": "Mine",
+        "uniques": [
+            "Generated with weight [30] <in [Desert] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [30] <in [Hill] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Turquoise is a blue-green mineral sacred to many cultures, from the Aztecs to the Persians."
+            }
+        ]
+    },
+    {
+        "name": "Platinum",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Tundra", "Desert", "Hill", "Snow"],
+        "gold": 3,
+        "science": 1,
+        "improvementStats": {
+            "gold": 2,
+            "production": 1,
+            "science": 1
+        },
+        "improvement": "Mine",
+        "uniques": [
+            "Generated with weight [20] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [30] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Platinum is rarer and more valuable than gold, essential for catalytic converters and laboratory equipment."
+            }
         ]
     },
     {
@@ -863,10 +1602,12 @@
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Tundra", "Desert", "Plains", "Hill"],
         "food": 1,
+        "gold": 1,
         "improvement": "Mine",
         "improvementStats": {
             "production": 1,
-            "food": 1
+            "food": 1,
+            "gold": 1
         },
         "uniques": [
             "Generated with weight [40] <in [Tundra] Regions>",
@@ -877,6 +1618,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Salt is essential for life and food preservation, once so valuable it was used as currency."
+            }
         ]
     },
     {
@@ -884,6 +1630,7 @@
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Desert", "Plains", "Hill"],
         "gold": 2,
+        "faith": 1,
         "improvementStats": {
             "faith": 2,
             "gold": 1
@@ -898,17 +1645,22 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Incense is aromatic resin burned in religious ceremonies across the ancient world."
+            }
         ]
     },
     {
         "name": "Ivory",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Plains", "Hill"],
+        "terrainsCanBeFoundOn": ["Plains", "Hill", "Forest"],
         "gold": 2,
         "improvement": "Camp",
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2
         },
         "uniques": [
             "Generated with weight [40] <in [Plains] Regions>",
@@ -920,6 +1672,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Ivory from elephant tusks has been carved into art and tools since the Paleolithic era."
+            }
         ]
     },
     {
@@ -928,7 +1685,7 @@
         "terrainsCanBeFoundOn": ["Forest", "Plains", "Grassland", "Hill"],
         "gold": 2,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "culture": 1
         },
         "improvement": "Plantation",
@@ -943,6 +1700,11 @@
             "Doesn't generate naturally <in [Jungle] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Silk production was a closely guarded Chinese secret for millennia, driving the Silk Road trade network."
+            }
         ]
     },
     {
@@ -957,7 +1719,7 @@
         ],
         "gold": 2,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "food": 1
         },
         "improvement": "Plantation",
@@ -972,6 +1734,11 @@
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Spices drove the Age of Discovery, with pepper, cinnamon, and nutmeg worth their weight in gold."
+            }
         ]
     },
     {
@@ -981,7 +1748,8 @@
         "gold": 2,
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2,
+            "culture": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -995,6 +1763,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Wine has been produced for over 8,000 years, central to religious rituals, social life, and trade."
+            }
         ]
     },
     {
@@ -1003,8 +1776,9 @@
         "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"],
         "gold": 2,
         "improvementStats": {
-            "gold": 1,
-            "production": 1
+            "gold": 2,
+            "production": 1,
+            "science": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -1019,21 +1793,28 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Tea is the most consumed beverage in the world after water, shaping trade, culture, and even wars."
+            }
         ]
     },
     {
         "name": "Coffee",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"],
+        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill", "Jungle"],
         "gold": 2,
         "improvementStats": {
-            "gold": 1,
-            "production": 1
+            "gold": 2,
+            "production": 1,
+            "science": 1
         },
         "improvement": "Plantation",
         "uniques": [
             "Generated with weight [40] <in [Plains] Regions>",
             "Generated with weight [10] <in [Grassland] Regions>",
+            "Generated with weight [20] <in [Jungle] Regions>",
             "Generated with weight [5] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [Tundra] tiles>",
@@ -1042,6 +1823,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Coffee houses were centers of intellectual exchange, fueling the Enlightenment and modern productivity."
+            }
         ]
     },
     {
@@ -1053,11 +1839,12 @@
             "Desert",
             "Hill",
             "Forest",
-            "Marsh"
+            "Marsh",
+            "Flood plains"
         ],
         "gold": 2,
         "improvementStats": {
-            "gold": 1,
+            "gold": 2,
             "food": 1
         },
         "improvement": "Plantation",
@@ -1068,11 +1855,15 @@
             "Generated with weight [5] <in [Hybrid] Regions>",
             "Generated near City States with weight [5]",
             "Doesn't generate naturally <in [Tundra] tiles>",
-            "Doesn't generate naturally <in [Flood plains] tiles>",
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [Jungle] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Sugar cane drove the transatlantic slave trade and remains one of the world's most produced commodities."
+            }
         ]
     },
     {
@@ -1097,6 +1888,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Tobacco was a sacred plant to indigenous Americans, becoming a global commodity that reshaped economies and health."
+            }
         ]
     },
     {
@@ -1110,9 +1906,11 @@
             "Hill"
         ],
         "gold": 2,
+        "culture": 1,
         "improvement": "Quarry",
         "improvementStats": {
-            "production": 1
+            "production": 2,
+            "culture": 1
         },
         "uniques": [
             "Generated with weight [10] <in [Tundra] Regions>",
@@ -1125,16 +1923,23 @@
             "Generated near City States with weight [5]",
             "[+10]% Production when constructing [All] wonders [in all cities]",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Marble is metamorphosed limestone, prized for sculpture and architecture from the Parthenon to the Taj Mahal."
+            }
         ]
     },
     {
         "name": "Obsidian",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Tundra", "Plains", "Hill"],
+        "terrainsCanBeFoundOn": ["Tundra", "Plains", "Hill", "Desert"],
         "gold": 2,
+        "science": 1,
         "improvement": "Quarry",
         "improvementStats": {
-            "production": 1
+            "production": 1,
+            "science": 1
         },
         "uniques": [
             "Generated with weight [10] <in [Tundra] Regions>",
@@ -1146,6 +1951,11 @@
             "[+10]% Production when constructing [Sword] units [in all cities]",
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [non-[Hill]] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Obsidian is volcanic glass, sharper than steel, used for blades, mirrors, and ritual objects."
+            }
         ]
     },
     {
@@ -1159,9 +1969,11 @@
             "Forest"
         ],
         "gold": 2,
+        "production": 1,
         "improvement": "Plantation",
         "improvementStats": {
-            "production": 1
+            "production": 2,
+            "gold": 1
         },
         "uniques": [
             "Generated with weight [40] <in [Jungle] Regions>",
@@ -1175,6 +1987,11 @@
             "[+10]% Production when constructing [All] units [in all cities] <starting from the [Industrial era]>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Rubber from tropical trees enabled the tire industry, sealing the modern world's dependence on mobility."
+            }
         ]
     },
     {
@@ -1182,10 +1999,11 @@
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"],
         "gold": 2,
+        "culture": 1,
         "improvement": "Plantation",
         "improvementStats": {
             "culture": 1,
-            "gold": 1
+            "gold": 2
         },
         "uniques": [
             "Generated with weight [40] <in [Plains] Regions>",
@@ -1198,6 +2016,11 @@
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Perfume from flowers and resins has been a luxury since ancient Egypt and Mesopotamia."
+            }
         ]
     },
     {
@@ -1208,7 +2031,8 @@
         "improvement": "Plantation",
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2,
+            "culture": 1
         },
         "uniques": [
             "Generated with weight [40] <in [Plains] Regions>",
@@ -1222,6 +2046,11 @@
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{non-[Desert]} {non-[Tundra]} {Hill}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Olives and olive oil are cornerstones of Mediterranean cuisine, commerce, and culture."
+            }
         ]
     },
     {
@@ -1237,7 +2066,7 @@
         "food": 1,
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2
         },
         "improvement": "Plantation",
         "uniques": [
@@ -1250,6 +2079,11 @@
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Citrus fruits prevented scurvy on long sea voyages, enabling global exploration."
+            }
         ]
     },
     {
@@ -1265,7 +2099,8 @@
         "food": 1,
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2,
+            "happiness": 1
         },
         "improvement": "Plantation",
         "uniques": [
@@ -1279,6 +2114,11 @@
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cocoa beans were sacred to the Aztec and Maya, used as currency and consumed as a bitter drink."
+            }
         ]
     },
     {
@@ -1289,12 +2129,13 @@
             "Grassland",
             "Hill",
             "Jungle",
-            "Forest"
+            "Forest",
+            "Marsh"
         ],
         "food": 1,
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2
         },
         "improvement": "Plantation",
         "uniques": [
@@ -1308,6 +2149,11 @@
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "The coconut is the 'tree of life' in tropical cultures, providing food, drink, fiber, and fuel."
+            }
         ]
     },
     {
@@ -1321,11 +2167,12 @@
             "Forest",
             "Marsh"
         ],
-        "gold": 2,
+        "gold": 3,
         "improvement": "Camp",
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2,
+            "culture": 1
         },
         "uniques": [
             "Generated with weight [40] <in [Jungle] Regions>",
@@ -1338,51 +2185,579 @@
             "Doesn't generate naturally <in [Desert] tiles>",
             "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
             "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Truffles are subterranean fungi, among the most expensive foods in the world, hunted with trained dogs and pigs."
+            }
         ]
     },
     {
-        "name": "Whales",
+        "name": "Vanilla",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Coast"],
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh", "Plains"],
+        "gold": 2,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1,
+            "happiness": 1
+        },
+        "uniques": [
+            "Generated with weight [40] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [15] <in [Marsh] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
+            "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Vanilla is the second most expensive spice after saffron, derived from the pods of a tropical orchid."
+            }
+        ]
+    },
+    {
+        "name": "Saffron",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"],
+        "gold": 3,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Plains] Regions>",
+            "Generated with weight [20] <in [Grassland] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [{Desert} {non-[Flood plains]} {non-[Hill]}] tiles>",
+            "Doesn't generate naturally <in [{Tundra} {non-[Hill]}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Saffron is the most expensive spice in the world by weight, harvested from the stigmas of the crocus flower."
+            }
+        ]
+    },
+    {
+        "name": "Sandalwood",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Plains", "Hill"],
+        "gold": 2,
+        "faith": 1,
+        "improvement": "Camp",
+        "improvementStats": {
+            "gold": 2,
+            "faith": 1,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Jungle] Regions>",
+            "Generated with weight [20] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Sandalwood is aromatic timber used in incense, perfumes, and religious carvings across Asia."
+            }
+        ]
+    },
+    {
+        "name": "Ebony",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Hill"],
+        "gold": 2,
         "production": 1,
+        "improvement": "Camp",
+        "improvementStats": {
+            "production": 2,
+            "gold": 1,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [40] <in [Jungle] Regions>",
+            "Generated with weight [15] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Plains] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Ebony is a dense, black hardwood prized for fine furniture, musical instruments, and carved art."
+            }
+        ]
+    },
+    {
+        "name": "Cloves",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Hill", "Plains"],
+        "gold": 2,
+        "food": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1,
+            "science": 1
+        },
+        "uniques": [
+            "Generated with weight [40] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cloves from the Maluku Islands were so valuable they sparked wars between European colonial powers."
+            }
+        ]
+    },
+    {
+        "name": "Nutmeg",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Marsh"],
+        "gold": 2,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1,
+            "happiness": 1
+        },
+        "uniques": [
+            "Generated with weight [40] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Marsh] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Nutmeg was once worth its weight in gold, driving the brutal spice trade of the 17th century."
+            }
+        ]
+    },
+    {
+        "name": "Cinnamon",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Plains", "Hill"],
+        "gold": 2,
+        "food": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [35] <in [Jungle] Regions>",
+            "Generated with weight [15] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cinnamon bark was used in Egyptian embalming and medieval medicine, once more precious than silver."
+            }
+        ]
+    },
+    {
+        "name": "Pepper",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": [
+            "Jungle",
+            "Forest",
+            "Plains",
+            "Grassland",
+            "Hill"
+        ],
+        "gold": 2,
+        "food": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1,
+            "science": 1
+        },
+        "uniques": [
+            "Generated with weight [40] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Black pepper was so valuable in Rome that it was used as ransom and tribute, known as 'black gold'."
+            }
+        ]
+    },
+    {
+        "name": "Papyrus",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Flood plains", "Marsh", "Grassland"],
+        "science": 1,
+        "gold": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "science": 1,
+            "gold": 2,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Marsh] Regions>",
+            "Generated with weight [20] <in [Hybrid] Regions>",
+            "Generated with weight [15] <in [Grassland] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Snow] tiles>",
+            "Doesn't generate naturally <in [Forest] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Papyrus reeds from the Nile were the primary writing material of the ancient Mediterranean world."
+            }
+        ]
+    },
+    {
+        "name": "Lavender",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill"],
+        "gold": 2,
+        "culture": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "culture": 1,
+            "happiness": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Plains] Regions>",
+            "Generated with weight [20] <in [Grassland] Regions>",
+            "Generated with weight [15] <in [Hill] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>",
+            "Doesn't generate naturally <in [Forest] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Lavender is an aromatic herb prized for perfumes, medicines, and its calming properties."
+            }
+        ]
+    },
+    {
+        "name": "Honey",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Hill"],
+        "food": 1,
+        "gold": 1,
+        "improvement": "Camp",
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2,
+            "happiness": 1
         },
-        "improvement": "Fishing Boats",
         "uniques": [
-            "Generated with weight [10] <in [Tundra] Regions>",
-            "Generated with weight [10] <in [Jungle] Regions>",
-            "Generated with weight [10] <in [Forest] Regions>",
-            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [20] <in [Plains] Regions>",
+            "Generated with weight [20] <in [Grassland] Regions>",
+            "Generated with weight [25] <in [Forest] Regions>",
             "Generated with weight [10] <in [Hill] Regions>",
-            "Generated with weight [10] <in [Plains] Regions>",
-            "Generated with weight [10] <in [Grassland] Regions>",
-            "Generated with weight [25] <in [Marsh] Regions>",
-            "Generated with weight [20] <in [Hybrid] Regions>",
-            "Generated near City States with weight [30]"
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Honey was the primary sweetener of the ancient world, with beekeeping practiced for over 9,000 years."
+            }
         ]
     },
     {
-        "name": "Coral",
+        "name": "Lacquer",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Coast"],
+        "terrainsCanBeFoundOn": ["Jungle", "Forest", "Hill"],
         "gold": 2,
+        "production": 1,
+        "improvement": "Camp",
         "improvementStats": {
-            "faith": 1,
-            "food": 1
+            "gold": 2,
+            "production": 1,
+            "culture": 1
         },
-        "improvement": "Fishing Boats",
         "uniques": [
-            "Generated with weight [25] <in [Jungle] Regions>",
-            "Generated with weight [10] <in [Forest] Regions>",
-            "Generated with weight [10] <in [Desert] Regions>",
+            "Generated with weight [35] <in [Jungle] Regions>",
+            "Generated with weight [15] <in [Forest] Regions>",
             "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Plains] tiles>",
+            "Doesn't generate naturally <in [Grassland] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Lacquer from the sap of the lacquer tree has been used to create durable, beautiful finishes in East Asia for millennia."
+            }
+        ]
+    },
+    {
+        "name": "Opium",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill", "Jungle"],
+        "gold": 3,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 3,
+            "science": 1
+        },
+        "uniques": [
+            "Generated with weight [25] <in [Plains] Regions>",
+            "Generated with weight [25] <in [Grassland] Regions>",
+            "Generated with weight [15] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Jungle] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Snow] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Opium from poppy sap was used medicinally and recreationally, driving trade and devastating wars."
+            }
+        ]
+    },
+    {
+        "name": "Quinoa",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Hill", "Tundra", "Plains"],
+        "food": 1,
+        "gold": 1,
+        "improvement": "Farm",
+        "improvementStats": {
+            "food": 2,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Hill] Regions>",
+            "Generated with weight [25] <in [Tundra] Regions>",
             "Generated with weight [10] <in [Plains] Regions>",
-            "Generated with weight [10] <in [Grassland] Regions>",
-            "Generated with weight [20] <in [Marsh] Regions>",
-            "Generated with weight [20] <in [Hybrid] Regions>",
-            "Generated near City States with weight [30]"
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>",
+            "Doesn't generate naturally <in [Forest] tiles>",
+            "Doesn't generate naturally <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Quinoa is a high-protein grain domesticated in the Andes, sustaining Inca and pre-Inca civilizations."
+            }
+        ]
+    },
+    {
+        "name": "Indigo",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": [
+            "Plains",
+            "Grassland",
+            "Hill",
+            "Jungle",
+            "Forest"
+        ],
+        "gold": 2,
+        "culture": 1,
+        "improvement": "Plantation",
+        "improvementStats": {
+            "gold": 2,
+            "culture": 1,
+            "science": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Plains] Regions>",
+            "Generated with weight [20] <in [Grassland] Regions>",
+            "Generated with weight [15] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Jungle] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Snow] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Indigo dye from plant leaves produced the coveted blue of denim and royal robes, sparking colonial rivalries."
+            }
+        ]
+    },
+    {
+        "name": "Cork",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Plains", "Grassland", "Hill", "Forest"],
+        "gold": 2,
+        "production": 1,
+        "improvement": "Camp",
+        "improvementStats": {
+            "gold": 2,
+            "production": 1,
+            "science": 1
+        },
+        "uniques": [
+            "Generated with weight [25] <in [Plains] Regions>",
+            "Generated with weight [20] <in [Grassland] Regions>",
+            "Generated with weight [15] <in [Hill] Regions>",
+            "Generated with weight [15] <in [Forest] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Desert] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>",
+            "Doesn't generate naturally <in [Snow] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cork bark from the cork oak is harvested sustainably for bottle stoppers, insulation, and fishing floats."
+            }
+        ]
+    },
+    {
+        "name": "Cashmere",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Hill", "Plains", "Tundra", "Desert"],
+        "gold": 2,
+        "improvement": "Pasture",
+        "improvementStats": {
+            "gold": 2,
+            "production": 1,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [30] <in [Hill] Regions>",
+            "Generated with weight [20] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Desert] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Grassland] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>",
+            "Doesn't generate naturally <in [Forest] tiles>",
+            "Doesn't generate naturally <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Cashmere wool from mountain goats is among the softest and most luxurious natural fibers in the world."
+            }
+        ]
+    },
+    {
+        "name": "Frankincense",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Desert", "Hill", "Plains"],
+        "gold": 2,
+        "faith": 1,
+        "improvement": "Camp",
+        "improvementStats": {
+            "gold": 2,
+            "faith": 2,
+            "culture": 1
+        },
+        "uniques": [
+            "Generated with weight [40] <in [Desert] Regions>",
+            "Generated with weight [15] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>",
+            "Doesn't generate naturally <in [Forest] tiles>",
+            "Doesn't generate naturally <in [Marsh] tiles>",
+            "Doesn't generate naturally <in [Snow] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Frankincense resin was burned in temples across the ancient world, gifted to gods and kings."
+            }
+        ]
+    },
+    {
+        "name": "Myrrh",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Desert", "Hill", "Plains"],
+        "gold": 2,
+        "faith": 1,
+        "improvement": "Camp",
+        "improvementStats": {
+            "gold": 2,
+            "faith": 2,
+            "science": 1
+        },
+        "uniques": [
+            "Generated with weight [35] <in [Desert] Regions>",
+            "Generated with weight [15] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Hybrid] Regions>",
+            "Generated near City States with weight [5]",
+            "Doesn't generate naturally <in [Tundra] tiles>",
+            "Doesn't generate naturally <in [Flood plains] tiles>",
+            "Doesn't generate naturally <in [Jungle] tiles>",
+            "Doesn't generate naturally <in [Forest] tiles>",
+            "Doesn't generate naturally <in [Marsh] tiles>",
+            "Doesn't generate naturally <in [Snow] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Myrrh resin was used in Egyptian embalming and religious anointing, among the most prized aromatics of antiquity."
+            }
         ]
     },
     {
@@ -1390,9 +2765,11 @@
         "resourceType": "Luxury",
         "terrainsCanBeFoundOn": ["Coast"],
         "culture": 1,
+        "gold": 1,
         "improvementStats": {
             "food": 1,
-            "gold": 1
+            "gold": 2,
+            "culture": 1
         },
         "improvement": "Fishing Boats",
         "uniques": [
@@ -1406,18 +2783,54 @@
             "Generated with weight [25] <in [Marsh] Regions>",
             "Generated with weight [20] <in [Hybrid] Regions>",
             "Generated near City States with weight [30]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Pearls are organic gems formed within oysters, treasured across cultures for millennia."
+            }
         ]
     },
     {
-        "name": "Crab",
+        "name": "Ambergris",
         "resourceType": "Luxury",
-        "terrainsCanBeFoundOn": ["Coast"],
-        "food": 1,
+        "terrainsCanBeFoundOn": ["Coast", "Ocean"],
+        "gold": 3,
         "improvementStats": {
-            "gold": 1,
-            "food": 1
+            "gold": 2,
+            "culture": 1,
+            "science": 1
         },
         "improvement": "Fishing Boats",
+        "uniques": [
+            "Generated with weight [5] <in [Tundra] Regions>",
+            "Generated with weight [5] <in [Jungle] Regions>",
+            "Generated with weight [5] <in [Forest] Regions>",
+            "Generated with weight [5] <in [Desert] Regions>",
+            "Generated with weight [5] <in [Hill] Regions>",
+            "Generated with weight [5] <in [Plains] Regions>",
+            "Generated with weight [5] <in [Grassland] Regions>",
+            "Generated with weight [10] <in [Marsh] Regions>",
+            "Generated with weight [10] <in [Hybrid] Regions>",
+            "Generated near City States with weight [15]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Ambergris, a rare substance from sperm whales, is among the most valuable materials in perfumery."
+            }
+        ]
+    },
+    {
+        "name": "Sponge",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "gold": 1,
+        "science": 1,
+        "improvement": "Fishing Boats",
+        "improvementStats": {
+            "gold": 1,
+            "science": 1,
+            "production": 1
+        },
         "uniques": [
             "Generated with weight [10] <in [Tundra] Regions>",
             "Generated with weight [10] <in [Jungle] Regions>",
@@ -1426,9 +2839,212 @@
             "Generated with weight [10] <in [Hill] Regions>",
             "Generated with weight [10] <in [Plains] Regions>",
             "Generated with weight [10] <in [Grassland] Regions>",
-            "Generated with weight [25] <in [Marsh] Regions>",
-            "Generated with weight [20] <in [Hybrid] Regions>",
-            "Generated near City States with weight [30]"
+            "Generated with weight [20] <in [Marsh] Regions>",
+            "Generated with weight [15] <in [Hybrid] Regions>",
+            "Generated near City States with weight [20]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Sea sponges have been harvested from the Mediterranean for cleaning, padding, and medical use since antiquity."
+            }
+        ]
+    },
+    {
+        "name": "Sea Salt",
+        "resourceType": "Luxury",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "gold": 1,
+        "food": 1,
+        "improvement": "Fishing Boats",
+        "improvementStats": {
+            "gold": 2,
+            "food": 1
+        },
+        "uniques": [
+            "Generated with weight [15] <in [Tundra] Regions>",
+            "Generated with weight [10] <in [Jungle] Regions>",
+            "Generated with weight [10] <in [Forest] Regions>",
+            "Generated with weight [15] <in [Desert] Regions>",
+            "Generated with weight [10] <in [Hill] Regions>",
+            "Generated with weight [10] <in [Plains] Regions>",
+            "Generated with weight [10] <in [Grassland] Regions>",
+            "Generated with weight [20] <in [Marsh] Regions>",
+            "Generated with weight [15] <in [Hybrid] Regions>",
+            "Generated near City States with weight [20]"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Sea salt is harvested by evaporating seawater in coastal pans, a practice dating back to Neolithic times."
+            }
+        ]
+    },
+    {
+        "name": "Kelp",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Coast"],
+        "food": 1,
+        "improvement": "Fishing Boats",
+        "improvementStats": {
+            "food": 1,
+            "production": 1
+        },
+        "uniques": [
+            "Generated on every [15] tiles <in [{Featureless} {Coast}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Kelp forests are underwater ecosystems that provide food, fertilizer, and industrial materials."
+            }
+        ]
+    },
+    {
+        "name": "Krill",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Coast", "Ocean"],
+        "food": 1,
+        "improvement": "Fishing Boats",
+        "improvementStats": {
+            "food": 1,
+            "science": 1
+        },
+        "uniques": [
+            "Generated on every [40] tiles <in [{Featureless} {Ocean}] tiles>",
+            "Generated on every [60] tiles <in [{Featureless} {Coast}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Krill are tiny crustaceans that form the base of the oceanic food web, supporting whales, fish, and ecosystems."
+            }
+        ]
+    },
+    {
+        "name": "Bamboo",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Forest", "Jungle", "Grassland"],
+        "production": 1,
+        "improvedBy": ["Camp", "Lumber mill"],
+        "improvementStats": {
+            "production": 1,
+            "food": 1
+        },
+        "uniques": [
+            "Generated on every [20] tiles <in [Jungle] tiles>",
+            "Generated on every [30] tiles <in [Forest] tiles> <in tiles without [Tundra]>",
+            "Generated on every [40] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Bamboo is a fast-growing grass used for construction, paper, and food across Asia."
+            }
+        ]
+    },
+    {
+        "name": "Flax",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Grassland", "Plains", "Flood plains"],
+        "food": 1,
+        "improvement": "Farm",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [30] tiles <in [{Featureless} {Grassland}] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Plains}] tiles>",
+            "Generated on every [15] tiles <in [Flood plains] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Flax is cultivated for its fiber, used to make linen, and its seeds, pressed for oil."
+            }
+        ]
+    },
+    {
+        "name": "Clay",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": [
+            "Grassland",
+            "Flood plains",
+            "Plains",
+            "Marsh"
+        ],
+        "production": 1,
+        "improvement": "Quarry",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [25] tiles <in [{Featureless} {Grassland} {Fresh Water}] tiles>",
+            "Generated on every [20] tiles <in [Flood plains] tiles>",
+            "Generated on every [30] tiles <in [Marsh] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Clay deposits near rivers and wetlands have provided raw material for pottery and bricks since prehistory."
+            }
+        ]
+    },
+    {
+        "name": "Peat",
+        "resourceType": "Bonus",
+        "terrainsCanBeFoundOn": ["Marsh", "Tundra"],
+        "production": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "production": 1,
+            "gold": 1
+        },
+        "uniques": [
+            "Generated on every [15] tiles <in [Marsh] tiles>",
+            "Generated on every [25] tiles <in [{Featureless} {Tundra}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Peat is decayed organic matter used as fuel and fertilizer, particularly in regions lacking timber or coal."
+            }
+        ]
+    },
+    {
+        "name": "Guano",
+        "resourceType": "Bonus",
+        "revealedBy": "Biology",
+        "terrainsCanBeFoundOn": ["Coast", "Desert", "Snow"],
+        "food": 1,
+        "improvement": "Mine",
+        "improvementStats": {
+            "food": 2,
+            "production": 1
+        },
+        "uniques": [
+            "Generated on every [80] tiles <in [{Featureless} {Coast}] tiles>",
+            "Generated on every [60] tiles <in [{Featureless} {Desert}] tiles>",
+            "Generated on every [50] tiles <in [{Featureless} {Snow}] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Guano is accumulated bird or bat excrement, rich in phosphorus and nitrogen, prized as fertilizer."
+            }
+        ]
+    },
+    {
+        "name": "Vents",
+        "resourceType": "Bonus",
+        "revealedBy": "Biology",
+        "terrainsCanBeFoundOn": ["Ocean"],
+        "improvement": "Offshore Platform",
+        "improvementStats": {
+            "gold": 2,
+            "production": 2,
+            "science": 1
+        },
+        "uniques": [
+            "Generated on every [33] tiles <in [{Featureless} {Ocean}] tiles> <with [1] to [6] neighboring [Coast] tiles>"
+        ],
+        "civilopediaText": [
+            {
+                "text": "Deep ocean hydrothermal vents are not only good sources of heat, they are also the source of exotic compounds and xeno-organisms."
+            }
         ]
     },
     {
@@ -1449,6 +3065,15 @@
         ],
         "improvement": "Archaeological Dig",
         "uniques": ["Generated on every [150] tiles"]
+    },
+    {
+        "name": "War Weariness",
+        "resourceType": "Strategic",
+        "uniques": [
+            "Excluded from map editor",
+            "Will not be displayed in Civilopedia",
+            "Stockpiled"
+        ]
     },
     {
         "name": "Factories",
