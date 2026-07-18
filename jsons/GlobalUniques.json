@@ -207,7 +207,6 @@
         "Triggers a [Labor Strike] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Industrial era]>",
         "Triggers a [Slave Revolt] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <before the [Industrial era]>",
 
-
         "[+1 Science] per [3] population [in all cities] <starting from the [Classical era]>",
         "[+1 Culture] per [5] population [in all cities] <starting from the [Renaissance era]>",
         "[+1 Gold] per [4] population [in all cities] <after discovering [Currency]>",
@@ -265,7 +264,7 @@
         "[+5]% [Culture] [in all cities] <if [Broadway] is constructed>",
         "[+5]% [Culture] [in all cities] <if [Sydney Opera House] is constructed>",
         "[+10]% [Gold] [in all cities] <if [Neuschwanstein] is constructed>",
-        "[+5]% [Faith] [in all cities] <if [Grand ] is constructed>",
+        "[+5]% [Faith] [in all cities] <if [Grand Temple] is constructed>",
         "[+5]% [Culture] [in all cities] <if [Uffizi] is constructed>",
         "[+5]% [Science] [in all cities] <if [Kremlin] is constructed>",
         "[+10]% [Production] [in all cities] <if [Kremlin] is constructed>",
@@ -445,8 +444,6 @@
         "[+40]% Great Person generation [in all cities] <starting from the [Atomic era]>",
         "[+50]% Great Person generation [in all cities] <starting from the [Information era]>",
         "[+60]% Great Person generation [in all cities] <starting from the [Future era]>",
-
-
 
         "[-5]% growth [in all cities] <when number of [Cities] is more than [5]>",
         "[-10]% growth [in all cities] <when number of [Cities] is more than [10]>",

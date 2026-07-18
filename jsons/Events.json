@@ -2816,8 +2816,7 @@
                     "Gain [-2000] [Gold] <hidden from users>",
                     "[-20]% [Production] [in all cities] <for [10] turns>",
                     "[+25]% Strength <for [All] units> <for [20] turns>",
-                    "[+5 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [15] turns> <starting from [5] turns>"
+                    "[+5 Happiness] [in all cities] <for [5] turns>"
                 ]
             },
             {
@@ -2927,7 +2926,6 @@
                     "[+15]% Strength <for [All] units> <for [10] turns>",
                     "[+20]% Production when constructing [Military] units [in all cities] <for [10] turns>",
                     "[+5 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>",
                     "[-5 Culture] [in all cities] <for [10] turns>"
                 ]
             },
@@ -3157,7 +3155,8 @@
                 "text": "Let the boom ride — prosperity should be enjoyed, not feared",
                 "uniques": [
                     "[+25 Gold] [in all cities] <for [10] turns>",
-                    "[+8 Happiness] [in all cities] <for [5] turns>"                ]
+                    "[+8 Happiness] [in all cities] <for [5] turns>"
+                ]
             },
             {
                 "text": "Tax the windfall and invest the revenue in long-term infrastructure",
@@ -3426,7 +3425,8 @@
                     "Comment [Lose 1500 [Gold]]",
                     "Gain [-1500] [Gold] <hidden from users>",
                     "[-15]% [Production] [in all cities] <for [8] turns>",
-                    "[+20]% [Science] [in all cities] <for [20] turns>"                ]
+                    "[+20]% [Science] [in all cities] <for [20] turns>"
+                ]
             },
             {
                 "text": "Seek new fossil fuel reserves through exploration and extraction technology",
@@ -3466,8 +3466,8 @@
                 "text": "Participate in the games but continue military operations — sport and war are separate domains",
                 "uniques": [
                     "[+5 Culture] [in all cities] <for [5] turns>",
-                    "[+3 Happiness] [in all cities] <for [5] turns>",
-                    "[-5 Happiness] [in all cities] <for [10] turns> <starting from [5] turns>"                ]
+                    "[+3 Happiness] [in all cities] <for [5] turns>"
+                ]
             },
             {
                 "text": "Use the truce to reposition and resupply your forces — take advantage of the pause",
@@ -3488,16 +3488,15 @@
                 "uniques": [
                     "Comment [Lose 2000 [Gold]]",
                     "Gain [-2000] [Gold] <hidden from users>",
-                    "[-30]% [Production] [in all cities] <for [15] turns>"                ]
+                    "[-30]% [Production] [in all cities] <for [15] turns>"
+                ]
             },
             {
                 "text": "Build a smaller version — ambitious but achievable within our means",
                 "uniques": [
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
-                    "[-15]% [Production] [in all cities] <for [8] turns>",
-                    "[+8 Happiness] [in all cities] <for [15] turns> <starting from [8] turns>"
-                ]
+                    "[-15]% [Production] [in all cities] <for [8] turns>"                ]
             },
             {
                 "text": "Decline — the nation's resources are better spent on the living than on stone",
@@ -3735,7 +3734,8 @@
                     "[-4] population [in all cities]",
                     "[-20]% [Production] [in all cities] <for [5] turns>",
                     "Comment [Lose 800 [Gold]]",
-                    "Gain [-800] [Gold] <hidden from users>"                ]
+                    "Gain [-800] [Gold] <hidden from users>"
+                ]
             }
         ]
     },
