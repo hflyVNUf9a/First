@@ -147,6 +147,11 @@
         "movementType": "Land"
     },
     {
+        "name": "Supply Ship",
+        "uniques": ["Never appears as a Barbarian unit", "Cannot attack"],
+        "movementType": "Water"
+    },
+    {
         "name": "Light Cavalry",
         "uniques": [
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",

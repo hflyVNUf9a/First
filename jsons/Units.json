@@ -1785,7 +1785,7 @@
         "unitType": "Civilian",
         "uniqueTo": "The United States of America",
         "movement": 5,
-        "cost": 10000,
+        "cost": 1000,
         "uniques": [
             "Can hurry technology research",
             "Can speed up construction of a building",
@@ -1801,7 +1801,7 @@
         "unitType": "Civilian",
         "uniqueTo": "The United States of America",
         "movement": 5,
-        "cost": 10000,
+        "cost": 1000,
         "uniques": [
             "Removes other religions when spreading religion",
             "Can generate a large amount of culture",
@@ -3825,6 +3825,18 @@
             "[+35]% Strength <when attacking>"
         ],
         "attackSound": "machinegun"
+    },
+    {
+        "name": "Supply Ship",
+        "unitType": "Supply Ship",
+        "movement": 6,
+        "strength": 50,
+        "cost": 500,
+        "requiredTech": "Pharmaceuticals",
+        "uniques": [
+            "Cannot attack",
+            "All adjacent units heal [+15] HP when healing"
+        ]
     },
     {
         "name": "Arsenal Ship",
