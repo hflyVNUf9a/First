@@ -2684,13 +2684,7 @@
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast"
         ],
-        "unitTypes": [
-            "Marines",
-            "Special Operations Forces",
-            "Special Mission Units",
-            "Light Infantry",
-            "Helicopter"
-        ],
+        "unitTypes": ["Marines"],
         "row": 3,
         "column": 21
     },
@@ -2701,13 +2695,7 @@
             "[+5]% Strength <when attacking> <in [Coast] tiles>"
         ],
         "prerequisites": ["Amphibious Assault I"],
-        "unitTypes": [
-            "Marines",
-            "Special Operations Forces",
-            "Special Mission Units",
-            "Light Infantry",
-            "Helicopter"
-        ],
+        "unitTypes": ["Marines"],
         "row": 4,
         "column": 21
     },
@@ -2719,13 +2707,7 @@
             "Can move after attacking"
         ],
         "prerequisites": ["Amphibious Assault II"],
-        "unitTypes": [
-            "Marines",
-            "Special Operations Forces",
-            "Special Mission Units",
-            "Light Infantry",
-            "Helicopter"
-        ],
+        "unitTypes": ["Marines"],
         "row": 5,
         "column": 21
     },
@@ -3018,9 +3000,7 @@
         "unitTypes": [
             "Special Operations Forces",
             "Special Mission Units",
-            "Paratrooper",
-            "Light Infantry",
-            "Drone"
+            "Paratrooper"
         ],
         "prerequisites": ["Infiltration I"],
         "row": 3,
@@ -3036,9 +3016,7 @@
         "unitTypes": [
             "Special Operations Forces",
             "Special Mission Units",
-            "Paratrooper",
-            "Light Infantry",
-            "Drone"
+            "Paratrooper"
         ],
         "row": 4,
         "column": 25
@@ -3054,9 +3032,7 @@
         "unitTypes": [
             "Special Operations Forces",
             "Special Mission Units",
-            "Paratrooper",
-            "Light Infantry",
-            "Drone"
+            "Paratrooper"
         ],
         "row": 5,
         "column": 25
@@ -3119,7 +3095,6 @@
             "Unit will heal every turn, even if it performs an action",
             "[+5]% Strength <when defending>"
         ],
-        "prerequisites": ["March"],
         "unitTypes": [
             "Sword",
             "Infantry",
@@ -3425,11 +3400,7 @@
             "Invisible to non-adjacent units",
             "Unit will heal every turn, even if it performs an action"
         ],
-        "prerequisites": [
-            "Transcendent Warfare II",
-            "Autonomous Operations II",
-            "Electronic Warfare III"
-        ],
+        "prerequisites": ["Autonomous Operations II", "Electronic Warfare III"],
         "unitTypes": [
             "Sword",
             "Infantry",
