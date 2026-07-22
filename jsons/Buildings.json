@@ -1608,7 +1608,7 @@
     {
         "name": "Town Square",
         "replaces": "Monument",
-        "uniqueTo": "",
+        "uniqueTo": "The United States of America",
         "culture": 3,
         "cost": 30,
         "maintenance": 1,
