@@ -1787,8 +1787,9 @@
         "unitType": "Civilian",
         "uniqueTo": "The United States of America",
         "movement": 5,
-        "cost": 1000,
+        "cost": 100,
         "uniques": [
+            "Can move immediately once bought",
             "Can hurry technology research",
             "Can speed up construction of a building",
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
@@ -1803,8 +1804,9 @@
         "unitType": "Civilian",
         "uniqueTo": "The United States of America",
         "movement": 5,
-        "cost": 1000,
+        "cost": 100,
         "uniques": [
+            "Can move immediately once bought",
             "Removes other religions when spreading religion",
             "Can generate a large amount of culture",
             "Empire enters a [10]-turn Golden Age <by consuming this unit>",
