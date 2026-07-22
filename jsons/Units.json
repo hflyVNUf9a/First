@@ -4288,7 +4288,7 @@
         "name": "THAAD",
         "replaces": "Theatre Defense System",
         "uniqueTo": "The United States of America",
-        "unitType": "Counter Defense",
+        "unitType": "Missile Defense",
         "movement": 3,
         "interceptRange": 5,
         "strength": 65,
@@ -5310,7 +5310,6 @@
             "[+4] Sight",
             "Can see over obstacles"
         ],
-        "promotions": ["Evasion"],
         "attackSound": "bombing"
     },
     {
