@@ -683,7 +683,6 @@
                     "[10] [Infantry]s rebel <hidden from users>",
                     "[15] [Spearman]s rebel <hidden from users>",
                     "[10] [Archer]s rebel <hidden from users>",
-                    "[-10] population [in all cities]",
                     "Free Great Person",
                     "Free [Great General] appears",
                     "Free [Great Scientist] appears",
@@ -815,15 +814,11 @@
         "choices": [
             {
                 "text": "Quarantine the afflicted cities — seal the gates and let no one enter or leave",
-                "uniques": [
-                    "[-3] population [in all cities]",
-                    "[-5 Happiness] [in all cities] <for [10] turns>"
-                ]
+                "uniques": ["[-5 Happiness] [in all cities] <for [10] turns>"]
             },
             {
                 "text": "Summon the finest physicians and scholars — we shall fight this plague with knowledge",
                 "uniques": [
-                    "[-1] population [in all cities]",
                     "[-30]% growth [in all cities] <for [10] turns>",
                     "Comment [Lose 500 [Gold]]",
                     "Gain [-500] [Gold] <hidden from users>",
@@ -833,7 +828,6 @@
             {
                 "text": "Call upon the clergy — only divine intervention can save us now",
                 "uniques": [
-                    "[-2] population [in all cities]",
                     "[-40]% growth [in all cities] <for [12] turns>",
                     "[+50]% [Faith] [in all cities] <for [10] turns>",
                     "Gain [30]-[60] [Faith]"
@@ -842,7 +836,6 @@
             {
                 "text": "Flee the capital and let the people fend for themselves",
                 "uniques": [
-                    "[-4] population [in all cities]",
                     "[-60]% growth [in all cities] <for [15] turns>",
                     "[-10 Happiness] [in all cities] <for [20] turns>",
                     "Rebel units may spawn <for [30] turns>"
@@ -857,7 +850,6 @@
             {
                 "text": "Rebuild immediately — marshal every resource we have to restore the nation",
                 "uniques": [
-                    "[-2] population [in all cities]",
                     "[-30]% [Production] [in all cities] <for [5] turns>",
                     "Comment [Lose 600 [Gold]]",
                     "Gain [-600] [Gold] <hidden from users>",
@@ -867,7 +859,6 @@
             {
                 "text": "Let the people rebuild on their own — the treasury cannot absorb this loss",
                 "uniques": [
-                    "[-3] population [in all cities]",
                     "[-50]% [Production] [in all cities] <for [10] turns>",
                     "[-5 Happiness] [in all cities] <for [15] turns>"
                 ]
@@ -875,7 +866,6 @@
             {
                 "text": "Rebuild smarter — impose new construction codes to resist future quakes",
                 "uniques": [
-                    "[-2] population [in all cities]",
                     "[-40]% [Production] [in all cities] <for [8] turns>",
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
@@ -892,7 +882,6 @@
             {
                 "text": "Evacuate the eastern provinces — save what lives we can",
                 "uniques": [
-                    "[-2] population [in all cities]",
                     "[-40]% [Production] [in all cities] <for [5] turns>",
                     "[-30]% [Food] [in all cities] <for [5] turns>",
                     "Comment [Lose 300 [Gold]]",
@@ -902,14 +891,12 @@
             {
                 "text": "Hold fast and wait for the eruption to subside — the ash will enrich the soil",
                 "uniques": [
-                    "[-3] population [in all cities]",
                     "[-50]% [Production] [in all cities] <for [5] turns>"
                 ]
             },
             {
                 "text": "Study the eruption — such geological events are rare and hold scientific value",
                 "uniques": [
-                    "[-3] population [in all cities]",
                     "[-40]% [Production] [in all cities] <for [5] turns>",
                     "[+20]% [Science] [in all cities] <for [10] turns>",
                     "Gain [50]-[100] [Science]"
@@ -1593,7 +1580,6 @@
             {
                 "text": "Order a full evacuation and sacrifice the plant — save the people, write off the investment",
                 "uniques": [
-                    "[-5] population [in all cities]",
                     "[-30]% [Production] [in all cities] <for [10] turns>",
                     "Comment [Lose 1000 [Gold]]",
                     "Gain [-1000] [Gold] <hidden from users>",
@@ -1604,7 +1590,6 @@
             {
                 "text": "Send in emergency teams to contain the meltdown — minimize the damage at any cost",
                 "uniques": [
-                    "[-3] population [in all cities]",
                     "[-20]% [Production] [in all cities] <for [8] turns>",
                     "[-5 Happiness] [in all cities] <for [10] turns>",
                     "[-10]% [Gold] [in all cities] <for [10] turns>",
@@ -1615,7 +1600,6 @@
             {
                 "text": "Suppress all information and deny that anything happened",
                 "uniques": [
-                    "[-4] population [in all cities]",
                     "[-15]% [Production] [in all cities] <for [5] turns>",
                     "[-8 Happiness] [in all cities] <for [20] turns>",
                     "[-5 Culture] [in all cities] <for [10] turns>"
@@ -2053,7 +2037,6 @@
                     "[-30]% [Gold] [in all cities] <for [10] turns>",
                     "[-20]% [Production] [in all cities] <for [10] turns>",
                     "[-10]% growth [in all cities] <for [5] turns>",
-                    "[-1] population [in all cities]",
                     "[+5 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
@@ -2062,7 +2045,6 @@
                 "uniques": [
                     "[-15]% [Gold] [in all cities] <for [8] turns>",
                     "[-10]% [Production] [in all cities] <for [8] turns>",
-                    "[-2] population [in all cities]",
                     "[-2 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
@@ -2070,7 +2052,6 @@
                 "text": "Keep the nation open and let the disease run its course — the economy cannot stop",
                 "uniques": [
                     "[-5]% [Gold] [in all cities] <for [5] turns>",
-                    "[-4] population [in all cities]",
                     "[-10 Happiness] [in all cities] <for [20] turns>",
                     "[-20]% growth [in all cities] <for [10] turns>"
                 ]
@@ -2080,7 +2061,6 @@
                 "uniques": [
                     "Comment [Lose 1500 [Gold]]",
                     "Gain [-1500] [Gold] <hidden from users>",
-                    "[-2] population [in all cities]",
                     "[-5]% [Gold] [in all cities] <for [5] turns>",
                     "[+20]% [Science] [in all cities] <for [15] turns>",
                     "[+3 Happiness] [in all cities] <for [15] turns>"
@@ -2261,7 +2241,6 @@
                     "Comment [Lose 700 [Gold]]",
                     "Gain [-700] [Gold] <hidden from users>",
                     "[-20]% [Production] [in all cities] <for [5] turns>",
-                    "[-2] population [in all cities]",
                     "[+5 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
@@ -2271,7 +2250,6 @@
                     "Comment [Lose 300 [Gold]]",
                     "Gain [-300] [Gold] <hidden from users>",
                     "[-15]% [Production] [in all cities] <for [5] turns>",
-                    "[-3] population [in all cities]",
                     "[-2 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
@@ -2280,7 +2258,6 @@
                 "uniques": [
                     "Comment [Lose 400 [Gold]]",
                     "Gain [-400] [Gold] <hidden from users>",
-                    "[-3] population [in all cities]",
                     "[-10]% [Production] [in all cities] <for [3] turns>",
                     "[+10]% [Science] [in all cities] <for [10] turns>",
                     "[+2 Happiness] [in all cities] <for [10] turns>"
@@ -2534,7 +2511,6 @@
                 "uniques": [
                     "Comment [Lose 1000 [Gold]]",
                     "Gain [-1000] [Gold] <hidden from users>",
-                    "[-4] population [in all cities]",
                     "[-25]% [Production] [in all cities] <for [8] turns>",
                     "[+5 Happiness] [in all cities] <for [10] turns>",
                     "[+5 Culture] [in all cities] <for [10] turns>"
@@ -2545,7 +2521,6 @@
                 "uniques": [
                     "Comment [Lose 1200 [Gold]]",
                     "Gain [-1200] [Gold] <hidden from users>",
-                    "[-5] population [in all cities]",
                     "[-30]% [Production] [in all cities] <for [10] turns>",
                     "[+10]% [Science] [in all cities] <for [10] turns>",
                     "[+3 Happiness] [in all cities] <for [15] turns>"
@@ -2554,7 +2529,6 @@
             {
                 "text": "Abandon the coastal regions and relocate the population inland",
                 "uniques": [
-                    "[-6] population [in all cities]",
                     "[-15]% [Gold] [in all cities] <for [10] turns>",
                     "[-5 Happiness] [in all cities] <for [15] turns>",
                     "[+5]% growth [in all cities] <for [10] turns>"
@@ -2677,8 +2651,7 @@
                     "[-40]% [Food] [in all cities] <for [5] turns>",
                     "Comment [Lose 500 [Gold]]",
                     "Gain [-500] [Gold] <hidden from users>",
-                    "[+5 Happiness] [in all cities] <for [10] turns>",
-                    "[-1] population [in all cities]"
+                    "[+5 Happiness] [in all cities] <for [10] turns>"
                 ]
             },
             {
@@ -2687,7 +2660,6 @@
                     "[-25]% [Food] [in all cities] <for [8] turns>",
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
-                    "[-2] population [in all cities]",
                     "[-3 Happiness] [in all cities] <for [8] turns>"
                 ]
             },
@@ -2695,7 +2667,6 @@
                 "text": "Let the natural order take its course — the strong will survive, the weak will not",
                 "uniques": [
                     "[-50]% [Food] [in all cities] <for [10] turns>",
-                    "[-4] population [in all cities]",
                     "[-10 Happiness] [in all cities] <for [20] turns>",
                     "[-30]% growth [in all cities] <for [10] turns>"
                 ]
@@ -2799,8 +2770,7 @@
                     "[-20]% [Gold] [in all cities] <for [10] turns>",
                     "[-10]% [Science] [in all cities] <for [5] turns>",
                     "[+10]% [Food] [in all cities] <for [15] turns>",
-                    "[+5 Faith] [in all cities] <for [10] turns>",
-                    "[-2] population [in all cities]"
+                    "[+5 Faith] [in all cities] <for [10] turns>"
                 ]
             }
         ]
@@ -2900,7 +2870,6 @@
                 "uniques": [
                     "[-20]% [Gold] [in all cities] <for [15] turns>",
                     "[-10]% [Production] [in all cities] <for [10] turns>",
-                    "[-5] population [in all cities]",
                     "Rebel units may spawn <for [30] turns>",
                     "[+5 Culture] [in all cities] <for [5] turns>"
                 ]
@@ -2981,7 +2950,6 @@
             {
                 "text": "Quarantine the afflicted and enforce the strictest isolation protocols",
                 "uniques": [
-                    "[-3] population [in all cities]",
                     "[-40]% growth [in all cities] <for [12] turns>",
                     "[-8 Happiness] [in all cities] <for [10] turns>",
                     "[-10]% [Gold] [in all cities] <for [8] turns>"
@@ -2990,7 +2958,6 @@
             {
                 "text": "Invest everything in medical research — we must find a cure this time",
                 "uniques": [
-                    "[-2] population [in all cities]",
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
                     "[+20]% [Science] [in all cities] <for [15] turns>",
@@ -3000,7 +2967,6 @@
             {
                 "text": "Order days of prayer and fasting — only divine intervention can save us",
                 "uniques": [
-                    "[-4] population [in all cities]",
                     "[-30]% growth [in all cities] <for [10] turns>",
                     "[+40]% [Faith] [in all cities] <for [10] turns>",
                     "Gain [40]-[70] [Faith]"
@@ -3496,7 +3462,8 @@
                 "uniques": [
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>",
-                    "[-15]% [Production] [in all cities] <for [8] turns>"                ]
+                    "[-15]% [Production] [in all cities] <for [8] turns>"
+                ]
             },
             {
                 "text": "Decline — the nation's resources are better spent on the living than on stone",
@@ -3558,7 +3525,6 @@
             {
                 "text": "Let the storm pass and then assess the damage — rescue in these conditions is too dangerous",
                 "uniques": [
-                    "[-2] population [in all cities]",
                     "[-20]% [Food] [in all cities] <for [5] turns>",
                     "[-15]% [Production] [in all cities] <for [5] turns>",
                     "[-5 Happiness] [in all cities] <for [10] turns>"
@@ -3569,7 +3535,6 @@
                 "uniques": [
                     "Comment [Lose 400 [Gold]]",
                     "Gain [-400] [Gold] <hidden from users>",
-                    "[-1] population [in all cities]",
                     "[-10]% [Food] [in all cities] <for [3] turns>",
                     "[+5]% [Science] [in all cities] <for [10] turns>"
                 ]
@@ -3711,7 +3676,6 @@
             {
                 "text": "Focus on saving lives — evacuate everyone and let the fire burn itself out",
                 "uniques": [
-                    "[-5] population [in all cities]",
                     "[-25]% [Production] [in all cities] <for [10] turns>",
                     "[-20]% [Gold] [in all cities] <for [10] turns>",
                     "[+5 Happiness] [in all cities] <for [10] turns>"
@@ -3720,7 +3684,6 @@
             {
                 "text": "Fight the fire with every resource available — save what buildings we can",
                 "uniques": [
-                    "[-3] population [in all cities]",
                     "[-15]% [Production] [in all cities] <for [8] turns>",
                     "[-10]% [Gold] [in all cities] <for [8] turns>",
                     "Comment [Lose 400 [Gold]]",
@@ -3731,7 +3694,6 @@
             {
                 "text": "Use the destruction as an opportunity — rebuild the city better than before",
                 "uniques": [
-                    "[-4] population [in all cities]",
                     "[-20]% [Production] [in all cities] <for [5] turns>",
                     "Comment [Lose 800 [Gold]]",
                     "Gain [-800] [Gold] <hidden from users>"
