@@ -515,7 +515,6 @@
                 "uniques": [
                     "[+2 Gold] from every [City center]",
                     "[+2 Gold] from every [Merchant]",
-                    "[+1 Gold] from [Market] tiles [in all cities]",
                     "[+1 Happiness] [in all cities]"
                 ]
             },
@@ -1016,7 +1015,6 @@
                     "[+5]% [Gold] [in all cities] <for every [Remaining [Major] Civilizations]>",
                     "[+2 Gold] from every [Merchant]",
                     "[+2 Gold] from every [City center]",
-                    "[+2 Gold] from [Trading Post] tiles [in all cities]",
                     "[+1 Happiness] [in all cities]"
                 ]
             },
@@ -1500,7 +1498,6 @@
                 "quote": "'AI has by now succeeded in doing essentially everything that requires 'thinking' but has failed to do most of what people and animals do 'without thinking'—that, somehow, is much harder!' - Donald Knuth",
                 "uniques": [
                     "[+8 Science] from every [Scientist]",
-                    "[+7 Science] from [University] tiles [in all cities]",
                     "[+6 Science] from every [City center]",
                     "[+5 Gold] from every [City center]",
                     "[+4 Production] from every [Engineer]",
