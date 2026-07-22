@@ -240,7 +240,8 @@
         "name": "Corvette",
         "uniques": [
             "Never appears as a Barbarian unit",
-            "Can see invisible [Attack Submarine] units"
+            "Can see invisible [Attack Submarine] units",
+            "[This Unit] takes [5] damage <upon ending a turn in a [Ocean] tile>"
         ],
         "movementType": "Water"
     },
@@ -250,7 +251,8 @@
             "Never appears as a Barbarian unit",
             "Can see invisible [Attack Submarine] units",
             "Can see invisible [Ballistic Missile Submarine] units",
-            "Can see invisible [Cruise Missile Submarine] units"
+            "Can see invisible [Cruise Missile Submarine] units",
+            "[This Unit] takes [2] damage <upon ending a turn in a [Ocean] tile>"
         ],
         "movementType": "Water"
     },
@@ -358,12 +360,13 @@
         "movementType": "Land"
     },
     {
-        "name": "Counter Missile",
+        "name": "Missile Defense",
         "uniques": [
             "Unit will heal every turn, even if it performs an action <in [Fort] tiles>",
             "Unit will heal every turn, even if it performs an action <in [Citadel] tiles>",
             "Cannot intercept [Aircraft] units",
-            "Cannot intercept [non-[Ballistic Missiles]] units"
+            "Cannot intercept [non-[Ballistic Missiles]] units",
+            "Cannot intercept [non-[Cruise Missiles]] units"
         ],
         "movementType": "Land"
     },
