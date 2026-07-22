@@ -105,39 +105,6 @@
         "[-1] Movement <for [Military] units> <when above [3000] [War Weariness]>",
         "[-2] Movement <for [Military] units> <when above [4000] [War Weariness]>",
         "[+10]% Strength <for [Military] units> <when below [500] [War Weariness]>",
-        "[+15]% Strength <for [Military] units> <when below [100] [War Weariness]>",
-
-        "Triggers a [Cold War Begins] event <upon entering the [Information era]>",
-        "Triggers a [World War II Begins] event <upon entering the [Atomic era]>",
-        "Triggers a [The Great War Begins] event <upon entering the [Modern era]>",
-        "Triggers a [Industrial Revolution] event <upon entering the [Industrial era]>",
-
-        "Triggers a [Miracle Harvest!] event <upon discovering [Fertilizer] technology>",
-        "Triggers a [Nationalize the Utilities] event <upon discovering [Industrialization] technology>",
-        "Triggers a [Subsidize] event <upon discovering [Steam Power] technology>",
-
-        "Triggers a [Comet Sighted] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after turn number [5]> <before the [Renaissance era]>",
-        "Triggers a [Comet Spotted] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Renaissance era]> <before the [Modern era]>",
-        "Triggers a [The Guest Star] event <for [Major] Civilizations> <upon turn end> <after turn number [164]> <before turn number [165]>",
-        "Triggers a [Meteor Shower] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <after turn number [30]>",
-        "Triggers a [Volcanic Eruption] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <after turn number [15]>",
-        "Triggers a [Tsunami] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <after turn number [20]> <starting from the [Classical era]>",
-        "Triggers a [Drought] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after turn number [10]> <before discovering [Fertilizer]>",
-        "Triggers a [Asteroid] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <after discovering [Nuclear Fusion]>",
-
-        "Triggers a [Artists Protest the Eiffel Tower] event <for [Major] Civilizations> <if [Eiffel Tower] is constructed>",
-        "Triggers a [A Destitute Noble] event <upon turn end> <with [2]% chance> <after turn number [20]> <before the [Industrial era]>",
-        "Triggers a [Social Reforms] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Classical era]>",
-        "Triggers a [Mystic] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after turn number [5]> <before the [Industrial era]>",
-        "Triggers a [Harvest] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <after turn number [5]> <before discovering [Fertilizer]>",
-        "Triggers a [Famine] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <after turn number [5]> <before discovering [Fertilizer]>",
-        "Triggers a [Desertion] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <when at war>",
-        "Triggers a [Research] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <starting from the [Industrial era]>",
-        "Triggers a [Obstacle] event <for [Major] Civilizations> <upon turn end> <with [1]% chance> <starting from the [Renaissance era]>",
-        "Triggers a [Struck Oil!] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after discovering [Biology]>",
-        "Triggers a [A Beast Stalks the City] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <before the [Industrial era]>",
-        "Triggers a [Cultural Flowering] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Renaissance era]>",
-        "Triggers a [Labor Strike] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <starting from the [Industrial era]>",
-        "Triggers a [Slave Revolt] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <before the [Industrial era]>"
+        "[+15]% Strength <for [Military] units> <when below [100] [War Weariness]>"
     ]
 }
