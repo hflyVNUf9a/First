@@ -178,13 +178,7 @@
             "Scarlett",
             "Barbara"
         ],
-        "uniqueName": "America First",
-        "uniques": [
-            "[+1 Gold] from each Trade Route",
-            "[+100]% City Strength from defensive buildings",
-            "[+10]% Production when constructing [All] wonders [in all cities]",
-            "[Gold] cost of purchasing [All] units [-15]%"
-        ]
+        "uniqueName": "America First"
     },
     {
         "name": "Argentina",
@@ -238,13 +232,7 @@
             "Shakespear",
             "Sabato"
         ],
-        "uniqueName": "Anarcho-Capitalism",
-        "uniques": [
-            "[+20]% [Gold] [in all cities]",
-            "[Gold] cost of purchasing [All] units [-20]%",
-            "[+1 Gold, +1 Production] from every specialist [in all cities]",
-            "[-15]% [Culture] [in all cities]"
-        ]
+        "uniqueName": "Anarcho-Capitalism"
     },
     {
         "name": "Armenia",
@@ -305,8 +293,7 @@
             "Sameera",
             "Gamal"
         ],
-        "uniqueName": "Highland Resilience",
-        "uniques": ["[+20]% [Faith] [in all cities]"]
+        "uniqueName": "Highland Resilience"
     },
     {
         "name": "Aztecs",
@@ -374,12 +361,7 @@
             "Itzli",
             "Tepin"
         ],
-        "uniqueName": "Sacrificial Captives",
-        "uniques": [
-            "Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
-            "[+1 Food] from [Jungle] tiles [in all cities]",
-            "[Military] units gain the [March] promotion"
-        ]
+        "uniqueName": "Sacrificial Captives"
     },
     {
         "name": "Babylon",
@@ -450,11 +432,6 @@
             "Ishtar",
             "Bilit Taauth",
             "Aruru"
-        ],
-        "uniqueName": "Enuma Anu Enlil",
-        "uniques": [
-            "[+1 Science, +1 Production] from [Academy] tiles [in all cities]",
-            "[+10]% [Science] [in capital]"
         ]
     },
     {
@@ -522,13 +499,7 @@
             "Tome",
             "Bianca"
         ],
-        "uniqueName": "Bolsa Fam\u00edlia",
-        "uniques": [
-            "[+15]% [Food] [in all cities]",
-            "[+10]% [Culture] [in all cities]",
-            "[+20]% [Culture] [in all cities] <during a Golden Age>",
-            "[+1 Culture] from [Jungle] tiles [in all cities]"
-        ]
+        "uniqueName": "Bolsa Fam\u00edlia"
     },
     {
         "name": "Byzantium",
@@ -593,11 +564,7 @@
             "Xene",
             "Euphrosyne"
         ],
-        "uniqueName": "Patriarchate of Constantinople",
-        "uniques": [
-            "[+2 Faith] from all [Shrine] buildings",
-            "[+20]% [Faith] [in all cities]"
-        ]
+        "uniqueName": "Patriarchate of Constantinople"
     },
     {
         "name": "Canada",
@@ -660,11 +627,6 @@
             "Virginia",
             "Scarlett",
             "Barbara"
-        ],
-        "uniqueName": "Resource Riches",
-        "uniques": [
-            "[+1 Production, +1 Gold] from [Camp] tiles [in all cities]",
-            "[+1 Food, +1 Gold] from [Tundra] tiles [in all cities]"
         ]
     },
     {
@@ -723,11 +685,6 @@
             "Piar",
             "Arenales",
             "Mariscal"
-        ],
-        "uniqueName": "Total Peace",
-        "uniques": [
-            "[+2 Culture, +2 Faith] from [Plantation] tiles [in all cities]",
-            "[+1 Food] from [Jungle] tiles [in all cities]"
         ]
     },
     {
@@ -803,13 +760,6 @@
             "Wu",
             "Zhou",
             "Sun"
-        ],
-        "uniqueName": "Belt and Road Initiative",
-        "uniques": [
-            "[+2 Production, +2 Gold] from each Trade Route",
-            "[+15]% [Production] [in capital]",
-            "[+100]% City Strength from defensive buildings",
-            "[+10]% [Science] [in all cities]"
         ]
     },
     {
@@ -890,12 +840,6 @@
             "Thea",
             "Freja",
             "Morten"
-        ],
-        "uniqueName": "Nordic Model",
-        "uniques": [
-            "[-25]% Unhappiness from [Population] [in all cities]",
-            "[1] Movement point cost to disembark <for [All] units>",
-            "[+1] Movement <for [Embarked] units>"
         ]
     },
     {
@@ -963,13 +907,6 @@
             "Andrew",
             "Scott",
             "Anne"
-        ],
-        "uniqueName": "Green Prosperity Plan",
-        "uniques": [
-            "[+10]% [Production] [in all cities]",
-            "[+1 Science, +1 Gold] from all [Windmill] buildings",
-            "[+2] Movement <for [Water] units>",
-            "[+10]% [Science] [in capital]"
         ]
     },
     {
@@ -1041,13 +978,6 @@
             "Vip\u00e8re",
             "Yvette",
             "Renard"
-        ],
-        "uniqueName": "En Marche",
-        "uniques": [
-            "[+20]% [Culture] [in all cities]",
-            "[+2 Culture] from all [World Wonder] buildings",
-            "[+1] Sight <for [All] units>",
-            "[+10]% [Science] [in capital]"
         ]
     },
     {
@@ -1093,12 +1023,6 @@
             "Hern\u00e1ndez",
             "L\u00f3pez",
             "Garc\u00eda"
-        ],
-        "uniqueName": "Bolivarian Missions",
-        "uniques": [
-            "[+15]% [Food] [in all cities]",
-            "[+2 Production, +2 Gold] from [Oil] tiles [in all cities]",
-            "[-10]% [Science] [in all cities]"
         ]
     },
     {
@@ -1146,12 +1070,6 @@
             "Camila",
             "Sebastian",
             "Luciana"
-        ],
-        "uniqueName": "Equatorial Reforms",
-        "uniques": [
-            "[+15]% [Gold] [in all cities]",
-            "[+1 Food, +1 Gold] from [Plantation] tiles [in all cities]",
-            "[+10]% [Production] [in all cities]"
         ]
     },
     {
@@ -1191,12 +1109,7 @@
             "Narsarsuaq",
             "Kulusuk"
         ],
-        "spyNames": ["Malik", "Pipaluk", "Niviak", "Kaali", "Aqqalu"],
-        "uniqueName": "Arctic Adaptation",
-        "uniques": [
-            "[+2 Food, +1 Production] from [Snow] tiles [in all cities]",
-            "[+1 Food, +1 Production] from [Tundra] tiles [in all cities]"
-        ]
+        "spyNames": ["Malik", "Pipaluk", "Niviak", "Kaali", "Aqqalu"]
     },
     {
         "name": "Azerbaijan",
@@ -1244,12 +1157,6 @@
             "Farid",
             "Nigar",
             "Zaur"
-        ],
-        "uniqueName": "Land of Fire",
-        "uniques": [
-            "[+3 Gold, +2 Production] from [Oil] tiles [in all cities]",
-            "[+10]% [Production] [in all cities]",
-            "[+10]% [Gold] [in capital]"
         ]
     },
     {
@@ -1289,20 +1196,7 @@
             "Palmyra",
             "Douma"
         ],
-        "spyNames": [
-            "Omar",
-            "Zaid",
-            "Layla",
-            "Kareem",
-            "Hana",
-            "Basel",
-            "Sana"
-        ],
-        "uniqueName": "Levantine Resistance",
-        "uniques": [
-            "[+100]% City Strength from defensive buildings",
-            "[+10]% [Faith] [in all cities]"
-        ]
+        "spyNames": ["Omar", "Zaid", "Layla", "Kareem", "Hana", "Basel", "Sana"]
     },
     {
         "name": "Libya",
@@ -1342,13 +1236,7 @@
             "Ghat"
         ],
         "spyNames": ["Idris", "Khalifa", "Omar", "Bashir", "Jamal", "Tarek"],
-        "uniqueName": "Jamahiriya",
-        "uniques": [
-            "[+2 Food, +1 Gold] from [Oasis] tiles [in all cities]",
-            "[+1 Food, +1 Gold] from [Desert] tiles [in all cities]",
-            "[+3 Gold] from [Oil] tiles [in all cities]",
-            "[Gold] cost of purchasing [All] units [-20]%"
-        ]
+        "uniqueName": "Jamahiriya"
     },
     {
         "name": "Lebanon",
@@ -1397,10 +1285,6 @@
             "Nour",
             "Rami",
             "Hala"
-        ],
-        "uniqueName": "Cedars of God",
-        "uniques": [
-            "[+2 Culture, +1 Faith] from [Forest] tiles [in all cities]"
         ]
     },
     {
@@ -1449,13 +1333,6 @@
             "Abdullah",
             "Jassem",
             "Saud"
-        ],
-        "uniqueName": "Gulf Prosperity",
-        "uniques": [
-            "[+4 Gold] from [Oil] tiles [in all cities]",
-            "[+20]% [Gold] [in all cities]",
-            "[+1] Movement <for [Water] units>",
-            "[Gold] cost of purchasing [All] units [-25]%"
         ]
     },
     {
@@ -1495,13 +1372,7 @@
             "Durrat al-Bahrain",
             "Diyar al-Muharraq"
         ],
-        "spyNames": ["Zaid", "Omar", "Fatima", "Layla", "Khalid", "Amna"],
-        "uniqueName": "Pearl of the Gulf",
-        "uniques": [
-            "[+3 Gold, +1 Culture] from [Fishing Boats] tiles [in all cities]",
-            "[+15]% [Gold] [in all cities]",
-            "[+20]% [Science] [in capital]"
-        ]
+        "spyNames": ["Zaid", "Omar", "Fatima", "Layla", "Khalid", "Amna"]
     },
     {
         "name": "Saudi Arabia",
@@ -1549,13 +1420,6 @@
             "Hamza",
             "Sami",
             "Layla"
-        ],
-        "uniqueName": "Vision 2030",
-        "uniques": [
-            "[+3 Gold, +2 Production] from [Oil] tiles [in all cities]",
-            "[+20]% [Gold] [in capital]",
-            "[+15]% [Production] [in all cities] <starting from the [Industrial era]>",
-            "[+2 Food, +2 Gold] from [Oasis] tiles [in all cities]"
         ]
     },
     {
@@ -1603,12 +1467,6 @@
             "Khalifa",
             "Sultan",
             "Saif"
-        ],
-        "uniqueName": "Crossroads of the World",
-        "uniques": [
-            "[+2 Gold, +1 Science] from each Trade Route",
-            "[+20]% [Gold] [in all cities]",
-            "[+15]% Production when constructing [All] wonders [in all cities]"
         ]
     },
     {
@@ -1656,11 +1514,6 @@
             "Farhad",
             "Mustafa",
             "Idrees"
-        ],
-        "uniqueName": "Graveyard of Empires",
-        "uniques": [
-            "[Military] units gain the [March] promotion",
-            "[-20]% [Science] [in all cities]"
         ]
     },
     {
@@ -1709,11 +1562,6 @@
             "Hina",
             "Hamza",
             "Ayesha"
-        ],
-        "uniqueName": "Indus Valley Heritage",
-        "uniques": [
-            "[+1 Food, +1 Production] from [River] tiles [in all cities]",
-            "[+10]% [Faith] [in all cities]"
         ]
     },
     {
@@ -1762,12 +1610,6 @@
             "Wang",
             "Tsai",
             "Wu"
-        ],
-        "uniqueName": "Silicon Shield",
-        "uniques": [
-            "[+15]% [Science] [in all cities]",
-            "[+20]% [Production] [in all cities] <starting from the [Industrial era]>",
-            "[+2 Science, +2 Gold] from each Trade Route"
         ]
     },
     {
@@ -1807,12 +1649,7 @@
             "Berl\u00edn",
             "Antiguo Cuscatl\u00e1n"
         ],
-        "spyNames": ["Mateo", "Sofia", "Carlos", "Elena", "Diego", "Isabel"],
-        "uniqueName": "Territorial Control",
-        "uniques": [
-            "[-30]% Unhappiness from [Population] [in all cities]",
-            "[+15]% [Gold] [in all cities]"
-        ]
+        "spyNames": ["Mateo", "Sofia", "Carlos", "Elena", "Diego", "Isabel"]
     },
     {
         "name": "Great Britain",
@@ -1858,12 +1695,6 @@
             "Philby",
             "Turing",
             "Mansfield"
-        ],
-        "uniqueName": "Finest Hour",
-        "uniques": [
-            "[+2] Movement <for [Water] units>",
-            "[+15]% [Production] [in all cities] <when at war>",
-            "[+1] Sight <for [Water] units>"
         ]
     },
     {
@@ -1912,13 +1743,6 @@
             "Yelena",
             "Olga",
             "Svetlana"
-        ],
-        "uniqueName": "Five-Year Plan",
-        "uniques": [
-            "[+25]% [Production] [in all cities]",
-            "[-10]% [Gold] [in all cities]",
-            "[-25]% Unhappiness from [Population] [in all cities]",
-            "[Military] units gain the [Drill I] promotion"
         ]
     },
     {
@@ -1967,11 +1791,6 @@
             "Ren",
             "Shinji",
             "Kaito"
-        ],
-        "uniqueName": "Bushido",
-        "uniques": [
-            "No damage penalty for wounded units <for [non-[Air]] units>",
-            "[+1 Culture] from [Fishing Boats] tiles [in all cities]"
         ]
     },
     {
@@ -2011,13 +1830,7 @@
             "Mor\u00f3n",
             "Palma Soriano"
         ],
-        "spyNames": ["Che", "Ra\u00fal", "Camilo", "Celia", "Vilma"],
-        "uniqueName": "Revolucion",
-        "uniques": [
-            "[+2 Food, +1 Culture] from [Plantation] tiles [in all cities]",
-            "[-25]% Unhappiness from [Population] [in all cities]",
-            "[+10]% [Production] [in all cities]"
-        ]
+        "spyNames": ["Che", "Ra\u00fal", "Camilo", "Celia", "Vilma"]
     },
     {
         "name": "Iraq",
@@ -2056,13 +1869,7 @@
             "Duhok",
             "Halabja"
         ],
-        "spyNames": ["Ahmed", "Omar", "Zaid", "Mustafa", "Layla", "Farah"],
-        "uniqueName": "Mesopotamian Might",
-        "uniques": [
-            "[+1 Food, +1 Production] from [River] tiles [in all cities]",
-            "[+4 Gold] from [Oil] tiles [in all cities]",
-            "[+10]% [Science] [in all cities]"
-        ]
+        "spyNames": ["Ahmed", "Omar", "Zaid", "Mustafa", "Layla", "Farah"]
     },
     {
         "name": "North Korea",
@@ -2107,12 +1914,6 @@
             "Agent Kim",
             "Agent Choi",
             "Agent Lee"
-        ],
-        "uniqueName": "Juche",
-        "uniques": [
-            "[-30]% Unhappiness from [Population] [in all cities]",
-            "[-20]% [Gold] [in all cities]",
-            "[+15]% [Production] [in all cities]"
         ]
     },
     {
@@ -2161,13 +1962,6 @@
             "Leila",
             "Omid",
             "Sahar"
-        ],
-        "uniqueName": "Islamic Revolution",
-        "uniques": [
-            "[+20]% [Faith] [in all cities]",
-            "[+2 Gold, +1 Production] from [Oil] tiles [in all cities]",
-            "[-10]% [Science] [in all cities]",
-            "[-50]% [Gold] [in all cities]"
         ]
     },
     {
@@ -2229,11 +2023,6 @@
             "Wilhelm",
             "Otto",
             "Hannelore"
-        ],
-        "uniqueName": "Blitzkrieg",
-        "uniques": [
-            "[+15]% [Production] [in all cities] <when at war>",
-            "[Military] units gain the [March] promotion"
         ]
     },
     {
@@ -2318,12 +2107,6 @@
             "Viper",
             "Albrecht",
             "Anton"
-        ],
-        "uniqueName": "Wirtschaftswunder",
-        "uniques": [
-            "[+20]% [Production] [in all cities]",
-            "[+15]% [Gold] [in all cities]",
-            "[+10]% [Science] [in capital]"
         ]
     },
     {
@@ -2386,14 +2169,6 @@
             "Mukta",
             "Karishma",
             "Jyotsna"
-        ],
-        "uniqueName": "Make in India",
-        "uniques": [
-            "[+10]% [Production] [in all cities]",
-            "[+15]% [Gold] [in all cities]",
-            "[-25]% Unhappiness from [Population] [in all cities]",
-            "[+10]% [Faith] [in all cities]",
-            "[+1 Food, +1 Gold] from [River] tiles [in all cities]"
         ]
     },
     {
@@ -2440,11 +2215,6 @@
             "Joshua",
             "Ammiel",
             "Geuel"
-        ],
-        "uniqueName": "Promised Land",
-        "uniques": [
-            "[+2 Faith, +1 Culture] from [Pasture] tiles [in all cities]",
-            "[+20]% [Faith] [in capital]"
         ]
     },
     {
@@ -2491,12 +2261,6 @@
             "Joshua",
             "Ammiel",
             "Geuel"
-        ],
-        "uniqueName": "Start-up Nation",
-        "uniques": [
-            "[+20]% [Science] [in all cities]",
-            "[+15]% [Gold] [in all cities]",
-            "[+2 Production] from [Academy] tiles [in all cities]"
         ]
     },
     {
@@ -2553,12 +2317,6 @@
             "Serpens",
             "Agrippa",
             "Brutus"
-        ],
-        "uniqueName": "Made in Italy",
-        "uniques": [
-            "[+20]% [Culture] [in all cities]",
-            "[+10]% [Production] [in all cities]",
-            "[+2 Culture, +2 Gold] from all [World Wonder] buildings"
         ]
     },
     {
@@ -2625,12 +2383,6 @@
             "Sakanishi",
             "Kaede",
             "Mochizuki"
-        ],
-        "uniqueName": "Economic Security",
-        "uniques": [
-            "[+15]% [Science] [in all cities]",
-            "[+15]% [Production] [in all cities]",
-            "[+1 Culture, +1 Gold] from [Fishing Boats] tiles [in all cities]"
         ]
     },
     {
@@ -2683,12 +2435,6 @@
             "Anthea",
             "Aeneas",
             "Leander"
-        ],
-        "uniqueName": "Holy Kingdom",
-        "uniques": [
-            "[+20]% [Faith] [in all cities]",
-            "[+100]% City Strength from defensive buildings",
-            "[Military] units gain the [March] promotion"
         ]
     },
     {
@@ -2757,11 +2503,6 @@
             "Senzangakhona",
             "Balungile",
             "Samkelisiwe"
-        ],
-        "uniqueName": "Heart of Darkness",
-        "uniques": [
-            "[+2 Food, +1 Culture] from [Jungle] tiles [in all cities]",
-            "[+10]% [Production] [in all cities]"
         ]
     },
     {
@@ -2822,13 +2563,6 @@
             "Na",
             "Da",
             "Eun"
-        ],
-        "uniqueName": "Han River Miracle",
-        "uniques": [
-            "[+20]% [Science] [in all cities]",
-            "[+15]% [Production] [in all cities]",
-            "[+10]% [Gold] [in all cities]",
-            "[+2 Science] from each Trade Route"
         ]
     },
     {
@@ -2887,11 +2621,6 @@
             "Anthea",
             "Aeneas",
             "Leander"
-        ],
-        "uniqueName": "Hellenic Conquest",
-        "uniques": [
-            "[Military] units gain the [Blitz] promotion",
-            "Earn [50]% of killed [Military] unit's [Strength] as [Culture]"
         ]
     },
     {
@@ -2957,11 +2686,6 @@
             "Kukulk\u00e1n",
             "Xbalanque",
             "Zipacna"
-        ],
-        "uniqueName": "B'ak'tun",
-        "uniques": [
-            "[+2 Science, +1 Faith] from all [Shrine] buildings",
-            "[+15]% [Science] [in all cities]"
         ]
     },
     {
@@ -3030,13 +2754,6 @@
             "Serpiente",
             "Garcia",
             "El Lobo"
-        ],
-        "uniqueName": "Cuarta Transformaci\u00f3n",
-        "uniques": [
-            "[+15]% [Production] [in all cities]",
-            "[+10]% [Science] [in all cities]",
-            "[-20]% Unhappiness from [Population] [in all cities]",
-            "[+2 Food, +1 Gold] from [Plantation] tiles [in all cities]"
         ]
     },
     {
@@ -3100,11 +2817,6 @@
             "Ssima",
             "Batachikhan",
             "Chulunny"
-        ],
-        "uniqueName": "Mongol Terror",
-        "uniques": [
-            "[+30]% Strength <vs [City-States]>",
-            "[Military] units gain the [March] promotion"
         ]
     },
     {
@@ -3162,12 +2874,6 @@
             "Viper",
             "Albrecht",
             "Anton"
-        ],
-        "uniqueName": "Sovereign Wealth",
-        "uniques": [
-            "[+20]% [Gold] [in all cities]",
-            "[+3 Gold, +1 Production] from [Oil] tiles [in all cities]",
-            "[+1 Food, +1 Gold] from [Fishing Boats] tiles [in all cities]"
         ]
     },
     {
@@ -3216,11 +2922,6 @@
             "Rashid al-Din",
             "Layla al-Suri",
             "Mansur al-Basri"
-        ],
-        "uniqueName": "Righteous Faith",
-        "uniques": [
-            "[+20]% [Faith] [in all cities]",
-            "[+15]% [Culture] [in all cities]"
         ]
     },
     {
@@ -3288,11 +2989,6 @@
             "Hafsa",
             "Kosem",
             "Nurbanu"
-        ],
-        "uniqueName": "Sublime Porte",
-        "uniques": [
-            "When defeating a [Water] unit, earn [50] Gold and recruit it <with [50]% chance>",
-            "[+2 Gold] from each Trade Route"
         ]
     },
     {
@@ -3346,13 +3042,6 @@
             "Serpens",
             "Agrippa",
             "Brutus"
-        ],
-        "uniqueName": "Holy See",
-        "uniques": [
-            "[+50]% [Faith] [in all cities]",
-            "[+25]% [Culture] [in all cities]",
-            "[+2 Faith, +2 Culture] from all [World Wonder] buildings",
-            "Cannot build [Settler] units"
         ]
     },
     {
@@ -3449,9 +3138,7 @@
             "Peri",
             "Sartaj",
             "Yasmin"
-        ],
-        "uniqueName": "Achaemenid Legacy",
-        "uniques": ["[+15]% [Gold] [in all cities]"]
+        ]
     },
     {
         "name": "Poland",
@@ -3516,11 +3203,6 @@
             "Tarnowski",
             "Marian",
             "Alenka"
-        ],
-        "uniqueName": "Solidarity",
-        "uniques": [
-            "[+15]% [Production] [in all cities]",
-            "[+1 Food, +1 Gold] from [Pasture] tiles [in all cities]"
         ]
     },
     {
@@ -3607,11 +3289,6 @@
             "Serpens",
             "Agrippa",
             "Brutus"
-        ],
-        "uniqueName": "Pax Romana",
-        "uniques": [
-            "[+2 Gold, +1 Production] from each Trade Route",
-            "[+10]% [Production] [in all cities]"
         ]
     },
     {
@@ -3681,12 +3358,6 @@
             "Mikhail",
             "Natacha",
             "Zmeya"
-        ],
-        "uniqueName": "Sovereign Democracy",
-        "uniques": [
-            "[+1 Production] from [Tundra] tiles [in all cities]",
-            "[+15]% [Production] [in all cities]",
-            "[+100]% [Iron] resource production"
         ]
     },
     {
@@ -3741,11 +3412,6 @@
             "Sanpitch",
             "Tuziyammo",
             "Mugwayan"
-        ],
-        "uniqueName": "Lords of the Plains",
-        "uniques": [
-            "[+1 Food, +1 Production] from [Pasture] tiles [in all cities]",
-            "[Military] units gain the [March] promotion"
         ]
     },
     {
@@ -3818,11 +3484,6 @@
             "Serpiente",
             "Garcia",
             "El Lobo"
-        ],
-        "uniqueName": "Progressive Coalition",
-        "uniques": [
-            "[+20]% [Culture] [in all cities]",
-            "[+15]% [Gold] [in all cities]"
         ]
     },
     {
@@ -3892,12 +3553,6 @@
             "Peri",
             "Sartaj",
             "Yasmin"
-        ],
-        "uniqueName": "Epic of Gilgamesh",
-        "uniques": [
-            "[+2 Science] from [River] tiles [in all cities]",
-            "[+10]% [Production] [in all cities]",
-            "[+15]% [Science] [in all cities]"
         ]
     },
     {
@@ -3950,9 +3605,7 @@
             "Jean",
             "Gigi",
             "Lukas"
-        ],
-        "uniqueName": "Armed Neutrality",
-        "uniques": ["[+25]% [Gold] [in all cities]"]
+        ]
     },
     {
         "name": "Turkey",
@@ -4011,12 +3664,6 @@
             "Hafsa",
             "Kosem",
             "Nurbanu"
-        ],
-        "uniqueName": "Blue Homeland",
-        "uniques": [
-            "[+15]% [Production] [in all cities]",
-            "[+2 Faith, +1 Culture] from all [Shrine] buildings",
-            "[+2 Gold] from each Trade Route"
         ]
     },
     {
@@ -4078,11 +3725,6 @@
             "Mikhail",
             "Natacha",
             "Zmeya"
-        ],
-        "uniqueName": "Servant of the People",
-        "uniques": [
-            "[+2 Food, +1 Production] from [Farm] tiles [in all cities]",
-            "[+10]% [Production] [in all cities]"
         ]
     },
     {
@@ -4141,9 +3783,7 @@
             "Wu",
             "Zhou",
             "Sun"
-        ],
-        "uniqueName": "Guerilla Warfare",
-        "uniques": ["[Military] units gain the [March] promotion"]
+        ]
     },
     {
         "name": "Baku",
